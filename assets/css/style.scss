@@ -47,3 +47,54 @@ p {
 #mybutton:hover {
 	background-color: #f19e58;
 }
+
+nav a {
+	padding: 0 15px 0 15px;
+}
+
+nav {
+	box-shadow: 0px 3px 3px #151515;
+}
+
+.button {
+	background-color: #f26a49;
+	border: none;
+	color: #202020;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #f19e58;
+}
+
+.navbutton {
+	background-color: #202020;
+	border: none;
+	color: #f26a49;
+	padding: 8px 15px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.navbutton:hover {
+	background-color: #f19e58;
+	color: #202020
+}
+
+.navbuttona {
+	background-color: #f26a49;
+	border: none;
+	color: #202020;
+	padding: 8px 15px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.navbuttona:hover {
+	background-color: #f19e58;
+}
