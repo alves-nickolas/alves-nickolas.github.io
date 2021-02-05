@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+body{
+	background-color: #202020;
+}
+
 a:link {
 	color: #f26a49
 }
