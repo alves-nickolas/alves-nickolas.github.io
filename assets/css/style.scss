@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+body {
+	background-color: #202020;
+	font-family: 'Montserrat';
+}
+
 a:link {
 	color: #f26a49
 }
