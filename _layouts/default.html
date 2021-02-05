@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:500,600,700' rel='stylesheet'>
   </head>
   <body><center>
       <!--<div id="header">-->
@@ -45,11 +44,11 @@
 
       <section>
         <div id="title">
-          <h1 style="font-family: 'Montserrat'">{{ site.title | default: site.github.repository_name }}</h1>
-          <p style="font-family: 'Montserrat'">{{ site.description | default: site.github.project_tagline }}</p>
+          <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
-          <span class="credits left" style="font-family: 'Montserrat'">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right" style="font-family: 'Montserrat'">Hosted on GitHub Pages &mdash; Theme based on "Midnight", by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme based on "Midnight", by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
 
         {{ content }}
