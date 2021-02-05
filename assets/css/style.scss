@@ -31,7 +31,7 @@ p {
 	text-align:justify;
 }
 
-nav li {
+#mybutton {
 	background-color: #f26a49;
 	border: none;
 	outline: none;
@@ -44,6 +44,6 @@ nav li {
 	cursor: pointer;
 }
 
-nav li:hover {
+#mybutton:hover {
 	background-color: #f19e58;
 }
