@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+# Home
+
+Hello, there! I am Níckolas Alves, a Physics MSc student at the [Federal University of ABC](http://fisica.ufabc.edu.br/). This is my personal website. In here you will find a number of informations and documents concerning what I studied over the throughout my carreer in Physics, since my early days as an undergraduate student at the [Institute of Physics at the University of São Paulo](http://portal.if.usp.br/ifusp/) (IFUSP), and also some links throwing you around to the webpages for events I organized (usually in Portuguese), links I find interesting, webpages from researchers I admire, and so on. 
 
 You can use the [editor on GitHub](https://github.com/alves-nickolas/alves-nickolas.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+
+A great deal of this website is based on my [old page](http://fma.if.usp.br/~nickolas/) hosted at IFUSP's [Department of Mathematical Physics](http://portal.if.usp.br/fma/), where I studied Hyperbolic Equations of Mathematical Physics as an undergraduate research project while being advised by Prof. João C. A. Barata. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
