@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: Níckolas de Aguiar Alves
 description: Physics MSc student at UFABC
+github:
+  is_project_page: false
