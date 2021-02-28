@@ -2,10 +2,52 @@
 
 Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
-## [Notas de Álgebra](http://alves-nickolas.github.io/pdf/Algebra.pdf)
+## [Hyperbolic Equations](https://alves-nickolas.github.io/pdf/Hyperbolic_Equations.pdf)
 
-Anotações em pdf para estudo pessoal de Álgebra I (atualmente chamada de [Números Inteiros: Uma Introdução à Matemática](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mat0164&nomdis=)). O trabalho ainda está em desenvolvimento e devido a isso há algumas anotações ao longo do texto sobre mudanças para realizar posteriormente. Além disso, as demonstrações ainda não foram revisadas com a atenção devida.
+These are some study notes I’ve developed throughout my undergraduate research project. The project’s goal was to study Hyperbolic Equations, but this requires a lot of previous knowledge and, as a consequence, most of the material covered in here involves not Hyperbolic Equations, but Topology, Functional Analysis and even some Differential Geometry. 
 
 ## [Minicurso XV STO: Introdução ao LaTeX](https://alves-nickolas.github.io/pdf/LaTeX_XV_STO.pdf)
 
 Estas notas de aula foram desenvolvidas para o minicurso “Introdução ao LaTeX”, ofertado nos dias 10 e 12 de novembro de 2020 como parte da [XV Semana Temática de Oceanografia](https://www.sto2020.com.br/). No curso, pretendeu-se apresentar a linguagem LaTeX para a escrita de documentos a partir de seus princípios básicos. Ao longo do minicurso, pretendeu-se mostrar o processo de escrita de um artigo científico em LaTeX, contando com exemplos de uso de pacotes e práticas úteis para profissionais das áreas das Ciências Exatas. Não foram assumidos conhecimentos prévios e o único requisito técnico é um computador com acesso a internet.
+
+## [A Brief Introduction to Classical Field Theory](https://alves-nickolas.github.io/pdf/A_Brief_Introduction_to_Classical_Field_Theory.pdf)
+
+In this work, I present an introduction to classical field theory by exploring the limiting case of N coupled harmonic oscillators as N tends to infinity in order to obtain the equation of motion for a vibrating string. The Euler-Lagrange Equations for a collection of N three-dimensional fields are presented and, finally, Noether's Theorem is proved, with the stress-energy tensor and the conservation of electric charge due to gauge invariance in QED being given as examples of application.
+
+## [O Grupo de Lorentz](https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf)
+### Relatividade Restrita aos olhos de um matemático
+
+Este trabalho é a versão escrita de um seminário apresentado aos calouros do Instituto de Física da USP em fevereiro de 2020 com a intenção de divulgar o trabalho em linhas gerais da Física Matemática por meio do estudo da Teoria da Relatividade Restrita. Tomamos como hipótese a existência de intervalos do tipo tempo, luz e espaço e obtemos a forma do Grupo de Lorentz ao buscar um conjunto de transformações lineares que preservem causalidade no espaço de Minkowski. Obtém-se então as transformações de Lorentz por meio da estrutura algébrica do Grupo de Lorentz. Por fim, como exemplos de aplicação da Relatividade, mostra-se a contração dos comprimentos e a dilatação do tempo.
+
+O seminário original foi apresentado aos calouros do IFUSP numa das aulas de recepção da Dead Physicists Society, em 07 de fevereiro de 2020.
+
+## [Locally Convex Spaces and the Tempered Distributions](https://alves-nickolas.github.io/pdf/LCS_and_the_Tempered_Distributions.pdf)
+
+This text is a brief discussion about some elementary topics on the theory of locally convex spaces and tempered distributions as continuous linear functionals on a particular LCS: the Schwartz space of functions of rapid decrease. It is part of the evaluation of the course "Mathematical Physics III", taught by Prof. Walter de S. Pedra at IFUSP on the first semester of 2020. Familiarity with general topology and linear topological spaces is assumed.
+
+## [The High-Energy Cross Section for the e+e- -> mu+mu- Process in QED](https://alves-nickolas.github.io/pdf/CrossSection.pdf)
+
+In this work, elementary S-matrix theory is briefly explained and the expression for the differential cross-section of some process in terms of the S-matrix is obtained. With these in hand, the Feynman rules are used in order to compute the invariant amplitude for the e+e- -> mu+mu- process in QED in the high-energy limit, which is then utilised in order to calculate the high-energy cross-section for the e+e- -> mu+mu- process.
+
+This text was written as an exercise for a course in High-Energy Physics.
+
+## [A Not So Brief Introduction to Topology](https://alves-nickolas.github.io/pdf/A_Not_So_Brief_Introduction_to_Topology.pdf)
+
+This is the chapter on Topology from my study notes about Hyperbolic Equations.
+
+## [Differential Geometry](https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf)
+
+This is the chapter on Differential Geometry from my study notes about Hyperbolic Equations, originally written as preparation for a seminar on manifolds and stuff for the Wigner Group Seminars at IFUSP.
+
+## [An Introduction to Measure Theory](https://alves-nickolas.github.io/pdf/An_Introduction_to_Measure_Theory.pdf)
+
+These are some study notes I’ve been developing while studying Measure Theory. Most of the material presented in here was strongly based upon Prof. Walter Pedra’s course on Mathematical Physics III presented at the Institute of Physics at the University of São Paulo in Fall 2020. Indeed, these notes were originally written as a way to keep up with the course.
+
+## [As Time Goes By](https://alves-nickolas.github.io/pdf/As_Time_Goes_By__Seeking_a_Solution_to_Maxwell_s_Equations.pdf)
+### Seeking a Solution to Maxwell's Equations
+
+The power of potential formulation of Electro and Magnetostatics is widely known by Physics students. It allows us to calculate the scalar potential in order to find the Electric Field and then use the mathematical similarities between Electro and Magnetostatics to find the vector potential and, then, the Magnetic Field. In this paper, aimed at undergraduate students, we explore the potential formulation of Electrodynamics, departing from static scalar and vector potentials and walking towards the potential expressions for electrodynamical fields. Using the Lorenz gauge, we find the retarded potentials and Jefimenko’s Equations, the latter being the solution to the microscopic version of Maxwell’s Equations.
+
+## [Notas de Álgebra](http://alves-nickolas.github.io/pdf/Algebra.pdf)
+
+Anotações em pdf para estudo pessoal de Álgebra I (atualmente chamada de [Números Inteiros: Uma Introdução à Matemática](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mat0164&nomdis=)). O trabalho ainda está em desenvolvimento e devido a isso há algumas anotações ao longo do texto sobre mudanças para realizar posteriormente. Além disso, as demonstrações ainda não foram revisadas com a atenção devida.
