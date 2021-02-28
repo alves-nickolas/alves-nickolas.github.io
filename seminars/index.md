@@ -85,6 +85,25 @@ Nesta apresentação pretendo lhe ensinar os princípios básicos do LaTeX para 
 [Click here to access the slideshow!](https://alves-nickolas.github.io/seminars/28-02-19.pdf)
 
 
+## Songs to Solve Elecrodynamics to
+
+**Resumo:** Uma coletânea de covers dos melhores hits da Eletrodinâmica de James Maxwell, este álbum contém alguns sucessos como: as Equações de Maxwell, Leis de Coulomb e Biot-Savart, potenciais retardados, Equações de Jefimenko e os primeiros passos de uma abordagem para a solução das Equações de Maxwell em meios materiais, com ênfase em meios dielétricos lineares e homogêneos. Com as vozes de Taylor Swift, Shawn Mendes, Backstreet Boys, Yoko Takahashi, Spice Girls e muitos outros, este é um item essencial para qualquer fã do Rei do Eletromagnetismo.
+
+**Data:** 22 de fevereiro de 2019.
+
+Esta foi uma curta palestra apresentada na [Recepção Tensorial 2019](http://fma.if.usp.br/~nickolas/rt/2019/index.html), evento integrante da Semana de Recepção aos calouros do IFUSP de 2019. O slideshow está disponível [aqui](https://alves-nickolas.github.io/seminars/Nickolas19.pdf).
+
+
+## As Time Goes By
+### Em busca das soluções das Equações de Maxwell
+
+**Resumo:** O Eletromagnetismo se propõe a determinar as forças de caráter elétrico e magnético que agem sobre partículas e corpos carregados. Isto é feito encontrando os campos elétrico e magnético, descritos pelas chamadas Equações de Maxwell, e então obtendo a Força de Lorentz a partir de tais campos. Desta forma, a solução das Equações de Maxwell ocupa uma posição central no Eletromagnetismo. Neste trabalho apresenta-se de forma breve e intuitiva as ideias básicas por trás da obtenção das Equações de Jefimenko, que constituem a solução geral das Equações de Maxwell com distribuições de cargas e correntes finitas ou com decaimento suficientemente rápido para distâncias infinitas.
+
+**Data:** 21 de fevereiro de 2019.
+
+Este foi um pôster apresentado na Sessão de Pôsteres da [Dead Physicists Society](https://lambdadps.github.io/) na Semana de Recepção aos calouros do IFUSP de 2019. O pôster está disponível [aqui](https://alves-nickolas.github.io/seminars/As_Time_Goes_By___Poster.pdf).
+
+
 ## As Time Goes By
 ### Seeking a Solution to Maxwell's Equations
 
