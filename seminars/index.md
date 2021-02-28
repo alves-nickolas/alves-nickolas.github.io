@@ -2,6 +2,16 @@
 
 I've given a number of seminars throughout the years. This is an incomplete list of them, accompanied by lecture notes and/or slideshows whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page. As usual, the description is given in the same language as the material provided.
 
+## Adventure Is Out There
+### A Mathematical Explanation of Cartography
+
+**Abstract:** It might not seem so at first sight, but cartography can be quite an interesting subject for a mathematician. Is it possible to make a perfect map of the Earth? What would configure a perfect map? Which sets could be mapped perfectly and yield an interesting theory? Motivated by these questions, we shall go in an adventure through the far lands of Topology and Differential Geometry in our quest to chart the world.
+
+**Data:** May 22 and 29, 2020.
+
+This pair of seminars was presented at the Wigner Group at IFUSP. The slideshow for the first half can be found [here](https://alves-nickolas.github.io/seminars/Adventure-Is-Out-There-I.pdf) while lecture notes for both seminars are available [here](https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf).
+
+
 ## A Noite dos Mortos-Físicos
 
 **Resumo:** A noção de vida após a morte tem se mostrado encantadora na cultura pop, e diversos filmes, séries e outras formas de mídia tem utilizado criaturas monstruosas como zumbis e vampiros para contar suas histórias. Em geral, estas envolvem apocalipses causados por uma infecção que faz com que os contaminados morram e retornem à vida de uma maneira profana. Neste seminário, apresentaremos aos alunos ingressantes do IFUSP como é possível utilizar ferramentas físicas, em particular técnicas envolvendo sistemas dinâmicos não-lineares, para descrever a evolução de um apocalipse zumbi e estudar sob quais condições a espécie humana tem chances de prevalecer. Tome cuidado: nas condições certas, uma equação pode ser a diferença entre a vida e a morte.
