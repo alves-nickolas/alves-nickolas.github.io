@@ -2,6 +2,14 @@
 
 I've given a number of seminars throughout the years. This is an incomplete list of them, accompanied by lecture notes and/or slideshows whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page. As usual, the description is given in the same language as the material provided.
 
+
+## Grand Unified Theories
+
+**Abstract:** While the Standard Model of Particle Physics allows for extraordinary predictions, it also includes a number of gaps and theoretical problems in its description. Grand Unified Theories (GUTs) propose a solution to some of these problems through the unification of interactions under a larger gauge group that has SU(3)⊗SU(2)⊗U(1) as a subgroup. This seminar provides a brief review of the subject by presenting some motivations for the general concept, deriving a few of the main results of the Georgi–Glashow SU(5) model and discussing why GUTs are still interesting, despite the fact that the Georgi–Glashow model has already been falsified by experiment. This was part of the evaluation of the course “Quantum Field Theory II”, taught by Prof. Gustavo A. Burdman at the Institute of Physics of the University of São Paulo (IFUSP) on the second semester of 2020.
+
+**Date:** December 16, 2020.
+
+
 ## Adventure Is Out There
 ### A Mathematical Explanation of Cartography
 
