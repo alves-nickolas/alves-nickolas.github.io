@@ -21,6 +21,18 @@ This pair of seminars was presented at the Wigner Group at IFUSP. The slideshow 
 **Observação:** este seminário foi ministrado em conjunto com Patrick Dreger Andriolo (IFUSP) como parte da semana de recepção aos calouros do Instituto de Física da Universidade de São Paulo.
 
 
+## O Grupo de Lorentz
+### Relatividade Restrita aos olhos de um matemático
+
+**Resumo:** Este trabalho é a versão escrita de um seminário apresentado aos calouros do Instituto de Física da USP em fevereiro de 2020 com a intenção de divulgar o trabalho em linhas gerais da Física Matemática por meio do estudo da Teoria da Relatividade Restrita. Tomamos como hipótese a existência de intervalos do tipo tempo, luz e espaço e obtemos a forma do Grupo de Lorentz ao buscar um conjunto de transformações lineares que preservem causalidade no espaço de Minkowski. Obtém-se então as transformações de Lorentz por meio da estrutura algébrica do Grupo de Lorentz. Por fim, como exemplos de aplicação da Relatividade, mostra-se a contração dos comprimentos e a dilatação do tempo.
+
+**Data:** 07 de fevereiro de 2020.
+
+As anotações podem ser encontradas [aqui](https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf).
+
+**Observação:** O seminário original foi apresentado aos calouros do IFUSP numa das aulas de recepção da Dead Physicists Society, em 07 de fevereiro de 2020.
+
+
 ## Stand So Close to Me
 ### What is the meaning of a limit?
 
