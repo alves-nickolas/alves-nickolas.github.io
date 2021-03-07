@@ -7,4 +7,4 @@
   <img src="https://alves-nickolas.github.io/dracones/dracones-eye.png" alt="Dragon eye inside a cave">
 </div>
 
-Sorry, I didn't really finished charting this piece of the website. Maybe come back later?
+Sorry, I didn't really finished charting this piece of the website. Maybe you could come back later?
