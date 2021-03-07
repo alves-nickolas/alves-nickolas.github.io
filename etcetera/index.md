@@ -24,7 +24,7 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
    <ul>
 		<li>''Les papillons sont le seule chose importante...''
 		</li>
-    <p>Attributed to Laurent Schwartz. I came across it reading [these](http://www.hfleming.com/green.pdf) notes on Green's functions written by [Prof. Henrique Fleming](http://www.hfleming.com/green.pdf). Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz answer? ''The butterflies are the only important thing...''
+    <p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz answer? ''The butterflies are the only important thing...''
 </p>
 	</ul>
 </div>
