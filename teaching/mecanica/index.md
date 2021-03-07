@@ -4,24 +4,24 @@
 
 Esta é a ementa planejada que eu gostaria de ter passado ao longo do curso. Não foi possível cobrir todos os temas, mas os assuntos faltantes estão detalhados nas [notas de aula](https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf).
 
- - Mecânica Lagrangeana
-    1. Coordenadas Generalizadas
-    2. O Princípio de Hamilton
-    3. O Grupo de Galilei
-    4. Sistemas Fechados
-    5. Teorias Efetivas
-    6. Potenciais Dependentes do Tempo
-    7. Leis de Conservação
- - Mecânica Hamiltoniana
-    1. Equações Canônicas
-    2. Espaço de Fases
-    3. Teorema do Virial
-    4. Colchetes de Poisson
-    5. Transformações Canônicas
- - Teoria de Hamilton-Jacobi
-    1. Equação de Hamilton-Jacobi
-    2. Separação de Variáveis
-    3. Variáveis de Ação-Ângulo
+- Mecânica Lagrangeana
+   1. Coordenadas Generalizadas
+   2. O Princípio de Hamilton
+   3. O Grupo de Galilei
+   4. Sistemas Fechados
+   5. Teorias Efetivas
+   6. Potenciais Dependentes do Tempo
+   7. Leis de Conservação
+- Mecânica Hamiltoniana
+   1. Equações Canônicas
+   2. Espaço de Fases
+   3. Teorema do Virial
+   4. Colchetes de Poisson
+   5. Transformações Canônicas
+- Teoria de Hamilton-Jacobi
+   1. Equação de Hamilton-Jacobi
+   2. Separação de Variáveis
+   3. Variáveis de Ação-Ângulo
 
 ## Aulas
 
