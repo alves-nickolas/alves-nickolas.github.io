@@ -38,5 +38,6 @@ Here are a few links that the readers of this website might find interesting.
 	   <li><a href="http://www.hfleming.com" target="_blank">Prof. Henrique Fleming's website</a> has excellent notes (mostly in Portuguese) concerning Physics and Mathematics which helped me numerous times.</li>
 	   <li>You can find amazing materials on Mathematical Physics at <a href="http://denebola.if.usp.br/" target="_blank">Prof. João C. A. Barata's website</a>. In particular, the comprehensive online book <em><a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html" target="_blank">Notas para um Curso de Física-Matemática</a></em>.</li>
 	   <li>Ever wondered how can one study the whole Universe at once, or use gravitational waves to hear the Big Bang? Check out my friend <a href="http://fma.if.usp.br/~beatucci/" target="_blank">Beatriz Tucci's website</a> to learn more about GWs and Cosmology!</li>
+	   <li><a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html" target="_blank">Prof. David Tong's lecure notes</a> helped me on a multitude of advanced courses and I really wish I knew them sooner so I could also use them even back when I was studying the three laws of motion...</li>
    </ul>
 </div>
