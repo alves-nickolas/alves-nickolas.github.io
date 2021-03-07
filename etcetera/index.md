@@ -22,9 +22,8 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
 
 <div style="text-align: justify">
    <ul>
-		<li>''Les papillons sont le seule chose importante...''
-		</li>
-    <p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz answer? ''The butterflies are the only important thing...''
+	<li>''Les papillons sont le seule chose importante...''</li>
+	<p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz answer? ''The butterflies are the only important thing...''
 </p>
 	</ul>
 </div>
@@ -32,3 +31,12 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
 
 ## Links
 
+Here are a few links that the readers of this website might find interesting.
+
+<div style="text-align: justify">
+   <ul>
+	   <li><a href="http://www.hfleming.com" target="_blank">Prof. Henrique Fleming's website</a> has excellent notes (mostly in Portuguese) concerning Physics and Mathematics which helped me numerous times.</li>
+	   <li>You can find amazing materials on Mathematical Physics at <a href="http://denebola.if.usp.br/" target="_blank">Prof. João C. A. Barata's website</a>. In particular, the comprehensive online book <em><a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html" target="_blank">Notas para um Curso de Física-Matemática</a></em>.</li>
+	   <li>Ever wondered how can one study the whole Universe at once, or use gravitational waves to hear the Big Bang? Check out my friend <a href="http://fma.if.usp.br/~beatucci/" target="_blank">Beatriz Tucci's website</a> to learn more about GWs and Cosmology!</li>
+   </ul>
+</div>
