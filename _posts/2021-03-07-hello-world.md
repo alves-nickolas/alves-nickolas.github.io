@@ -6,4 +6,6 @@ language: en
 
 Hello there! Just wanted to try this out:
 
-![\int f(x) e^{-ikx} \textrm{d}x](https://bit.ly/3rrCWf3)
+<center>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;{\color{White}\int&space;f(x)&space;e^{-ikx}&space;\textrm{d}x}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;{\color{White}\int&space;f(x)&space;e^{-ikx}&space;\textrm{d}x}" title="{\color{White}\int f(x) e^{-ikx} \textrm{d}x}" /></a>
+ </center>
