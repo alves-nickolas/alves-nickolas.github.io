@@ -8,9 +8,13 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 
 <div style="text-align: justify">
    <ul>
-		<li>''Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.''
-		</li>
-    <p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
+	<li>''Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.''
+	</li>
+    	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
+</p>
+	<li>''Isn’t it surprising that we can do physics at all?''
+	</li>
+    	<p>Kurt Sundermeyer, in <em>Symmetries in Fundamental Physics</em> (Springer, Cham, 2014).
 </p>
 	</ul>
 </div>
