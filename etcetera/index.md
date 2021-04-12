@@ -16,6 +16,12 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Kurt Sundermeyer, in <em>Symmetries in Fundamental Physics</em> (Springer, Cham, 2014).
 </p>
+	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
+	</li>
+    	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
+</p>
+	<li>''Sometimes it seems the universe wants to be noticed.''</li>
+	<p>John Green, in <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	</ul>
 </div>
 
