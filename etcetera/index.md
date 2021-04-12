@@ -9,7 +9,7 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 <div style="text-align: justify">
    <ul>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
-	<p>John Green, in <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
+	<p>Dr. Hyde, in John Green's <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
 	<li>''Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?''</li>
 	<p>Thought by Colin Singleton, in John Green's <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
 	<li>''Sometimes it seems the universe wants to be noticed.''</li>
