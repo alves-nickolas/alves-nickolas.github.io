@@ -20,6 +20,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
 </p>
+	<li>''Because you may be smart, but I've been smart longer.''</li>
+	<p>John Green, in <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
 	<li>''Sometimes it seems the universe wants to be noticed.''</li>
 	<p>John Green, in <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	</ul>
