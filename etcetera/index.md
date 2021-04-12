@@ -11,9 +11,9 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<li>''Because you may be smart, but I've been smart longer.''</li>
 	<p>John Green, in <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
 	<li>''Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?''</li>
-	<p>John Green, in <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
+	<p>Thought by Colin Singleton, in John Green's <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
 	<li>''Sometimes it seems the universe wants to be noticed.''</li>
-	<p>John Green, in <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
+	<p>Mr. Lancaster quoting his college mah teacher, in John Green's <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
 	</li>
     	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
