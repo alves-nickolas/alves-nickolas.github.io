@@ -4,27 +4,29 @@ This is the rest. Things I wanted to keep on this website but didn't really fit 
 
 ## Quotations
 
-My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal.
+My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's lastname, year, and title.
 
 <div style="text-align: justify">
    <ul>
-	<li>''Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.''
+	<li>''Because you may be smart, but I've been smart longer.''</li>
+	<p>John Green, in <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
+	<li>''Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?''</li>
+	<p>John Green, in <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
+	<li>''Sometimes it seems the universe wants to be noticed.''</li>
+	<p>John Green, in <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
+	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
 	</li>
-    	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
+    	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
 </p>
 	<li>''Isn’t it surprising that we can do physics at all?''
 	</li>
     	<p>Kurt Sundermeyer, in <em>Symmetries in Fundamental Physics</em> (Springer, Cham, 2014).
 </p>
-	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
+	<li>''Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.''
 	</li>
-    	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
+    	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
 </p>
-	<li>''Because you may be smart, but I've been smart longer.''</li>
-	<p>John Green, in <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
-	<li>''Sometimes it seems the universe wants to be noticed.''</li>
-	<p>John Green, in <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
-	</ul>
+   </ul>
 </div>
 
 ## Questionable Quotations
