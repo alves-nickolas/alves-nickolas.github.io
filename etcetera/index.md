@@ -8,6 +8,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 
 <div style="text-align: justify">
    <ul>
+	<li>Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution. <br> So is it with all conclusions from local relativistic field theories.</li>
+	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
 	<p>Dr. Hyde, in John Green's <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
 	<li>''Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?''</li>
