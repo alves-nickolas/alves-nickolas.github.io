@@ -28,6 +28,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
 </p>
+	<li>Quantum field theory arose out of our need to describe the ephemeral nature of life.</li>
+	<p>Antony Zee, in <em>Quantum Field Theory in a Nutshell</em> (Princeton University Press, Princeton, 2010).</p>
    </ul>
 </div>
 
