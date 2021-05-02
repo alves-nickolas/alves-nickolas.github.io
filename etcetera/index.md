@@ -8,7 +8,7 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 
 <div style="text-align: justify">
    <ul>
-	<li>Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution. <br> So is it with all conclusions from local relativistic field theories.</li>
+	<li>''Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution. <br> So is it with all conclusions from local relativistic field theories.''</li>
 	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
 	<p>Dr. Hyde, in John Green's <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
@@ -28,7 +28,7 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
 </p>
-	<li>Quantum field theory arose out of our need to describe the ephemeral nature of life.</li>
+	<li>''Quantum field theory arose out of our need to describe the ephemeral nature of life.''</li>
 	<p>Antony Zee, in <em>Quantum Field Theory in a Nutshell</em> (Princeton University Press, Princeton, 2010).</p>
    </ul>
 </div>
