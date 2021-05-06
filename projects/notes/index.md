@@ -2,7 +2,13 @@
 
 Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
+
+## [Semiclassical Gravity](https://alves-nickolas.github.io/pdf/Semiclassical_Gravity.pdf)
+
+I've been writing these notes as a way to organize some of my studies for my MSc project. While writing these, I'm interested in learning how to describe quantum fields in the presence of a classical gravitation field, which is a framework commonly known as Quantum Field Theory in Curved Spacetime or Semiclassical Gravity. This is the main subject of these notes, which assume reasonable familiarity with both General Relativity and Quantum Field Theory in flat spacetime. As I'm still starting this quest, the material currently covered deals mostly with a review on quantization of a classical theory with finitely many degrees of freedom.
+
 ## [Hyperbolic Equations](https://alves-nickolas.github.io/pdf/Hyperbolic_Equations.pdf)
+### Not Currently Available
 
 These are some study notes I’ve developed throughout my undergraduate research project. The project’s goal was to study Hyperbolic Equations, but this requires a lot of previous knowledge and, as a consequence, most of the material covered in here involves not Hyperbolic Equations, but Topology, Functional Analysis and even some Differential Geometry. 
 
