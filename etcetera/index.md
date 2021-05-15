@@ -10,6 +10,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
    <ul>
 	<li>''Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution. <br> So is it with all conclusions from local relativistic field theories.''</li>
 	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
+	<li>''It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.''</li>
+	<p>Robert Geroch, in <em>Mathematical Physics</em> (University of Chicago Press, Chicago, 1985).</p>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
 	<p>Dr. Hyde, in John Green's <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
 	<li>''Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?''</li>
