@@ -8,8 +8,14 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 
 <div style="text-align: justify">
    <ul>
-	<li>''Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution. <br> So is it with all conclusions from local relativistic field theories.''</li>
+	<li>''Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution.<br> 
+		So is it with all conclusions from local relativistic field theories.''</li>
 	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
+	<li>"Have you guessed the riddle yet?" the Hatter said, turning to Alice again.<br>  
+		"No, I give it up," Alice replied. "What's the answer?"<br>
+		"I haven't the slightest idea," said the Hatter.<br>
+		"Nor I," said the March Hare.</li>
+	<p>A piece of a conversation between Alice, the Mad Hatter and the March Hare, in Lewis Carroll's <em>Alice's Adventures in Wonderland</em>.</p>
 	<li>''It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.''</li>
 	<p>Robert Geroch, in <em>Mathematical Physics</em> (University of Chicago Press, Chicago, 1985).</p>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
