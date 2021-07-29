@@ -6,7 +6,6 @@ Esta é a página do curso de Métodos Algébricos da Fìsica Teórica da [III E
 
 Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, apesar da teoria de grupos ser um assunto belíssimo em Matemática, não pretendo me atentar a demonstrações rigorosas, mas sim a aplicações diversas em Física. 
 
-
 ## Ementa
 
 Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso. 
@@ -55,16 +54,18 @@ Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-
 
 ## Bibliografia
 
-No momento (29/07/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula (que postarei em breve), mas estas são as referências utilizadas durante sua preparação (ou seja, são os livros que eu li, não necessariamente os que vocês lerão). Destes, as referências que me parecem mais interessantes para o escopo específico do curso (ou seja, teoria de grupos e representações para físicos) são (Barata 2021, Georgi 2018, Germano 2016, Hall 2003, Hamermesh 1989, Sundermeyer 2014, Weinberg 1995, Zee 2016). (Hall 2003) é para matemáticos, mas estudantes com interesse em uma abordagem um pouco mais rigorosa podem se interessar por ele, especialmente se não possuírem os requisitos de Geometria Diferencial necessários para abordagens mais gerais sobre grupos de Lie. (Zee 2016) é meu texto favorito e provavelmente serve o papel de principal referência do curso.
+No momento (29/07/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula (uma versão preliminar está disponível [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf)), mas estas são as referências utilizadas durante sua preparação. Ou seja, são os livros que eu li, não necessariamente os que vocês lerão. Há também alguns livros que servem ao propósito de sugestões de leitura mais aprofundada. 
+
+Desta lista, as referências que me parecem mais interessantes para o escopo específico do curso (ou seja, teoria de grupos e representações para físicos) são (Barata 2021, Georgi 2018, Germano 2016, Hall 2003, Hamermesh 1989, Sundermeyer 2014, Weinberg 1995, Zee 2016). (Hall 2003) é para matemáticos, mas estudantes com interesse em uma abordagem um pouco mais rigorosa podem se interessar por ele, especialmente se não possuírem os requisitos de Geometria Diferencial necessários para abordagens mais gerais sobre grupos de Lie. (Zee 2016) é meu texto favorito e provavelmente a principal referência do curso.
 
 <div style="text-align: justify">
  <ul>
-  <li>Alves, N. A. (2020a) <a href="https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf"><i>Differential Geometry</i></a> (Notas para estudo pessoal).</li>
+  <li>Alves, N. A. (2020a) <a href="https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf"><i>Differential Geometry</i></a> (notas para estudo pessoal).</li>
   <li>Alves, N. A. (2020b) <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
   <li>Alves, N. A. (2020c) <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
   <li>Arnold, V. I. (1989) <i>Mathematical Methods of Classical Mechanics</i> (Springer, New York).</li>
-  <li> Barata, J. C. A. (2021) <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
-  <li> Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.html"><i>Lectures on Particle Physics</i></a>. </li>
+  <li>Barata, J. C. A. (2021) <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
+  <li>Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.html"><i>Lectures on Particle Physics</i></a>. </li>
   <li>Carroll, S. (2014) <i>Spacetime and Geometry: An Introduction to General Relativity</i> (Pearson, Harlow).</li>
   <li>Coelho, F. U. & Lourenço, M. L. (2013) <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo).</li>
   <li>Dirac, P. A. M. (1967) <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford).</li>
@@ -102,11 +103,50 @@ Proceedings</i> <b>950</b>, 165–179. doi: <a href='https://doi.org/10.1063/1.2
 </div>
 
 
+## Exercícios
+
+<div style="text-align: justify">
+   <ul>
+	<li>''Um dos grandes mestres Zen tinha um discípulo impaciente que nunca havia perdido uma oportunidade de obter quaisquer pérolas de sabedoria que poderiam escapar dos lábios de seu mestre e que o seguia constantemente. Um dia, respeitosamente abrindo um portão de homem para o velho senhor, o discípulo perguntou: 'Como posso obter a iluminação?'. O sábio ancião, apesar de atrofiado e frágil, podia ser veloz, e rapidamente fez com que o pesado portão se fechasse na perna do discípulo, a quebrando.<br> 
+		
+		Quando o leitor tiver entendido esta pequena história, então ele entenderá o propósito deste livro. Pareceria ao não-iluminado como se o mestre, longe de ensinar seu discípulo, havia o deixado mais chocado que nunca devido ao seu truque cruel. Ao iluminado, a anedota expressa uma verdade profunda. É impossível dizer ao leitor o que esta verdade é; só se pode o encaminhar à anedota.''</li>
+	<p>Carl E. Linderholm, em <em>Mathematics Made Difficult</em> (Buttler & Tanner, Frome, 1971).</p>
+
+	<li>''Sendo eu mesmo um sujeito particularmente estúpido, tive que me desensinar as dificuldades, e agora peço para apresentar aos meus colegas tolos as partes que não são difíceis. Domine-as bem e o resto seguirá. O que um tolo pode aprender, outro também pode.''
+	</li>
+    	<p>Silvanus P. Thompson, em <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
+</p>
+   </ul>
+</div>
+
+Fiz o possível para rechear as [notas de aula](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf) com exercícios e acredito que aqui valem algumas citações sobre a importância de os fazer. Citando Linderholm novamente, ''O leitor não é obrigado a fazer nenhum dos exercícios, a não ser que não consiga fazê-lo.'' Na minha experiência, aprender Física é um caminho um tanto doloroso e envolve certas quantidades de decepção, confusão e frustração. Ao não-iluminado, isso pode parecer pura crueldade. Por sorte, frequentemente me vi na companhia de outros colegas tolos com os quais pude dividir as dores necessárias para atingir a iluminação, e espero que o mesmo possa ocorrer neste curso. Enviei aos inscritos por e-mail o link para um canal no [Slack](https://slack.com/intl/en-br/) voltado ao propósito de todos os estudantes poderem discutir entre si e comigo acerca dos problemas, dúvidas em geral e mesmo curiosidades e assuntos mais aprofundados. Ao escrever os exercícios, eu esperava (e incentivo) que colaborem entre si durante sua resolução. 
+
+## Sessões de Discussão e Dúvidas
+
+Como nossa aula ocupa o último horário da escola, temos alguma liberdade para passar do horário na sala do Zoom. Pretendo encerrar as aulas dentro do horário planejado, mas também permanecer na sala algum tempo depois para podermos conversar sobre dúvidas, sobre os exercícios, curiosidades e aprofundamento, etc.
+
+É extremamente importante que vocês façam perguntas e tirem suas dúvidas, pois os conteúdos se acumulam de forma exponencial. Para entender os assuntos finais (que eu considero particularmente divertidos), é importante compreender os assuntos iniciais. Não tenha medo de fazer perguntas. Caso você tenha uma pergunta e não saiba se a deve fazer, perceba que ela definitivamente se encaixa em uma das duas categorias a seguir:
+
+<div style="text-align: justify">
+   <ol>
+	<li>Você considera sua pergunta boba</li>
+	<p>Se sua pergunta for ''boba'', ela é rápida de responder e não vai atrapalhar a aula. Se não for rápida de responder, não tem como ser boba, e na pior das hipóteses eu vou pedir que você me pergunte mais tarde na sessão de discussão ou pelo Slack. Perceba também que a vários dos livros da bibliografia tem ''Quantum Field Theory'' no título. Por conta disso, eu considero extremamente improvável que ocorra alguma pergunta que de fato possa ser chamada de boba. Eu tô fazendo um curso sabidamente pesado e se nenhum de vocês tiver dúvidas sobre isso eu vou ficar extremamente preocupado (e vou saber que vocês tão mentindo).</p>
+
+	<li>Você não considera sua pergunta boba</li>
+    	<p>Se a sua pergunta não é boba, ela provavelmente é interessante. Pode acabar dando uma ideia de assunto pra abordar que não tinha me ocorrido e render discussões extremamente divertidas. Novamente, na pior das hipóteses eu vou pedir pra você guardar a ideia pra sessão de discussão ou pro Slack·</p>
+   </ol>
+</div>
+
+As perguntas são a parte mais divertida de qualquer curso. Nas minhas experiências passadas dando minicursos e coisas do tipo, é sempre nelas que os alunos percebem alguma ponta solta (que você deixou assim como isca ou só porque achava o assunto complicado mesmo ausaush) e fazem você aprender. Ou às vezes fazem um comentário que talvez parecesse inocente, mas na verdade se ligava a assuntos extremamente profundos e interessantes. Além disso, elas me permitem saber se eu estou pegando muito leve, muito pesado e a adaptar o curso ao público. 
+
+Eu imagino também que muitos de vocês estão fazendo esse curso porque pretendem um dia trabalhar com pesquisa. Por isso eu acho que vale a pena lembrar que trabalhar com pesquisa envolve responder perguntas, e não tem como responder perguntas se ninguém faz perguntas. Ganhar prática com formular perguntas é algo extremamente valioso.
+
 ## Aulas
 
-Nossas aulas serão síncronas, porém gravadas e disponibilizadas tão logo quanto possível no [canal no YouTube da Dead Physicists Society](https://www.youtube.com/channel/UCPntaDiZZa1OIGiAUssJTxQ).
+Nossas aulas serão síncronas, porém gravadas e disponibilizadas tão logo quanto possível no [canal no YouTube da Dead Physicists Society](https://www.youtube.com/channel/UCPntaDiZZa1OIGiAUssJTxQ). Note que a presença nas aulas síncronas é o único critério de avaliação do curso.
+
+Se for possível, recomendo a leitura do capítulo N das [notas de aula](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf) antes da aula N, mas sei que a maioria das pessoas não vai fazer isso.
 
 ## Notas de Aula
 
-Disponíveis [neste link](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
-
+Versão preliminar [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf).
