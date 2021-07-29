@@ -2,9 +2,14 @@
 
 Esta é a página do curso de Métodos Algébricos da Fìsica Teórica da [III Escola Jayme Tiomno de Física Teórica](https://lambdadps.github.io/jayme/2021/), organizado pela [Dead Physicists Society](https://lambdadps.github.io/).
 
+## Motivação 
+
+Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, o curso não se atentará a fazer demonstrações rigorosas 
+
+
 ## Ementa
 
-Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso.
+Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso. 
 
 <div style="text-align: justify">
    <ul>
@@ -43,6 +48,10 @@ Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso.
 		</li>
 	</ul>
 </div>
+
+## Requisitos
+
+
 
 ## Aulas
 
