@@ -55,53 +55,49 @@ Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-
 
 ## Bibliografia
 
-Atualmente (16h10min 29/07/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula, mas estas são as referências utilizadas durante sua preparação.
-
-Alves, N. A. Differential Geometry (Notas para estudo pessoal). https://alves-
-nickolas.github.io/pdf/Differential_Geometry.pdf.
+No momento (29/07/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula (que postarei em breve), mas estas são as referências utilizadas durante sua preparação (ou seja, são os livros que eu li, não necessariamente os que vocês lerão). Destes, as referências que me parecem mais interessantes para o escopo específico do curso (ou seja, teoria de grupos e representações para físicos) são (Barata 2021, Georgi 2018, Germano 2016, Hall 2003, Hamermesh 1989, Sundermeyer 2014, Weinberg 1995, Zee 2016). (Hall 2003) é para matemáticos, mas estudantes com interesse em uma abordagem um pouco mais rigorosa podem se interessar por ele, especialmente se não possuírem os requisitos de Geometria Diferencial necessários para abordagens mais gerais sobre grupos de Lie. (Zee 2016) é meu texto favorito e provavelmente serve o papel de principal referência do curso.
 
 <div style="text-align: justify">
  <ul>
-  <li>Alves, N. A. <a href="https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf"><i>Differential Geometry</i></a> (Notas para estudo pessoal).</li>
-  <li>Alves, N. A. <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
-  <li>Alves, N. A. <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
-  <li>Arnold, V. I. <i>Mathematical Methods of Classical Mechanics</i> (Springer, New York, 1989).</li>
-  <li> Barata, J. C. A. <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
-  <li> Bertuzzo, E. <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.html"><i>Lectures on Particle Physics</i></a> (2021). </li>
-  <li>Carroll, S. <i>Spacetime and Geometry: An Introduction to General Relativity</i> (Pearson, Harlow, 2014).</li>
-  <li>Coelho, F. U. & Lourenço, M. L. <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo, 2013).</li>
-  <li>Dirac, P. A. M. <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford, 1967).</li>
-  <li>Georgi, H. <i>Lie Algebras in Particle Physics</i> (CRC Press, Boca Raton, 2018).</li>
-  <li>Germano, G. R. <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo, 2016). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-
-08122016-160042'>10.11606/D.43.2016.tde-
-08122016-160042</a>.</li>
-  <li>Geroch, R. <i>Mathematical Physics</i> (University of Chicago Press, Chicago, 1985).</li>
-  <li>Griffiths, D. J. <i>Introduction to Electrodynamics</i> (Cambridge University Press, Cambridge, 2017).</li>
-  <li>Hall, B. C. <i>Lie Groups, Lie Algebras, and Representations: An Elementary Introduction</i> (Springer, Cham, 2003).</li>
-  <li>Halzen, F. & Martin, A. D. <i>Quarks and Leptons: An Introductory Course in Modern Particle Physics</i> (Wiley, New York, 1984).</li>
-  <li>Hamermesh, M. <i>Group Theory and Its Application to Physical Problems</i> (Dover Publications, New York, 1989).</li>
-  <li>Hawking, S. W. & Ellis, G. F. R. <i>The Large Scale Structure of Spacetime</i> (Cambridge University Press, Cambridge, 1973)</li>
-  <li>Hoffman, K. & Kunze, R. <i>Linear Algebra</i> (Prentice-Hall, Inc., Englewood Cliffs, 1971).</li>
-  <li>José, J. V. & Saletan, E. J. <i>Classical Dynamics: A Contemporary Approach</i> (Cambridge University Press, Cambridge, 1998).</li>
-  <li>Kupść, A. What Is Interesting in η and η' Meson Decays? em <i>AIP Conference
-Proceedings</i> <b>950</b>, 165–179 (2007). doi: <a href='https://doi.org/10.1063/1.2819029'>10.1063/1.2819029</a>. arXiv: <a href='https://arxiv.org/abs/0709.0603'>0709.0603 [nucl-ex]</a>.</li>
-  <li>Landau, L. D. & Lifshitz, E. M. <i>Mechanics</i> (Butterworth-Heinemann, Oxford, 1976).</li>
-  <li>Le Bellac, M. <i>Quantum Physics</i> (Cambridge University Press, Cambridge, 2006).</li>
-  <li>Lévy-Leblond, J.-M. em <i>Group Theory and its Applications Vol. II</i> (ed. Loebl, E.) 221–299 (Academic Press, New York, 1971).</li>
-  <li>Misner, C. W., Thorne, K. S. & Wheeler, J. A. <i>Gravitation</i> (Freeman, San Francisco, 1973).</li>
-  <li>Particle Data Group et al. Review of Particle Physics. <i>Progress of Theoretical and Experimental Physics</i> <b>2020</b>. 083C01 (2020). doi: <a href='https://doi.org/10.1093/ptep/ptaa104'>10.1093/ptep/ptaa104</a></li>
-  <li>Peskin, M. E. & Schroeder, D. V. <i>An Introduction to Quantum Field Theory</i> (Westview Press, Boulder, 1995).</li>
-  <li>Sakurai, J. J. & Napolitano, J. <i>Modern Quantum Mechanics</i> (Cambridge University Press, Cambridge, 2017).</li>
-  <li>Schwartz, M. D. <i>Quantum Field Theory and the Standard Model</i> (Cambridge University Press, Cambridge, 2014).</li>
-  <li>Shankar, R. <i>Principles of Quantum Mechanics</i> (Springer, New York, 1994).</li>
-  <li> Sundermeyer, K., <i>Symmetries in Fundamental Physics</i>. Springer, Cham, 2014. </li>
-  <li>Wald, R. M. <i>General Relativity</i> (University of Chicago Press, Chicago, 1984).</li>
-  <li>Weinberg, S. <i>Foundations of Modern Physics</i> (Cambridge University Press, Cambridge, 2021).</li>
-  <li>Weinberg, S. <i>Lecures on Quantum Mechanics</i> (Cambridge University Press, Cambridge, 2015).</li>
-  <li>Weinberg, S. <i>The Quantum Theory of Fields Vol. I: Foundations</i> (Cambridge University Press, Cambridge, 1995).</li>
-  <li>Weinberg, S. <i>The Quantum Theory of Fields Vol. II: Modern Applications</i> (Cambridge University Press, Cambridge, 1996).</li>
-  <li>Zee, A. <i>Group Theory in a Nutshell for Physicists</i> (Princeton University Press, Princeton, 2016).</li>
-  <li>Zee, A. <i>Quantum Field Theory in a Nutshell</i> (Princeton University Press, Princeton, 2010).</li>
+  <li>Alves, N. A. (2020a) <a href="https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf"><i>Differential Geometry</i></a> (Notas para estudo pessoal).</li>
+  <li>Alves, N. A. (2020b) <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
+  <li>Alves, N. A. (2020c) <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
+  <li>Arnold, V. I. (1989) <i>Mathematical Methods of Classical Mechanics</i> (Springer, New York).</li>
+  <li> Barata, J. C. A. (2021) <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
+  <li> Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.html"><i>Lectures on Particle Physics</i></a>. </li>
+  <li>Carroll, S. (2014) <i>Spacetime and Geometry: An Introduction to General Relativity</i> (Pearson, Harlow).</li>
+  <li>Coelho, F. U. & Lourenço, M. L. (2013) <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo).</li>
+  <li>Dirac, P. A. M. (1967) <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford).</li>
+  <li>Georgi, H. (2018) <i>Lie Algebras in Particle Physics</i> (CRC Press, Boca Raton).</li>
+  <li>Germano, G. R. (2016) <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-
+08122016-160042'>10.11606/D.43.2016.tde-08122016-160042</a>.</li>
+  <li>Geroch, R. (1985) <i>Mathematical Physics</i> (University of Chicago Press, Chicago).</li>
+  <li>Griffiths, D. J. (2017) <i>Introduction to Electrodynamics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Hall, B. C. (2003) <i>Lie Groups, Lie Algebras, and Representations: An Elementary Introduction</i> (Springer, Cham).</li>
+  <li>Halzen, F. & Martin, A. D. (1984) <i>Quarks and Leptons: An Introductory Course in Modern Particle Physics</i> (Wiley, New York).</li>
+  <li>Hamermesh, M. (1989) <i>Group Theory and Its Application to Physical Problems</i> (Dover Publications, New York).</li>
+  <li>Hawking, S. W. & Ellis, G. F. R. (1973) <i>The Large Scale Structure of Spacetime</i> (Cambridge University Press, Cambridge)</li>
+  <li>Hoffman, K. & Kunze, R. (1971) <i>Linear Algebra</i> (Prentice-Hall, Inc., Englewood Cliffs).</li>
+  <li>José, J. V. & Saletan, E. J. (1998) <i>Classical Dynamics: A Contemporary Approach</i> (Cambridge University Press, Cambridge).</li>
+  <li>Kupść, A. (2007) What Is Interesting in η and η' Meson Decays? em <i>AIP Conference
+Proceedings</i> <b>950</b>, 165–179. doi: <a href='https://doi.org/10.1063/1.2819029'>10.1063/1.2819029</a>. arXiv: <a href='https://arxiv.org/abs/0709.0603'>0709.0603 [nucl-ex]</a>.</li>
+  <li>Landau, L. D. & Lifshitz, E. M. (1976) <i>Mechanics</i> (Butterworth-Heinemann, Oxford).</li>
+  <li>Le Bellac, M. (2006) <i>Quantum Physics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Lévy-Leblond, J.-M. (1971) em <i>Group Theory and its Applications Vol. II</i> (ed. Loebl, E.) 221–299 (Academic Press, New York).</li>
+  <li>Misner, C. W., Thorne, K. S. & Wheeler, J. A. (1973) <i>Gravitation</i> (Freeman, San Francisco).</li>
+  <li>Particle Data Group et al. (2020) Review of Particle Physics. <i>Progress of Theoretical and Experimental Physics</i> <b>2020</b>. 083C01. doi: <a href='https://doi.org/10.1093/ptep/ptaa104'>10.1093/ptep/ptaa104</a></li>
+  <li>Peskin, M. E. & Schroeder, D. V. (1995) <i>An Introduction to Quantum Field Theory</i> (Westview Press, Boulder).</li>
+  <li>Sakurai, J. J. & Napolitano, J. (2017) <i>Modern Quantum Mechanics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Schwartz, M. D. (2014) <i>Quantum Field Theory and the Standard Model</i> (Cambridge University Press, Cambridge).</li>
+  <li>Shankar, R. (1994) <i>Principles of Quantum Mechanics</i> (Springer, New York).</li>
+  <li>Sundermeyer, K. (2014) <i>Symmetries in Fundamental Physics</i> (Springer, Cham). </li>
+  <li>Wald, R. M. (1984) <i>General Relativity</i> (University of Chicago Press, Chicago).</li>
+  <li>Weinberg, S. (1995) <i>The Quantum Theory of Fields Vol. I: Foundations</i> (Cambridge University Press, Cambridge).</li>
+  <li>Weinberg, S. (1996) <i>The Quantum Theory of Fields Vol. II: Modern Applications</i> (Cambridge University Press, Cambridge).</li>
+  <li>Weinberg, S. (2015) <i>Lecures on Quantum Mechanics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Weinberg, S. (2021) <i>Foundations of Modern Physics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Zee, A. (2014) <i>Quantum Field Theory in a Nutshell</i> (Princeton University Press, Princeton).</li>
+  <li>Zee, A. (2016) <i>Group Theory in a Nutshell for Physicists</i> (Princeton University Press, Princeton).</li>
  </ul>
 </div>
 
