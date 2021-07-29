@@ -145,7 +145,7 @@ Eu imagino também que muitos de vocês estão fazendo esse curso porque pretend
 
 Nossas aulas serão síncronas, porém gravadas e disponibilizadas tão logo quanto possível no [canal no YouTube da Dead Physicists Society](https://www.youtube.com/channel/UCPntaDiZZa1OIGiAUssJTxQ). Note que a presença nas aulas síncronas é o único critério de avaliação do curso.
 
-Se for possível, recomendo a leitura do capítulo N das [notas de aula](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf) antes da aula N, mas sei que a maioria das pessoas não vai fazer isso.
+Se for possível, recomendo a leitura do capítulo N das [notas de aula](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf) antes da aula N, mas sei que a maioria das pessoas não vai fazer isso. Como alguns de vocês me pediram sugestões de leitura para antes das aulas, menciono também que o review de Álgebra Linear de (Zee 2016) pode ser útil, mas vou assumir ao longo do curso que vocês não o leram.
 
 ## Notas de Aula
 
