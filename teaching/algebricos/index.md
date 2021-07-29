@@ -4,7 +4,7 @@ Esta é a página do curso de Métodos Algébricos da Fìsica Teórica da [III E
 
 ## Apresentação
 
-Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, apesar da teoria de grupos ser um assunto belíssimo em Matemática 
+Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, apesar da teoria de grupos ser um assunto belíssimo em Matemática, não pretendo me atentar a demonstrações rigorosas, mas sim a aplicações diversas em Física. Sendo um primeiro contato do
 
 
 ## Ementa
