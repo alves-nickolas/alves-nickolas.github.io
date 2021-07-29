@@ -50,7 +50,7 @@ Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso.
 
 ## Requisitos
 
-Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-Algébricos-da-Física-Teórica.html), os requisitos básicos que assumirei são [Fisica I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=4302111), [Cálculo Diferencial e Integral I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0111) e [Vetores e Geometria Analítica](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0112), no sentido de que pretendo cobrir todas as outras definições e conceitos que forem necessários (incluindo, mas não limitado a, noções elementares de Relatividade Restrita e Mecânica Quântica). 
+Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-Algébricos-da-Física-Teórica.html), os requisitos que assumirei são [Fisica I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=4302111), [Cálculo Diferencial e Integral I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0111) e [Vetores e Geometria Analítica](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0112). As outras definições e conceitos que forem necessários serão cobertos no curso (incluindo, mas não limitado a, noções elementares de Relatividade Restrita e Mecânica Quântica). 
 
 ## Bibliografia
 
