@@ -4,7 +4,7 @@ Esta é a página do curso de Métodos Algébricos da Fìsica Teórica da [III E
 
 ## Apresentação
 
-Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, apesar da teoria de grupos ser um assunto belíssimo em Matemática, não pretendo me atentar a demonstrações rigorosas, mas sim a aplicações diversas em Física. Sendo um primeiro contato do
+Este curso é uma introdução ao uso de grupos, representações e tensores em Física Teórica, com particular ênfase em casos de interesse para a Relatividade, Mecânica Quântica e Física de Partículas. Nota-se que o objetivo é oferecer um curso de métodos matemáticos para Física Teórica, não um curso de Física-Matemática, e portanto será dada mais atenção aos exemplos físicos do que a um tratamento geral da Teoria de Grupos (que já é feito pela disciplina [4300429 — Grupos e Tensores](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=4300429&verdis=1) do IFUSP). Além disso, apesar da teoria de grupos ser um assunto belíssimo em Matemática, não pretendo me atentar a demonstrações rigorosas, mas sim a aplicações diversas em Física. 
 
 
 ## Ementa
@@ -51,6 +51,7 @@ Esta é a ementa planejada e detalhada que eu espero passar ao longo do curso.
 
 ## Requisitos
 
+Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-Algébricos-da-Física-Teórica.html), os requisitos básicos que assumirei são [Fisica I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=4302111), [Cálculo Diferencial e Integral I](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0111) e [Vetores e Geometria Analítica](https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=MAT0112), no sentido de que pretendo cobrir todas as outras definições e conceitos que forem necessários (incluindo, mas não limitado a, noções elementares de Relatividade Restrita e Mecânica Quântica). Porém, ao olhar a ementa e bibliografia é possível que algumas pessoas se assustem com assuntos mais avançados que ali ocorrem. Por isso
 
 
 ## Aulas
