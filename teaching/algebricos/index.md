@@ -67,10 +67,13 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
   <li>Alves, N. A. (2020b) <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
   <li>Alves, N. A. (2020c) <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
   <li>Arnold, V. I. (1989) <i>Mathematical Methods of Classical Mechanics</i> (Springer, New York).</li>
+  <li>Ashtekar, A. & Magnon, A. (1975) Quantum Fields in Curved Space-Times. <i>Proceedings of the Royal Society of London A: Mathematical and Physical Sciences</i> <b>346</b>, 375–394. doi: <a href='htps://doi.org/10.1098/rspa.1975.0181'>10.1098/rspa.1975.0181</a>.</li>
   <li>Barata, J. C. A. (2021) <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
+  <li>Barnes, V. E. et al. (1964) Observation of a Hyperon with Strangeness Minus Three. <i>Physical Review Letters</i> <b>12</b>, 204–206. doi: <a href='https://doi.org/10.1103/PhysRevLett.12.204'>10.1103/PhysRevLett.12.204</a>.</li>
   <li>Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.pdf"><i>Lectures on Particle Physics</i></a>. </li>
   <li>Carroll, S. (2014) <i>Spacetime and Geometry: An Introduction to General Relativity</i> (Pearson, Harlow).</li>
   <li>Coelho, F. U. & Lourenço, M. L. (2013) <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo).</li>
+  <li>Cozzella, G., Landulfo, A. G. S., Matsas, G. E. A. & Vanzella, D. A. T. (2017) Proposal for Observing the Unruh Effect Using Classical Electrodynamics. <i>Physical Review Letters</i> <b>118</b>, 161102. doi: <a href='https://doi.org/10.1103/PhysRevLett.118.161102'>10.1103/PhysRevLett.118.161102</a>. arXiv: <a href='https://arxiv.com/abs/1701.03446'>1701.03446 [gr-qc]</a>.</li>
   <li>Dirac, P. A. M. (1967) <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford).</li>
   <li>Georgi, H. (2018) <i>Lie Algebras in Particle Physics</i> (CRC Press, Boca Raton).</li>
   <li>Germano, G. R. (2016) <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-
