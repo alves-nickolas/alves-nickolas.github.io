@@ -67,7 +67,7 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
   <li>Alves, N. A. (2020b) <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
   <li>Alves, N. A. (2020c) <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
   <li>Arnold, V. I. (1989) <i>Mathematical Methods of Classical Mechanics</i> (Springer, New York).</li>
-  <li>Ashtekar, A. & Magnon, A. (1975) Quantum Fields in Curved Space-Times. <i>Proceedings of the Royal Society of London A: Mathematical and Physical Sciences</i> <b>346</b>, 375–394. doi: <a href='htps://doi.org/10.1098/rspa.1975.0181'>10.1098/rspa.1975.0181</a>.</li>
+  <li>Ashtekar, A. & Magnon, A. (1975) Quantum Fields in Curved Space-Times. <i>Proceedings of the Royal Society of London A: Mathematical and Physical Sciences</i> <b>346</b>, 375–394. doi: <a href='https://doi.org/10.1098/rspa.1975.0181'>10.1098/rspa.1975.0181</a>.</li>
   <li>Barata, J. C. A. (2021) <a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html"><i>Notas para um curso de Física-Matemática</i></a>. </li>
   <li>Barnes, V. E. et al. (1964) Observation of a Hyperon with Strangeness Minus Three. <i>Physical Review Letters</i> <b>12</b>, 204–206. doi: <a href='https://doi.org/10.1103/PhysRevLett.12.204'>10.1103/PhysRevLett.12.204</a>.</li>
   <li>Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.pdf"><i>Lectures on Particle Physics</i></a>. </li>
@@ -106,7 +106,7 @@ Proceedings</i> <b>950</b>, 165–179. doi: <a href='https://doi.org/10.1063/1.2
   <li>Schwartz, M. D. (2014) <i>Quantum Field Theory and the Standard Model</i> (Cambridge University Press, Cambridge).</li>
   <li>Shankar, R. (1994) <i>Principles of Quantum Mechanics</i> (Springer, New York).</li>
   <li>Sundermeyer, K. (2014) <i>Symmetries in Fundamental Physics</i> (Springer, Cham). </li>
-  <li>Vanzella, D. A. T. & Matsas, G. E. A. (2001) Decay of Accelerated Protons and the Existence of the Fulling-Davies-Unruh Effect. <i>Physical Review Letters</i> <b>87</b>, 151301. doi: <a href='https://doi.org/10.1103/PhysRevLett.87.151301'>10.1103/PhysRevLett.87.151301</a>. arXiv: <a href='htps://arxiv.org/abs/gr-qc/0104030'>gr-qc/0104030</a>.</li>
+  <li>Vanzella, D. A. T. & Matsas, G. E. A. (2001) Decay of Accelerated Protons and the Existence of the Fulling-Davies-Unruh Effect. <i>Physical Review Letters</i> <b>87</b>, 151301. doi: <a href='https://doi.org/10.1103/PhysRevLett.87.151301'>10.1103/PhysRevLett.87.151301</a>. arXiv: <a href='https://arxiv.org/abs/gr-qc/0104030'>gr-qc/0104030</a>.</li>
   <li>Wald, R. M. (1975) On Particle Creation by Black Holes. <i>Communications in Mathematical Physics</i> <b>45</b>, 9–34. doi: <a href='https://doi.org/10.1007/BF01609863'>10.1007/BF01609863</a>.</li>
   <li>Wald, R. M. (1984) <i>General Relativity</i> (University of Chicago Press, Chicago).</li>
   <li>Wald, R. M. (1994) <i>Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics</i> (University of Chicago Press, Chicago).</li>
