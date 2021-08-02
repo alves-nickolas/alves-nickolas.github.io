@@ -62,7 +62,7 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
 
 <div style="text-align: justify">
  <ul> 
-  <li>Abe, K. et al. Search for proton decay via p → e<sup>+</sup> π<sup>0</sup> and p → μ<sup>+</sup> π<sup>0</sup> in 0.31 megaton·years exposure of the Super-Kamiokande water Cherenkov detector. <i>Physical Review D</i> <b>95</b>, 012004 (2017). doi: <a href='https://doi.org/10.1103/PhysRevD.95.012004'>10.1103/PhysRevD.95.012004</a>.</li>
+  <li>Abe, K. et al. (2017) Search for proton decay via p → e<sup>+</sup> π<sup>0</sup> and p → μ<sup>+</sup> π<sup>0</sup> in 0.31 megaton·years exposure of the Super-Kamiokande water Cherenkov detector. <i>Physical Review D</i> <b>95</b>, 012004. doi: <a href='https://doi.org/10.1103/PhysRevD.95.012004'>10.1103/PhysRevD.95.012004</a>.</li>
   <li>Alves, N. A. (2020a) <a href="https://alves-nickolas.github.io/pdf/Differential_Geometry.pdf"><i>Differential Geometry</i></a> (notas para estudo pessoal).</li>
   <li>Alves, N. A. (2020b) <a href="https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf"><i>Mecânica Clássica</i></a> (notas de aula).</li>
   <li>Alves, N. A. (2020c) <a href="https://alves-nickolas.github.io/pdf/O_Grupo_de_Lorentz.pdf"><i>O Grupo de Lorentz: Relatividade Restrita aos olhos de um matemático</i></a> (notas de aula).</li>
