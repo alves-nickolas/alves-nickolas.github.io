@@ -75,14 +75,19 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
   <li>Coelho, F. U. & Lourenço, M. L. (2013) <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo).</li>
   <li>Cozzella, G., Landulfo, A. G. S., Matsas, G. E. A. & Vanzella, D. A. T. (2017) Proposal for Observing the Unruh Effect Using Classical Electrodynamics. <i>Physical Review Letters</i> <b>118</b>, 161102. doi: <a href='https://doi.org/10.1103/PhysRevLett.118.161102'>10.1103/PhysRevLett.118.161102</a>. arXiv: <a href='https://arxiv.com/abs/1701.03446'>1701.03446 [gr-qc]</a>.</li>
   <li>Dirac, P. A. M. (1967) <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford).</li>
+  <li>Gell-Mann, M. (1964) A Schematic Model of Baryons and Mesons. <i>Physics Letters</i> <b>8</b>, 214–215. doi: <a href='https://doi.org/10.1016/S0031-9163(64)92001-3'>10.1016/S0031-9163(64)92001-3</a>.</li>
   <li>Georgi, H. (2018) <i>Lie Algebras in Particle Physics</i> (CRC Press, Boca Raton).</li>
+  <li>Georgi, H. & Glashow, S. L. (1974) Unity of All Elementary-Particle Forces. <i>Physical Review Letters</i> <b>32</b>, 438–441. doi: <a href='https://doi.org/10.1103/PhysRevLett.32.438'>10.1103/PhysRevLett.32.438</a>.</li>
   <li>Germano, G. R. (2016) <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-
 08122016-160042'>10.11606/D.43.2016.tde-08122016-160042</a>.</li>
   <li>Geroch, R. (1985) <i>Mathematical Physics</i> (University of Chicago Press, Chicago).</li>
   <li>Griffiths, D. J. (2017) <i>Introduction to Electrodynamics</i> (Cambridge University Press, Cambridge).</li>
   <li>Hall, B. C. (2003) <i>Lie Groups, Lie Algebras, and Representations: An Elementary Introduction</i> (Springer, Cham).</li>
+  <li>Hall, B. C. (2013) <i>Quantum Theory for Mathematicians</i> (Springer, New York).</li>
   <li>Halzen, F. & Martin, A. D. (1984) <i>Quarks and Leptons: An Introductory Course in Modern Particle Physics</i> (Wiley, New York).</li>
   <li>Hamermesh, M. (1989) <i>Group Theory and Its Application to Physical Problems</i> (Dover Publications, New York).</li>
+  <li>Hawking, S. W. (1974) Black Hole Explosions? <i>Nature</i> <b>248</b>, 30–31. doi: <a href='https://doi.org/10.1038/248030a0'>10.1038/248030a0</a>.</li>
+  <li>Hawking, S. W. (1975) Particle Creation by Black Holes. <i>Communications In Mathematical Physics</i> <b>43</b>, 199–220. doi: <a href='https://doi.org/10.1007/BF02345020'>10.1007/BF02345020</a>.</li>
   <li>Hawking, S. W. & Ellis, G. F. R. (1973) <i>The Large Scale Structure of Spacetime</i> (Cambridge University Press, Cambridge)</li>
   <li>Hoffman, K. & Kunze, R. (1971) <i>Linear Algebra</i> (Prentice-Hall, Inc., Englewood Cliffs).</li>
   <li>José, J. V. & Saletan, E. J. (1998) <i>Classical Dynamics: A Contemporary Approach</i> (Cambridge University Press, Cambridge).</li>
