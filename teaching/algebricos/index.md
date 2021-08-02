@@ -56,7 +56,7 @@ Como dito no [website da Escola](https://lambdadps.github.io/workshops/Métodos-
 
 ## Bibliografia
 
-No momento (29/07/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula (uma versão preliminar está disponível [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf)), mas estas são as referências utilizadas durante sua preparação. Ou seja, são os livros que eu li, não necessariamente os que vocês lerão. Há também alguns livros que servem ao propósito de sugestões de leitura mais aprofundada. 
+No momento (02/08/21), esta é a bibliografia completa do curso. Seguiremos principalmente notas de aula (disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf)), mas estas são as referências utilizadas durante sua preparação. Ou seja, são os livros que eu li, não necessariamente os que vocês lerão. Há também alguns livros que servem ao propósito de sugestões de leitura mais aprofundada. 
 
 Desta lista, as referências que me parecem mais interessantes para o escopo específico do curso (ou seja, teoria de grupos e representações para físicos) são (Barata 2021, Georgi 2018, Germano 2016, Hall 2003, Hamermesh 1989, Sundermeyer 2014, Weinberg 1995, Zee 2016). (Hall 2003) é para matemáticos, mas estudantes com interesse em uma abordagem um pouco mais rigorosa podem se interessar por ele, especialmente se não possuírem os requisitos de Geometria Diferencial necessários para abordagens mais gerais sobre grupos de Lie. (Zee 2016) é meu texto favorito e provavelmente a principal referência do curso.
 
@@ -73,13 +73,12 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
   <li>Bertuzzo, E. (2021) <a href="http://fmatrm.if.usp.br/~enrico/SM/Particle_Physics_Book.pdf"><i>Lectures on Particle Physics</i></a>. </li>
   <li>Carroll, S. (2014) <i>Spacetime and Geometry: An Introduction to General Relativity</i> (Pearson, Harlow).</li>
   <li>Coelho, F. U. & Lourenço, M. L. (2013) <i>Um Curso de Álgebra Linear</i> (Editora da Universidade de São Paulo, São Paulo).</li>
-  <li>Cozzella, G., Landulfo, A. G. S., Matsas, G. E. A. & Vanzella, D. A. T. (2017) Proposal for Observing the Unruh Effect Using Classical Electrodynamics. <i>Physical Review Letters</i> <b>118</b>, 161102. doi: <a href='https://doi.org/10.1103/PhysRevLett.118.161102'>10.1103/PhysRevLett.118.161102</a>. arXiv: <a href='https://arxiv.com/abs/1701.03446'>1701.03446 [gr-qc]</a>.</li>
+  <li>Cozzella, G., Landulfo, A. G. S., Matsas, G. E. A. & Vanzella, D. A. T. (2017) Proposal for Observing the Unruh Effect Using Classical Electrodynamics. <i>Physical Review Letters</i> <b>118</b>, 161102. doi: <a href='https://doi.org/10.1103/PhysRevLett.118.161102'>10.1103/PhysRevLett.118.161102</a>. arXiv: <a href='https://arxiv.org/abs/1701.03446'>1701.03446 [gr-qc]</a>.</li>
   <li>Dirac, P. A. M. (1967) <i>The Principles of Quantum Mechanics</i> (Oxford University Press, Oxford).</li>
   <li>Gell-Mann, M. (1964) A Schematic Model of Baryons and Mesons. <i>Physics Letters</i> <b>8</b>, 214–215. doi: <a href='https://doi.org/10.1016/S0031-9163(64)92001-3'>10.1016/S0031-9163(64)92001-3</a>.</li>
   <li>Georgi, H. (2018) <i>Lie Algebras in Particle Physics</i> (CRC Press, Boca Raton).</li>
   <li>Georgi, H. & Glashow, S. L. (1974) Unity of All Elementary-Particle Forces. <i>Physical Review Letters</i> <b>32</b>, 438–441. doi: <a href='https://doi.org/10.1103/PhysRevLett.32.438'>10.1103/PhysRevLett.32.438</a>.</li>
-  <li>Germano, G. R. (2016) <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-
-08122016-160042'>10.11606/D.43.2016.tde-08122016-160042</a>.</li>
+  <li>Germano, G. R. (2016) <i>Representações Irredutíveis Unitárias Do Grupo de Poincaré</i>, dissertação de mestrado (Universidade de São Paulo, São Paulo). doi: <a href='https://doi.org/10.11606/D.43.2016.tde-08122016-160042'>10.11606/D.43.2016.tde-08122016-160042</a>.</li>
   <li>Geroch, R. (1985) <i>Mathematical Physics</i> (University of Chicago Press, Chicago).</li>
   <li>Griffiths, D. J. (2017) <i>Introduction to Electrodynamics</i> (Cambridge University Press, Cambridge).</li>
   <li>Hall, B. C. (2003) <i>Lie Groups, Lie Algebras, and Representations: An Elementary Introduction</i> (Springer, Cham).</li>
@@ -94,16 +93,23 @@ Desta lista, as referências que me parecem mais interessantes para o escopo esp
   <li>Kupść, A. (2007) What Is Interesting in η and η' Meson Decays? em <i>AIP Conference
 Proceedings</i> <b>950</b>, 165–179. doi: <a href='https://doi.org/10.1063/1.2819029'>10.1063/1.2819029</a>. arXiv: <a href='https://arxiv.org/abs/0709.0603'>0709.0603 [nucl-ex]</a>.</li>
   <li>Landau, L. D. & Lifshitz, E. M. (1976) <i>Mechanics</i> (Butterworth-Heinemann, Oxford).</li>
+  <li>Langacker, P. (2017) <i>The Standard Model and Beyond</i> (Taylor & Francis, Boca Raton).</li>
   <li>Le Bellac, M. (2006) <i>Quantum Physics</i> (Cambridge University Press, Cambridge).</li>
+  <li>Lemos, N. (2018) <i>Analytical Mechanics</i> (Cambridge University Press, Cambridge).</li>
   <li>Lévy-Leblond, J.-M. (1971) em <i>Group Theory and its Applications Vol. II</i> (ed. Loebl, E.) 221–299 (Academic Press, New York).</li>
+  <li>Matsas, G. E. A. & Vanzella, D. A. T. (2002) The Fulling–Davies–Unruh Effects Is Mandatory: The Proton’s Testimony. <i>International Journal of Modern Physics D</i> <b>11</b>, 1573–1577. doi: <a href='https://doi.org/10.1142/S0218271802002918'>10.1142/S0218271802002918</a>. arXiv: <a href='https://arxiv.org/abs/gr-qc/0205078'>gr-qc/0205078</a>.</li>
   <li>Misner, C. W., Thorne, K. S. & Wheeler, J. A. (1973) <i>Gravitation</i> (Freeman, San Francisco).</li>
+  <li>Moretti, V. (29 de novembro de 2016) <a href='https://physics.stackexchange.com/q/278015'><i>Why are particles thought of as irreducible representations, in plain English?</i></a> Physics Stack Exchange.</li>
   <li>Particle Data Group et al. (2020) Review of Particle Physics. <i>Progress of Theoretical and Experimental Physics</i> <b>2020</b>. 083C01. doi: <a href='https://doi.org/10.1093/ptep/ptaa104'>10.1093/ptep/ptaa104</a></li>
   <li>Peskin, M. E. & Schroeder, D. V. (1995) <i>An Introduction to Quantum Field Theory</i> (Westview Press, Boulder).</li>
   <li>Sakurai, J. J. & Napolitano, J. (2017) <i>Modern Quantum Mechanics</i> (Cambridge University Press, Cambridge).</li>
   <li>Schwartz, M. D. (2014) <i>Quantum Field Theory and the Standard Model</i> (Cambridge University Press, Cambridge).</li>
   <li>Shankar, R. (1994) <i>Principles of Quantum Mechanics</i> (Springer, New York).</li>
   <li>Sundermeyer, K. (2014) <i>Symmetries in Fundamental Physics</i> (Springer, Cham). </li>
+  <li>Vanzella, D. A. T. & Matsas, G. E. A. (2001) Decay of Accelerated Protons and the Existence of the Fulling-Davies-Unruh Effect. <i>Physical Review Letters</i> <b>87</b>, 151301. doi: <a href='https://doi.org/10.1103/PhysRevLett.87.151301'>10.1103/PhysRevLett.87.151301</a>. arXiv: <a href='htps://arxiv.org/abs/gr-qc/0104030'>gr-qc/0104030</a>.</li>
+  <li>Wald, R. M. (1975) On Particle Creation by Black Holes. <i>Communications in Mathematical Physics</i> <b>45</b>, 9–34. doi: <a href='https://doi.org/10.1007/BF01609863'>10.1007/BF01609863</a>.</li>
   <li>Wald, R. M. (1984) <i>General Relativity</i> (University of Chicago Press, Chicago).</li>
+  <li>Wald, R. M. (1994) <i>Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics</i> (University of Chicago Press, Chicago).</li>
   <li>Weinberg, S. (1995) <i>The Quantum Theory of Fields Vol. I: Foundations</i> (Cambridge University Press, Cambridge).</li>
   <li>Weinberg, S. (1996) <i>The Quantum Theory of Fields Vol. II: Modern Applications</i> (Cambridge University Press, Cambridge).</li>
   <li>Weinberg, S. (2015) <i>Lecures on Quantum Mechanics</i> (Cambridge University Press, Cambridge).</li>
@@ -162,4 +168,4 @@ Se for possível, recomendo a leitura do capítulo N das [notas de aula](https:/
 
 ## Notas de Aula
 
-Versão preliminar [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf).
+Disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf).
