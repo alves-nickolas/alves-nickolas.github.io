@@ -166,6 +166,7 @@ Nossas aulas serão síncronas, porém gravadas e disponibilizadas tão logo qua
 
 Se for possível, recomendo a leitura do capítulo N das [notas de aula](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf) antes da aula N, mas sei que a maioria das pessoas não vai fazer isso. Como alguns de vocês me pediram sugestões de leitura para antes das aulas, menciono também que o review de Álgebra Linear de (Zee 2016) pode ser útil, mas vou assumir ao longo do curso que vocês não o leram.
 
-## Notas de Aula
+## Notas de Aula e Material Adicional
 
-Disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf).
+Disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf). Veja também [este link](https://alves-nickolas.github.io/pdf/EM_particula.pdf) para um exemplo de cálculo com tensores (a saber, o campo eletromagnético de uma partícula em movimento).
+
