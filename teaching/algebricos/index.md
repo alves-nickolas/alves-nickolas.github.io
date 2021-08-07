@@ -168,4 +168,8 @@ Se for possível, recomendo a leitura do capítulo N das [notas de aula](https:/
 
 ## Notas de Aula e Material Adicional
 
-Disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf). Veja também [este link](https://alves-nickolas.github.io/pdf/EM_particula.pdf) para um exemplo de cálculo com tensores (a saber, o campo eletromagnético de uma partícula em movimento). Enquanto não atualizo o pdf das notas, aproveito também este espaço para transmitir meus agradecimentos ao meu amigo Pedro Henrique Tredezini por sua ajuda revisando e opinando acerca das notas de aula. 
+Disponíveis [neste link](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf). Veja também [este link](https://alves-nickolas.github.io/pdf/EM_particula.pdf) para um exemplo de cálculo com tensores (a saber, o campo eletromagnético de uma partícula em movimento). 
+
+## Agradecimentos
+
+Aproveito também este espaço para transmitir alguns agradecimentos. Ao meu amigo Pedro Henrique Tredezini por sua ajuda revisando e opinando acerca das notas de aula. Ao meu orientador de mestrado, Prof. André Landulfo, por ter me ajudado a compreender as construções de Teoria Quântica de Campos em Espaços-Tempos Curvos que eu abordei na última aula, em especial as discussões sobre efeito Unruh. Ainda aos professores João Barata, Enrico Bertuzzo e Gustavo Burdman, do DFMA-IFUSP, com quem eu aprendi uma boa parte deste material. Ao organizadores da III Escola Jayme Tiomno de Física Teórica, Patrick Dreger e ao Théo Meireles, por depositarem sua confiança em mim. Sem estas pessoas, este minicurso não teria sido possível. Naturalmente, todo e qualquer erro que eu tenha cometido ao longo das aulas ou das nota é de minha inteira responsabilidade.
