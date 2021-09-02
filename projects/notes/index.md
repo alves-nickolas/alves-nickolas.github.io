@@ -13,9 +13,18 @@ I've been writing these notes as a way to organize some of my studies for my MSc
 
 These are some study notes I’ve developed throughout my undergraduate research project. The project’s goal was to study Hyperbolic Equations, but this requires a lot of previous knowledge and, as a consequence, most of the material covered in here involves not Hyperbolic Equations, but Topology, Functional Analysis and even some Differential Geometry. 
 
+
+## [Minicurso III Escola Jayme Tiomno: Métodos Algébricos da Física Teórica](https://alves-nickolas.github.io/pdf/Métodos_Algébricos_da_Física_Teórica.pdf)
+
+Estas são notas de aula para um minicurso ministrado durante a [III Escola Jayme Tiomno de Física Teórica](https://lambdadps.github.io/jayme/2021/), organizada entre 02 e 06 de agosto de 2021 pela [Dead Physicists Society](https://lambdadps.github.io/) de modo online, embora voltada aos alunos de graduação do Instituto de Física da Universidade de São Paulo. O minicurso aborda uma introdução à teoria de grupos e representações para físicos com alguns exemplos e motivações vindos da Relatividade Geral e Física de Partículas.
+
 ## [Minicurso XV STO: Introdução ao LaTeX](https://alves-nickolas.github.io/pdf/LaTeX_XV_STO.pdf)
 
 Estas notas de aula foram desenvolvidas para o minicurso “Introdução ao LaTeX”, ofertado nos dias 10 e 12 de novembro de 2020 como parte da [XV Semana Temática de Oceanografia](https://www.sto2020.com.br/). No curso, pretendeu-se apresentar a linguagem LaTeX para a escrita de documentos a partir de seus princípios básicos. Ao longo do minicurso, pretendeu-se mostrar o processo de escrita de um artigo científico em LaTeX, contando com exemplos de uso de pacotes e práticas úteis para profissionais das áreas das Ciências Exatas. Não foram assumidos conhecimentos prévios e o único requisito técnico é um computador com acesso a internet.
+
+## [Minicurso DPS 2020: Mecânica Clássica](https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf)
+
+Estas são as notas de aula para um minicurso ministrado virtualmente aos estudantes de graduação do Instituto de Física da Universidade de São Paulo durante as férias de inverno do ano de 2020. Elas são uma introdução às formulações Lagrangeana e Hamiltoniana da Mecânica Clássica e incluem uma breve introdução à equação de Hamilton-Jacobi.
 
 ## [A Brief Introduction to Classical Field Theory](https://alves-nickolas.github.io/pdf/A_Brief_Introduction_to_Classical_Field_Theory.pdf)
 
