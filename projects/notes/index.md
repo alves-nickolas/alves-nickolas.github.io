@@ -4,7 +4,7 @@ Here you can find many document's I've written across the years in order to lear
 
 ## [Penrose Diagrams](https://alves-nickolas.github.io/pdf/Penrose_Diagrams.pdf)
 
-This document is a collection of computations of Penrose diagrams in a few spacetimes of interest (Minkowski, Schwarschild, and three different FLRW cosmologies). I wrote it to get acquainted with computing of Penrose diagrams in General Relativity. The only essential prerequisite should be a basic knowledge of General Relaivity, but I tried to leave indications of where a few subjects are covered in Wald's and Hawking & Ellis' books.
+This document is a collection of computations of Penrose diagrams in a few spacetimes of interest (Minkowski, Schwarschild, and three different FLRW cosmologies). I wrote it to get acquainted with computing of Penrose diagrams in General Relativity. The only essential prerequisite should be a basic knowledge of General Relativity, but I tried to leave indications of where a few subjects are covered in Wald's and Hawking & Ellis' books.
 
 ## Semiclassical Gravity
 ### Not Currently Available
