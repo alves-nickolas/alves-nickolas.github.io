@@ -2,6 +2,9 @@
 
 Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
+## [Penrose Diagrams](https://alves-nickolas.github.io/pdf/Penrose_Diagrams.pdf)
+
+This document is a collection of computations of Penrose diagrams in a few spacetimes of interest (Minkowski, Schwarschild, and three different FLRW cosmologies). I wrote it to get acquainted with computing of Penrose diagrams in General Relativity. The only essential prerequisite should be a basic knowledge of General Relaivity, but I tried to leave indications of where a few subjects are covered in Wald's and Hawking & Ellis' books.
 
 ## Semiclassical Gravity
 ### Not Currently Available
