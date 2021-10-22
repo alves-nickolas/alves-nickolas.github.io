@@ -38,6 +38,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
 </p>
+	<li>[O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain — in terms of a few fundamental principles — wh the world is the way it is.</li>
+	<p>Steven Weinberg, in <em>The Quantum Theory of Fields Vol. 1: Foundations</em> (Cambridge University Press, Cambridge, 1995).</p>
 	<li>''Quantum field theory arose out of our need to describe the ephemeral nature of life.''</li>
 	<p>Antony Zee, in <em>Quantum Field Theory in a Nutshell</em> (Princeton University Press, Princeton, 2010).</p>
    </ul>
