@@ -16,6 +16,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 		"I haven't the slightest idea," said the Hatter.<br>
 		"Nor I," said the March Hare.</li>
 	<p>A piece of a conversation between Alice, the Mad Hatter and the March Hare, in Lewis Carroll's <em>Alice's Adventures in Wonderland</em>.</p>
+	<li>Toto, I have a feeling we’re not in Kansas anymore.</li>
+	<p>Dorothy (Judy Garland), in <a href="https://www.imdb.com/title/tt0032138/" target="_blank">The Wizard of Oz</a>.</p>
 	<li>''It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.''</li>
 	<p>Robert Geroch, in <em>Mathematical Physics</em> (University of Chicago Press, Chicago, 1985).</p>
 	<li>''Because you may be smart, but I've been smart longer.''</li>
