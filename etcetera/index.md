@@ -4,7 +4,7 @@ This is the rest. Things I wanted to keep on this website but didn't really fit 
 
 ## Quotations
 
-My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's lastname, year, and title.
+My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For movie quotes, I order them according to the actor's last name.
 
 <div style="text-align: justify">
    <ul>
@@ -24,6 +24,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<p>Thought by Colin Singleton, in John Green's <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
 	<li>''Sometimes it seems the universe wants to be noticed.''</li>
 	<p>Mr. Lancaster quoting his college mah teacher, in John Green's <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
+	<li>It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.</li>
+	<p>Obi-Wan "Ben" Kenobi (Alec Guiness), in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
 	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
 	</li>
     	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
