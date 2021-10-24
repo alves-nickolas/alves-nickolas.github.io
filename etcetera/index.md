@@ -29,7 +29,7 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<li>''Sometimes it seems the universe wants to be noticed.''</li>
 	<p>Mr. Lancaster quoting his college mah teacher, in John Green's <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	<li>It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.</li>
-	<p>Obi-Wan "Ben" Kenobi (Alec Guiness), in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
+	<p>Obi-Wan "Ben" Kenobi (Alec Guiness) on the Force, in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
 	<li>Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.</li>
 	<p>Stephen W. Hawking, in Particle Creation by Black Holes. <i>Communications in Mathematical Physics</i> <b>43</b>, 199–220 (1975). doi: <a href="https://doi.org/10.1007/BF02345020" target="_blank">10.1007/BF02345020</a>.</p>
 	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
