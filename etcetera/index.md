@@ -28,6 +28,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<p>Mr. Lancaster quoting his college mah teacher, in John Green's <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	<li>It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.</li>
 	<p>Obi-Wan "Ben" Kenobi (Alec Guiness), in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
+	<li>Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.</li>
+	<p>Stephen W. Hawking, in Particle Creation by Black Holes. <i>Communications in Mathematical Physics</i> <b>43</b>, 199–220 (1975). doi: <a href="https://doi.org/10.1103/PhysRevD.13.191" target="_blank">10.1103/PhysRevD.13.191</a>.</p>
 	<li>''While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.''
 	</li>
     	<p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).
@@ -42,6 +44,10 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	</li>
     	<p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).
 </p>
+	<li>The fundamental issue addressed by weak cosmic censorship can be expressed in graphic terms by posing the following question: Could a mad scientist — with arbitrarily large, but finite, resources — destroy the universe?</li>
+	<p>Robert M. Wald, in "Weak" Cosmic Censorship. <i>PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association</i> <b>1992</b>, 181–190 (1992). doi: <a href="https://doi.org/10.1086/
+psaprocbienmeetp.1992.2.192834" target="_blank">10.1086/
+psaprocbienmeetp.1992.2.192834</a>.</p>
 	<li>[O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain — in terms of a few fundamental principles — why the world is the way it is.</li>
 	<p>Steven Weinberg, in <em>The Quantum Theory of Fields Vol. 1: Foundations</em> (Cambridge University Press, Cambridge, 1995).</p>
 	<li>''Quantum field theory arose out of our need to describe the ephemeral nature of life.''</li>
