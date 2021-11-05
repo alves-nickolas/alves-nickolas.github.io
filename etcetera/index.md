@@ -16,6 +16,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 		"I haven't the slightest idea," said the Hatter.<br>
 		"Nor I," said the March Hare.</li>
 	<p>A piece of a conversation between Alice, the Mad Hatter and the March Hare, in Lewis Carroll's <em>Alice's Adventures in Wonderland</em>.</p>
+	<li>The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.</li>
+	<p>Sidney Coleman, in <em>Quantum Field Theory: Lectures of Sidney Coleman</em>, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).</p>
 	<li>One can find thousands of statements in the literature to the effect that "general relativity and quantum mechanics are incompatible". These are completely outdated and no longer relevant.</li>
 	<p>John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. <i>AIP Conference Proceedings</i> <b>1483</b>,73–94 (2012). doi: <a href="https://doi.org/10.1063/1.4756964" target="_blank">10.1063/1.4756964</a>.</p>
 	<li>Toto, I have a feeling we’re not in Kansas anymore.</li>
