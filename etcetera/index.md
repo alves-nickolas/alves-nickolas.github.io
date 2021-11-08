@@ -4,13 +4,15 @@ This is the rest. Things I wanted to keep on this website but didn't really fit 
 
 ## Quotations
 
-My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For movie quotes, I order them according to the actor's last name.
+My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For quotes from movies or TV series, I order them according to the actor's last name.
 
 <div style="text-align: justify">
    <ul>
 	<li>Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution.<br> 
 		So is it with all conclusions from local relativistic field theories.</li>
 	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
+	<li>You have no idea how high I can fly.</li>
+    <p>Michael G. Scott (Steve Carrell), in <a href="https://www.imdb.com/title/tt0386676/" target="_blank">The Office<a>, Season 05, Episode 21.</p>
 	<li>"Have you guessed the riddle yet?" the Hatter said, turning to Alice again.<br>  
 		"No, I give it up," Alice replied. "What's the answer?"<br>
 		"I haven't the slightest idea," said the Hatter.<br>
@@ -21,7 +23,7 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<li>One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.</li>
 	<p>John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. <i>AIP Conference Proceedings</i> <b>1483</b>,73–94 (2012). doi: <a href="https://doi.org/10.1063/1.4756964" target="_blank">10.1063/1.4756964</a>.</p>
 	<li>Toto, I have a feeling we’re not in Kansas anymore.</li>
-	<p>Dorothy (Judy Garland), in <a href="https://www.imdb.com/title/tt0032138/" target="_blank">The Wizard of Oz</a>.</p>
+	<p>Dorothy Gale (Judy Garland), in <a href="https://www.imdb.com/title/tt0032138/" target="_blank">The Wizard of Oz</a>.</p>
 	<li>It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.</li>
 	<p>Robert Geroch, in <em>Mathematical Physics</em> (University of Chicago Press, Chicago, 1985).</p>
 	<li>Because you may be smart, but I've been smart longer.</li>
