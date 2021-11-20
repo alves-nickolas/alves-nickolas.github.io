@@ -53,6 +53,22 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
    </ul>
 </div>
 
+## Star Trek Quotations
+
+I started watching [Star Trek: The Next Generation](https://www.imdb.com/title/tt0092455/) a while ago and I've been taking notes of way too many quotes to keep them alongside the other ones. All of the following come from ST:TNG and I organize them by season and episode, instead of following the alphabetical patterns of the previous section.
+
+<div style="text-align: justify">
+   <ul>
+	<li>Things are only impossible until they're not!</li>
+	<p>Captain Jean-Luc Picard. S01E17: "When the Bough Breaks".</p>
+	<li>There is still much to do. Still so much to learn.</li>
+	<p>Captain Jean-Luc Picard. S01E26: "The Neutral Zone".</p>
+	<li>Captain, the most elementary and valuable statement in science, the beginning of wisdom is "I do not know". I do not know what that is, sir.</li>
+	<p>Lt. Commander Data. S02E02: "Where Silence Has Lease".</p>
+   </ul>
+</div>
+
+
 ## Questionable Quotations
 
 Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I have no clue whether any of these were actually said. 
