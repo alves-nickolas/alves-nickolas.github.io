@@ -51,6 +51,9 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<li>While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.</li>
     <p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).</p>
 	
+	<li>The fix is to learn quantum field theory.</li>
+	<p><a href="https://physics.stackexchange.com/users/83398/knzhou" target="_blank">knzhou</a>, in an answer to <a href="https://physics.stackexchange.com/q/279483/168783" target="_blank">Does collapse of wave function to a momentum eigenstate violate speed of light restriction?</a>.</p>
+	
 	<li>The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.</li>
 	<p>Arnold Sommerfeld, in <em>Partial Differential Equations in Physics</em> (Academic Press, New York, 1949).</p>
 	
@@ -59,6 +62,9 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	
 	<li>Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.</li>
     <p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).</p>
+	
+	<li>It is well known that the exercise of logic never <em>adds</em> to our knowledge: its role is to make a certain aspect of that knowledge clearer or more explicit, while keeping all the rest conveniently out of our sight.</li>
+	<p>Tommaso Toffoli, in "Entropy? Honest!". <i>Entropy</i> <b>18</b>, 247 (2016). doi: <a href="https://doi.org/10.3390/e18070247 " target="_blank">10.3390/e18070247</a>.</p>
 	
 	<li>The fundamental issue addressed by weak cosmic censorship can be expressed in graphic terms by posing the following question: Could a mad scientist — with arbitrarily large, but finite, resources — destroy the universe?</li>
 	<p>Robert M. Wald, in "Weak" Cosmic Censorship. <i>PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association</i> <b>1992</b>, 181–190 (1992). doi: <a href="https://doi.org/10.1086/psaprocbienmeetp.1992.2.192834" target="_blank">10.1086/psaprocbienmeetp.1992.2.192834</a>.</p>
