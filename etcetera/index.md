@@ -100,9 +100,11 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
 
 <div style="text-align: justify">
    <ul>
-	<li>''Les papillons sont le seule chose importante...''</li>
-	<p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz answer? ''The butterflies are the only important thing...''
+	<li>Les papillons sont le seule chose importante...</li>
+	<p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz's answer? ''The butterflies are the only important thing...''
 </p>
+	<li>I can't stay up that late.</li>
+	<p>Attributed to Sidney Coleman, refusing to teach a 9 a.m. class. As quoted on his <a href='https://news.harvard.edu/gazette/story/2007/11/sidney-coleman-dies-at-70/' target="_blank">obituary at The Harvard Gazette</a>.</p>
 	</ul>
 </div>
 
