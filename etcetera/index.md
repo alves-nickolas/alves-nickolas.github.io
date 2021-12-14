@@ -52,6 +52,8 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 	<p>Robert M. Wald, in "Weak" Cosmic Censorship. <i>PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association</i> <b>1992</b>, 181–190 (1992). doi: <a href="https://doi.org/10.1086/psaprocbienmeetp.1992.2.192834" target="_blank">10.1086/psaprocbienmeetp.1992.2.192834</a>.</p>
 	<li>[O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain — in terms of a few fundamental principles — why the world is the way it is.</li>
 	<p>Steven Weinberg, in <em>The Quantum Theory of Fields Vol. 1: Foundations</em> (Cambridge University Press, Cambridge, 1995).</p>
+	<li>To the wonderful teachers, students, and colleagues who have inspired and guided me over the years;<br>and<br>to the still unknown person(s) who will further illuminate the magic of this strange and beautiful world of ours by discovering How come the quantum? How come existence?<br><em>We will first understand how simple the universe is when we recognize how strange it is.</em></li>
+	<p>John Archibald Wheeler (with Kenneth Ford), in <em>Geons, Black Holes, and Quantum Foam: A Life in Physics</em> (W. W. Norton & Company, New York, 2000).</p>
 	<li>Quantum field theory arose out of our need to describe the ephemeral nature of life.</li>
 	<p>Antony Zee, in <em>Quantum Field Theory in a Nutshell</em> (Princeton University Press, Princeton, 2010).</p>
    </ul>
