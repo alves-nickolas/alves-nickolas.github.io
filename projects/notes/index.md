@@ -2,6 +2,10 @@
 
 Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
+## [Vector Calculus from a Geometrical Perspective](https://alves-nickolas.github.io/pdf/Vector_Calculus_from_DiffGeo.pdf)
+
+This document is a brief exercise on Differential Geometry aimed at proving the usual expressions of vector calculus in curvilinear coordinates by employing Differential Geometry techniques. The current version only considers cylindrical coordinates (and does not include the vector Laplacian), but I might do spherical coordinates sometime and maybe some less usual coordinate system.
+
 ## [Geometric Methods of Theoretical Physics](https://alves-nickolas.github.io/pdf/Geometric_Methods_of_Theoretical_Physics.pdf)
 
 Years ago I convinced myself that one of the main issues of an undergraduate course in Physics was the major risk that someone could graduate without being exposed to some Differential Geometry. As a relativist, I’m certainly have a few personal reasons to believe that, but I also believe Differential Geometry is a powerful tool in Theoretical Physics even if we pretend to forget about its role in General Relativity. For example, it can give us deep insights in Classical Mechanics, Thermodynamics, Electrodynamics, and certainly in even more cases. Eventually, I got the courage to start putting together a course in Differential Geometry for physicists. These notes are the current draft of what I'd like to put in such a course.
