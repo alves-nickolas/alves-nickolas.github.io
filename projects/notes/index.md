@@ -2,6 +2,11 @@
 
 Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
+
+## [Stress-Energy Tensor for a Scalar Field](https://alves-nickolas.github.io/pdf/Stress_Energy_Momentum_Tensor_for_a_Scalar_Field.pdf)
+
+This is a computation of the stress-energy-momentum tensor for a scalar field with non-minimal coupling to the background curved spacetime. The goal is mainly to keep the result ready at hand when I need it again in the future, so parts of the computation come from references instead of being redone entirely.
+
 ## [Vector Calculus from a Geometrical Perspective](https://alves-nickolas.github.io/pdf/Vector_Calculus_from_DiffGeo.pdf)
 
 This document is a brief exercise on Differential Geometry aimed at proving the usual expressions of vector calculus in curvilinear coordinates by employing Differential Geometry techniques. The current version only considers cylindrical coordinates (and does not include the vector Laplacian), but I might do spherical coordinates sometime and maybe some less usual coordinate system.
