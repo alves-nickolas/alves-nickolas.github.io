@@ -1,6 +1,6 @@
 # Notes
 
-Here you can find many document's I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
+Here you can find many documents I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
 
 ## [Stress-Energy Tensor for a Scalar Field](https://alves-nickolas.github.io/pdf/Stress_Energy_Momentum_Tensor_for_a_Scalar_Field.pdf)
