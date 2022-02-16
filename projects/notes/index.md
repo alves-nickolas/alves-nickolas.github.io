@@ -39,7 +39,6 @@ Estas são notas de aula para um minicurso ministrado durante a [III Escola Jaym
 Estas notas de aula foram desenvolvidas para o minicurso “Introdução ao LaTeX”, ofertado nos dias 10 e 12 de novembro de 2020 como parte da [XV Semana Temática de Oceanografia](https://www.sto2020.com.br/). No curso, pretendeu-se apresentar a linguagem LaTeX para a escrita de documentos a partir de seus princípios básicos. Ao longo do minicurso, pretendeu-se mostrar o processo de escrita de um artigo científico em LaTeX, contando com exemplos de uso de pacotes e práticas úteis para profissionais das áreas das Ciências Exatas. Não foram assumidos conhecimentos prévios e o único requisito técnico é um computador com acesso a internet.
 
 ## [Minicurso DPS 2020: Mecânica Clássica](https://alves-nickolas.github.io/pdf/Mecânica_Clássica.pdf)
-### Temporariamente Indisponível
 
 Estas são as notas de aula para um minicurso ministrado virtualmente aos estudantes de graduação do Instituto de Física da Universidade de São Paulo durante as férias de inverno do ano de 2020. Elas são uma introdução às formulações Lagrangeana e Hamiltoniana da Mecânica Clássica e incluem uma breve introdução à equação de Hamilton-Jacobi.
 
