@@ -3,6 +3,10 @@
 Here you can find many documents I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
 
 
+## [Técnicas de Demonstração](https://alves-nickolas.github.io/pdf/Técnicas_de_Demonstração.pdf)
+
+Este documento é uma breve introdução às principais técnicas de demonstrações matemáticas para estudantes de Física. É recomendada uma exposição prévia a alguns assuntos de Cálculo (como a definição formal de limite), mas o texto tem o objetivo de ser tão autocontido quanto possível. A princípio são estudadas, por meio de exemplos utilizando números inteiros, as técnicas de prova direta, por absurdo, por contrapositiva e por indução, além de alguns símbolos comuns em demonstrações matemáticas. A seguir, algumas destas técnicas são utilizadas para mostrar como os procedimentos usuais de cálculo de limites se relacionam com a definição formal.
+
 ## [Stress-Energy Tensor for a Scalar Field](https://alves-nickolas.github.io/pdf/Stress_Energy_Momentum_Tensor_for_a_Scalar_Field.pdf)
 
 This is a computation of the stress-energy-momentum tensor for a scalar field with non-minimal coupling to the background curved spacetime. The goal is mainly to keep the result ready at hand when I need it again in the future, so parts of the computation come from references instead of being redone entirely.
