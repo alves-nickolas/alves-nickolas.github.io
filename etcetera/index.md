@@ -40,6 +40,9 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
     <p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).</p>
 	<li>The fix is to learn quantum field theory.</li>
 	<p><a href="https://physics.stackexchange.com/users/83398/knzhou" target="_blank">knzhou</a>, in an answer to <a href="https://physics.stackexchange.com/q/279483/168783" target="_blank">Does collapse of wave function to a momentum eigenstate violate speed of light restriction?</a>.</p>
+	<li>This life in the stars is all I've ever known<\br>
+	Stars and stardust in infinite space is my only home</li>
+    	<p>Greg Universe (Tom Scharpling), in <a href="https://www.imdb.com/title/tt3061046/" target="_blank"><em>Steven Universe</em>, S01E49: "Story for Steven"</a>.</p>
 	<li>The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.</li>
 	<p>Arnold Sommerfeld, in <em>Partial Differential Equations in Physics</em> (Academic Press, New York, 1949).</p>
 	<li>Isn’t it surprising that we can do physics at all?</li>
