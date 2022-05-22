@@ -2,6 +2,13 @@
 
 I've given a number of seminars throughout the years. This is an incomplete list of them, accompanied by lecture notes and/or slideshows whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page. As usual, the description is given in the same language as the material provided.
 
+## Por Que As Coisas Caem?
+
+**Abstract:** Algumas perguntas em Física Fundamental são tão simples e profundas que há milênios são perguntadas por todos, mas ainda seguem sem uma resposta plenamente satisfatória. O que é o tempo? Do que as coisas são feitas? Por que elas caem? Nesta apresentação, vamos discutir algumas das visões mais recentes sobre estas perguntas e, em especial, como o formalismo da Teoria Quântica de Campos em Espaços-Tempos Curvos nos ajuda a entender melhor a terceira.
+
+**Data:** 19 de maio de 2022.
+
+Seminário apresentado durante a Recepção Tensorial de 2022 no IFUSP, organizada pela [Dead Physicists Society](https://lambdadps.github.io). As notas do seminário podem ser encontradas [aqui](https://alves-nickolas.github.io/seminars/Por_que_as_coisas_caem_.pdf) e os desenhos feitos no Xournal++ podem ser encontrados [aqui](https://alves-nickolas.github.io/seminars/por_que_as_coisas_caem-xournal.pdf).
 
 ## Grand Unified Theories
 
