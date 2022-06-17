@@ -16,6 +16,11 @@ Estas são as informações das aulas de Técnicas de Demonstrações que eu min
 
 Estas são as referências principais que guiarão o curso. A bibliografia completa estará nas notas de aula.
 
+* Tao, Terence (2016). *Analysis I*. Singapore: Springer. 
+* Milies, César Polcino e Sônia Pitta Coelho (2006). *Números: Uma Introdução à Matemática*. São Paulo: Edusp.
+* Notas de aula.
+
+
 <div style="text-align: justify">
  <ul>
    <li> Tao, Terence (2016). <i>Analysis I</i>. Singapore: Springer. </li>
