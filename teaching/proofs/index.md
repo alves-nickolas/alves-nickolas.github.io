@@ -25,3 +25,4 @@ Estas são as referências principais que guiarão o curso. A bibliografia compl
 </div>
 
 **Notas de aula:** disponíveis [neste link](https://alves-nickolas.github.io/pdf/Técnicas_de_Demonstração.pdf).
+**Gravações das aulas:** disponíveis [neste link](https://youtube.com/playlist?list=PLUtepDnpw2tNwGf5waaIHTmUAoedAqRpD).
