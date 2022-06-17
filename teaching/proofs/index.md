@@ -20,15 +20,6 @@ Estas são as referências principais que guiarão o curso. A bibliografia compl
 * Milies, César Polcino e Sônia Pitta Coelho (2006). *Números: Uma Introdução à Matemática*. São Paulo: Edusp.
 * Notas de aula.
 
-
-<div style="text-align: justify">
- <ul>
-   <li> Tao, Terence (2016). <i>Analysis I</i>. Singapore: Springer. </li>
-   <li> Milies, César Polcino e Sônia Pitta Coelho (2006). <i>Números: Uma Introdução à Matemática</i>. São Paulo: Edusp.</li>
-   <li> Notas de aula. </li>
- </ul>
-</div>
-
 **Notas de aula:** disponíveis [neste link](https://alves-nickolas.github.io/pdf/Técnicas_de_Demonstração.pdf).
 
 **Gravações das aulas:** disponíveis [neste link](https://youtube.com/playlist?list=PLUtepDnpw2tNwGf5waaIHTmUAoedAqRpD).
