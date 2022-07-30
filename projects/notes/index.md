@@ -1,7 +1,10 @@
 # Notes
 
-Here you can find many documents I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the events' websites.
+Here you can find many documents I've written across the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, while some were study notebooks written just for the sake of it and could be useful for someone. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the pdfs. The documents not currently available are absent due to some personal reason, but I might be willing to share them upon request (and I might not).
 
+## [Clifford Algebras and Rotations](https://alves-nickolas.github.io/pdf/Clifford_Algebras_and_Rotations.pdf)
+
+This is a study notebook on Clifford algebras, rotations, spin groups, and related topics. It was written as a way of keeping up with my studies on these subjects. The discussion begins with some properties of ordinary three-dimensional rotations and proceeds towards issues, such as gimbal lock, solves them by representing rotations in terms of quaternions, and uses this as motivation to define more general Clifford algebras, spin groups, and so on. Some familiarity with topology and Lie groups is assumed.
 
 ## [Técnicas de Demonstração](https://alves-nickolas.github.io/pdf/Técnicas_de_Demonstração.pdf)
 
