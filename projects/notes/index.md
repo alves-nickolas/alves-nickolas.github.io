@@ -26,10 +26,10 @@ Years ago I convinced myself that one of the main issues of an undergraduate cou
 
 This document is a collection of computations of Penrose diagrams in a few spacetimes of interest (Minkowski, Schwarschild, and three different FLRW cosmologies). I wrote it to get acquainted with computing of Penrose diagrams in General Relativity. The only essential prerequisite should be a basic knowledge of General Relativity, but I tried to leave indications of where a few subjects are covered in Wald's and Hawking & Ellis' books.
 
-## Semiclassical Gravity
+## Non-Perturbative Aspects of Quantum and Semiclassical Gravity
 ### Not Currently Available
 
-I've been writing these notes as a way to organize some of my studies for my MSc project. While writing these, I'm interested in learning how to describe quantum fields in the presence of a classical gravitation field, which is a framework commonly known as Quantum Field Theory in Curved Spacetime or Semiclassical Gravity. This is the main subject of these notes, which assume reasonable familiarity with both General Relativity and Quantum Field Theory in flat spacetime. As I'm still starting this quest, the material currently covered deals mostly with a review on quantization of a classical theory with finitely many degrees of freedom.
+I've been writing these notes as a way to organize my literature review for my MSc project. While writing these, I'm interested in learning how to describe quantum fields in the presence of a classical gravitational field, which is a framework commonly known as Quantum Field Theory in Curved Spacetime. This is the main subject of these notes, which assume reasonable familiarity with both General Relativity and Quantum Field Theory in flat spacetime. It also covers the main ideas behind the Functional Renormalization Group, which is the main tool in my current project. 
 
 ## Hyperbolic Equations
 ### Not Currently Available
