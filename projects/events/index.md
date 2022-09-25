@@ -1,6 +1,6 @@
 # Events
 
-Here you may find a few of the events I've helped organized or have been working on throughout my years in Physics. Most of these (actually, while I'm writing this, all of them) are in Portuguese and some are in English (not really). I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites (unfortunately, some of them are no longer on the web, so there might be dead links).
+Here you may find a few of the events I've helped organized or have been working on throughout my years in Physics. Most of these (actually, while I'm writing this, all of them) are in Portuguese and some are in English (not really). I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Notice also that, unfortunately, some of the websites were hosted on a server I no longer have access to, and hence there might be a few dead links around here.
 
 ## Recepção Tensorial
 
@@ -33,7 +33,7 @@ Com a vinda das férias, as atividades acadêmicas dos alunos de graduação do 
 
 Para isso, organizamos alguns workshops de Física, Computação e Matemática voltados a alunos de graduação. Cada workshop teve um objetivo diferente no contexto dos cursos de graduação do IFUSP, variando do ensino de ferramentas cujo domínio é um grande facilitador dos cursos à divulgação de áreas de pesquisa para alunos que procuram ingressar brevemente em uma área de pós-graduação.
 
-Fui o principal organizador da [primeira edição](http://fma.if.usp.br/~nickolas/jayme/2018/index.html) da Escola, auxiliado por Wilson Maruyama Santos de Paula, e dividi a organização da [segunda edição](http://fma.if.usp.br/~nickolas/jayme/2019/index.html) com Pedro Henrique Trajano Lemos Tredezini. Também auxiliei menos intensamente as organizações da [terceira](https://lambdadps.github.io/jayme/2021/) e [quarta](https://lambdadps.github.io/jayme/2022/) edições.
+Fui o principal organizador da [primeira edição](http://fma.if.usp.br/~nickolas/jayme/2018/index.html) da Escola, auxiliado por Wilson Maruyama Santos de Paula, e dividi a organização da [segunda edição](http://fma.if.usp.br/~nickolas/jayme/2019/index.html) com Pedro Henrique Trajano Lemos Tredezini. Também auxiliei (bem menos intensamente) as organizações da [terceira](https://lambdadps.github.io/jayme/2021/) e [quarta](https://lambdadps.github.io/jayme/2022/) edições.
 
 ## [Mini Escola de Inverno da Dead Physicists Society](http://fma.if.usp.br/~nickolas/dps/miniescola/index.html)
 
