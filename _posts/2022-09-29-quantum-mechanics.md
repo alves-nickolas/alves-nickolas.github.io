@@ -1,7 +1,7 @@
 
 ---
 layout: post
-author: níck
+author: Nìck
 language: en 
 ---
 
