@@ -4,22 +4,28 @@ This is the rest. Things I wanted to keep on this website but didn't really fit 
 
 ## Quotations
 
-My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For quotes from movies or TV series, I order them according to the actor's last name.
+My old website already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For quotes from movies or TV series, I order them according to the actor's last name.
 
+
+* Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution.  
+  So is it with all conclusions from local relativistic field theories.
+  
+  James D. Bjorken and Sidney D. Drell, in *Relativistic Quantum Fields* (McGraw-Hill, New York, 1965).
+* You have no idea how high I can fly.
+  
+  Michael G. Scott (Steve Carrell), in [*The Office*, S05E20: "New Boss"](https://www.imdb.com/title/tt1248741/).
+* "Have you guessed the riddle yet?" the Hatter said, turning to Alice again.  
+  "No, I give it up," Alice replied. "What's the answer?"  
+  "I haven't the slightest idea," said the Hatter.  
+  "Nor I," said the March Hare.
+  
+  A piece of a conversation between Alice, the Mad Hatter and the March Hare, in Lewis Carroll's *Alice's Adventures in Wonderland*.
+* The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.
+ 
+  Sidney Coleman, in *Quantum Field Theory: Lectures of Sidney Coleman*, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).
+  
 <div style="text-align: justify">
    <ul>
-	<li>Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution.<br> 
-		So is it with all conclusions from local relativistic field theories.</li>
-	<p>James D. Bjorken and Sidney D. Drell, in <em>Relativistic Quantum Fields</em> (McGraw-Hill, New York, 1965).</p>
-	<li>You have no idea how high I can fly.</li>
-    	<p>Michael G. Scott (Steve Carrell), in <a href="https://www.imdb.com/title/tt1248741/" target="_blank"><em>The Office</em>, S05E20: "New Boss"</a>.</p>
-	<li>"Have you guessed the riddle yet?" the Hatter said, turning to Alice again.<br>  
-		"No, I give it up," Alice replied. "What's the answer?"<br>
-		"I haven't the slightest idea," said the Hatter.<br>
-		"Nor I," said the March Hare.</li>
-	<p>A piece of a conversation between Alice, the Mad Hatter and the March Hare, in Lewis Carroll's <em>Alice's Adventures in Wonderland</em>.</p>
-	<li>The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.</li>
-	<p>Sidney Coleman, in <em>Quantum Field Theory: Lectures of Sidney Coleman</em>, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).</p>
 	<li>One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.</li>
 	<p>John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. <i>AIP Conference Proceedings</i> <b>1483</b>,73–94 (2012). doi: <a href="https://doi.org/10.1063/1.4756964" target="_blank">10.1063/1.4756964</a>.</p>
 	<li>Toto, I have a feeling we’re not in Kansas anymore.</li>
@@ -72,17 +78,6 @@ My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotat
 
 I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blank"><em>Star Trek: The Next Generation</em></a> a while ago and I've been taking notes of way too many quotes to keep them alongside the other ones. All of the following come from ST:TNG and I organize them by season and episode, instead of following the alphabetical patterns of the previous section. 
 
-<div style="text-align: justify">
-   <ul>
-	<li>Things are only impossible until they're not!</li>
-	<p>Captain Jean-Luc Picard. <a href="https://www.imdb.com/title/tt0708841/" target="_blank">S01E16: "When the Bough Breaks"</a>.</p>
-	<li>There is still much to do. Still so much to learn.</li>
-	<p>Captain Jean-Luc Picard. <a href="https://www.imdb.com/title/tt0708811/" target="_blank">S01E25: "The Neutral Zone"</a>.</p>
-	<li>Captain, the most elementary and valuable statement in science, the beginning of wisdom is "I do not know". I do not know what that is, sir.</li>
-	<p>Lt. Commander Data. <a href="https://www.imdb.com/title/tt0708843/" target="_blank">S02E02: "Where Silence Has Lease"</a>.</p>
-   </ul>
-</div>
-
 * Things are only impossible until they're not!
   
   Captain Jean-Luc Picard. [S01E16: "When the Bough Breaks"](https://www.imdb.com/title/tt0708841/).  
@@ -102,7 +97,7 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   P: There's no greater challenge than the study of philosophy.  
   W: But William James won't be on my Starfleet exams.  
   P: The important things never will be. Anyone can be trained in the mechanics of piloting a starship.  
-  W: But Starfleet Academy...  
+  W: But Starfleet Academy…  
   P: It takes more. Open your mind to the past—art, history, philosophy—and all this may mean something.  
   
   [S02E17: "Samaritan Snare"](https://www.imdb.com/title/tt0708768/).
