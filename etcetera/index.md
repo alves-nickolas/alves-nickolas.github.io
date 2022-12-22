@@ -40,7 +40,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
   Thought by Colin Singleton, in John Green's *An Abundance of Katherines* (Penguin Books, New York, 2006).
 * Sometimes it seems the universe wants to be noticed.
   
-  Mr. Lancaster quoting his college mah teacher, in John Green's *The Fault in Our Stars* (Penguin Books, New York, 2012).
+  Mr. Lancaster quoting his college math teacher, in John Green's *The Fault in Our Stars* (Penguin Books, New York, 2012).
 * It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.
   
   Obi-Wan "Ben" Kenobi (Alec Guiness) on the Force, in [Star Wars: Episode IV—A New Hope](https://www.imdb.com/title/tt0076759/).
@@ -110,15 +110,29 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   Captain Jean-Luc Picard. [S02E16: "Q Who"](https://www.imdb.com/title/tt0708758/).  
 * Captain Jean-Luc Picard: Did you read that book I gave you?  
   Ensign Wesley Crusher: Some of it.  
-  P: That's reassuring.  
-  W: I just don't have much time.  
+  Picard: That's reassuring.  
+  Crusher: I just don't have much time.  
   P: There's no greater challenge than the study of philosophy.  
-  W: But William James won't be on my Starfleet exams.  
+  C: But William James won't be on my Starfleet exams.  
   P: The important things never will be. Anyone can be trained in the mechanics of piloting a starship.  
-  W: But Starfleet Academy…  
+  C: But Starfleet Academy…  
   P: It takes more. Open your mind to the past—art, history, philosophy—and all this may mean something.  
   
   [S02E17: "Samaritan Snare"](https://www.imdb.com/title/tt0708768/).
+* And Commander, it is possible to commit no mistakes and still lose. That is not a weakness. That is life. 
+
+  Jean-Luc Picard. [S2E21 Peak Performance](https://www.imdb.com/title/tt0708753/).
+* Counselor Deanna Troi: One cannot deny human nature. What kind of a man is Commander Riker?  
+  Lt. Commander Data: A fighter?  
+  Troi: Yes.  
+  Data: The weaker his position, the more aggressive will be his posture.  
+  T: And he won't give up.  
+  D: Then, despite whatever options he is given, he must be…  
+  T: The man that he is. Exactly.  
+  D: Is that a failing in humans?  
+  T: You'll have to decide that for yourself. 
+
+  [S2E21 Peak Performance](https://www.imdb.com/title/tt0708753/).
 
 ## Questionable Quotations
 
