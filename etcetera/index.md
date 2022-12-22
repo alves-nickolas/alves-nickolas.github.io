@@ -4,7 +4,7 @@ This is the rest. Things I wanted to keep on this website but didn't really fit 
 
 ## Quotations
 
-My [old website](http://fma.if.usp.br/~nickolas/) already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For quotes from movies or TV series, I order them according to the actor's last name.
+My old website already had a space for quotations in its Et cetera tab, but none of them had any sources. This time I'm gonna try to be more rigorous with these references, despite liking many quotations that are probably apocryphal. They are ordered according to the author's last name, year, and title. For quotes from movies or TV series, I order them according to the actor's last name.
 
 <div style="text-align: justify">
    <ul>
@@ -83,6 +83,29 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
    </ul>
 </div>
 
+* Things are only impossible until they're not!
+  
+  Captain Jean-Luc Picard. [S01E16: "When the Bough Breaks"](https://www.imdb.com/title/tt0708841/).  
+* There is still much to do. Still so much to learn.
+  
+  Captain Jean-Luc Picard. [S01E25: "The Neutral Zone"](https://www.imdb.com/title/tt0708811/).  
+* Captain, the most elementary and valuable statement in science, the beginning of wisdom is "I do not know". I do not know what that is, sir.
+  
+  Lt. Commander Data. [S02E02: "Where Silence Has Lease"](https://www.imdb.com/title/tt0708843/).  
+* Well, perhaps what we most needed was a kick in our complacency, to prepare us for what lies ahead. 
+  
+  Captain Jean-Luc Picard. [S02E16: "Q Who"](https://www.imdb.com/title/tt0708758/).  
+* Captain Jean-Luc Picard: Did you read that book I gave you?
+  Ensign Wesley Crusher: Some of it.
+  P: That's reassuring.
+  W: I just don't have much time.
+  P: There's no greater challenge than the study of philosophy.
+  W: But William James won't be on my Starfleet exams.
+  P: The important things never will be. Anyone can be trained in the mechanics of piloting a starship.
+  W: But Starfleet Academy...
+  P: It takes more. Open your mind to the past—art, history, philosophy—and all this may mean something.
+  
+  [S02E17: "Samaritan Snare"](https://www.imdb.com/title/tt0708768/).  
 
 ## Questionable Quotations
 
