@@ -23,21 +23,27 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.
  
   Sidney Coleman, in *Quantum Field Theory: Lectures of Sidney Coleman*, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).
+* One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.
+  
+  John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. *AIP Conference Proceedings* **1483**, 73–94 (2012). doi: [10.1063/1.4756964](https://doi.org/10.1063/1.4756964).
+* Toto, I have a feeling we’re not in Kansas anymore.
+  
+  Dorothy Gale (Judy Garland), in [*The Wizard of Oz*](https://www.imdb.com/title/tt0032138/). This is not a line from the book!
+* It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.
+  
+  Robert Geroch, in *Mathematical Physics* (University of Chicago Press, Chicago, 1985).
+* Because you may be smart, but I've been smart longer.
+  
+  Dr. Hyde, in John Green's *Looking for Alaska* (Penguin Books, New York, 2005).
+* Would Ovid still had been Ovid if he had lived in America? […] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?
+  
+  Thought by Colin Singleton, in John Green's *An Abundance of Katherines* (Penguin Books, New York, 2006).
+* Sometimes it seems the universe wants to be noticed.
+  
+  Mr. Lancaster quoting his college mah teacher, in John Green's *The Fault in Our Stars* (Penguin Books, New York, 2012).
   
 <div style="text-align: justify">
    <ul>
-	<li>One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.</li>
-	<p>John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. <i>AIP Conference Proceedings</i> <b>1483</b>,73–94 (2012). doi: <a href="https://doi.org/10.1063/1.4756964" target="_blank">10.1063/1.4756964</a>.</p>
-	<li>Toto, I have a feeling we’re not in Kansas anymore.</li>
-	<p>Dorothy Gale (Judy Garland), in <a href="https://www.imdb.com/title/tt0032138/" target="_blank"><em>The Wizard of Oz</em></a>.</p>
-	<li>It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.</li>
-	<p>Robert Geroch, in <em>Mathematical Physics</em> (University of Chicago Press, Chicago, 1985).</p>
-	<li>Because you may be smart, but I've been smart longer.</li>
-	<p>Dr. Hyde, in John Green's <em>Looking for Alaska</em> (Penguin Books, New York, 2005).</p>   
-	<li>Would Ovid still had been Ovid if he had lived in America? [...] So did Ovid matter because he was Ovid or because he was born in Ancient Rome?</li>
-	<p>Thought by Colin Singleton, in John Green's <em>An Abundance of Katherines</em> (Penguin Books, New York, 2006).</p>
-	<li>Sometimes it seems the universe wants to be noticed.</li>
-	<p>Mr. Lancaster quoting his college mah teacher, in John Green's <em>The Fault in Our Stars</em> (Penguin Books, New York, 2012).</p>
 	<li>It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.</li>
 	<p>Obi-Wan "Ben" Kenobi (Alec Guiness) on the Force, in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
 	<li>Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.</li>
