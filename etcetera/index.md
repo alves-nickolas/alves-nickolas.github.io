@@ -41,44 +41,56 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * Sometimes it seems the universe wants to be noticed.
   
   Mr. Lancaster quoting his college mah teacher, in John Green's *The Fault in Our Stars* (Penguin Books, New York, 2012).
+* It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.
   
-<div style="text-align: justify">
-   <ul>
-	<li>It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.</li>
-	<p>Obi-Wan "Ben" Kenobi (Alec Guiness) on the Force, in <a href="https://www.imdb.com/title/tt0076759/" target="_blank">Star Wars: Episode IV — A New Hope</a>.</p>
-	<li>Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.</li>
-	<p>Stephen W. Hawking, in Particle Creation by Black Holes. <i>Communications in Mathematical Physics</i> <b>43</b>, 199–220 (1975). doi: <a href="https://doi.org/10.1007/BF02345020" target="_blank">10.1007/BF02345020</a>.</p>
-	<li>While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.</li>
-    <p>Sabine Hossenfelder, in <em>Lost in Math: How Beauty Leads Physics Astray</em> (Basic Books, New York, 2018).</p>
-	<li>The fix is to learn quantum field theory.</li>
-	<p><a href="https://physics.stackexchange.com/users/83398/knzhou" target="_blank">knzhou</a>, in an answer to <a href="https://physics.stackexchange.com/q/279483/168783" target="_blank">Does collapse of wave function to a momentum eigenstate violate speed of light restriction?</a>.</p>
-	<li>This life in the stars is all I've ever known<br>
-	Stars and stardust in infinite space is my only home</li>
-    	<p>Greg Universe (Tom Scharpling), in <a href="https://www.imdb.com/title/tt4603502/" target="_blank"><em>Steven Universe</em>, S01E49: "Story for Steven"</a>.</p>
-	<li>The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.</li>
-	<p>Arnold Sommerfeld, in <em>Partial Differential Equations in Physics</em> (Academic Press, New York, 1949).</p>
-	<li>Isn’t it surprising that we can do physics at all?</li>
-    <p>Kurt Sundermeyer, in <em>Symmetries in Fundamental Physics</em> (Springer, Cham, 2014).</p>
-	<li>Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.</li>
-    <p>Silvanus P. Thompson, in <em>Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus</em> (Macmillan, London, 1914).</p>
-	<li>It is well known that the exercise of logic never <em>adds</em> to our knowledge: its role is to make a certain aspect of that knowledge clearer or more explicit, while keeping all the rest conveniently out of our sight.</li>
-	<p>Tommaso Toffoli, in "Entropy? Honest!". <i>Entropy</i> <b>18</b>, 247 (2016). doi: <a href="https://doi.org/10.3390/e18070247 " target="_blank">10.3390/e18070247</a>.</p>
-	<li>The fundamental issue addressed by weak cosmic censorship can be expressed in graphic terms by posing the following question: Could a mad scientist — with arbitrarily large, but finite, resources — destroy the universe?</li>
-	<p>Robert M. Wald, in "Weak" Cosmic Censorship. <i>PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association</i> <b>1992</b>, 181–190 (1992). doi: <a href="https://doi.org/10.1086/psaprocbienmeetp.1992.2.192834" target="_blank">10.1086/psaprocbienmeetp.1992.2.192834</a>.</p>
-	<li>[S]emiclassically, an initial pure state will evolve to a mixed state. For reasons I have not been able to understand during the course of the past 40 years, this is widely viewed as being highly problematic. The conflict between this view and the semiclassical analysis is referred to as the <em>black hole information loss paradox</em>.</li>
-	<p>Robert M. Wald, in Particle and energy cost of entanglement of Hawking radiation with the final vacuum state. <i>Physical Review D</i> <b>100</b>, 065019 (2019). doi: <a href="https://doi.org/10.1103/PhysRevD.100.065019" target="_blank">10.1103/PhysRevD.100.065019</a>. arXiv: <a href="https://arxiv.org/abs/1908.06363" target="_blank">1908.06363 [gr-qc]</a>.</p>
-	<li>Quantum field theory is—as its name suggests—the quantum theory of fields. "Particles" do not play any fundamental role in the formulation of quantum field theory.</li>
-	<p>Robert M. Wald, in Particle and energy cost of entanglement of Hawking radiation with the final vacuum state. <i>Physical Review D</i> <b>100</b>, 065019 (2019). doi: <a href="https://doi.org/10.1103/PhysRevD.100.065019" target="_blank">10.1103/PhysRevD.100.065019</a>. arXiv: <a href="https://arxiv.org/abs/1908.06363" target="_blank">1908.06363 [gr-qc]</a>.</p>
-	<li>The above considerations allow us to answer the following question that has been asked for many centuries: What are electricity and magnetism? <em>Electricity and magnetism are the phenomena arising from the electromagnetic field and its coupling to charged fields. The electromagnetic field itself is a connection on a principal fiber bundle over spacetime with structure group</em> U(1).</li>
-	<p>Robert M. Wald, in <em>Advanced Classical Electromagnetism</em> (Princeton University Press, Princeton, 2022).</p>
-	<li>[O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain — in terms of a few fundamental principles — why the world is the way it is.</li>
-	<p>Steven Weinberg, in <em>The Quantum Theory of Fields Vol. 1: Foundations</em> (Cambridge University Press, Cambridge, 1995).</p>
-	<li>To the wonderful teachers, students, and colleagues who have inspired and guided me over the years; and to the still unknown person(s) who will further illuminate the magic of this strange and beautiful world of ours by discovering How come the quantum? How come existence?<br><em>We will first understand how simple the universe is when we recognize how strange it is.</em></li>
-	<p>John Archibald Wheeler (with Kenneth Ford), in <em>Geons, Black Holes, and Quantum Foam: A Life in Physics</em> (W. W. Norton & Company, New York, 2000).</p>
-	<li>Quantum field theory arose out of our need to describe the ephemeral nature of life.</li>
-	<p>Antony Zee, in <em>Quantum Field Theory in a Nutshell</em> (Princeton University Press, Princeton, 2010).</p>
-   </ul>
-</div>
+  Obi-Wan "Ben" Kenobi (Alec Guiness) on the Force, in [Star Wars: Episode IV—A New Hope](https://www.imdb.com/title/tt0076759/).
+* Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.
+  
+  Stephen W. Hawking, in Particle Creation by Black Holes. *Communications in Mathematical Physics* **43**, 199–220 (1975). doi: [10.1007/BF02345020](https://doi.org/10.1007/BF02345020).
+* While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.
+  
+  Sabine Hossenfelder, in *Lost in Math: How Beauty Leads Physics Astray* (Basic Books, New York, 2018).
+* The fix is to learn quantum field theory.
+  
+  [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
+* This life in the stars is all I've ever known  
+  Stars and stardust in infinite space is my only home
+  
+  Greg Universe (Tom Scharpling), in [*Steven Universe*, S01E49: "Story for Steven"](https://www.imdb.com/title/tt4603502/).
+* The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.
+  
+  Arnold Sommerfeld, in *Partial Differential Equations in Physics* (Academic Press, New York, 1949).
+* Isn’t it surprising that we can do physics at all?
+  
+  Kurt Sundermeyer, in *Symmetries in Fundamental Physics* (Springer, Cham, 2014).
+* Being myself a remarkably stupid fellow, I have had to unteach myself the difficulties, and now beg to present to my fellow fools the parts that are not hard. Master these thoroughly, and the rest will follow. What one fool can do, another can.
+  
+  Silvanus P. Thompson, in *Calculus Made Easy: Being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the Differential Calculus and the Integral Calculus* (Macmillan, London, 1914).
+* It is well known that the exercise of logic never *adds* to our knowledge: its role is to make a certain aspect of that knowledge clearer or more explicit, while keeping all the rest conveniently out of our sight.
+  
+  Tommaso Toffoli, in "Entropy? Honest!". *Entropy* **18**, 247 (2016). doi: [10.3390/e18070247](https://doi.org/10.3390/e18070247).
+* The fundamental issue addressed by weak cosmic censorship can be expressed in graphic terms by posing the following question: Could a mad scientist—with arbitrarily large, but finite, resources—destroy the universe?
+  
+  Robert M. Wald, in "Weak" Cosmic Censorship. *PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association* **1992**, 181–190 (1992). doi: [10.1086/psaprocbienmeetp.1992.2.192834](https://doi.org/10.1086/psaprocbienmeetp.1992.2.192834).
+* [S]emiclassically, an initial pure state will evolve to a mixed state. For reasons I have not been able to understand during the course of the past 40 years, this is widely viewed as being highly problematic. The conflict between this view and the semiclassical analysis is referred to as the *black hole information loss paradox*.
+  
+  Robert M. Wald, in Particle and energy cost of entanglement of Hawking radiation with the final vacuum state. *Physical Review D* **100**, 065019 (2019). doi: [10.1103/PhysRevD.100.065019](https://doi.org/10.1103/PhysRevD.100.065019). arXiv: [1908.06363 [gr-qc]](https://arxiv.org/abs/1908.06363).
+* Quantum field theory is—as its name suggests—the quantum theory of fields. "Particles" do not play any fundamental role in the formulation of quantum field theory.
+  
+  Robert M. Wald, in Particle and energy cost of entanglement of Hawking radiation with the final vacuum state. *Physical Review D* **100**, 065019 (2019). doi: [10.1103/PhysRevD.100.065019](https://doi.org/10.1103/PhysRevD.100.065019). arXiv: [1908.06363 [gr-qc]](https://arxiv.org/abs/1908.06363).
+* The above considerations allow us to answer the following question that has been asked for many centuries: What are electricity and magnetism? *Electricity and magnetism are the phenomena arising from the electromagnetic field and its coupling to charged fields. The electromagnetic field itself is a connection on a principal fiber bundle over spacetime with structure group* U(1).
+  
+  Robert M. Wald, in *Advanced Classical Electromagnetism* (Princeton University Press, Princeton, 2022).
+* [O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain—in terms of a few fundamental principles — why the world is the way it is.
+  
+  Steven Weinberg, in *The Quantum Theory of Fields Vol. 1: Foundations* (Cambridge University Press, Cambridge, 1995).
+* To the wonderful teachers, students, and colleagues who have inspired and guided me over the years; and to the still unknown person(s) who will further illuminate the magic of this strange and beautiful world of ours by discovering How come the quantum? How come existence?  
+  *We will first understand how simple the universe is when we recognize how strange it is.*
+  
+  John Archibald Wheeler (with Kenneth Ford), in *Geons, Black Holes, and Quantum Foam: A Life in Physics* (W. W. Norton & Company, New York, 2000).
+* Quantum field theory arose out of our need to describe the ephemeral nature of life.
+  
+  Antony Zee, in *Quantum Field Theory in a Nutshell* (Princeton University Press, Princeton, 2010).
 
 ## Star Trek Quotations
 
@@ -112,28 +124,20 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
 
 Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I have no clue whether any of these were actually said. 
 
-
-<div style="text-align: justify">
-   <ul>
-	<li>Les papillons sont le seule chose importante...</li>
-	<p>Attributed to Laurent Schwartz. I came across it reading <a href="http://www.hfleming.com/green.pdf" target="_blank">these</a> notes on Green's functions written by <a href="http://www.hfleming.com/" target="_blank">Prof. Henrique Fleming</a>. Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz's answer? ''The butterflies are the only important thing...''
-</p>
-	<li>I can't stay up that late.</li>
-	<p>Attributed to Sidney Coleman, refusing to teach a 9 a.m. class. As quoted on his <a href='https://news.harvard.edu/gazette/story/2007/11/sidney-coleman-dies-at-70/' target="_blank">obituary at The Harvard Gazette</a>.</p>
-	</ul>
-</div>
+* Les papillons sont le seule chose importante…
+  
+  Attributed to Laurent Schwartz. I came across it reading [these notes on Green's functions](http://www.hfleming.com/green.pdf) written by [Prof. Henrique Fleming](http://www.hfleming.com/). Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz's answer? ''The butterflies are the only important thing...''
+* I can't stay up that late.
+  
+  Attributed to Sidney Coleman, refusing to teach a 9 a.m. class. As quoted on [his obituary at The Harvard Gazette](https://news.harvard.edu/gazette/story/2007/11/sidney-coleman-dies-at-70/).
 
 
 ## Links
 
 Here are a few links that the readers of this website might find interesting.
 
-<div style="text-align: justify">
-   <ul>
-	   <li><a href="http://www.hfleming.com" target="_blank">Prof. Henrique Fleming's website</a> has excellent notes (mostly in Portuguese) concerning Physics and Mathematics which helped me numerous times.</li>
-	   <li>You can find amazing materials on Mathematical Physics at <a href="http://denebola.if.usp.br/" target="_blank">Prof. João C. A. Barata's website</a>. In particular, the comprehensive online book <em><a href="http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html" target="_blank">Notas para um Curso de Física-Matemática</a></em>.</li>
-	   <li>Ever wondered how can one study the whole Universe at once, or use gravitational waves to hear the Big Bang? Check out <a href="https://wwwmpa.mpa-garching.mpg.de/~tucci/" target="_blank">Beatriz Tucci's website</a> to learn more about GWs and Cosmology!</li>
-	   <li>How can rigorous mathematical methods help us understand statistical systems? Take a look at <a href="https://sites.google.com/view/thiagoraszeja/" target="_blank">Dr. Thiago Raszeja's webpage</a> to learn more about it and be sure to check the notes for his minicourse <em><a href="https://drive.google.com/file/d/1o27KhytxWNz_Q1wm5Z8xRgTq8V8bH7ez/view" target="_blank">An Introduction to C*-Algebras and KMS States for Physicists</a></em>!</li>
-	   <li><a href="http://www.damtp.cam.ac.uk/user/tong/teaching.html" target="_blank">Prof. David Tong's lecture notes</a> helped me on a multitude of advanced courses and I really wish I knew them sooner so I could also use them even back when I was studying the three laws of motion...</li>
-   </ul>
-</div>
+* [Prof. Henrique Fleming's website](http://www.hfleming.com) has excellent notes (mostly in Portuguese) concerning Physics and Mathematics which helped me numerous times.
+* You can find amazing materials on Mathematical Physics at [Prof. João C. A. Barata's website](http://denebola.if.usp.br/). In particular, the comprehensive online book [*Notas para um Curso de Física-Matemática*](http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html).
+* Ever wondered how can one study the whole Universe at once, or use gravitational waves to hear the Big Bang? Check out [Beatriz Tucci's website](https://wwwmpa.mpa-garching.mpg.de/~tucci/) to learn more about GWs and Cosmology!
+* How can rigorous mathematical methods help us understand statistical systems? Take a look at [Dr. Thiago Raszeja's webpage](https://sites.google.com/view/thiagoraszeja/) to learn more about it and be sure to check the notes for his minicourse [*An Introduction to C*-Algebras and KMS States for Physicists*](https://drive.google.com/file/d/1o27KhytxWNz_Q1wm5Z8xRgTq8V8bH7ez/view)!
+* [Prof. David Tong's lecture notes](http://www.damtp.cam.ac.uk/user/tong/teaching.html) helped me on a multitude of advanced courses and I really wish I knew them sooner so I could also use them even back when I was studying the three laws of motion…
