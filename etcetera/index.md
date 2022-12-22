@@ -63,6 +63,13 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.
   
   Arnold Sommerfeld, in *Partial Differential Equations in Physics* (Academic Press, New York, 1949).
+* Stoke's theorem shares three important attributes with
+many fully evolved major theorems:
+   1. It is trivial.
+   2. It is trivial because the terms appearing in it have been properly defined.
+   3. It has significant consequences.
+  
+  Michael Spivak, in *Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus* (CRC Press, Boca Raton, 2018).
 * Isn’t it surprising that we can do physics at all?
   
   Kurt Sundermeyer, in *Symmetries in Fundamental Physics* (Springer, Cham, 2014).
