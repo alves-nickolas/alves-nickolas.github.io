@@ -101,6 +101,10 @@ many fully evolved major theorems:
 * Quantum field theory arose out of our need to describe the ephemeral nature of life.
   
   Antony Zee, in *Quantum Field Theory in a Nutshell* (Princeton University Press, Princeton, 2010).
+  
+* It is also possible that the function is non-analytic and does not admit a perturbative expansion. But these are merely words.
+  
+  Antony Zee, in *Fly by Night Physics: How Physicists Use the Backs of Envelopes* (Princeton University Press, Princeton, 2020).
 
 ## Star Trek Quotations
 
