@@ -161,14 +161,14 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   Q: It's the ghastly truth, Mr. Data. I can now stub my toe with the best of them.  
   Data: An irony. It means you have achieved in disgrace what I have always aspired to be. 
 
-  [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
+  [S03E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
 * Q: You're very smart, Jean-Luc. But I know human beings. They're all sopping over with compassion and forgiveness. They can't wait to absolve almost any offense. It's an inherent weakness of the breed.  
   Captain Jean-Luc Picard: On the contrary, it is a strength. 
 
-  [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
+  [S03E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
 * There are creatures in the universe who would consider you the ultimate achievement, android. No feelings, no emotions, no pain—and yet you covet those qualities of humanity. Believe me, you're missing nothing. But if it means anything to you, you're a better human than I. 
 
-  Q. [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
+  Q. [S03E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
 
 ## Questionable Quotations
 
