@@ -60,6 +60,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
   Stars and stardust in infinite space is my only home
   
   Greg Universe (Tom Scharpling), in [*Steven Universe*, S01E49: "Story for Steven"](https://www.imdb.com/title/tt4603502/).
+* There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.
+
+  Prince Hamlet, in William Shakespeare's *The Tragedy of Hamlet, Prince of Denmark*, Act I, Scene V.
 * The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.
   
   Arnold Sommerfeld, in *Partial Differential Equations in Physics* (Academic Press, New York, 1949).
@@ -147,7 +150,6 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   T: You'll have to decide that for yourself. 
 
   [S02E21 "Peak Performance"](https://www.imdb.com/title/tt0708753/).
-  
 * It is at the heart of our nature to feel pain and joy. It is an essential part of what makes us who we are. 
 
   Captain Jean-Luc Picard. [S03E05 "The Bonding"](https://www.imdb.com/title/tt0708788/).
