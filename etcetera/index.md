@@ -135,7 +135,7 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   [S02E17: "Samaritan Snare"](https://www.imdb.com/title/tt0708768/).
 * And Commander, it is possible to commit no mistakes and still lose. That is not a weakness. That is life. 
 
-  Jean-Luc Picard. [S2E21 Peak Performance](https://www.imdb.com/title/tt0708753/).
+  Captain Jean-Luc Picard. [S02E21 "Peak Performance"](https://www.imdb.com/title/tt0708753/).
 * Counselor Deanna Troi: One cannot deny human nature. What kind of a man is Commander Riker?  
   Lt. Commander Data: A fighter?  
   Troi: Yes.  
@@ -146,11 +146,31 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
   D: Is that a failing in humans?  
   T: You'll have to decide that for yourself. 
 
-  [S2E21 Peak Performance](https://www.imdb.com/title/tt0708753/).
+  [S02E21 "Peak Performance"](https://www.imdb.com/title/tt0708753/).
+  
+* It is at the heart of our nature to feel pain and joy. It is an essential part of what makes us who we are. 
+
+  Captain Jean-Luc Picard. [S03E05 "The Bonding"](https://www.imdb.com/title/tt0708788/).
+* To survive is not enough. To simply exist is not enough.  
+
+  Roga Danar. [S03E11 "The Hunting"](https://www.imdb.com/title/tt0708801/).
+* Q: What are you looking at?  
+  Lt. Commander Data: I was considering the possibility that you are telling the truth—that you really are human.  
+  Q: It's the ghastly truth, Mr. Data. I can now stub my toe with the best of them.  
+  Data: An irony. It means you have achieved in disgrace what I have always aspired to be. 
+
+  [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
+* Q: You're very smart, Jean-Luc. But I know human beings. They're all sopping over with compassion and forgiveness. They can't wait to absolve almost any offense. It's an inherent weakness of the breed.  
+  Captain Jean-Luc Picard: On the contrary, it is a strength. 
+
+  [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
+* There are creatures in the universe who would consider you the ultimate achievement, android. No feelings, no emotions, no pain—and yet you covet those qualities of humanity. Believe me, you're missing nothing. But if it means anything to you, you're a better human than I. 
+
+  Q. [S3E13 "Deja Q"](https://www.imdb.com/title/tt0708699/).
 
 ## Questionable Quotations
 
-Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I have no clue whether any of these were actually said. 
+Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I might have no clue whether any of these were actually said. 
 
 * Les papillons sont le seule chose importante…
   
