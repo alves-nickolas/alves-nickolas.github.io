@@ -53,6 +53,12 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * It's a leap of faith. That's all it is, Miles. A leap of faith. 
 
   Peter B. Parker (Jake Johnson) to Miles, after he asks when he'll know he is ready, in [*Spider-Man: Into the Spider-Verse*](https://www.imdb.com/title/tt4633694/).
+* One often meets his destiny on the road he takes to avoid it.
+  
+  Master Oogway (Randall Duk Kim), in [*Kung Fu Panda*](https://www.imdb.com/title/tt0441773/).
+* Yesterday is history, tomorrow is a mystery,but today is a gift. That is why it is called the _present_.
+  
+  Master Oogway (Randall Duk Kim), in [*Kung Fu Panda*](https://www.imdb.com/title/tt0441773/).
 * The fix is to learn quantum field theory.
   
   [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
