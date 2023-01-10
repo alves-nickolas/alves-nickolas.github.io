@@ -11,6 +11,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
   So is it with all conclusions from local relativistic field theories.
   
   James D. Bjorken and Sidney D. Drell, in *Relativistic Quantum Fields* (McGraw-Hill, New York, 1965).
+* When it comes to atoms, language can be used only as in poetry. The poet, too, is not nearly so concerned with describing facts as with creating images and establishing mental connections. 
+  
+  Niels Bohr, as quoted by Werner Heisenberg in *Physics and Beyond: Encounters and Conversations* (Harper & Row, New York, 1972).
 * You have no idea how high I can fly.
   
   Michael G. Scott (Steve Carrell), in [*The Office*, S05E20: "New Boss"](https://www.imdb.com/title/tt1248741/).
