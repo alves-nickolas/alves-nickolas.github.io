@@ -27,7 +27,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
  
   Sidney Coleman, in *Quantum Field Theory: Lectures of Sidney Coleman*, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).
 *   Only questions about the results of experiments have a real significance and it is only such questions that theoretical physics has to consider.
-
+  
   Paul A. M. Dirac, in *The Principles of Quantum Mechanics* (Oxford University Press, Oxford, 1967).
 * One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.
   
