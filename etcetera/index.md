@@ -26,6 +26,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.
  
   Sidney Coleman, in *Quantum Field Theory: Lectures of Sidney Coleman*, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).
+*   Only questions about the results of experiments have a real significance and it is only such questions that theoretical physics has to consider.
+
+  Paul A. M. Dirac, in *The Principles of Quantum Mechanics* (Oxford University Press, Oxford, 1967).
 * One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.
   
   John F. Donoghue, in The Effective Field Theory Treatment of Quantum Gravity. *AIP Conference Proceedings* **1483**, 73–94 (2012). doi: [10.1063/1.4756964](https://doi.org/10.1063/1.4756964).
