@@ -26,8 +26,8 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The set of transformations (50.22)–(50.24) is called the renormalization group. Rarely has there been a more pretentious name in the history of physics. It’s like calling classical dynamics “the study of the Hamiltonian group of time translations”. Nevertheless, that’s what it’s called.
  
   Sidney Coleman, in *Quantum Field Theory: Lectures of Sidney Coleman*, eds. Chen, B. G., Derbes, D., Griffiths, D., Hill, B., Sohn, R., Ting, Y.-S. (World Scientific, New Jersey, 2018).
-*   Only questions about the results of experiments have a real significance and it is only such questions that theoretical physics has to consider.
-  
+* Only questions about the results of experiments have a real significance and it is only such questions that theoretical physics has to consider.
+
   Paul A. M. Dirac, in *The Principles of Quantum Mechanics* (Oxford University Press, Oxford, 1967).
 * One can find thousands of statements in the literature to the effect that 'general relativity and quantum mechanics are incompatible'. These are completely outdated and no longer relevant.
   
@@ -53,6 +53,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * Although there has been a lot of work in the last fifteen years, I think it would be fair to say that we do not yet have a fully satisfactory and consistent quantum theory of gravity.
   
   Stephen W. Hawking, in Particle Creation by Black Holes. *Communications in Mathematical Physics* **43**, 199–220 (1975). doi: [10.1007/BF02345020](https://doi.org/10.1007/BF02345020).
+* If you only do what you can do, you will never be more than you are now.
+  
+  Master Shifu (Dustin Hoffman), in [*Kung Fu Panda 3*](https://www.imdb.com/title/tt2267968/).
 * While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.
   
   Sabine Hossenfelder, in *Lost in Math: How Beauty Leads Physics Astray* (Basic Books, New York, 2018).
@@ -62,7 +65,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * One often meets his destiny on the road he takes to avoid it.
   
   Master Oogway (Randall Duk Kim), in [*Kung Fu Panda*](https://www.imdb.com/title/tt0441773/).
-* Yesterday is history, tomorrow is a mystery,but today is a gift. That is why it is called the _present_.
+* Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the _present_.
   
   Master Oogway (Randall Duk Kim), in [*Kung Fu Panda*](https://www.imdb.com/title/tt0441773/).
 * The fix is to learn quantum field theory.
