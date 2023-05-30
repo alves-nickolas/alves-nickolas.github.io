@@ -1,6 +1,6 @@
 # Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime
 
-This page is a brief summary about my MSc thesis, entitled _Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime_. I plan on eventually making my thesis available online (once it has been submitted to UFABC), but for the time being I'll keep its abstract available in here.
+This page is a brief summary about my MSc thesis, entitled _Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime_. It is available at the arXiv: [2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453).
 
 ## Abstract
 
