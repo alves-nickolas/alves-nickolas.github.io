@@ -1,7 +1,7 @@
 # Home
 
 <div align="center">
-  <img src="/perfil.png" alt="Níck's profile picture">
+  <img src="/perfil.png" alt="Níck's profile picture" width="200" height="200">
 </div>
 
 Hello, there! I am Níckolas de Aguiar Alves, a theoretical physicist. I just got my MSc degree at the [Federal University of ABC](http://fisica.ufabc.edu.br/). I work in the interface between Quantum Mechanics and Gravitation. More specifically, I am currently studying how to use the Functional Renormalization Group to understand nonperturbative phenomena within Quantum Field Theory in Curved Spacetimes.
