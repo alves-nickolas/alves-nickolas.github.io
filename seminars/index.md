@@ -2,6 +2,25 @@
 
 I've given a number of seminars throughout the years. This is an incomplete list of them, accompanied by lecture notes and/or slideshows whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page. As usual, the description is given in the same language as the material provided.
 
+## Nonperturbative Renormalization Group Flow for a Particle Detector
+
+**Abstract:** The functional renormalization group is a powerful tool to study nonperturbative physics, but it has not been much explored within quantum field theory in curved spacetime yet. On the other hand, particle detectors are an omnipresent tool within quantum field theory in curved spacetime and relativistic quantum information but are often treated only perturbatively. In this paper, we present the first computation of the functional renormalization group flow for a particle detector. The chosen model is an inertial Unruh–DeWitt detector in Minkowski spacetime, for simplicity. A new development in heat kernel techniques—the Taylor trick—is necessary to perform the calculations and it is important to carefully choose cutoffs that diverge at the ultraviolet limit in order to keep the beta functions finite. We compare our results with the MS-bar results at one-loop and find that both computations agree qualitatively, as expected.
+
+Based on [arXiv: 2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453) and work to appear.
+
+**Date:** December 04, 2023
+
+Talk presented at the [Golden Wedding of Black Holes and Thermodynamics](https://bht50.github.io/). Slideshow available [here](https://alves-nickolas.github.io/seminars/NonperturbativeRGFlowForAParticleDetector.pdf).
+
+## Why Do Things Fall? 
+### An Introduction to Quantum Field Theory in Curved Spacetime
+
+**Abstract:** Some questions about the Universe are so profound that we have spent thousands of years wondering about them without reaching a satisfactory conclusion. One of them is to understand "why do things fall?". In this lecture, I shall discuss one of our most successful answers to that question: quantum field theory in curved spacetime. I shall describe what are its purposes, limitations, and historical achievements.
+
+**Date:** September 22, 2023.
+
+Seminar presented at the [GGI Th-LYR](https://www.ggi.infn.it/thlyr.pl) series. Video available [here](https://youtu.be/dsiS4vadtLE?si=SwTq3fA1fU5YqULz).
+
 ## Por Que As Coisas Caem?
 
 **Abstract:** Algumas perguntas em Física Fundamental são tão simples e profundas que há milênios são perguntadas por todos, mas ainda seguem sem uma resposta plenamente satisfatória. O que é o tempo? Do que as coisas são feitas? Por que elas caem? Nesta apresentação, vamos discutir algumas das visões mais recentes sobre estas perguntas e, em especial, como o formalismo da Teoria Quântica de Campos em Espaços-Tempos Curvos nos ajuda a entender melhor a terceira.
