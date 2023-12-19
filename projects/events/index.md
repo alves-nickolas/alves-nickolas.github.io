@@ -1,6 +1,21 @@
 # Events
 
-Here you may find a few of the events I've helped organize or have been working on throughout my years in Physics. Most of these (actually, while I'm writing this, all of them) are in Portuguese and some are in English (not really). I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Notice also that, unfortunately, some of the websites were hosted on a server I no longer have access to, and hence there might be a few dead links around here.
+Here you may find a few of the events I've helped organize or have been working on throughout my years in Physics. Most of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Notice also that, unfortunately, some of the websites were hosted on a server I no longer have access to, and hence there might be a few dead links around here.
+
+## [Golden Wedding of Black Holes and Thermodynamics](https://bht50.github.io/)
+### An Online Celebration
+
+2023 marks fifty years since the publication of “[The four laws of black hole mechanics](https://doi.org/10.1007/BF01645742)”, a seminal paper by J. M. Bardeen, B. Carter, and S. W. Hawking establishing the foundations of what would be known as black hole thermodynamics. In the advent of the golden wedding of black holes and thermodynamics, we are conducting an online event to gather the community and celebrate with minicourses and talks.
+
+The main conference will happen between the 4th and 8th of December, consisting of a series of talks and lectures by both young and senior researchers. In preparation for the conference, three minicourses on Quantum Field Theory in Curved Spacetime, Black Hole Thermodynamics, and Relativistic Quantum Information will be given for students to prepare for the main conference. These minicourses will be taught during the weeks preceding the main event.
+
+The conference’s main topics are
+
+* black hole thermodynamics;
+* quantum field theory in curved spacetime;
+* algebraic quantum field theory;
+* relativistic quantum information.
+
 
 ## Recepção Tensorial
 
