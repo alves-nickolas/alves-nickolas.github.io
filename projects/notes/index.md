@@ -2,6 +2,26 @@
 
 Here you can find many documents I've written over the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, some were study notebooks written just for the sake of it and could be useful for someone, and some were the lecture notes I took (and typed) while watching a course. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the pdfs. The documents not currently available are absent due to some personal reason, but I might be willing to share some of them upon request.
 
+## [Functional Analysis](https://alves-nickolas.github.io/pdf/Notes_on_Functional_Analysis.pdf)
+This document is a personal study notebook about functional analysis. It is intended to
+guide my studies of the subject and work as a manner of registering my thoughts, doubts,
+and solutions. Hopefully, it will also be of use to other students. The book by Oliveira
+(2018) is the main reference in the sense I’ll follow its structure and order, but hopefully,
+my comments will be more authentic. Some other books on functional analysis that I
+might often check are those by Brezis (2011), Conway (2007), Kreyszig (1978), Reed and
+Simon (1980), and Rudin (1991), among others.
+
+These notes are written from the point of view of a theoretical physicist interested
+in learning more mathematics. Hence, they might have a style somewhat different from
+usual mathematics texts. I’ll typically try to write to an audience of similar-minded people
+who already have some necessary prerequisites, but might like to be convinced that the
+definitions make sense. Well, at least that’s how I usually like to learn mathematics.
+
+Talking about prerequisites„ I shall assume you to be familiar with topology, linear
+algebra, measure theory, and so on. These topics can be studied, for example, in the books
+by Axler (2015), Folland (1999), Geroch (1985), Munkres (2000), and Simon (2015).
+
+
 ## [Statistical Mechanics](https://alves-nickolas.github.io/pdf/Statistical_Mechanics.pdf)
 This is my study notebook for the course [*Statistical Mechanics*](http://web.archive.org/web/20220920200157/https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PGF5006), taught by Prof. Carlos E. Fiore at the University of São Paulo's [Institute of Physics](portal.if.usp.br/) (IFUSP) on the second semester of 2022. It was written as a way of keeping up with the course and correspond to my lecture notes with some additions from extra bibliography and sometimes slightly different notation. These notes are not endorsed by Prof. Fiore or IFUSP. 
 
