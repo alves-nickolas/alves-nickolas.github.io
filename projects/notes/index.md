@@ -2,7 +2,7 @@
 
 Here you can find many documents I've written over the years in order to learn a number of subjects. Some of them correspond to lecture notes I've written before teaching a course or a seminar, some were study notebooks written just for the sake of it and could be useful for someone, and some were the lecture notes I took (and typed) while watching a course. Some of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice most titles are hyperlinks to the pdfs. The documents not currently available are absent due to some personal reason, but I might be willing to share some of them upon request.
 
-## [Functional Analysis](https://alves-nickolas.github.io/pdf/Notes_on_Functional_Analysis.pdf)
+## [Notes on Functional Analysis](https://alves-nickolas.github.io/pdf/Notes_on_Functional_Analysis.pdf)
 This document is a personal study notebook about functional analysis. It is intended to
 guide my studies of the subject and work as a manner of registering my thoughts, doubts,
 and solutions. Hopefully, it will also be of use to other students. The book by Oliveira
@@ -21,6 +21,9 @@ Talking about prerequisites„ I shall assume you to be familiar with topology, 
 algebra, measure theory, and so on. These topics can be studied, for example, in the books
 by Axler (2015), Folland (1999), Geroch (1985), Munkres (2000), and Simon (2015).
 
+## [Entropy Bounds and Holography in General Spacetimes](https://alves-nickolas.github.io/pdf/Entropy_Bounds_and_Holography_in_General_Spacetimes.pdf)
+
+This notebook is an introduction to entropy bounds and holography in general spacetimes. Its main purpose is to gain practice with these themes. The themes and structure are greatly inspired by the [lecture series by Bousso](https://youtu.be/vmNvYIkDN1I?si=uzmv0yXP1V_5UB2O).
 
 ## [Statistical Mechanics](https://alves-nickolas.github.io/pdf/Statistical_Mechanics.pdf)
 This is my study notebook for the course [*Statistical Mechanics*](http://web.archive.org/web/20220920200157/https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PGF5006), taught by Prof. Carlos E. Fiore at the University of São Paulo's [Institute of Physics](portal.if.usp.br/) (IFUSP) on the second semester of 2022. It was written as a way of keeping up with the course and correspond to my lecture notes with some additions from extra bibliography and sometimes slightly different notation. These notes are not endorsed by Prof. Fiore or IFUSP. 
