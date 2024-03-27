@@ -71,6 +71,8 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The fix is to learn quantum field theory.
   
   [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
+* Dedicated to the memory of L.D. Landau, who understood the importance of pedagogy.
+  Thanu Padmanabhan, in *Theoretical Astrophysics Vol. I: Astrophysical Processes* (Cambridge University Press, Cambridge, 2000).
 * This life in the stars is all I've ever known  
   Stars and stardust in infinite space is my only home
   
@@ -81,13 +83,17 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The topic with which I regularly conclude my six-term series of lectures in Munich is the partial differential equations of physics. We do not really deal with mathematical physics, but with <em>physical mathematics</em>; not with the mathematical formulation of physical facts, but with the physical motivation of mathematical methods. The oft-mentioned "prestabilized harmony" between what is mathematically interesting and what is physically important is met at each step and lends an esthetic — I should like to say metaphysical — attraction to our subject.
   
   Arnold Sommerfeld, in *Partial Differential Equations in Physics* (Academic Press, New York, 1949).
-* Stoke's theorem shares three important attributes with
-many fully evolved major theorems:
+* Stoke's theorem shares three important attributes with many fully evolved major theorems:
    1. It is trivial.
    2. It is trivial because the terms appearing in it have been properly defined.
    3. It has significant consequences.
   
   Michael Spivak, in *Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus* (CRC Press, Boca Raton, 2018).
+* Far from an isolated gravitational source one might expect an idealized simple description of spacetime—asymptotic Utopia. However the remark of the British Prime Minister Chamberlain in 1939 on Czechoslovakia is relevant here: "This is a far far away country about which we know very little".
+  John Stewart, in *Advanced General Relativity* (Cambridge University Press, Cambridge, 1991).
+* As usual, all roads lead to black holes.
+
+  Andrew Strominger, in *Lectures on the Infrared Structure of Gravity and Gauge Theory* (Princeton University Press, Princeton, 2018).
 * Isn’t it surprising that we can do physics at all?
   
   Kurt Sundermeyer, in *Symmetries in Fundamental Physics* (Springer, Cham, 2014).
