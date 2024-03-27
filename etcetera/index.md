@@ -71,7 +71,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The fix is to learn quantum field theory.
   
   [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
-* Dedicated to the memory of L.D. Landau, who understood the importance of pedagogy.
+* Dedicated to the memory of L. D. Landau, who understood the importance of pedagogy.
   Thanu Padmanabhan, in *Theoretical Astrophysics Vol. I: Astrophysical Processes* (Cambridge University Press, Cambridge, 2000).
 * This life in the stars is all I've ever known  
   Stars and stardust in infinite space is my only home
