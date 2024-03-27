@@ -72,6 +72,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
   
   [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
 * Dedicated to the memory of L. D. Landau, who understood the importance of pedagogy.
+  
   Thanu Padmanabhan, in *Theoretical Astrophysics Vol. I: Astrophysical Processes* (Cambridge University Press, Cambridge, 2000).
 * This life in the stars is all I've ever known  
   Stars and stardust in infinite space is my only home
@@ -90,6 +91,7 @@ My old website already had a space for quotations in its Et cetera tab, but none
   
   Michael Spivak, in *Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus* (CRC Press, Boca Raton, 2018).
 * Far from an isolated gravitational source one might expect an idealized simple description of spacetime—asymptotic Utopia. However the remark of the British Prime Minister Chamberlain in 1939 on Czechoslovakia is relevant here: "This is a far far away country about which we know very little".
+  
   John Stewart, in *Advanced General Relativity* (Cambridge University Press, Cambridge, 1991).
 * As usual, all roads lead to black holes.
 
