@@ -71,6 +71,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * The fix is to learn quantum field theory.
   
   [knzhou](https://physics.stackexchange.com/users/83398/knzhou), in an answer to [Does collapse of wave function to a momentum eigenstate violate speed of light restriction?](https://physics.stackexchange.com/q/279483/168783).
+* In the 1960s Friedrichs met Heisenberg, and used the occasion to express to him the deep gratitude of the  community of mathematicians for having created quantum mechanics, which gave birth to the beautiful theory of operators in Hilbert space. Heisenberg allowed that this was so; Friedrichs then added that the mathematicians have, in some measure, returned the favor. Heisenberg looked noncommittal, so Friedrichs pointed out that it was a mathematician, von Neumann, who clarified the difference between a self-adjoint operator and one that is merely symmetric. "What's the difference," said Heisenberg.
+
+  Peter D. Lax, in *Functional Analysis* (New York, NY, Wiley, 2002).
 * Dedicated to the memory of L. D. Landau, who understood the importance of pedagogy.
   
   Thanu Padmanabhan, in *Theoretical Astrophysics Vol. I: Astrophysical Processes* (Cambridge University Press, Cambridge, 2000).
