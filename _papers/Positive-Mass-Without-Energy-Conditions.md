@@ -4,5 +4,7 @@ authors: "<b>Níckolas de Aguiar Alves</b>, André G. S. Landulfo & Bruno Arderu
 abstract: 'A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. <i>A fortiori</i>, we show that any barotropic negative-mass star whose pressure is not a monotonically increasing function of the energy density must be dynamically unstable. Furthermore, we argue that all acceptable barotropic models of negative-mass stars must be in this class, and are thus unstable.'
 journal: 
 arxiv: '<a href="https://arxiv.org/abs/2408.00154" target="_blank">2408.00154 [gr-qc]</a>'
+remark: "Remark: this is a simplified version of the work linked above, written with the goal of being an extended abstract or less formal account of the results. For further details, please check the links above. This account is written independently by Níckolas de Aguiar Alves only and may not fully reflect the point of view of other co-authors."
 layout: papers
 ---
+
