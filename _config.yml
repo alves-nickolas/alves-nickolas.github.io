@@ -3,3 +3,7 @@ title: Níck
 description: theoretical physicist
 github:
   is_project_page: false
+
+collections:
+  papers:
+    output: true
