@@ -1,6 +1,6 @@
 ---
 title: Positive Mass in General Relativity Without Energy Conditions
-authors: **Níckolas de Aguiar Alves**, André G. S. Landulfo & Bruno Arderucio Costa
+authors: "Níckolas de Aguiar Alves, André G. S. Landulfo & Bruno Arderucio Costa"
 layout: papers
 ---
 
