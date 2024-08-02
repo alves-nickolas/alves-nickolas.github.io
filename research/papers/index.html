@@ -4,8 +4,12 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
+<p>This page lists my papers and preprints. Clicking on a title will take you to a page summarizing the paper's main results.</p>
+
 {% for paper in site.papers %}
     <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-    <p>{{ paper.authors }}</p>
+    <p style="text-align: center;">{{ paper.authors }}</p>
+    <p style="text-align: center;">{{ page.journal }}</p>
+    <p style="text-align: center;">{{ page.arxiv }}</p>
     <p><b>Abstract:</b> {{ paper.abstract }}</p>
 {% endfor %}
