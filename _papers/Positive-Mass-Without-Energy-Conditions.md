@@ -52,7 +52,7 @@ A common thermodynamic property among all the models we considered is that, at l
 ## Conclusions
 The main lesson to be taken is that negative-mass barotropic spherically symmetric stars in general relativity must be dynamically unstable. This result does not depend on quantum theory in any way, and it is a completely classical argument for why there are no negative masses. 
 
-## References
+## References for this Summary
 * Borde, A. (1987). “Geodesic Focusing, Energy Conditions and Singularities”. [_Classical and Quantum Gravity_ **4**, pp. 343–356](https://doi.org/10.1088/0264-9381/4/2/015).
 * Chandrasekhar, S. (1964a). “Dynamical Instability of Gaseous Masses Approaching the Schwarzschild Limit in General Relativity”. [_Physical Review Letters_ **12**, pp. 114–116](https://doi.org/10.1103/PhysRevLett.12.114). Erratum “Dynamical Instability of Gaseous Masses Approaching the Schwarzschild Limit in General Relativity”. [_Physical Review Letters_ **12** (1964), pp. 437–438](https://doi.org/10.1103/PhysRevLett.12.437.2).
 * Chandrasekhar, S. (1964b). “The Dynamical Instability of Gaseous Masses Approaching the Schwarzschild Limit in General Relativity”. [_The Astrophysical Journal_ **140**, pp. 417–433](https://doi.org/10.1086/147938). Erratum: “Erratum: The Dynamical Instability of Gaseous Masses Approaching the Schwarzschild Limit in General Relativity”. [_The Astrophysical Journal_ **140** (1964), p. 1342](https://doi.org/10.1086/148040).
