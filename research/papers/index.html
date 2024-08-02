@@ -9,7 +9,7 @@ layout: default
 {% for paper in site.papers %}
     <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
     <p style="text-align: center;">{{ paper.authors }}</p>
-    <p style="text-align: center;">{{ page.journal }}</p>
-    <p style="text-align: center;">{{ page.arxiv }}</p>
+    <p style="text-align: center;">{{ paper.journal }}</p>
+    <p style="text-align: center;">{{ paper.arxiv }}</p>
     <p><b>Abstract:</b> {{ paper.abstract }}</p>
 {% endfor %}
