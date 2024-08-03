@@ -10,6 +10,6 @@ layout: default
     <h2>{{ course.title }}</h2>
     <p style="text-align: center;">{{ course.event }}</p>
     <p>{{ course.abstract }}</p>
-    <p style="text-align: center;">{{ course.lecturenotes }}</p>
-    <div style="text-align: center;">{{ course.videorecordings }}</div>
+    <p>{{ course.lecturenotes }}</p>
+    {{ course.videorecordings }}
 {% endfor %}
