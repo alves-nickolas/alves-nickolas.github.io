@@ -6,7 +6,7 @@ layout: default
 
 <p>This page lists different minicourses I taught throughout the years. Lecture notes and video recordings are given if they are publicly available. As usual, occurrences in Portuguese have documents in Portuguese.</p>
 
-{% assign courses = site.teaching | sort: 'date' | reverse %}
+{% assign courses = site.teaching | sort: 'date' %}
 {% for course in site.teaching %}
     <h2>{{ course.title }}</h2>
     <p style="text-align: center;">{{ course.event }}</p>
