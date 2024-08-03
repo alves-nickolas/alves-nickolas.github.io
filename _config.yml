@@ -7,6 +7,8 @@ github:
 collections:
   papers:
     output: true
+  teaching:
+    output: true
     
 defaults:
   - scope:
