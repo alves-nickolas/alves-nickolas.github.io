@@ -16,9 +16,10 @@ layout: default
         <ul>
           {% for paper in pubs %}
             <li>
-              <a href="{{ paper.url }}">{{ paper.citation }}</a>
+              {{ paper.citation }} <a href="{{ paper.url }}">Summarized here</a>.
             </li>
           {% endfor %}
         </ul>
     {% endif %}
+  {% endif %}
 {% endfor %}
