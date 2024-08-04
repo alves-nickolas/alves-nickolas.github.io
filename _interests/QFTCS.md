@@ -1,6 +1,6 @@
 ---
 title: Quantum Field Theory in Curved Spacetime
-pagetag: QFTCS
+tag: QFTCS
 priority: 1
 ---
 
