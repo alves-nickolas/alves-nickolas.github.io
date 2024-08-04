@@ -6,8 +6,8 @@ layout: default
 
 <p>This page lists my papers and preprints. Clicking on a title will take you to a page summarizing the paper's main results.</p>
 
-{% assign papers = site.publications | sort: 'date' | reverse %}
-{% for paper in papers %}
+{% assign listofpubs = site.publications | sort: 'date' | reverse %}
+{% for paper in listofpubs %}
     {% if paper.pubtype contains 'paper' %}
     <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
     <p style="text-align: center;">{{ paper.authors }}</p>
