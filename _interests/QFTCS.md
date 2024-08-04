@@ -19,6 +19,7 @@ Notice how these predictions hint at behaviors we should expect from quantum gra
 The following references discuss quantum field theory in curved spacetimes and black hole thermodynamics.
 * Aguiar Alves, Níckolas de. “Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime.” MSc thesis, Federal University of ABC, 2023. arXiv: [2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453).
 * Birrell, N. D., and P. C. W. Davies. [_Quantum Field Theory in Curved Space_](https://doi.org/10.1017/CBO9780511622632). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press, 1982.
+* Fulling, Stephen A. [_Aspects of Quantum Field Theory in Curved Space-Time_](https://doi.org/10.1017/CBO9781139172073). London Mathematical Society Student Texts 17. Cambridge: Cambridge University Press, 1989. 
 * Hollands, Stefan, and Robert M. Wald. “Quantum Fields in Curved Spacetime.” [_Physics Reports_ **574** (2015): pp. 1–35](https://doi.org/10.1016/j.physrep.2015.02.001).
 * Mukhanov, Viatcheslav, and Sergei Winitzki. [_Introduction to Quantum Effects in Gravity_](https://doi.org/10.1017/CBO9780511809149). Cambridge: Cambridge University Press, 2007.
 *  Parker, L. E., and D. J. Toms. [_Quantum Field Theory in Curved Spacetime: Quantized Fields and Gravity_](https://doi.org/10.1017/CBO9780511813924). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press, 2004.
