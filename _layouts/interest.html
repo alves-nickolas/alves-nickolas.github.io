@@ -11,7 +11,7 @@ layout: default
 {% for tag in taglist %}
   {% if tag.name == page.tag %}
     {% if tag.size > 0%}
-      <h2>My Work on This Topic</h2>
+      <h2>My Work on and Around This Topic</h2>
       <ul>
         {% for pub in pubs %}
           {% if pub.tags contains tag.name %}
