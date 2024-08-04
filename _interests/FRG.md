@@ -1,6 +1,6 @@
 ---
 title: Functional Renormalization Group
-pagetag: FRG
+tag: FRG
 priority: 6
 ---
 
