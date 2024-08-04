@@ -18,3 +18,11 @@ The algebraic approach to quantum field theory allows a formulation of the theor
 
 ## Further Reading
 The following references discuss quantum field theory (often in curved spacetimes) with a tendency toward the algebraic approach.
+* Aguiar Alves, Níckolas de. “Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime.” MSc thesis, Federal University of ABC, 2023. arXiv: [2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453).
+* Bär, Christian, and Klaus Fredenhagen, eds. [_Quantum Field Theory on Curved Spacetimes: Concepts and Mathematical Foundations_](https://doi.org/10.1007/978-3-642-02780-2). Lecture Notes in Physics 786. Berlin: Springer, 2009.
+* Brunetti, Romeo, Claudio Dappiaggi, Klaus Fredenhagen, and Jakob Yngvason, eds. [_Advances in Algebraic Quantum Field Theory_](https://doi.org/10.1007/978-3-319-21353-8). Mathematical Physics Studies. Cham: Springer, 2015.
+* Fewster, Christopher J., and Kasia Rejzner. “[Algebraic Quantum Field Theory: An Introduction](https://doi.org/10.1007/978-3-030-38941-3_1).” In _Progress and Visions in Quantum Theory in View of Gravity: Bridging Foundations of Physics and Mathematics_, edited by Felix Finster, Domenico Giulini, Johannes Kleiner, and Jürgen Tolksdorf, pp. 1--61. Cham: Springer, 2020. arXiv: [1904.04051 [hep-th]](https://arxiv.org/abs/1904.04051).
+* Hack, Thomas-Paul. [_Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_](https://doi.org/10.1007/978-3-319-21894-6). SpringerBriefs in Mathematical Physics 6. Cham: Springer, 2016.
+* Hollands, Stefan, and Robert M. Wald. “Quantum Fields in Curved Spacetime.” [_Physics Reports_ **574** (2015): pp. 1–35](https://doi.org/10.1016/j.physrep.2015.02.001).
+* Rejzner, Kasia. [_Perturbative Algebraic Quantum Field Theory: An Introduction to Mathematicians_](https://doi.org/10.1007/978-3-319-25901-7). Mathematical Physics Studies. Cham: Springer, 2016.
+* Wald, Robert M. _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_. Chicago Lectures in Physics. Chicago: The University of Chicago Press, 1994.
