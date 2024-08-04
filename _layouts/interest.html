@@ -6,20 +6,21 @@ layout: default
 
 {{ content | smartify }}
 
-{% for tag in site.tags %}
-  {% if tag[0] == page.pagetag %}
-    {% assign pubs = tag[1] %}
-    {% assign pubsize = pubs | size %}
-    {% if pubsize > 0 %}
-      {% assign pubs = pubs | sort: 'date' | reverse %}
-        <h2>My Work on This Topic</h2>
-        <ul>
-          {% for paper in pubs %}
+{% assign pubs = site.publications %}
+{% assign taglist = pubs | map: 'tags' | join: ',' | split: ',' | group_by: tag %}
+{% for tag in taglist %}
+  {% if tag.name == page.tag %}
+    {% if tag.size > 0%}
+      <h2>My Work on This Topic</h2>
+      <ul>
+        {% for pub in pubs %}
+          {% if pub.tags contains tag.name %}
             <li>
-              {{ paper.citation }} <a href="{{ paper.url }}">Summarized here</a>.
+              {{ pub.citation }} <a href="{{ pub.url }}">Summarized here</a>.
             </li>
-          {% endfor %}
-        </ul>
+          {% endif %}
+        {% endfor %}
+      </ul>
     {% endif %}
   {% endif %}
 {% endfor %}
