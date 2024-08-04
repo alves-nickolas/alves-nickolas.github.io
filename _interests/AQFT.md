@@ -1,6 +1,6 @@
 ---
 title: Algebraic Quantum Field Theory
-pagetag: AQFT
+tag: AQFT
 priority: 2
 ---
 
