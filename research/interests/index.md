@@ -1,6 +1,6 @@
 # Research Interests
 
-Here you can find a bit more about my research interests. This includes both themes I've actually worked on or have been working on and some themes that draw my attention. 
+Modern physics is based upon two great pillars: one of them is quantum mechanics, which describes the essential rules all physical entities should obey, while the other one is general relativity, which describes the stage in which everything takes place. Ironically, classical general relativity does not abide by the rules of quantum mechanics, which means our best understanding of reality is inconsistent. Some of these descriptions must be modified. The most popular bet is that general relativity must be modified to respect the rules of quantum mechanics (i.e., it needs to be quantized). The issue is that while it is possible to quantize gravity, the result is a theory that becomes problematic at high energies (precisely those at which the theory would be the most interesting). Most of my work revolves around these basic ideas, with the goal of understanding better the interface between gravity and quantum mechanics. Below you can find more details about the main topics I like to think about. Some of those have already been the subject of my work, some may be in the back of my head awaiting for future projects.
 
 ## Quantum Field Theory in Curved Spacetime
 
