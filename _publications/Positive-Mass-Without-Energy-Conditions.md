@@ -6,7 +6,7 @@ abstract: 'A long-standing problem in physics is why observed masses are always 
 journal: 
 arxiv: '<a href="https://arxiv.org/abs/2408.00154" target="_blank">2408.00154 [gr-qc]</a>'
 remark: "This is a simplified version of the work linked above, written with the goal of being an extended abstract or less formal account of the results. For further details, please check the links above. This account is written independently by Níckolas de Aguiar Alves only and may not fully reflect the point of view of other co-authors."
-layout: papers
+pubtype: paper
 ---
 
 ## Introduction
