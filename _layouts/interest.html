@@ -16,7 +16,7 @@ layout: default
         {% for pub in pubs %}
           {% if pub.tags contains tag.name %}
             <li>
-              {{ pub.citation }} <a href="{{ pub.url }}">Summarized here</a>.
+              {{ pub.citation }} Summarized <a href="{{ pub.url }}">here</a>.
             </li>
           {% endif %}
         {% endfor %}
