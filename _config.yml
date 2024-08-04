@@ -5,12 +5,17 @@ github:
   is_project_page: false
 
 collections:
-  papers:
+  publication:
     output: true
   teaching:
     output: true
     
 defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
   - scope:
       path: ""
     values:
