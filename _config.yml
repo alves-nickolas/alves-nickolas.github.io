@@ -9,6 +9,8 @@ collections:
     output: true
   teaching:
     output: true
+  interests:
+    output: true
   posts: 
     output: false
     
