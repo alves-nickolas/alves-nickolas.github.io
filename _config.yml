@@ -5,7 +5,7 @@ github:
   is_project_page: false
 
 collections:
-  publication:
+  publications:
     output: true
   teaching:
     output: true
