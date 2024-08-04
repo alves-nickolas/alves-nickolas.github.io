@@ -1,9 +1,10 @@
 ---
 title: Functional Renormalization Group
+pagetag: FRG
 priority: 6
 ---
 
->In preparation<< 
+>>In preparation<< 
 
 “Renormalization group” is a fancy name we give to understanding how theories change with scale. Theories in larger scales don’t need to be treated with all of the details found in smaller scales. For example, when describing the motion of the ocean, it is usually unnecessary to consider the molecular structure of water. The renormalization group helps us to do this “zoom-out” procedure within the framework of quantum field theories.
 
