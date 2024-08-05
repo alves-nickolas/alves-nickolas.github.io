@@ -49,6 +49,14 @@ With these discussions accounted for, it is possible to go further and discuss t
 ## Functional Renormalization Group
 
 
+\(\partial_t \Gamma_k = \frac{1}{2} \mathrm{STr}\left[\left(\Gamma_k^{(2)} + \mathcal{R}_k\right)^{-1} \partial_t \mathcal{R}_k\right]\)
+
+$\partial_t \Gamma_k = \frac{1}{2} \mathrm{STr}\left[\left(\Gamma_k^{(2)} + \mathcal{R}_k\right)^{-1} \partial_t \mathcal{R}_k\right]$
+
+\[\partial_t \Gamma_k = \frac{1}{2} \mathrm{STr}\left[\left(\Gamma_k^{(2)} + \mathcal{R}_k\right)^{-1} \partial_t \mathcal{R}_k\right]\]
+
+$$\partial_t \Gamma_k = \frac{1}{2} \mathrm{STr}\left[\left(\Gamma_k^{(2)} + \mathcal{R}_k\right)^{-1} \partial_t \mathcal{R}_k\right]$$
+
 
 ## References for this Summary
 * <a name="dangelo2024"></a>D’Angelo, Edoardo _et al._ (2024). “An Algebraic QFT Approach to the Wetterich Equation on Lorentzian Manifolds.” [_Annales Henri Poincaré_ **25**: pp. 2295–2352](https://doi.org/10.1007/s00023-023-01348-4). arXiv: [2202.07580 [math-ph]](https:arxiv.org/abs/2202.07580).
