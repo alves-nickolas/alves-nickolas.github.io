@@ -48,11 +48,11 @@ With these discussions accounted for, it is possible to go further and discuss t
 
 ## Functional Renormalization Group
 
-The functional renormalization group is a non-perturbative realization of the renormalization group. While it has many different incarnations, the one I worked with is focused on the so-called Wetterich equation. This is a functional differential equation describing how the effective average action (a quantum version of the classical action) changes as one changes the scales being considered. 
+The functional renormalization group is a nonperturbative realization of the renormalization group. While it has many different incarnations, the one I worked with is focused on the so-called Wetterich equation. This is a functional differential equation describing how the effective average action (a quantum version of the classical action) changes as one changes the scales being considered. 
 
 This technique is quite general in quantum field theory and can be applied to many different systems. Nevertheless, most pedagogical approaches to the FRG derive the Wetterich equation in the particular case of a bosonic field content. Nevertheless, it turns out that for our applications we need a formulation that also admits fermions. This form is already known in the literature, but it is difficult to find a pedagogical derivation of it, so I included it in my thesis. 
 
-Once one has the main equation at hand, there are a few steps necessary to compute a non-perturbative renormalization group flow. They are as follows. 
+Once one has the main equation at hand, there are a few steps necessary to compute a nonperturbative renormalization group flow. They are as follows. 
 1. One must choose an action to describe the theory. The actual exact theory has an infinitely complicated action, so the typical approach is to choose a truncation, i.e., a simplified action that ideally captures most of the physics we are interested in.
 2. One must choose a regulator, which is a function responsible for screening out the modes that should not contribute at each scale we are analyzing. There are many possible choices given in the literature, but the choice of regulator must be specific to the theory at hand to avoid problems.
 3. One needs to compute the difficult functional traces involved in the Wetterich equation. This can often be done by exploiting heat kernel techniques (reviewed in the thesis). 
@@ -64,7 +64,26 @@ The main questions are then the following.
 
 ## Nonperturbative Renormalization Group Flow for a Particle Detector
 
+To keep the calculations feasible (in particular the functional traces), we assume the detector is undergoing inertial motion in Minkowski spacetime. 
+
+The formulation of a particle detector through a path integral formalism was addressed by Burbano, Perche, and Torres ([2021](#burbano2021)). One can write the detector variables in terms of Grassmann variables (anticommuting variables) on the detector's worldline. While some attention must be paid to the interaction between the detector and field to the properly described, the construction is straightforward.
+
+Next, there is the issue of the regulator. In standard quantum field theories, the regulator is similar to a mass term, since masses suppress modes with very low energies. In a particle detector, the gap term plays the role of a gap term, so the chosen regulator was a gap-like term. 
+
+The computation of the functional traces is tricky but manageable. Due to the occurrence of derivatives in the denominator of the function inside the functional trace, it is necessary to perform a Taylor-like expansion, compute each term using standard heat kernel techniques, and then resum the series. The results are complicated functions expressed in terms of integrals of hypergeometric functions.
+
+After all these steps, one arrives at the expressions for the nonperturbative renormalization group flow for the system. Unfortunately, the results diverge in the gapless limit, which would be the case in which Landulfo's original results should be recovered. This indicates a problem in the calculation. 
+
+As sanity checks, the one-loop calculation and a different technique for the evaluation of some functional traces were considered. The one-loop calculation did not present any issues, while the alternative evaluation of functional traces yielded the same results as the heat kernel techniques.
+
+## Conclusions
+
+At the time of publication of this thesis, the reasons for the failure of the nonperturbative calculation were still unknown, but since then they have been resolved and will be addressed in future publications. 
+
+The thesis also presents important pedagogical contributions through the presentations of the algebraic approach to QFTCS and of the FRG for generic field content. 
+
 ## References for this Summary
+* <a name="burbano2021"></a>Burbano, Ivan M., T. Rick Perche, and Bruno de S. L. Torres (2021). “A Path Integral Formulation for Particle Detectors: The Unruh-DeWitt Model as a Line Defect.” [_Journal of High Energy Physics_ **2021**: 76](https://doi.org/10.1007/JHEP03(2021)076). arXiv: [2012.14912 [hep-th]](https://arxiv.org/abs/2012.14912).
 * <a name="dangelo2024"></a>D’Angelo, Edoardo _et al._ (2024). “An Algebraic QFT Approach to the Wetterich Equation on Lorentzian Manifolds.” [_Annales Henri Poincaré_ **25**: pp. 2295–2352](https://doi.org/10.1007/s00023-023-01348-4). arXiv: [2202.07580 [math-ph]](https:arxiv.org/abs/2202.07580).
 * <a name="landulfo2016"></a>Landulfo, André G. S. (2016). “Nonperturbative Approach to Relativistic Quantum Communication Channels.” [_Physical Review D_ **93**: 104019](https://doi.org/10.1103/PhysRevD.93.104019). arXiv: [1603.06641 [gr-qc]](https://arxiv.org/abs/1603.06641).
 * <a name="unruh1976"></a>Unruh, William G. (1976). “Notes on Black-Hole Evaporation.” [_Physical Review D_ **14** (1976): pp. 870–92](https://doi.org/10.1103/PhysRevD.14.870).
