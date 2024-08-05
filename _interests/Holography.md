@@ -15,7 +15,7 @@ An interesting development in these topics is the quantum focusing conjecture (Q
 ## Further Reading
 The following references discuss entropy bounds and holography in general spacetimes.
 * Bousso, Raphael. “The Holographic Principle.” [_Reviews of Modern Physics_ **74** (2002): pp. 825–74](https://doi.org/10.1103/RevModPhys.74.825). arXiv: [hep-th/0203101](https://arxiv.org/abs/hep-th/0203101).
-* Bousso, Raphael. “Holography in General Spacetimes,” 2018. Minicourse. Recorded lectures available [here](https://www.theorie.physik.uni-muenchen.de/activities/schools/archiv/asc_school_2018/videos_bousso/index.html).
+* Bousso, Raphael. “Holography in General Spacetimes,” 2018. Minicourse. Recorded lectures are available [here](https://www.theorie.physik.uni-muenchen.de/activities/schools/archiv/asc_school_2018/videos_bousso/index.html).
 * Bousso, Raphael, Zachary Fisher, Stefan Leichenauer, and Aron C. Wall. “Quantum Focusing Conjecture.” [_Physical Review D_ **93** (2016)](https://doi.org/10.1103/PhysRevD.93.064044).
 * Dappiaggi, Claudio, Valter Moretti, and Nicola Pinamonti. [_Hadamard States From Light-like Hypersurfaces_](https://doi.org/10.1007/978-3-319-64343-4). SpringerBriefs in Mathematical Physics 25. Cham: Springer, 2017. arXiv: [1706.09666 [math-ph]](https://arxiv.org/abs/1706.09666).
 
