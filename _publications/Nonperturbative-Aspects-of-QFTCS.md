@@ -10,8 +10,6 @@ remark: "This is a simplified version of the work linked above, written to be an
 pubtype: mscthesis
 ---
 
-> this page is under construction!
-
 ## Introduction
 
 One of the hardest problems in fundamental physics is to understand the quantum nature of gravity. On the road to doing so, it has been useful to consider how quantum mechanics effects occur in the presence of strong gravitational fields. A good framework for this is that of [quantum field theory in curved spacetime]({% link _interests/QFTCS.md %}) (QFTCS). In this framework, one considers the behavior of quantum fields—the building blocks of the standard model of particle physics, for example—on top of a classical background spacetime. It therefore consists of an approximation in which gravity behaves classically, but matter is quantized. 
