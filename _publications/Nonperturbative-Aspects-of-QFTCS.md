@@ -24,9 +24,15 @@ One interesting application of QFTCS is to the field of relativistic quantum inf
 6. both sender and receiver interact with the quantum field within bounded regions of spacetime;
 7. the protocol allows the transmission of classical information (bits with 0 or 1 values);
 8. the protocol explicitly forbids faster-than-light communication.
-All of these are great advantages, but the model still has a couple of drawbacks. For instance, one cannot transmit quantum information (qubit states) without the aid of extra entanglement between the parts and one cannot harvest entanglement from the quantum fields. Moreover, one cannot use the qubits as particle detectors.
 
+All of these are great advantages, but the model still has a couple of drawbacks. For instance, one cannot transmit quantum information (qubit states) without the aid of extra entanglement between the parts and one cannot harvest entanglement from the quantum fields. Moreover, one cannot use the qubits as particle detectors. This is inconvenient because particle detector models are very useful in studying both QFTCS and RQI and even date back to the original derivation of the Unruh effect (Unruh [1976](#unruh1976)).
+
+To improve on these aspects, one needs to change the coupling of the model to introduce a "gap" in the qubit. Namely, Landulfo's original model assumes a two-level system in which both levels have the same energy. This leads to all of the good features of the model (in particular the fact that it is exactly solvable), but it also leads to the drawbacks. Adding an energy gap (so that the two levels have different energies) improves the drawbacks but at the cost of the exact solution.
+
+Most work in RQI is perturbative, so it would be interesting to obtain nonperturbative information about this behavior. One possible way of doing this is to study the model perturbatively, but account for nonperturbative corrections by exploiting the [functional renormalization group]({% link _interests/FRG.md %}) running of the theory. While this is still an approximate solution, it allows one to obtain nonperturbative information, hence allowing the investigation of a regime often overlooked. 
 
 
 ## References for this Summary
 * <a name="landulfo2016"></a>Landulfo, André G. S. (2016). “Nonperturbative Approach to Relativistic Quantum Communication Channels.” [_Physical Review D_ **93**: 104019](https://doi.org/10.1103/PhysRevD.93.104019). arXiv: [1603.06641 [gr-qc]](https://arxiv.org/abs/1603.06641).
+* <a name="unruh1976"></a>Unruh, William G. (1976). “Notes on Black-Hole Evaporation.” [_Physical Review D_ **14** (1976): pp. 870–92](https://doi.org/10.1103/PhysRevD.14.870).
+
