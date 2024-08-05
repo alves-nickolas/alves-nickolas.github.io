@@ -11,8 +11,6 @@ collections:
     output: true
   interests:
     output: true
-  posts: 
-    output: false
     
 defaults:
   - scope:
