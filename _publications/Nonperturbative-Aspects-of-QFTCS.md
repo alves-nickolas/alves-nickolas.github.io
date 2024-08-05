@@ -36,10 +36,22 @@ Most work in RQI is perturbative, so it would be interesting to obtain nonpertur
 
 The first step in this journey is then to understand QFTCS. While quantum field theory in flat spacetime is often formulated in terms of canonical quantization or the path integral approach, these methods seem too arbitrary to allow a satisfactory formulation in general spacetimes. A more general approach is then the [algebraic approach]({% link _interests/AQFT.md %}). 
 
-The algebraic approach focuses 
+The algebraic approach focuses on describing the observables in the theory and then considering the possible states. An observable is anything that can be measured through an experiment, and a state gives you the (probabilistic) outputs of any possible experiment for a given preparation of the system. One can argue that the space of observables must have an algebraic structure (at least a *-algebra, typically), allowing one to get a powerful mathematical machinery to study quantum field theory.
+
+A sociological disadvantage of the algebraic approach is the fact it involves a lot of functional analysis, which not all physicists are familiar with. In my thesis, I present the main ideas of the algebraic approach without assuming previous knowledge of functional analysis. While this naturally leads to limitations because less mathematical machinery is available, one can still get a good grasp of what a quantum field theory is. This clarifies concepts such as what are particles and how they are a subjective concept, or how the notion of a Hilbert space is not truly the fundamental defining feature of a quantum theory. 
+
+As an example of prediction of QFTCS, one can then consider the Unruh effect, which is central for this work: a simple application of the generalization of Landulfo's model would be to study communication between an inertial and an accelerated particle detector, the latter being subject to the Unruh thermal bath. In my thesis, I discuss four different derivations of the Unruh effect: the algebraic derivation based on the notion of KMS states, the canonical approach based on Bogoliubov transformations, the path integral approach, and the particle detector approach. These different techniques showcase different aspects of the effect and work under different assumptions, hence giving a more complete view of what the Unruh effect is. 
+
+In the remainder of the thesis, most of the techniques employed are focused on Euclidean path integral methods, which are essential in the traditional formulation of the FRG (but D'angelo _et al_. [2024](#dangelo2024) have recently presented an algebraic version of the FRG in Lorentzian spacetimes). I therefore discuss the basic ideas behind Euclidean path integrals and when it is possible to employ a Euclidean path integral in curved spacetimes. 
+
+With these discussions accounted for, it is possible to go further and discuss the FRG. 
+
+## Functional Renormalization Group
+
 
 
 ## References for this Summary
+* <a name="dangelo2024"></a>D’Angelo, Edoardo _et al._ (2024). “An Algebraic QFT Approach to the Wetterich Equation on Lorentzian Manifolds.” [_Annales Henri Poincaré_ **25**: pp. 2295–2352](https://doi.org/10.1007/s00023-023-01348-4). arXiv: [2202.07580 [math-ph]](https:arxiv.org/abs/2202.07580).
 * <a name="landulfo2016"></a>Landulfo, André G. S. (2016). “Nonperturbative Approach to Relativistic Quantum Communication Channels.” [_Physical Review D_ **93**: 104019](https://doi.org/10.1103/PhysRevD.93.104019). arXiv: [1603.06641 [gr-qc]](https://arxiv.org/abs/1603.06641).
 * <a name="unruh1976"></a>Unruh, William G. (1976). “Notes on Black-Hole Evaporation.” [_Physical Review D_ **14** (1976): pp. 870–92](https://doi.org/10.1103/PhysRevD.14.870).
 
