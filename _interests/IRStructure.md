@@ -1,7 +1,7 @@
 ---
 title: Infrared Structure of Field Theories
 tag: IRStructure
-priority: 4
+priority: 2
 ---
 
 While the ultraviolet behavior of quantum field theories was tamed by the renormalization program, the infrared structure was for a long time considered to be trivial and uninteresting. Nevertheless, it turns out this is not the case. One has very interesting behavior at the infrared limit. 
