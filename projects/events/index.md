@@ -2,6 +2,9 @@
 
 Here you may find a few of the events I've helped organize or have been working on throughout my years in Physics. Most of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Notice also that, unfortunately, some of the websites were hosted on a server I no longer have access to, and hence there might be a few dead links around here.
 
+## [I São Paulo School on Gravitational Physics](https://graspschool.github.io/)
+Embark on a captivating journey into contemporary lines of research in gravitational physics with our week-long online school tailored for students who studied general relativity at the undergraduate level. Led by a dynamic team of early-career researchers, this immersive experience offers an in-depth exploration of the frontiers in gravity research that are not covered in standard courses. From the mysteries of inflationary cosmology to the nuances of relativistic astrophysics, each course is meticulously crafted to illuminate cutting-edge topics. Discover the philosophical underpinnings of relativity and the potential of gravitational waves and unravel the mysteries of GR’s IR behavior. Join us for a week of intellectual stimulation, vibrant discussions, and insights into the fascinating world of gravitational physics.
+
 ## [Golden Wedding of Black Holes and Thermodynamics](https://bht50.github.io/)
 ### An Online Celebration
 
