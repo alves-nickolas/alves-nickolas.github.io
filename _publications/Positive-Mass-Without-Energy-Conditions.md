@@ -28,6 +28,7 @@ For simplicity and to keep calculations manageable, we restrict our attention to
 2. spherically symmetric, so the calculations are simple;
 3. isotropic, to avoid unnecessary complications;
 4. the star is barotropic, meaning the pressure at each point is uniquely determined by the energy density.
+
 The last assumption is not necessary at this stage, but it is used later to keep the calculations feasible. 
 
 Within these assumptions, the equations for hydrostatic equilibrium and for the geometry of spacetime are described by a coupled system of nonlinear ordinary differential equations. The main equation, giving the radial dependence of the pressure, is known as the Tolman--Oppenheimer--Volkoff (TOV) equation (Oppenheimer and Volkoff [1939](#oppenheimer1939); Tolman [1934a](#tolman1934a),[b](#tolman1934b), [1939]((#tolman1939))). Since we are able to reduce the problem to a few ordinary differential equations, we can deal with all the calculations with relative ease (as compared to the typical situation in general relativity). 
