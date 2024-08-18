@@ -4,9 +4,9 @@ date: 2024-08-01
 authors: "<b>Níckolas de Aguiar Alves</b>, André G. S. Landulfo & Bruno Arderucio Costa"
 abstract: 'A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. <i>A fortiori</i>, we show that any barotropic negative-mass star must be dynamically unstable.'
 citation: 'Aguiar Alves, Níckolas de, André G. S. Landulfo, and Bruno Arderucio Costa. “Positive Mass in General Relativity Without Energy Conditions,” 2024. Pre-published. arXiv: <a href="https://arxiv.org/abs/2408.00154" target="_blank">2408.00154 [gr-qc]</a>.'
-stage: phd
-tags: EnergyConditions GR
-pubtype: paper
+stage: test
+tags: test
+pubtype: test
 ---
 
 ## Introduction
@@ -51,6 +51,25 @@ A common thermodynamic property among all the models we considered is that, at l
 
 ## Conclusions
 The main lesson to be taken is that negative-mass barotropic spherically symmetric stars in general relativity must be dynamically unstable. This result does not depend on quantum theory in any way, and it is a completely classical argument for why there are no negative masses. 
+
+> [!NOTE]
+> a note
+
+
+> [!TIP]
+> a tip
+
+
+> [!IMPORTANT]
+> important
+
+
+> [!WARNING]
+> warning
+
+
+> [!CAUTION]
+> caution
 
 ## References for this Summary
 [^1]: Borde, A., “Geodesic Focusing, Energy Conditions and Singularities”, [_Classical and Quantum Gravity_ **4**, pp. 343–356 (1987)](https://doi.org/10.1088/0264-9381/4/2/015).
