@@ -14,7 +14,7 @@ layout: default
 <p><strong>Latest publication:</strong></p> 
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
-{% for paper in listofpubs limit 1%}
+{% for paper in listofpubs limit:1 %}
     {% if paper.pubtype contains 'test' %}
     {% else %}
       <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
