@@ -1,6 +1,6 @@
 # Events
 
-Here you may find a few of the events I've helped organize or have been working on throughout my years in Physics. Most of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Notice also that, unfortunately, some of the websites were hosted on a server I no longer have access to, and hence there might be a few dead links around here.
+Here you may find a few of the events I've helped organize or have been working on throughout my years in Physics. Most of these are in Portuguese and some are in English. I chose to leave the descriptions in agreement with the project's language. Notice some titles are hyperlinks to the events' websites. Unfortunately, some of the websites were hosted on a server I no longer have access to. As a consequence, these events no longer have active links. 
 
 ## [I São Paulo School on Gravitational Physics](https://graspschool.github.io/)
 Embark on a captivating journey into contemporary lines of research in gravitational physics with our week-long online school tailored for students who studied general relativity at the undergraduate level. Led by a dynamic team of early-career researchers, this immersive experience offers an in-depth exploration of the frontiers in gravity research that are not covered in standard courses. From the mysteries of inflationary cosmology to the nuances of relativistic astrophysics, each course is meticulously crafted to illuminate cutting-edge topics. Discover the philosophical underpinnings of relativity and the potential of gravitational waves and unravel the mysteries of GR’s IR behavior. Join us for a week of intellectual stimulation, vibrant discussions, and insights into the fascinating world of gravitational physics.
@@ -19,16 +19,15 @@ The conference’s main topics are
 * algebraic quantum field theory;
 * relativistic quantum information.
 
-
 ## Recepção Tensorial
 
 Desde 2007 um conjunto de alunos de graduação e de pós graduação do IFUSP se reúne para apresentar seminários sobre seus projetos acadêmicos aos calouros. O objetivo é mostrar ao ingressante os caminhos acadêmicos que ele pode seguir, dando destaque às áreas de pesquisa da pós-graduação, oferecendo ao recém-chegado informações que não costumam ser passadas nos eventos tradicionais da Calourada.
 
 Infelizmente, há muitos anos esse evento não fora realizado, mas em 2018 isso foi diferente. Convidamos 8 estudantes de pós-graduação ou pós-doutoramento para contar aos novos alunos do IFUSP sobre com o que trabalham hoje em dia, alguns anos após eles mesmos terem começado a jornada que está se reiniciando agora.
 
-Auxiliei na organização das edições de [2018](http://fma.if.usp.br/~nickolas/rt/2018/index.html) e [2019](http://fma.if.usp.br/~nickolas/rt/2019/index.html) do evento.
+Auxiliei na organização das edições de 2018 e 2019 do evento.
 
-## [Hawking Day](http://fma.if.usp.br/~nickolas/gigantes/hawking/index.html)
+## Hawking Day
 
 Para a infelicidade não apenas da comunidade científica, mas talvez do mundo inteiro, faleceu em março de 2018 o grande físico Stephen William Hawking. Acreditando que a melhor forma de celebrar a vida daquele que foi um modelo e inspiração para gerações de físicos ao redor do mundo, em especial para os atuais estudantes do Instituto de Física da USP, faremos um pequeno ciclo de palestras e eventos relacionados em sua homenagem. Ao todo serão três palestras ministradas por especialistas da área que, embora não tenham o trabalho de Hawking como foco principal, mostram o que é feito hoje em dia sobre as pilastras que ele construiu. Além disso, faremos uma mesa redonda com físicos experientes para discussão do papel e da influência que Hawking teve na Física. Por fim, haverá ainda uma exibição do filme biográfico [Hawking](https://www.imdb.com/title/tt0395571/). Esperamos poder encapsular o Universo deste grande homem numa casca de noz e trazer ao IFUSP uma breve história de Hawking.
 
@@ -38,7 +37,7 @@ Atenciosamente,
 
 Níckolas Alves e Ricardo Correa da Silva.
 
-## [Gigantes da Física](http://fma.if.usp.br/~nickolas/gigantes/index.html)
+## Gigantes da Física
 
 Embora diversos físicos tenham seu nome cravado nas linhas da história, nem sempre o público geral, e por vezes mesmo os jovens estudantes de Física, sabe qual foi a contribuição destas grandes mentes para a ciência, muito menos em que pé anda atualmente o legado que deixaram.
 O ciclo Gigantes da Física surge com a intenção de trazer especialistas para apresentar ao público o trabalho dos homens e mulheres que fundamentaram as bases do conhecimento científico moderno, visando alcançar esse objetivo através de diversos métodos: três palestras voltadas principalmente a alunos de início de graduação, uma mesa redonda com físicos experientes para discussão do papel da personalidade em questão na Física e, por fim, uma exposição miscelânea a respeito do cientista.
@@ -53,7 +52,7 @@ Para isso, organizamos alguns workshops de Física, Computação e Matemática v
 
 Fui o principal organizador da [primeira edição](http://fma.if.usp.br/~nickolas/jayme/2018/index.html) da Escola, auxiliado por Wilson Maruyama Santos de Paula, e dividi a organização da [segunda edição](http://fma.if.usp.br/~nickolas/jayme/2019/index.html) com Pedro Henrique Trajano Lemos Tredezini. Também auxiliei (bem menos intensamente) as organizações da [terceira](https://lambdadps.github.io/jayme/2021/) e [quarta](https://lambdadps.github.io/jayme/2022/) edições.
 
-## [Mini Escola de Inverno da Dead Physicists Society](http://fma.if.usp.br/~nickolas/dps/miniescola/index.html)
+## Mini Escola de Inverno da Dead Physicists Society
 
 Com a vinda das férias, as atividades acadêmicas dos alunos de graduação do IFUSP tendem a diminuir e, infelizmente, por vezes se anular. Em nome da paixão sentida pelos estudantes pela Física, a [Dead Physicists Society](http://fma.if.usp.br/~nickolas/dps/) organiza anualmente a Escola Jayme Tiomno de Física Teórica, que pretende manter a transmissão de conhecimento aos alunos vívida durante o inverno.
 
