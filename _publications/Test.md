@@ -52,25 +52,6 @@ A common thermodynamic property among all the models we considered is that, at l
 ## Conclusions
 The main lesson to be taken is that negative-mass barotropic spherically symmetric stars in general relativity must be dynamically unstable. This result does not depend on quantum theory in any way, and it is a completely classical argument for why there are no negative masses. 
 
-> [!NOTE]
-> a note
-
-
-> [!TIP]
-> a tip
-
-
-> [!IMPORTANT]
-> important
-
-
-> [!WARNING]
-> warning
-
-
-> [!CAUTION]
-> caution
-
 ## References for this Summary
 [^1]: Borde, A., “Geodesic Focusing, Energy Conditions and Singularities”, [_Classical and Quantum Gravity_ **4**, pp. 343–356 (1987)](https://doi.org/10.1088/0264-9381/4/2/015).
 [^2]: Penrose, R., R. D. Sorkin, and E. Woolgar, “A Positive Mass Theorem Based on the Focusing and Retardation of Null Geodesics” (1993), arXiv: [gr-qc/9301015](https://arxiv.org/abs/gr-qc/9301015).
