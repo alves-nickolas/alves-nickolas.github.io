@@ -11,7 +11,7 @@ layout: default
 
 <p>This is my website. Here you can find out a bit about my research, many notes I wrote while studying throughout the years, information about events I organized, links I find interesting, webpages from researchers I admire, and so on.</p>
 
-<p><strong>Latest publication:</strong></p> {% assign listofpubs = site.publications | sort: 'date' | last %}
+<p><strong>Latest publication:</strong></p> {% assign listofpubs = site.publications | sort: 'date', last %}
 {% for paper in listofpubs %}
   {{ paper.citation }} Read more <a href="{{ paper.url }}">here</a>!
 {% endfor %}
