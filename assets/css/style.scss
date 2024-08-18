@@ -114,7 +114,8 @@ a.button:hover {
 	color: #202020
 }
 
-.dropdown {
+
+.dropbtn {
 	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #202020;
 	border: none;
@@ -123,11 +124,14 @@ a.button:hover {
 	text-align: center;
 	font-size: 16px;
 	cursor: pointer;
+}
+
+.dropdown {
 	position: relative;
 	display: inline-block;
 }
 
-.dropdown:hover {
+.dropdown:hover .dropbtn {
 	background-color: #f19e58;
 	color: #202020
 }
