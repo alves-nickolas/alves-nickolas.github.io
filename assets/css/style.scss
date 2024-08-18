@@ -91,7 +91,6 @@ ol {
 nav a {
 	background-color: #202020;
 	color: #f26a49;
-	padding: 0 15px 0 15px;
 }
 
 nav {
@@ -138,14 +137,12 @@ a.button:hover {
 	display: none;
 	position: absolute;
 	background-color: #202020;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
 
 .dropdown-content a {
 	color: #f26a49;
-	padding: 12px 16px;
+	padding: 8px 15px;
 	text-decoration: none;
 	display: block;
 }
