@@ -1,6 +1,7 @@
 theme: jekyll-theme-midnight
 title: Níck
 description: theoretical physicist
+google_analytics: true
 github:
   is_project_page: false
 
