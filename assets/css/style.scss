@@ -99,7 +99,7 @@ nav {
 	box-shadow: 0px 3px 3px #151515;
 }
 
-.button {
+a.button {
 	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #202020;
 	border: none;
@@ -110,14 +110,27 @@ nav {
 	cursor: pointer;
 }
 
-.button:hover {
+a.button:hover {
 	background-color: #f19e58;
 	color: #202020
 }
 
 .dropdown {
+	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #202020;
+	border: none;
+	color: #f26a49;
+	padding: 8px 15px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
 	position: relative;
 	display: inline-block;
+}
+
+.dropdown:hover {
+	background-color: #f19e58;
+	color: #202020
 }
 
 .dropdown-content {
@@ -143,8 +156,6 @@ nav {
 }
 
 .dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #f19e58; color: #202020} 
 
 
 #Menu {
