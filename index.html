@@ -15,9 +15,6 @@ layout: default
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs limit:1 %}
-    {% if paper.pubtype contains 'test' %}
-    {% else %}
-      <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
-    {% endif %}
+    <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
 {% endfor %}
 </ul>
