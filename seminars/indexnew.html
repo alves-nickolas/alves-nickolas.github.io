@@ -11,7 +11,7 @@ layout: default
 {% for seminar in listofseminars %}
     <h2>{{ seminar.title }}</h2>
     <p>{{ seminar.abstract }}</p>
-    <p><strong>Tags:</strong> {% for interest in listofints %}{% if seminar.tags contains interest.tag %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endfor %}</p>
+    <p><strong>Tags:</strong> {% for interest in listofints %}{% if seminar.tags contains interest.tag %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endif %}{% endfor %}</p>
     <p>{{ seminar.remark }}</p>
     {{ seminar.lecturenotes }}
     {{ seminar.slideshow }}
