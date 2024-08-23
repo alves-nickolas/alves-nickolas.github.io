@@ -7,28 +7,26 @@ layout: default
 <p>I have presented many seminars throughout the years. This is a list of my favorites. They are accompanied by video recordings, lecture notes,  slideshows, etc whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page.</p>
 
 {% assign listofseminars = site.seminars | sort: 'date' | reverse %}
-{% assign listofints = site.interests | sort: 'priority' %}
-{% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for seminar in listofseminars %}
 {% assign numberofarxivs = seminar.relatedarxiv | size %}
+{% assign listofints = site.interests | where:"seminar","seminar.tags contains 'tag'" | sort: 'priority' %}
     <h2>{{ seminar.title }}</h2>
     <h3>{{ seminar.subtitle }}</h3>
-    <p><strong>Abstract:</strong> {{ seminar.abstract }}</p>
-    <p><strong>Tags:</strong> {% for interest in listofints %}{% if seminar.tags contains interest.tag %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endif %}{% endfor %}</p>
+    <p><strong>Abstract:</strong> {{ seminar.abstract | smartify }}</p>
+    <p><strong>Tags:</strong> {% for interest in listofints %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endfor %}</p>
     <p>{{ seminar.remark }}</p>
     {{ seminar.lecturenotes }}
     {{ seminar.slideshow }}
     {{ seminar.poster }}
     {{ seminar.videorecordings }}
     {% if numberofarxivs > 0 %}
+        {% assign listofarxivs = site.publications | where:"arxiv",seminar.relatedarxiv | sort:'date' | reverse %}
         <p><strong>Related publications:</strong></p>
           <ul>
-            {% for pub in listofpubs %}
-              {% if seminar.relatedarxiv contains pub.arxiv %}
+            {% for pub in listofarxivs %}
                 <li>
                   {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
                 </li>
-              {% endif %}
             {% endfor %}
           </ul>
     {% endif %}
