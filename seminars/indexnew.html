@@ -7,9 +7,11 @@ layout: default
 <p>I have presented many seminars throughout the years. This is a list of my favorites. They are accompanied by video recordings, lecture notes,  slideshows, etc whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page.</p>
 
 {% assign listofseminars = site.seminars | sort: 'date' | reverse %}
+{% assign listofints = site.interests | sort: 'priority' %}
 {% for seminar in listofseminars %}
     <h2>{{ seminar.title }}</h2>
     <p>{{ seminar.abstract }}</p>
+    <p><strong>Tags:</strong> {% for interest in listofints %}{% if seminar.tags contains interest.tag %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endfor %}</p>
     <p>{{ seminar.remark }}</p>
     {{ seminar.lecturenotes }}
     {{ seminar.slideshow }}
