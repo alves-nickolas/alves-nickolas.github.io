@@ -6,6 +6,7 @@ abstract: "Quantum field theory in curved spacetime is perhaps the most reliable
 citation: 'Aguiar Alves, Níckolas de (2023). "Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime". MSc thesis. Santo André, Brazil: Federal University of ABC. xxiv, 152 pp. arXiv: <a href="https://arxiv.org/abs/2305.17453" target="_blank">2305.17453 [gr-qc]</a>.'
 stage: msc
 tags: QFTCS AQFT FRG
+arxiv: 2305.17453
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this is a MSc thesis, this summary is written in a chapter-by-chapter fashion."
 pubtype: mscthesis
 ---
