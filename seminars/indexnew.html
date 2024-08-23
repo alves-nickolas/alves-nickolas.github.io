@@ -15,7 +15,7 @@ layout: default
     {% assign middleoflink = '">' %}
     {% assign endoflink = '</a>' %}
     {% for interest in listofints %}
-        {% assign fulllink = startoflink | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+        {% assign fulllink = '' | append: startoflink | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
         {% assign formattedinterest = fulllink | split:'&emsp;' %}
         {% assign printedints = printedints | concat: formattedinterest %}
     {% endfor %}
