@@ -10,19 +10,22 @@ layout: default
 {% for seminar in listofseminars %}
     {% assign numberofarxivs = seminar.relatedarxiv | size %}
     {% assign listofints = site.interests | where_exp:"item","seminar.tags contains item.tag" | sort: 'priority' %}
-    {% assign printedints = '' | split: '' %}
-    {% assign startoflink = '<a href="' %}
-    {% assign middleoflink = '">' %}
-    {% assign endoflink = '</a>' %}
-    {% for interest in listofints %}
-        {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-        {% assign formattedinterest = fulllink | split:'&emsp;' %}
-        {% assign printedints = printedints | concat: formattedinterest %}
-    {% endfor %}
+    {% assign numberofints = listofints | size %}
+    {% if numberofints > 0 %}
+        {% assign printedints = '' | split: '' %}
+        {% assign startoflink = '<a href="' %}
+        {% assign middleoflink = '">' %}
+        {% assign endoflink = '</a>' %}
+        {% for interest in listofints %}
+            {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+            {% assign formattedinterest = fulllink | split:'&emsp;' %}
+            {% assign printedints = printedints | concat: formattedinterest %}
+        {% endfor %}
+    {% endif %}
     <h2>{{ seminar.title }}</h2>
     <h3>{{ seminar.subtitle }}</h3>
     <p><strong>Abstract:</strong> {{ seminar.abstract | smartify }}</p>
-    <p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+    {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
     <p>{{ seminar.remark }}</p>
     {{ seminar.lecturenotes }}
     {{ seminar.slideshow }}
