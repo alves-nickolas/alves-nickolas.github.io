@@ -10,3 +10,16 @@ layout: default
 <p><strong>Remark: </strong>{{ page.remark }}</p>
 
 {{ content }}
+
+{% assign numberofarxivs = page.relatedarxiv | size %}
+{% if numberofarxivs > 0 %}
+    {% assign listofarxivs = site.publications | where:"arxiv",page.relatedarxiv | sort:'date' | reverse %}
+    <h2>Related publications:</h2>
+      <ul>
+        {% for pub in listofarxivs %}
+            <li>
+              {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
+            </li>
+        {% endfor %}
+      </ul>
+{% endif %}
