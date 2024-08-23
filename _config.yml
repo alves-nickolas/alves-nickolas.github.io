@@ -11,6 +11,8 @@ collections:
     output: true
   interests:
     output: true
+  seminars:
+    output: true
     
 defaults:
   - scope:
