@@ -1,0 +1,19 @@
+---
+title: Seminars
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>I have presented many seminars throughout the years. This is a list of my favorites. They are accompanied by video recordings, lecture notes,  slideshows, etc whenever possible. Seminars are chronologically ordered, with older entries at the bottom of the page.</p>
+
+{% assign seminars = site.seminars | sort: 'date' | reverse %}
+{% for seminar in seminars %}
+    <h2>{{ seminar.title }}</h2>
+    <p>{{ seminar.abstract }}</p>
+    <p>{{ seminar.remark }}</p>
+    {{ seminar.lecture notes }}
+    {{ seminar.slideshow }}
+    {{ seminar.poster }}
+    {{ seminar.videorecordings }}
+    <br>
+{% endfor %}
