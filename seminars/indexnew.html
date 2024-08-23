@@ -12,7 +12,7 @@ layout: default
     {% assign listofints = site.interests | where_exp:"item","seminar.tags contains item.tag" | sort: 'priority' %}
     {% assign printedints = '' %}
     {% for interest in listofints %}
-        {% assign formattedinsterest = '<a href="{{ interest.url }}">{{ interest.title }}</a>' %}
+        {% assign formattedinterest = '<a href="{{ interest.url }}">{{ interest.title }}</a>' %}
         {% assign printedints = printedints | concat: formattedinterest %}
     {% endfor %}
     <h2>{{ seminar.title }}</h2>
