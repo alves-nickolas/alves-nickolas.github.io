@@ -30,8 +30,3 @@ defaults:
       type: "interests"
     values:
       layout: "interest"
-  - scope:
-      path: ""
-      type: "seminars"
-    values:
-      layout: "seminars"
