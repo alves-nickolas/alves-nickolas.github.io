@@ -8,14 +8,29 @@ layout: default
 
 {% assign listofseminars = site.seminars | sort: 'date' | reverse %}
 {% assign listofints = site.interests | sort: 'priority' %}
+{% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for seminar in listofseminars %}
+{% assign numberofarxivs = seminar.relatedarxiv | size %}
     <h2>{{ seminar.title }}</h2>
-    <p>{{ seminar.abstract }}</p>
+    <h3>{{ seminar.subtitle }}</h3>
+    <p><strong>Abstract:</strong> {{ seminar.abstract }}</p>
     <p><strong>Tags:</strong> {% for interest in listofints %}{% if seminar.tags contains interest.tag %}<a href="{{ interest.url }}">{{ interest.title }}</a>&emsp;{% endif %}{% endfor %}</p>
     <p>{{ seminar.remark }}</p>
     {{ seminar.lecturenotes }}
     {{ seminar.slideshow }}
     {{ seminar.poster }}
     {{ seminar.videorecordings }}
+    {% if numberofarxivs > 0 %}
+        <p><strong>Related publications:</strong></p>
+          <ul>
+            {% for pub in listofpubs %}
+              {% if seminar.relatedarxiv contains pub.arxiv %}
+                <li>
+                  {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+    {% endif %}
     <br>
 {% endfor %}
