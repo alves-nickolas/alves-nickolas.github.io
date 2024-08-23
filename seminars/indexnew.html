@@ -9,7 +9,7 @@ layout: default
 {% assign listofseminars = site.seminars | sort: 'date' | reverse %}
 {% for seminar in listofseminars %}
 {% assign numberofarxivs = seminar.relatedarxiv | size %}
-{% assign listofints = site.interests | where_exp:"seminar","seminar.tags contains 'tag'" | sort: 'priority' %}
+{% assign listofints = site.interests | where_exp:"item","seminar.tags contains item.tag" | sort: 'priority' %}
     <h2>{{ seminar.title }}</h2>
     <h3>{{ seminar.subtitle }}</h3>
     <p><strong>Abstract:</strong> {{ seminar.abstract | smartify }}</p>
