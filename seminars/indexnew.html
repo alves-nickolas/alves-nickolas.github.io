@@ -10,9 +10,13 @@ layout: default
 {% for seminar in listofseminars %}
     {% assign numberofarxivs = seminar.relatedarxiv | size %}
     {% assign listofints = site.interests | where_exp:"item","seminar.tags contains item.tag" | sort: 'priority' %}
-    {% assign printedints = '' %}
+    {% assign printedints = '' | split: '' %}
+    {% assign startoflink = <a href="' %}
+    {% assign middleoflink = '">' %}
+    {% assign endoflink = '</a>' %}
     {% for interest in listofints %}
-        {% assign formattedinterest = '<a href="interest.url">interest.title</a>' | split:'&emsp;' %}
+        {% fulllink = startoflink | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+        {% assign formattedinterest = fulllink | split:'&emsp;' %}
         {% assign printedints = printedints | concat: formattedinterest %}
     {% endfor %}
     <h2>{{ seminar.title }}</h2>
