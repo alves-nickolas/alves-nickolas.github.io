@@ -1,8 +1,8 @@
 # LaTeX Templates
 
-Writing LaTeX is one of my hobbies. I don't like sharing all of my templates, because I grow quite attached to some of them. Nevertheless, some might make it to here. Notice the titles of the projects are hyperlinks to somewhere where the code is available. 
+Writing LaTeX is one of my hobbies. I wouldn't say I like sharing all of my templates, because I grow quite attached to some of them. Nevertheless, some might make it to here. Notice the titles of the projects are hyperlinks to somewhere where the code is available. 
 
-## [Tengwar Thesis Template](https://github.com/alves-nickolas/Tengwar-Thesis-Template-)
+## [Tengwar Thesis Template](https://github.com/alves-nickolas/Tengwar-Thesis-Template)
 
 This is a simplified version of the template I used to write my [MSc thesis](https://arxiv.org/abs/2305.17453). It is partially inspired by (and a bit of the structure and the older code were adapted from) Martin Helsø's [UiO Mathematics Master's Thesis template](https://www.overleaf.com/latex/templates/uio-mathematics-masters-thesis/dhbqpjyhjmgd). The name "Tengwar Thesis" is simply because I find Garamond somewhat similar to Tolkien's tengwar alphabet, and decided to go for the joke.
 
