@@ -24,7 +24,7 @@ layout: default
         {% endif %}
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
         <p style="text-align: center;">
-            {% paper.authors %}
+            {{ paper.authors }}
         </p>
         <p style="text-align: center;">{{ paper.citation }}</p>
         <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
