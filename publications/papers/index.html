@@ -24,22 +24,7 @@ layout: default
         {% endif %}
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
         <p style="text-align: center;">
-            {% assign authorCount = paper.authors | size %}
-            {% if authorCount == 0 %}
-                No author
-            {% elsif authorCount == 1 %}
-                {{ paper.authors | first }}
-            {% else %}
-                {% for author in paper.authors %}
-                    {% if forloop.first %}
-                        {{ author }}
-                    {% elsif forloop.last %}
-                        and {{ author }}
-                    {% else %}
-                        , {{ author }}
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
+            {% paper.authors %}
         </p>
         <p style="text-align: center;">{{ paper.citation }}</p>
         <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
