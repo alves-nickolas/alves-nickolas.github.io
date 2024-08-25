@@ -11,7 +11,6 @@ stage: phd
 tags: EnergyConditions GR
 pubtype: paper
 arxiv: "2408.00154"
-permalink: 2408.00154
 ---
 
 ## Introduction
