@@ -1,24 +1,7 @@
 ---
 layout: default
 ---
-<p>Note: this page is currently being edited, so things may look messy</p>
 <h1>{{ page.title }}</h1>
-<h3>{% assign authorCount = page.authors | size %}
-{% if authorCount == 0 %}
-    No author
-{% elsif authorCount == 1 %}
-    {{ page.authors | first }}
-{% else %}
-    {% for author in page.authors %}
-        {% if forloop.first %}
-            {{ author }}
-        {% elsif forloop.last %}
-            and {{ author }}
-        {% else %}
-            , {{ author }}
-        {% endif %}
-    {% endfor %}
-{% endif %}</h3>
 <h3>{{ page.authors | array_to_sentence_string }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
 {% assign listofints = site.interests | where_exp:"item","page.tags contains item.tag" | sort: 'priority' %}
