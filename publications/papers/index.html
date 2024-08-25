@@ -24,7 +24,7 @@ layout: default
             {% endfor %}
         {% endif %}
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-        <p style="text-align: center;">{{ listofauthors | array_to_sentence_string }}</p>
+        <p style="text-align: center;">{{ paper.authors | array_to_sentence_string }}</p>
         <p style="text-align: center;">{{ paper.citation }}</p>
         <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
         {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
