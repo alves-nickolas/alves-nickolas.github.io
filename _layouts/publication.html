@@ -19,7 +19,7 @@ layout: default
         {% endif %}
     {% endfor %}
 {% endif %}</h3>
-<h3>{{ page.authors }}</h3>
+<h3>{{ page.authors | array_to_sentence_string }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
 {% assign listofints = site.interests | where_exp:"item","page.tags contains item.tag" | sort: 'priority' %}
     {% assign numberofints = listofints | size %}
