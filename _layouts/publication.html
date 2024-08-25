@@ -5,8 +5,21 @@ layout: default
 <h1>{{ page.title }}</h1>
 <h3>{{ page.authors }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
-
+{% assign listofints = site.interests | where_exp:"item","page.tags contains item.tag" | sort: 'priority' %}
+    {% assign numberofints = listofints | size %}
+    {% if numberofints > 0 %}
+        {% assign printedints = '' | split: '' %}
+        {% assign startoflink = '<a href="' %}
+        {% assign middleoflink = '">' %}
+        {% assign endoflink = '</a>' %}
+        {% for interest in listofints %}
+            {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+            {% assign formattedinterest = fulllink | split:'&emsp;' %}
+            {% assign printedints = printedints | concat: formattedinterest %}
+        {% endfor %}
+    {% endif %}
 <p><strong>Abstract: </strong>{{ page.abstract }}</p>
+{% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
 <p><strong>Remark: </strong>{{ page.remark }}</p>
 
 {{ content }}
