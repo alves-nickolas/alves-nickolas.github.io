@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-{% assign listofauthors = paper.authors %}
+{% assign listofauthors = page.authors %}
 <h3>{{ listofauthors | array_to_sentence_string }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
 {% assign listofints = site.interests | where_exp:"item","page.tags contains item.tag" | sort: 'priority' %}
