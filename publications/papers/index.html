@@ -9,7 +9,7 @@ layout: default
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs %}
     {% if paper.pubtype contains 'paper' %}
-        {% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
+        <!--{% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
         {% assign numberofints = listofints | size %}
         {% if numberofints > 0 %}
             {% assign printedints = '' | split: '' %}
@@ -21,7 +21,7 @@ layout: default
                 {% assign formattedinterest = fulllink | split:'&emsp;' %}
                 {% assign printedints = printedints | concat: formattedinterest %}
             {% endfor %}
-        {% endif %}
+        {% endif %}-->
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
         <p style="text-align: center;">{{ paper.authors }}</p>
         <p style="text-align: center;">{{ paper.citation }}</p>
