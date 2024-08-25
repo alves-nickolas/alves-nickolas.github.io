@@ -3,6 +3,7 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
+<p>Test: {% if page.authors.first %}not a string{% else %}it's a string{% endif %}</p>
 <h3>{% assign authorCount = page.authors | size %}
 {% if authorCount == 0 %}
     No author
