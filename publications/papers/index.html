@@ -9,7 +9,6 @@ layout: default
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs %}
     {% if paper.pubtype contains 'paper' %}
-        {% assign listofauthors = paper.authors %}
         {% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
         {% assign numberofints = listofints | size %}
         {% if numberofints > 0 %}
