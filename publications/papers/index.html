@@ -30,13 +30,7 @@ layout: default
                 {{ paper.authors | first }}
             {% else %}
                 {% for author in paper.authors %}
-                    {% if forloop.first %}
-                        {{ author }}
-                    {% elsif forloop.last %}
-                        and {{ author }}
-                    {% else %}
-                        , {{ author }}
-                    {% endif %}
+                     {% if forloop.first %}{{ author }}{% elsif forloop.last %} and {{ author }}{% else %}, {{ author }}{% endif %}
                 {% endfor %}
             {% endif %}
         </p>
