@@ -9,6 +9,7 @@ layout: default
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs %}
     {% if paper.pubtype contains 'paper' %}
+        {% assign listofauthors = paper.authors %}
         {% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
         {% assign numberofints = listofints | size %}
         {% if numberofints > 0 %}
@@ -23,17 +24,7 @@ layout: default
             {% endfor %}
         {% endif %}
         <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-        <p style="text-align: center;">{% assign authorCount = paper.authors | size %}
-            {% if authorCount == 0 %}
-                No author
-            {% elsif authorCount == 1 %}
-                {{ paper.authors | first }}
-            {% else %}
-                {% for author in paper.authors %}
-                     {% if forloop.first %}{{ author }}{% elsif forloop.last %} and {{ author }}{% else %}, {{ author }}{% endif %}
-                {% endfor %}
-            {% endif %}
-        </p>
+        <p style="text-align: center;">{{ listofauthors | array_to_sentence_string }}</p>
         <p style="text-align: center;">{{ paper.citation }}</p>
         <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
         {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
