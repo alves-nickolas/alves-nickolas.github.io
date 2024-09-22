@@ -1,0 +1,60 @@
+---
+title: Short CV
+---
+<h1>{{ page.title }}</h1>
+
+This is my brief CV. You can learn more about my research interests <a href="https://alves-nickolas.github.io/publications/interests/">here</a>.
+
+<h2>Doctor in Physics</h2>
+<h3>September 2023 – Ongoing</h3>
+
+<strong>**Advisor:**</strong> Prof. <a href="https://orcid.org/0000-0002-3717-4966" target="_blank">André G. S. Landulfo</a>
+
+<strong>Institution:</strong> <a href="https://fisica.ufabc.edu.br/index.php/en/" target="_blank">Federal University of ABC</a>
+
+<strong>**Funding:**</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001
+
+My PhD is focused on studying many different aspects of the interplay between quantum mechanics and gravity. Some of the topics I am currently working on are <a href="https://alves-nickolas.github.io/interests/AQFT.html">algebraic quantum field theory</a>, <a href="https://alves-nickolas.github.io/interests/EnergyConditions.html">energy conditions</a>, <a href="https://alves-nickolas.github.io/interests/EntropyBoundsHolography.html">entropy bounds and holography</a>, <a href="https://alves-nickolas.github.io/interests/IRStructure.html">infrared structure</a>, and more. 
+
+{% assign listofphdpubs = site.publications | where:"stage",phd | sort:'date' | reverse %}
+<p><strong>Related publications:</strong></p>
+  <ul>
+    {% for pub in listofphdpubs %}
+        <li>
+          {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
+        </li>
+    {% endfor %}
+  </ul>
+
+<h2>Master in Physics</h2>
+<h3>February 2021 – April 2023</h3>
+
+<strong>**Advisor:**</strong> Prof. <a href="https://orcid.org/0000-0002-3717-4966" target="_blank">André G. S. Landulfo</a>
+
+<strong>Institution:</strong> <a href="https://fisica.ufabc.edu.br/index.php/en/" target="_blank">Federal University of ABC</a>
+
+<strong>**Funding:**</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001, and São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/199394/the-functional-renormalization-group-in-quantum-field-theory-in-curved-spacetimes/" target="_blank">21/07372-7</a>
+
+My master's degree was focused on applying techniques involving the <a href="https://alves-nickolas.github.io/interests/FRG.html">functional renormalization group</a> to problems in <a href="https://alves-nickolas.github.io/interests/QFTCS.html">quantum field theory in curved spacetime</a>. More specifically, I worked on computing the functional renormalization group flow of an Unruh–DeWitt detector to better understand the nonperturbative behavior of particle detectors. 
+
+
+{% assign listofmscpubs = site.publications | where:"stage",msc | sort:'date' | reverse %}
+<p><strong>Related publications:</strong></p>
+  <ul>
+    {% for pub in listofmscpubs %}
+        <li>
+          {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
+        </li>
+    {% endfor %}
+  </ul>
+
+<h2>Bachelor in Physics</h2>
+<h3>February 2017 – December 2020</h3>
+
+<strong>**Advisor:**</strong> Prof. <a href="https://denebola.if.usp.br/" target="_blank">João C. A. Barata</a>
+
+<strong>Institution:</strong> <a href="http://portal.if.usp.br/ifusp/en" target="_blank">University of São Paulo's Institute of Physics</a>
+
+<strong>**Funding:**</strong> São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/187017/hyperbolic-equations/" target="_blank">19/12158-4</a>
+
+In Brazil, it is common for undergraduate students to take on a "scientific initiation" project. In theoretical and mathematical physics, this is usually a project ranging from six months to a few years consisting of reviewing a specific topic within an area of interest. I carried out my project on hyperbolic equations of mathematical physics, aiming at being prepared to later start a master's degree on quantum field theory in curved spacetimes. 
