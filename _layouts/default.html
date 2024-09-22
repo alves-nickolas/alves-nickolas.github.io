@@ -27,13 +27,18 @@
       <div>
         <nav id="Menu">
           <a href="{{ site.url }}" class="button">Home</a>
+	  <div class="dropdown"><button class="dropbtn">About Me</button>
+            <div class="dropdown-content">
+              <a href="{{ site.url }}/about" class="button">Short CV</a>
+	      <a href="{{ site.url }}/about/interests" class="button">Research Interests</a>
+            </div>
+          </div>
 	  <div class="dropdown"><button class="dropbtn">Publications</button>
             <div class="dropdown-content">
-              <a href="{{ site.url }}/publications/interests" class="button">Research Interests</a>
 	      <a href="{{ site.url }}/publications/papers" class="button">Papers</a>
 	      <a href="{{ site.url }}/abs/2305.17453/" class="button">MSc Thesis</a>
             </div>
-          </div>	
+          </div>
 	  <a href="{{ site.url }}/seminars" class="button">Seminars</a>
           <a href="{{ site.url }}/teaching" class="button">Teaching</a>
 	  <!--<div class="dropdown"><button class="dropbtn">Miscellaneous</button>
