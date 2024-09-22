@@ -20,14 +20,15 @@ msctopics: GR QFTCS AQFT FRG
 {% assign startoflink = '<a href="' %}
 {% assign middleoflink = '">' %}
 {% assign endoflink = '</a>' %}
-{% for interest in phdtopics %}
+{% assign phdtags = page.phdtopics %}
+{% for interest in phdtags %}
     {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
     {% assign formattedinterest = fulllink | split:'&emsp;' %}
     {% assign printedints = printedints | concat: formattedinterest %}
 {% endfor %}
 <p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
 
-<p>Updated</p>
+<p>Updated 2</p>
 
 {% assign listofphdpubs = site.publications | where:"stage","phd" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
@@ -52,7 +53,8 @@ msctopics: GR QFTCS AQFT FRG
 {% assign startoflink = '<a href="' %}
 {% assign middleoflink = '">' %}
 {% assign endoflink = '</a>' %}
-{% for interest in page.msctopics %}
+{% assign msctags = page.msctopics %}
+{% for interest in msctags %}
     {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
     {% assign formattedinterest = fulllink | split:'&emsp;' %}
     {% assign printedints = printedints | concat: formattedinterest %}
