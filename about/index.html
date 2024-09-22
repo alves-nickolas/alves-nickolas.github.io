@@ -26,9 +26,12 @@ msctopics: GR QFTCS AQFT FRG
     {% assign formattedinterest = fulllink | split:'&emsp;' %}
     {% assign printedints = printedints | concat: formattedinterest %}
 {% endfor %}
-<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+<p><strong>Topics:</strong> {{ printedints | array_to_sentence_string }}</p>
 
-<p>Updated 3</p>
+<p><strong>Main Results:</strong></p>
+<ul>
+    <li> showed that barotropic, spherically-symmetric stars with negative mass are unstable in general relativity (Aguiar Alves, Landulfo & Costa 2024) 
+</ul>
 
 {% assign listofphdpubs = site.publications | where:"stage","phd" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
@@ -59,10 +62,12 @@ msctopics: GR QFTCS AQFT FRG
     {% assign formattedinterest = fulllink | split:'&emsp;' %}
     {% assign printedints = printedints | concat: formattedinterest %}
 {% endfor %}
-<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+<p><strong>Topics:</strong> {{ printedints | array_to_sentence_string }}</p>
 
-<p>My master's degree was focused on applying techniques involving the <a href="https://alves-nickolas.github.io/interests/FRG.html">functional renormalization group</a> to problems in <a href="https://alves-nickolas.github.io/interests/QFTCS.html">quantum field theory in curved spacetime</a>. More specifically, I worked on computing the functional renormalization group flow of an Unruh–DeWitt detector to better understand the nonperturbative behavior of particle detectors.</p>
-
+<p><strong>Main Results:</strong></p>
+<ul>
+    <li> computed the functional renormalization group flow for an Unruh–DeWitt detector in Minkowski spacetime (Aguiar Alves 2023 and work to appear) 
+</ul>
 
 {% assign listofmscpubs = site.publications | where:"stage","msc" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
