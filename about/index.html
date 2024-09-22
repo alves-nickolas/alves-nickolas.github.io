@@ -1,5 +1,7 @@
 ---
 title: Short CV
+phdtopics: GR QFTCS AQFT Holography EnergyConditions IRStructure  
+msctopics: GR QFTCS AQFT FRG 
 ---
 <h1>{{ page.title }}</h1>
 
@@ -14,7 +16,16 @@ title: Short CV
 
 <p><strong>Funding:</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001</p>
 
-<p>My PhD is focused on studying many different aspects of the interplay between quantum mechanics and gravity. Some of the topics I am currently working on are <a href="https://alves-nickolas.github.io/interests/AQFT.html">algebraic quantum field theory</a>, <a href="https://alves-nickolas.github.io/interests/EnergyConditions.html">energy conditions</a>, <a href="https://alves-nickolas.github.io/interests/EntropyBoundsHolography.html">entropy bounds and holography</a>, <a href="https://alves-nickolas.github.io/interests/IRStructure.html">infrared structure</a>, and more.</p>
+{% assign printedints = '' | split: '' %}
+{% assign startoflink = '<a href="' %}
+{% assign middleoflink = '">' %}
+{% assign endoflink = '</a>' %}
+{% for interest in page.phdtopics %}
+    {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+    {% assign formattedinterest = fulllink | split:'&emsp;' %}
+    {% assign printedints = printedints | concat: formattedinterest %}
+{% endfor %}
+<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
 
 {% assign listofphdpubs = site.publications | where:"stage","phd" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
@@ -34,6 +45,17 @@ title: Short CV
 <p><strong>Institution:</strong> <a href="https://fisica.ufabc.edu.br/index.php/en/" target="_blank">Federal University of ABC</a></p>
 
 <p><strong>Funding:</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001, and São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/199394/the-functional-renormalization-group-in-quantum-field-theory-in-curved-spacetimes/" target="_blank">21/07372-7</a></p>
+
+{% assign printedints = '' | split: '' %}
+{% assign startoflink = '<a href="' %}
+{% assign middleoflink = '">' %}
+{% assign endoflink = '</a>' %}
+{% for interest in page.msctopics %}
+    {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+    {% assign formattedinterest = fulllink | split:'&emsp;' %}
+    {% assign printedints = printedints | concat: formattedinterest %}
+{% endfor %}
+<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
 
 <p>My master's degree was focused on applying techniques involving the <a href="https://alves-nickolas.github.io/interests/FRG.html">functional renormalization group</a> to problems in <a href="https://alves-nickolas.github.io/interests/QFTCS.html">quantum field theory in curved spacetime</a>. More specifically, I worked on computing the functional renormalization group flow of an Unruh–DeWitt detector to better understand the nonperturbative behavior of particle detectors.</p>
 
@@ -55,6 +77,6 @@ title: Short CV
 
 <p><strong>Institution:</strong> <a href="http://portal.if.usp.br/ifusp/en" target="_blank">University of São Paulo's Institute of Physics</a></p>
 
-<p><strong>**Funding:**</strong> São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/187017/hyperbolic-equations/" target="_blank">19/12158-4</a></p>
+<p><strong>Funding:</strong> São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/187017/hyperbolic-equations/" target="_blank">19/12158-4</a></p>
 
 <p>In Brazil, it is common for undergraduate students to take on a "scientific initiation" project. In theoretical and mathematical physics, this is usually a project ranging from six months to a few years consisting of reviewing a specific topic within an area of interest. I carried out my project on hyperbolic equations of mathematical physics, aiming at being prepared to later start a master's degree on quantum field theory in curved spacetimes.</p> 
