@@ -36,22 +36,23 @@ For simplicity and to keep calculations manageable, we restrict our attention to
 5. and barotropic.
 
 Spherical symmetry enforces the metric to have the form
-\\[\mathrm{d}s^2 = - e^{2\phi(t,r)}\mathrm{d}t^2 + e^{2\psi(t,r)}\mathrm{d}r^2 + r^2 \mathrm{d}\Omega^2,\\]
+$$\mathrm{d}s^2 = - e^{2\phi(t,r)}\mathrm{d}t^2 + e^{2\psi(t,r)}\mathrm{d}r^2 + r^2 \mathrm{d}\Omega^2,$$
 which in turn implies the Einstein tensor has the form
-\\[G^{\mu}{}_\nu = 8 \pi T^{\mu}{}_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\\\ & P_{\parallel} && \\\\ && P_{\perp} & \\\\ &&& P_{\perp}\end{pmatrix}.\\]
+$$G^\mu{}_\nu = 8 \pi T^{\mu}{}_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\ & P_{\parallel} && \\ && P_{\perp} & \\ &&& P_{\perp}\end{pmatrix}.$$
 
-$$G^\mu{}_\nu = 8 \pi T^{\mu}{}_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\\\ & P_{\parallel} && \\\\ && P_{\perp} & \\\\ &&& P_{\perp}\end{pmatrix}.$$
+Requiring the star to be described by a perfect fluid means imposing $P_{\parallel} = P_{\perp} \equiv P$, and thus the matter content is completely characterized by two functions: the energy density $\rho$ and the (isotropic) pressure $P$.
 
-Requiring the star to be described by a perfect fluid means imposing \\(P_{\parallel} = P_{\perp} \equiv P\\), and thus the matter content is completely characterized by two functions: the energy density \\(\rho\\) and the (isotropic) pressure \\(P\\).
+Next we require the solution to be (nearly) stationary. Stationarity means $\phi$, $\psi$, $\rho$, and $P$ depend only on $r$, not on $t$. ``Nearly'' stationary means the solution may depend on time, but this dependence is very small and can be treated within linearized perturbation theory. 
 
+Finiteness means the star has a boundary. This is required because we want to describe a negative-mass object with finite extensions. An infinitely large object would be interesting for cosmology, but not for our purposes of understanding the absence of objects with negative mass. 
 
-The last assumption is not necessary at this stage, but it is used later to keep the calculations feasible. 
+Finally, the assumption that the start is barotropic means the isotropic pressure $P$ is given in terms of the energy density $\rho$ by a (differentiable) equation of state $P = P(\rho)$. While it is not strictly necessary at this stage, it is used later to keep the calculations feasible. 
 
 Within these assumptions, the equations for hydrostatic equilibrium and for the geometry of spacetime are described by a coupled system of nonlinear ordinary differential equations. The main equation, giving the radial dependence of the pressure, is known as the Tolman--Oppenheimer--Volkoff (TOV) equation (Oppenheimer and Volkoff [1939](#oppenheimer1939); Tolman [1934a](#tolman1934a),[b](#tolman1934b), [1939]((#tolman1939))). Since we are able to reduce the problem to a few ordinary differential equations, we can deal with all the calculations with relative ease (as compared to the typical situation in general relativity). 
 
-To actually solve the TOV system one needs to prescribe one extra equation. This typically takes the form of an equation of state relating the pressure and the energy density of the star, which essentially gives the information of which material composes the star. In astrophysics, this is the preferred method to obtain a solution. One prescribes a model for what a star is made of, and then computes how the star gravitates. 
+To actually solve the TOV system one needs to prescribe an equation describing the material of the star. This typically takes the form of an equation of state relating the pressure and the energy density of the star. In astrophysics, this is the preferred method to obtain a solution. One prescribes a model for what a star is made of, and then computes how the star gravitates. 
 
-When dealing with negative-mass stars, an alternative approach is also of interest. One chooses the functional form the energy density should have as a function of the radius. This determines an energy density profile. This profile is then taken as an ansatz on the TOV system and used to obtain the remaining variables. In this way, one has complete control over the energy (and mass) of the star, but abdicates of any saying on its composition.
+When dealing with negative-mass stars, an alternative approach is also of interest. One chooses the functional form the energy density should have as a function of the radius. This determines an energy density profile. This profile is then taken as an ansatz on the TOV system and used to obtain the remaining variables. In this way, one has complete control over the energy (and mass) of the star, but abdicates of any saying on its composition. One can then check whether the star is barotropic by plotting the energy density and the pressure against each other and analyzing whether the resut yields a well-defined function.
 
 ### Chandrasekhar Pulsation Equation
 One of the main methods to study stellar stability is by adding small perturbations to the star and studying how these perturbations evolve. For example, one slightly displaces some fluid elements in the star. If they go back to their original positions, this indicates stability. If they drift farther and farther away, this indicates instability. Hence, the problem of determining stability is mapped into the problem of studying how minor changes to the structure of a star evolve with time.
