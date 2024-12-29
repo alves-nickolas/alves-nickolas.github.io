@@ -36,8 +36,11 @@ For simplicity and to keep calculations manageable, we restrict our attention to
 5. and barotropic.
 
 Spherical symmetry enforces the metric to have the form
+
 $$\mathrm{d}s^2 = - e^{2\phi(t,r)}\mathrm{d}t^2 + e^{2\psi(t,r)}\mathrm{d}r^2 + r^2 \mathrm{d}\Omega^2,$$
+
 which in turn implies the Einstein tensor has the form
+
 $$G^\mu{}_\nu = 8 \pi T^{\mu}{}_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\ & P_{\parallel} && \\ && P_{\perp} & \\ &&& P_{\perp}\end{pmatrix}.$$
 
 Requiring the star to be described by a perfect fluid means imposing $P_{\parallel} = P_{\perp} \equiv P$, and thus the matter content is completely characterized by two functions: the energy density $\rho$ and the (isotropic) pressure $P$.
