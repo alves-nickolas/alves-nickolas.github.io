@@ -18,7 +18,7 @@ permalink: /abs/2408.00154/
 
 A long-standing problem in physics is: why are masses positive? This is a deep question in fundamental physics and one would at first expect that an answer should be available within quantum gravity at worst. Nevertheless, it would be interesting to find simpler solutions.
 
-An answer to this question can be given, within some assumptions, in the realm of quantum field theory in curved spacetime. Namely, results due to Borde ([1987](#borde1987)) and Penrose, Sorkin, and Woolgar ([1993](#penrose1993)) establish with some generality that isolated gravitating bodies have positive masses as long as their constituent matter satisfies some good properties. Namely, it is necessary that the constituent matter satisfies the achronal averaged null energy condition, which is a condition believed to be true for all quantum fields in all physically meaningful scenarios (Kontou and Sanders [2020](#kontou2020); Wall [2010](#wall2010)). Hence, once we tell general relativity that matter is made of quantum fields, it follows that mass must be positive. 
+An answer to this question can be given, within some assumptions, in the realm of quantum field theory in curved spacetime. Namely, results due to Borde ([1987](#borde1987)) and Penrose, Sorkin, and Woolgar ([1993](#penrose1993)) establish with some generality that isolated gravitating bodies have positive masses as long as their constituent matter satisfies some good properties. In more detail, the constituent matter must satisfy the achronal averaged null energy condition, which is a condition believed to be true for all quantum fields in all physically meaningful scenarios (Kontou and Sanders [2020](#kontou2020); Wall [2010](#wall2010)). Hence, once we tell general relativity that matter is made of quantum fields, it follows that mass must be positive. 
     
 While this is a very interesting and general result, one could wonder whether quantum field theory is really necessary to settle this question. Costa and Matsas ([2022](#costa2022)) have conjectured recently that general relativity alone should be able to discard from existence any negative-mass solutions. While the original conjecture was not detailed enough on what could forbid the existence of these solutions, it is clear now that merely imposing equilibrium and the absence of singularities (for example) is not sufficient. It turns out Novikov, Bisnovatyi-Kogan, and Novikov ([2018](#novikov2018)) had previously given examples of regular negative-mass stars in general relativity. While they did not address whether these examples involved existing matter or whether they were stable, this gives clear evidence that general relativity admits equilibrium configurations with negative mass and no singularities. 
     
@@ -29,10 +29,15 @@ In this work, we show precisely that. We consider generalizations of the negativ
 ## Methods
 ### Tolman--Oppenheimer--Volkoff Equation
 For simplicity and to keep calculations manageable, we restrict our attention to stars that are
-1. stationary, so they are in equilibrium;
-2. spherically symmetric, so the calculations are simple;
-3. isotropic, to avoid unnecessary complications;
-4. the star is barotropic, meaning the pressure at each point is uniquely determined by the energy density.
+1. spherically symmetric,
+2. described by a perfect fluid,
+3. (nearly) stationary,
+4. finite,
+5. and barotropic.
+
+Spherical symmetry enforces the metric to have the form
+
+$$\mathrm{d}s^2 = - e^{2\phi(t,r)}\mathrm{d}t^2 + e^{2\psi(t,r)}\mathrm{d}r^2 + r^2 \mathrm{d}\Omega^2$$
 
 The last assumption is not necessary at this stage, but it is used later to keep the calculations feasible. 
 
