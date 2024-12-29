@@ -123,6 +123,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * [O]ur purpose in theoretical physics is not just to describe the world as we find it, but to explain—in terms of a few fundamental principles — why the world is the way it is.
   
   Steven Weinberg, in *The Quantum Theory of Fields Vol. 1: Foundations* (Cambridge University Press, Cambridge, 1995).
+* Louise will forever twit me about all that. When we are having some little disagreement, she will say, ``You couldn’t even renormalize your own theory.''
+
+  Steven Weinberg, in *Steven Weinberg: A Life in Physics* (Cambridge University Press, Cambridge, 2025)
 * To the wonderful teachers, students, and colleagues who have inspired and guided me over the years; and to the still unknown person(s) who will further illuminate the magic of this strange and beautiful world of ours by discovering How come the quantum? How come existence?  
   *We will first understand how simple the universe is when we recognize how strange it is.*
   
