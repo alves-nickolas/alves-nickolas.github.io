@@ -6,7 +6,7 @@ authors:
  - <a href="https://orcid.org/0000-0002-3717-4966" target="_blank">André G. S. Landulfo</a>
  - <a href="https://barderucio.wordpress.com/" target="_blank">Bruno Arderucio Costa</a>
 abstract: 'A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. <i>A fortiori</i>, we show that any barotropic negative-mass star must be dynamically unstable.'
-citation: 'Aguiar Alves, Níckolas de, André G. S. Landulfo, and Bruno Arderucio Costa. “Positive Mass in General Relativity Without Energy Conditions,” 2024. To appear in <i>Physical Review D</i>. arXiv: <a href="https://arxiv.org/abs/2408.00154" target="_blank">2408.00154 [gr-qc]</a>.'
+citation: 'Aguiar Alves, Níckolas de, André G. S. Landulfo, and Bruno Arderucio Costa. “Positive Mass in General Relativity Without Energy Conditions.” To appear in <i>Physical Review D</i>. arXiv: <a href="https://arxiv.org/abs/2408.00154" target="_blank">2408.00154 [gr-qc]</a>.'
 stage: phd
 tags: EnergyConditions GR
 pubtype: paper
