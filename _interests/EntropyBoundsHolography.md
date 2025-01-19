@@ -1,6 +1,6 @@
 ---
 title: Entropy Bounds and Holography in General Spacetimes
-tag: Holography
+tag: EntropyBounds
 priority: 2
 ---
 
