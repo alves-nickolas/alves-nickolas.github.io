@@ -1,6 +1,6 @@
 ---
 title: Positive Mass in General Relativity Without Energy Conditions
-date: 2024-08-01
+date: 2025-01-17
 authors: 
  - <strong>Níckolas de Aguiar Alves</strong>
  - <a href="https://orcid.org/0000-0002-3717-4966" target="_blank">André G. S. Landulfo</a>
