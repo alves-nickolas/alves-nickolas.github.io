@@ -41,7 +41,7 @@ $$\mathrm{d}s^2 = - e^{2\phi(t,r)}\mathrm{d}t^2 + e^{2\psi(t,r)}\mathrm{d}r^2 + 
 
 which in turn implies the Einstein tensor has the form
 
-$$G^\mu{}\_\nu = 8 \pi T^{\mu}{}\_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\ & P_{\parallel} && \\ && P_{\perp} & \\ &&& P_{\perp}\end{pmatrix}.$$
+$$G^\mu{}_\nu = 8 \pi T^{\mu}{}_{\nu} = 8 \pi \begin{pmatrix}-\rho &&& \\ & P_{\parallel} && \\ && P_{\perp} & \\ &&& P_{\perp}\end{pmatrix}.$$
 
 Requiring the star to be described by a perfect fluid means imposing $P_{\parallel} = P_{\perp} \equiv P$, and thus the matter content is completely characterized by two functions: the energy density $\rho$ and the (isotropic) pressure $P$.
 
@@ -71,6 +71,8 @@ A common thermodynamic property among all the models we considered is that, at l
 
 ## Conclusions
 The main lesson to be taken is that negative-mass barotropic spherically symmetric stars in general relativity must be dynamically unstable. This result does not depend on quantum theory in any way, and it is a completely classical argument for why there are no negative masses. 
+
+## References for this Short Summary
 
 [^1]: Borde, A. 1987. “Geodesic Focusing, Energy Conditions and Singularities.” [_Classical and Quantum Gravity_ **4**: 343–56](https://doi.org/10.1088/0264-9381/4/2/015).
 [^2]: Penrose, Roger, R. D. Sorkin, and E. Woolgar. 1993. “A Positive Mass Theorem Based on the Focusing and Retardation of Null Geodesics.” arXiv: [gr-qc/9301015](https://arxiv.org/abs/gr-qc/9301015).
