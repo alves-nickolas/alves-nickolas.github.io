@@ -19,8 +19,8 @@ Notice how these predictions hint at behaviors we should expect from quantum gra
 ## Further Reading
 The following references discuss quantum field theory in curved spacetimes and black hole thermodynamics.
 * Aguiar Alves, Níckolas de. 2023. “Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime.” MSc thesis, Santo André, Brazil: Federal University of ABC. arXiv: [2305.17453 [gr-qc]](https://arxiv.org/abs/2305.17453).
-* N. Aguiar Alves. 2023 “Quantum Field Theory in Curved Spacetimes.” Minicourse. Lecture notes are available [here](https://bht50.github.io/minicourses/QFTCS__An_Introduction.pdf). Recorded lectures are available [here](https://youtube.com/playlist?list=PLdMypOmT56qa4Hi_byAT5wc03tD2jPyoQ&si=DjgStP-cZOAgWTFe).
-* Birrell, N. D., and P. C. W. Davies. 1982. [_Quantum Field Theory in Curved Space_](https://doi.org/10.1017/CBO9780511622632). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press.
+* Aguiar Alves, Níckolas de. 2023 “Quantum Field Theory in Curved Spacetimes.” Minicourse. Lecture notes are available [here](https://bht50.github.io/minicourses/QFTCS__An_Introduction.pdf). Recorded lectures are available [here](https://youtube.com/playlist?list=PLdMypOmT56qa4Hi_byAT5wc03tD2jPyoQ&si=DjgStP-cZOAgWTFe).
+* Birrell, Nicholas D., and Paul C. W. Davies. 1982. [_Quantum Field Theory in Curved Space_](https://doi.org/10.1017/CBO9780511622632). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press.
 * Fulling, Stephen A. 1989. [_Aspects of Quantum Field Theory in Curved Space-Time_](https://doi.org/10.1017/CBO9781139172073). London Mathematical Society Student Texts 17. Cambridge: Cambridge University Press.
 * Hollands, Stefan, and Robert M. Wald. 2015. “Quantum Fields in Curved Spacetime.” [_Physics Reports_ **574**: 1–35](https://doi.org/10.1016/j.physrep.2015.02.001). 
 * Kay, Bernard S. 2025. “[Quantum Field Theory in Curved Spacetime](https://doi.org/10.1016/B978-0-323-95703-8.00085-9).” In _Encyclopedia of Mathematical Physics_, edited by Richard Szabo and Martin Bojowald, 2nd ed., Vol. 5: 357–81. Oxford: Academic Press.
