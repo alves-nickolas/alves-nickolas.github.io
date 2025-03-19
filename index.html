@@ -9,10 +9,10 @@ layout: default
 
 <p>Hello, there! I am Níckolas de Aguiar Alves, or Níck for short. My pronouns are he/him. I am a theoretical physicist. More specifically, I am a PhD student at the <a href="http://fisica.ufabc.edu.br/">Federal University of ABC</a>, Brazil. I work in the interface between quantum mechanics and gravitation. My main interests are general relativity, quantum field theory, and general aspects of quantum gravity.</p>
 
-<p><strong>Latest publication:</strong></p> 
+<p><strong>Recent works:</strong></p> 
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
-{% for paper in listofpubs limit:1 %}
+{% for paper in listofpubs limit:3 %}
     <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
 {% endfor %}
 </ul>
