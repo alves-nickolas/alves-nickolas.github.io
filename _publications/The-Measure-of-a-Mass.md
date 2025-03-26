@@ -11,5 +11,5 @@ tags: EnergyConditions GR
 pubtype: paper
 arxiv: "2503.18963"
 permalink: /abs/2503.18963/
-remark: 
+remark: "I haven't written a summary of this work yet. Oops!"
 ---
