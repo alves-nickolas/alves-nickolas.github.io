@@ -14,18 +14,18 @@ permalink: /abs/2504.12514/
 ---
 
 ## Introduction
-Symmetry is a guiding principle throughout physics. In a sense, one could say the study of physics is the pursuit for what are the underlying symmetries of the universe. Recently, a lot of attention has been given to the so-called asymptotic symmetries—the symmetries that emerge in spacetime as one asymptotically approaches a limiting surface. 
+Symmetry is a guiding principle throughout physics. In a sense, one could say the study of physics is the pursuit of what the underlying symmetries of the universe are. Recently, a lot of attention has been given to the so-called asymptotic symmetries—the symmetries that emerge in spacetime as one asymptotically approaches a limiting surface. 
 
-Of particular notice are the Bondi–Metzner–Sachs[^1] [^2] [^3] and Dappiaggi–Moretti–Pinamonti [^4] groups. These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and at the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 
+Of particular notice are the Bondi–Metzner–Sachs[^1][^2][^3] and Dappiaggi–Moretti–Pinamonti[^4] groups. These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 
 
-However, it is curious that the two groups are very similar, but also very different. We would like to understand why. If have success in extending the groups to larger versions that encompass both at the same time, then we will be able to employ techniques that are common in one setup to the other.
+However, it is curious that the two groups are very similar, but also very different. We would like to understand why. If we have success in extending the groups to larger versions that encompass both at the same time, then we will be able to employ techniques that are common in one setup to the other.
 
 ## Methods
-Our main mathematical tool will be the notion of a Carollian structure, introduced by Duval *et. al.* [^5] [^6] [^7]. This is a generalization of the idea of a pseudo-Riemmanian manifold to the case in which the metric has a degenerate direction. Instead of asking for a pair $(M,g_{ab})$, we instead ask for a triple $(N,h_{ab},n^a)$, where $n^a$ is a vector along the degenerate (null) direction.
+Our main mathematical tool will be the notion of a Carollian structure, introduced by Duval *et al. al.*[^5][^6][^7]. This is a generalization of the idea of a pseudo-Riemannian manifold to the case in which the metric has a degenerate direction. Instead of asking for a pair $(M,g_{ab})$, we instead ask for a triple $(N,h_{ab},n^a)$, where $n^a$ is a vector along the degenerate (null) direction.
 
-Instead of working with arbitrary null hypersurfaces, we prefer to define the notion of asymptotic (conformal) Killing horizons. These are null hypersurfaces tangent to a vector field that asymptotically satisfies the (conformal) Killing equation in the limit one approaches the surface. These surfaces are meant to inherit properties of genuine Killing horizons, but without restricting too much the ambient spacetime. 
+Instead of working with arbitrary null hypersurfaces, we prefer to define the notion of asymptotic (conformal) Killing horizons. These are null hypersurfaces tangent to a vector field that asymptotically satisfies the (conformal) Killing equation in the limit as one approaches the surface. These surfaces are meant to inherit properties of genuine Killing horizons, but without restricting the ambient spacetime. 
 
-A(C)KHs are special when considered as a type of null hypersurface. For instance, all of their spatial cross setions are confomorphic (for ACKHs) or isometric (for AKHs). This considerably constraint their geometry.
+A(C)KHs are special when considered as a type of null hypersurface. For instance, all their spatial cross-sections are confomorphic (for ACKHs) or isometric (for AKHs). This considerably constrains their geometry.
 
 ## Results
 After studying the conformal Carroll groups naturally induced by the A(C)KH structure, we find the groups 
