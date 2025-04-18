@@ -14,7 +14,6 @@ permalink: /abs/2504.12514/
 ---
 
 ## Introduction
-
 Symmetry is a guiding principle throughout physics. In a sense, one could say the study of physics is the pursuit for what are the underlying symmetries of the universe. Recently, a lot of attention has been given to the so-called asymptotic symmetries—the symmetries that emerge in spacetime as one asymptotically approaches a limiting surface. 
 
 Of particular notice are the Bondi–Metzner–Sachs[^1] [^2] [^3] and Dappiaggi–Moretti–Pinamonti [^4] groups. These groups characterize the asymptotic symmetries at null infinity in asymptotically flat spacetimes and at the cosmological horizon in expanding universes ("asymptotically de Sitter spacetimes"), respectively. 
@@ -22,31 +21,40 @@ Of particular notice are the Bondi–Metzner–Sachs[^1] [^2] [^3] and Dappiaggi
 However, it is curious that the two groups are very similar, but also very different. We would like to understand why. If have success in extending the groups to larger versions that encompass both at the same time, then we will be able to employ techniques that are common in one setup to the other.
 
 ## Methods
-
 Our main mathematical tool will be the notion of a Carollian structure, introduced by Duval *et. al.* [^5] [^6] [^7]. This is a generalization of the idea of a pseudo-Riemmanian manifold to the case in which the metric has a degenerate direction. Instead of asking for a pair $(M,g_{ab})$, we instead ask for a triple $(N,h_{ab},n^a)$, where $n^a$ is a vector along the degenerate (null) direction.
 
 Instead of working with arbitrary null hypersurfaces, we prefer to define the notion of asymptotic (conformal) Killing horizons. These are null hypersurfaces tangent to a vector field that asymptotically satisfies the (conformal) Killing equation in the limit one approaches the surface. These surfaces are meant to inherit properties of genuine Killing horizons, but without restricting too much the ambient spacetime. 
 
 A(C)KHs are special when considered as a type of null hypersurface. For instance, all of their spatial cross setions are confomorphic (for ACKHs) or isometric (for AKHs). This considerably constraint their geometry.
-## Results
 
+## Results
 After studying the conformal Carroll groups naturally induced by the A(C)KH structure, we find the groups 
+
 $$G_{\text{ACKH}} = \text{Conf}(\Sigma) \ltimes \left(\mathcal{C}^{\infty}(\Sigma) \ltimes \mathcal{C}^{\infty}(\Sigma) \right)$$
+
 and 
+
 $$G_{\text{AKH}} = \text{Isom}(\Sigma) \ltimes \left(\mathcal{C}^{\infty}(\Sigma) \ltimes \mathcal{C}^{\infty}(\Sigma) \right),$$
+
 where $\text{Isom}(\Sigma)$ is the isometry group for $\Sigma$, while $\text{Conf}(\Sigma)$ is the associated conformal group. In both cases, $\Sigma$ stands for the spatial cross section of the horizon. 
 
+
 For $\Sigma = \mathbb{S}^2$, as one usually considers in four-dimensional applications, we get 
+
 $$G_{\text{ACKH}} = \text{SO}^+(3,1) \ltimes \left(\mathcal{C}^{\infty}(\mathbb{S}^2) \ltimes \mathcal{C}^{\infty}(\mathbb{S}^2) \right)$$
+
 and 
+
 $$G_{\text{AKH}} = \text{SO}(3) \ltimes \left(\mathcal{C}^{\infty}(\mathbb{S}^2) \ltimes \mathcal{C}^{\infty}(\mathbb{S}^2) \right),$$
+
 $G_{\text{AKH}}$ is then merely the DMP group, but $G_{\text{ACKH}}$ extends the BMS group by an infinite family of "superdilations".
 
 ## Conclusions
-
 Viewing the sky as a Killing horizon can lead to interesting new perspectives. For example, superdilations arising at the symmetry group at infinity may hint at memory effects hidden in modified theories of gravity. One could use symmetries to search for these theories, and then test the subsequent predictions with gravitational wave observatories. 
 
 Other possible outlooks are the investigations of bifurcate horizons, which could appear at lightcones and at spacetimes that are asymptotically flat at spatial infinity. Lastly, our analysis disfavors the possibility of exploiting superrotations as a path to a dS/CFT correspondence in the cosmological horizon.
+
+## References for this Short Summary
 
 [^1]: Bondi, Hermann, M. G. J. Van der Burg, and A. W. K. Metzner. 1962. “Gravitational Waves in General Relativity, VII. Waves from Axi-Symmetric Isolated System.” [_Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences_ 269 (1336): 21–52](https://doi.org/10.1098/rspa.1962.0161).
 [^2]: Sachs, R. K. 1962. “Asymptotic Symmetries in Gravitational Theory.” [_Physical Review_ 128 (6): 2851–64](https://doi.org/10.1103/PhysRev.128.2851).
