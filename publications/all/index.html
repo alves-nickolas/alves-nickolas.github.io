@@ -1,0 +1,29 @@
+---
+title: Publications
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>This page lists all my works in the academic literature. This includes published works (such as papers, theses, etc), preprints, and some other documents available in the arXiv, for example. Clicking on a title will take you to a page summarizing the main results.</p>
+
+{% assign listofpubs = site.publications | sort: 'date' | reverse %}
+{% for paper in listofpubs %}
+        {% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
+        {% assign numberofints = listofints | size %}
+        {% if numberofints > 0 %}
+            {% assign printedints = '' | split: '' %}
+            {% assign startoflink = '<a href="' %}
+            {% assign middleoflink = '">' %}
+            {% assign endoflink = '</a>' %}
+            {% for interest in listofints %}
+                {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
+                {% assign formattedinterest = fulllink | split:'&emsp;' %}
+                {% assign printedints = printedints | concat: formattedinterest %}
+            {% endfor %}
+        {% endif %}
+        <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
+        <p style="text-align: center;">{{ paper.authors | array_to_sentence_string }}</p>
+        <p style="text-align: center;">{{ paper.citation }}</p>
+        <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
+        {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
+{% endfor %}
