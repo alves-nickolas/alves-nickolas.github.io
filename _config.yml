@@ -24,7 +24,7 @@ defaults:
       type: "publications"
     values:
       layout: "publication"
-      remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. This account is written independently by Níckolas de Aguiar Alves only and may not fully reflect the point of view of other co-authors."
+      remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
   - scope:
       path: ""
       type: "interests"
