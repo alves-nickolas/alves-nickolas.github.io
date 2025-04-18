@@ -14,6 +14,8 @@ permalink: /abs/2503.18963/
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this publication is a short essay, the summary below is relatively short as well. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
 ---
 
+## Summary
+
 Within Newtonian gravity, the term "mass" refers to a measure of the power of gravitational attraction of an object. It can be quantified by computing the monopole term for the gravitational field. Mass is also the sole way of interacting with the Newtonian gravitational field, and thus this concept plays a very prominent role in any description of gravitational phenomena. 
 
 Despite this, defining "mass" in general relativity is a much more subtle task. Since the gravitational field and spacetime are now two facets of the same physical entity, it is not as straightforward to compute what we would like to call a monopole. Furthermore, time is no longer absolute, which means evaluating a monopole moment at a fixed time may have an ambiguous meaning. 
