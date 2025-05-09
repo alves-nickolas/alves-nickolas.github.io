@@ -5,6 +5,6 @@ abstract: 'Symmetries are ubiquitous in modern physics. They not only allow for 
 stage: phd
 tags: IRStructure GR QFTCS
 remark: "This seminar was originally presented at the Siembra-HoLAGrav <a href='https://sites.google.com/view/future-of-physics/home?fbclid=PAZXh0bgNhZW0CMTEAAafL7f8XdURcriv-nHNJZeG6mQo4mvEfFOHfm2HlHidDjY-lBITSXC0FbiHZdg_aem_QaAWa-xaVGfj8PfQcqSDmA' target='_blank'>Future of Physics</a> series."
-videorecordings: '<iframe src="https://youtu.be/MRBRu7DyuIs?si=Ln5VZ-yr49Mf7rDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+videorecordings: '<iframe src="https://www.youtube.com/embed/MRBRu7DyuIs?si=0C53q5a1Rp6eUuPN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 relatedarxiv: "2504.12514"
 ---
