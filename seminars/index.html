@@ -32,7 +32,7 @@ layout: default
     {{ seminar.poster }}
     {{ seminar.videorecordings }}
     {% if numberofarxivs > 0 %}
-        {% assign listofarxivs = site.publications | where:"arxiv",seminar.relatedarxiv | sort:'date' | reverse %}
+        {% assign listofarxivs = site.publications | where_exp:"publication","seminar.relatedarxiv contains publication.arxiv" | sort:'date' | reverse %}
         <p><strong>Related publications:</strong></p>
           <ul>
             {% for pub in listofarxivs %}
