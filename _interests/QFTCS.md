@@ -27,6 +27,3 @@ The following references discuss quantum field theory in curved spacetimes and b
 * Mukhanov, Viatcheslav, and Sergei Winitzki. 2007. [_Introduction to Quantum Effects in Gravity_](https://doi.org/10.1017/CBO9780511809149). Cambridge: Cambridge University Press.
 * Parker, L. E., and D. J. Toms. 2004. [_Quantum Field Theory in Curved Spacetime: Quantized Fields and Gravity_](https://doi.org/10.1017/CBO9780511813924). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press.
 * Wald, Robert M. 1994. _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_. Chicago Lectures in Physics. Chicago: The University of Chicago Press.
-* Mukhanov, Viatcheslav, and Sergei Winitzki. [_Introduction to Quantum Effects in Gravity_](https://doi.org/10.1017/CBO9780511809149). Cambridge: Cambridge University Press, 2007.
-* Parker, L. E., and D. J. Toms. [_Quantum Field Theory in Curved Spacetime: Quantized Fields and Gravity_](https://doi.org/10.1017/CBO9780511813924). Cambridge Monographs on Mathematical Physics. Cambridge: Cambridge University Press, 2004.
-* Wald, Robert M. _Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics_. Chicago Lectures in Physics. Chicago: The University of Chicago Press, 1994.
