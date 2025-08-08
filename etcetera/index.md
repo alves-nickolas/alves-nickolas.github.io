@@ -130,6 +130,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
   *We will first understand how simple the universe is when we recognize how strange it is.*
   
   John Archibald Wheeler (with Kenneth Ford), in *Geons, Black Holes, and Quantum Foam: A Life in Physics* (W. W. Norton & Company, New York, 2000).
+* Anyone who has studied physics is aware that although physics—like history—does not precisely repeat itself, it does rhyme, with similar structures appearing in different areas.
+
+  Edward Witten, in What every physicist should know about string theory. *Physics Today* **68**, pp. 38–43 (2015). doi: [10.1063/PT.3.2980](https://doi.org/10.1063/PT.3.2980).
 * Quantum field theory arose out of our need to describe the ephemeral nature of life.
   
   Antony Zee, in *Quantum Field Theory in a Nutshell* (Princeton University Press, Princeton, 2010).
