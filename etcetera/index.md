@@ -62,6 +62,9 @@ My old website already had a space for quotations in its Et cetera tab, but none
 * It's a leap of faith. That's all it is, Miles. A leap of faith. 
 
   Peter B. Parker (Jake Johnson) to Miles, after he asks when he'll know he is ready, in [*Spider-Man: Into the Spider-Verse*](https://www.imdb.com/title/tt4633694/).
+* Before I explain the title and introduce the theme of the lecture I should like to state that my presentation will be more in the nature of a leisurely excursion than of an organized tour. It will not be my purpose to reach a specified destination at a scheduled time. Rather I should like to allow myself on many occasions the luxury of stopping and looking around. So much effort is being spent on streamlining mathematics and in rendering it more efficient, that a solitary transgression against the trend could perhaps be forgiven.
+
+  Mark Kac, in Can One Hear the Shape of a Drum? *The American Mathematical Monthly* **73**, 1–23 (1966). doi: [10.2307/2313748](https://doi.org/10.2307/2313748).
 * One often meets his destiny on the road he takes to avoid it.
   
   Master Oogway (Randall Duk Kim), in [*Kung Fu Panda*](https://www.imdb.com/title/tt0441773/). (I eventually learned this phrase is originally due to Jean de La Fontaine, but I'll keep Oogway's name because I found this mistake of mine really funny). 
