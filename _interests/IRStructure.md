@@ -1,5 +1,5 @@
 ---
-title: Infrared Structure
+title: Infrared Physics
 tag: IRStructure
 priority: 1
 ---
