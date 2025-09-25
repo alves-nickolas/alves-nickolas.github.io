@@ -8,7 +8,7 @@ abstract: 'The concept of mass is central to any theory of gravity. Nevertheless
 citation: 'Aguiar Alves, Níckolas de, and Bruno Arderucio Costa. 2025. “The Measure of a Mass.” Essay written for the <a href="https://www.gravityresearchfoundation.org/competition" target="_blank">Gravity Research Foundation 2025 Awards for Essays on Gravitation</a>. arXiv: <a href="https://arxiv.org/abs/2503.18963" target="_blank">2503.18963 [gr-qc]</a>.'
 stage: phd
 tags: EnergyConditions GR
-pubtype: paper
+pubtype: essay
 arxiv: "2503.18963"
 permalink: /abs/2503.18963/
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this publication is a short essay, the summary below is relatively short as well. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
