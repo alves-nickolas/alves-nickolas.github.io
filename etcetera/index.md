@@ -215,14 +215,3 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
 * I can't stay up that late.
   
   Attributed to Sidney Coleman, refusing to teach a 9 a.m. class. As quoted in [his obituary at The Harvard Gazette](https://news.harvard.edu/gazette/story/2007/11/sidney-coleman-dies-at-70/).
-
-
-## Links
-
-Here are a few links that the readers of this website might find interesting.
-
-* [Prof. Henrique Fleming's website](http://www.hfleming.com) has excellent notes (mostly in Portuguese) concerning Physics and Mathematics which helped me numerous times.
-* You can find amazing materials on Mathematical Physics at [Prof. João C. A. Barata's website](http://denebola.if.usp.br/). In particular, the comprehensive online book [*Notas para um Curso de Física-Matemática*](http://denebola.if.usp.br/~jbarata/Notas_de_aula/notas_de_aula.html).
-* Ever wondered how can one study the whole Universe at once, or use gravitational waves to hear the Big Bang? Check out [Beatriz Tucci's website](https://wwwmpa.mpa-garching.mpg.de/~tucci/) to learn more about GWs and Cosmology!
-* How can rigorous mathematical methods help us understand statistical systems? Take a look at [Dr. Thiago Raszeja's webpage](https://sites.google.com/view/thiagoraszeja/) to learn more about it and be sure to check the notes for his minicourse [*An Introduction to C*-Algebras and KMS States for Physicists*](https://drive.google.com/file/d/1o27KhytxWNz_Q1wm5Z8xRgTq8V8bH7ez/view)!
-* [Prof. David Tong's lecture notes](http://www.damtp.cam.ac.uk/user/tong/teaching.html) helped me on a multitude of advanced courses and I really wish I knew them sooner so I could also use them even back when I was studying the three laws of motion…
