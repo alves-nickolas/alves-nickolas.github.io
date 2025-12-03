@@ -1,1 +1,15 @@
+---
+title: In Preparation
+layout: default
+---
 
+<h1>{{ page.title }}</h1>
+
+<p>You probably got this link from one of my posters! The work you saw was still in preparation when I added this link to my seminar or poster, so I redirected you to this page. Below is a list of my recent publications and preprints. Maybe the one you were looking for is already available, or will be shortly.</p>
+
+<ul>
+{% assign listofpubs = site.publications | sort: 'date' | reverse %}
+{% for paper in listofpubs limit:5 %}
+    <li>{{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!</li>
+{% endfor %}
+</ul>
