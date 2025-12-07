@@ -6,6 +6,7 @@ layout: default
 
 <p>This page lists all my works in the academic literature. This includes published works (such as papers, theses, etc), preprints, and some other documents available in the arXiv, for example. Clicking on a title will take you to a page summarizing the main results.</p>
 
+<ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs %}
         {% assign listofints = site.interests | where_exp:"item","paper.tags contains item.tag" | sort: 'priority' %}
@@ -21,11 +22,27 @@ layout: default
                 {% assign printedints = printedints | concat: formattedinterest %}
             {% endfor %}
         {% endif %}
-        <h2><a href="{{ paper.url }}">{{ paper.title }}</a></h2>
-        <p style="text-align: center;">{{ paper.authors | array_to_sentence_string }}</p>
-        <p style="text-align: center;">{{ paper.citation }}</p>
-        <details>
-                <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
-                {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
-        </details>
+        <li class="pub-item">
+          <div class="pub-citation">
+            {{ paper.citation }} — <a href="{{ paper.url }}">Read more</a>
+          </div>
+        
+          <details class="pub-abstract">
+            <summary>
+              <span class="summary-label">Abstract</span>
+              <span class="summary-preview">
+                {{ paper.abstract | default: paper.content | strip_html | truncatewords: 20, '…' }}
+              </span>
+            </summary>
+        
+            <div class="pub-abstract-body">
+              {{ paper.abstract | default: paper.content | markdownify }}
+        
+              {% if numberofints > 0 %}
+                <p class="pub-tags"><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+              {% endif %}
+            </div>
+          </details>
+        </li>
 {% endfor %}
+</ul>
