@@ -28,15 +28,13 @@ layout: default
           </div>
         
           <details name="publication">
-            <summary><strong>Abstract</strong></summary>
-                {{ paper.abstract | default: paper.content | markdownify }}
+            <div>
+                  <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
+                  {% if numberofints > 0 %}
+                          <p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+                  {% endif %}
+            </div>
           </details>
-
-          <div>
-                {% if numberofints > 0 %}
-                        <p class="pub-tags"><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
-                {% endif %}
-          </div>
         </li>
 {% endfor %}
 </ul>
