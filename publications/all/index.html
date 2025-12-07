@@ -24,25 +24,19 @@ layout: default
         {% endif %}
         <li class="pub-item">
           <div class="pub-citation">
-            {{ paper.citation }} — <a href="{{ paper.url }}">Read more</a>
+            {{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!
           </div>
         
-          <details class="pub-abstract">
-            <summary>
-              <span class="summary-label">Abstract</span>
-              <span class="summary-preview">
-                {{ paper.abstract | default: paper.content | strip_html | truncatewords: 20, '…' }}
-              </span>
-            </summary>
-        
-            <div class="pub-abstract-body">
-              {{ paper.abstract | default: paper.content | markdownify }}
-        
-              {% if numberofints > 0 %}
-                <p class="pub-tags"><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
-              {% endif %}
-            </div>
+          <details name="publication">
+            <summary><strong>Abstract</strong></summary>
+                {{ paper.abstract | default: paper.content | markdownify }}
           </details>
+
+          <div>
+                {% if numberofints > 0 %}
+                        <p class="pub-tags"><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
+                {% endif %}
+          </div>
         </li>
 {% endfor %}
 </ul>
