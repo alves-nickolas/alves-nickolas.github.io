@@ -4,7 +4,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<p>This page lists all my works in the academic literature. This includes published works (such as papers, theses, etc), preprints, and some other documents available in the arXiv, for example. Clicking on a title will take you to a page summarizing the main results.</p>
+<p>This page lists all my works in the academic literature. This includes published works (such as papers, theses, etc), preprints, and some other documents available in the arXiv, for example.</p>
 
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
@@ -26,15 +26,14 @@ layout: default
           <div class="pub-citation">
             {{ paper.citation }} Read more about it <a href="{{ paper.url }}">here</a>!
           </div>
-        
-          <details name="publication">
+          <!--<details name="publication">
             <div>
                   <p><strong>Abstract:</strong> {{ paper.abstract }}</p>
                   {% if numberofints > 0 %}
                           <p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>
                   {% endif %}
             </div>
-          </details>
+          </details>-->
         </li>
 {% endfor %}
 </ul>
