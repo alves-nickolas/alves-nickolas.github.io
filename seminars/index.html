@@ -37,7 +37,7 @@ layout: default
           <ul>
             {% for pub in listofarxivs %}
                 <li>
-                  {{ pub.citation | smartify }}<!-- Summarized <a href="{{ pub.url }}">here</a>.-->
+                  {{ pub.citation | smartify }}{{% if site.summarize_publications and pub.summarized %}} Summarized <a href="{{ pub.url }}">here</a>!{{% endif %}}
                 </li>
             {% endfor %}
           </ul>

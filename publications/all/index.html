@@ -24,7 +24,7 @@ layout: default
         {% endif %}
         <li class="pub-item">
           <div class="pub-citation">
-            {{ paper.citation | smartify }}<!-- Read more about it <a href="{{ paper.url }}">here</a>!-->
+            {{ paper.citation | smartify }}{{% if site.summarize_publications and paper.summarized %}} Summarized <a href="{{ paper.url }}">here</a>!{{% endif %}}
           </div>
           <!--<details name="publication">
             <div>

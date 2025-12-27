@@ -13,6 +13,6 @@ layout: default
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs limit:3 %}
-    <li>{{ paper.citation | smartify }}<!-- Read more about it <a href="{{ paper.url }}">here</a>!--></li>
+    <li>{{ paper.citation | smartify }}{{% if site.summarize_publications and paper.summarized %}} Summarized <a href="{{ paper.url }}">here</a>!{{% endif %}}</li>
 {% endfor %}
 </ul>
