@@ -11,6 +11,6 @@ layout: default
 <ul>
 {% assign listofpubs = site.publications | sort: 'date' | reverse %}
 {% for paper in listofpubs limit:5 %}
-    <li>{{ paper.citation }}{{% if site.summarize_publications and paper.summarized %}} Summarized <a href="{{ paper.url }}">here</a>!{{% endif %}}</li>
+    <li>{{ paper.citation }}{% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif %}</li>
 {% endfor %}
 </ul>
