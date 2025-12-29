@@ -10,11 +10,13 @@ collections:
   publications:
     output: true
   teaching:
-    output: true
+    output: false
   interests:
     output: true
   seminars:
-    output: true
+    output: false
+  quotes: 
+    output: false
     
 defaults:
   - scope:
