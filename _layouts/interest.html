@@ -8,6 +8,6 @@ layout: default
 
 {% assign pubs = site.publications | where_exp:"pub","pub.tags contains page.tag " %}
 {% if pubs.size > 0 %}
-  <h2>My Publications on and Around This Topic</h2>
+  <h2>My Work on This Topic</h2>
   {% include publications.html tag=page.tag %}
 {% endif %}
