@@ -5,12 +5,15 @@
     {%- assign n = authors | size -%}
 
     {%- if n == 1 -%}
-        {% include authorname.html key=authors[0] %}
+        {% assign first_author=authors[0] %}
+        {% include authorname.html key=first_author %}
 
     {%- elsif n == 2 -%}
-        {% include authorname.html key=authors[0] %}
+        {% assign first_author=authors[0] %}
+        {% assign second_author=authors[1] %}
+        {% include authorname.html key=first_author %}
         and
-        {% include authorname.html key=authors[1] %}
+        {% include authorname.html key=second_author %}
 
     {%- elsif n > 2 -%}
         {%- for a in authors -%}
