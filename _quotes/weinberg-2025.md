@@ -5,7 +5,7 @@ author:
     given: Steven
 source:
   type: book
-  title: "Steven Weinberg: A Life in Physics"
+  title: A Life in Physics
   publisher: Cambridge University Press
   location: Cambridge
   year: 2025
