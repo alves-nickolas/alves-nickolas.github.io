@@ -6,7 +6,7 @@ layout: default
 <p style="text-align: center;">{{ page.citation }}</p>
 <p><strong>Abstract: </strong>{{ page.abstract }}</p>
 {% if page.tags.size > 0 %}
-  <p><strong>Tags:</strong> {{ include interests.html taglist=page.tags }}</p>
+  <p><strong>Tags:</strong> {% include interests.html taglist=page.tags %}</p>
 {% endif %}
 <p><strong>Remark: </strong>{{ page.remark }}</p>
 
