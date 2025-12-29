@@ -15,6 +15,10 @@ Parameters:
   {% assign pubs = pubs | where_exp:"publication","include.arxivlist contains publication.arxiv" %}
 {% endif %}
 
+{% if include.tag %}
+  {% assign pubs = pubs | where_exp:"publication","publication.tags contains include.tag" %}
+{% endif %}
+
 <ul>
 {% for paper in pubs limit: include.limit %}
     <li>

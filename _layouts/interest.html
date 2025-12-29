@@ -6,21 +6,8 @@ layout: default
 
 {{ content | smartify }}
 
-{% assign pubs = site.publications %}
-{% assign taglist = pubs | map: 'tags' | join: ',' | split: ',' | group_by: tag %}
-{% for tag in taglist %}
-  {% if tag.name == page.tag %}
-    {% if tag.size > 0%}
-      <h2>My Publications on and Around This Topic</h2>
-      <ul>
-        {% for pub in pubs %}
-          {% if pub.tags contains tag.name %}
-            <li>
-              {{ pub.citation | smartify }}{% if site.summarize_publications and pub.summarized %} Summarized <a href="{{ pub.url }}">here</a>!{% endif %}
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+{% assign pubs = site.publications | where_exp:"pub","pub.tags contains page.tag " %}
+{% if pubs.size > 0 %}
+  <h2>My Publications on and Around This Topic</h2>
+  {% include publications.html tag=page.tag %}
+{% endif %}
