@@ -10,9 +10,4 @@ layout: default
 <p>Hello, there! I am Níckolas de Aguiar Alves, or Níck for short. My pronouns are he/him. I am a PhD candidate at the <a href="http://fisica.ufabc.edu.br/">Federal University of ABC</a>, Brazil. I work on many aspects of gravitation, with a particular taste for its interface with quantum mechanics. Most of my current work centers on understanding the infrared behavior of gravity. Broadly, my research interests span quantum field theory, general relativity, and quantum aspects of gravitation.</p>
 
 <p><strong>Recent works:</strong></p> 
-<ul>
-{% assign listofpubs = site.publications | sort: 'date' | reverse %}
-{% for paper in listofpubs limit:3 %}
-    <li>{{ paper.citation | smartify }}{% if site.summarize_publications==true and paper.summarized==true %} Summarized <a href="{{ paper.url }}">here</a>!{% endif %}</li>
-{% endfor %}
-</ul>
+{% include publications.html limit=3 %}

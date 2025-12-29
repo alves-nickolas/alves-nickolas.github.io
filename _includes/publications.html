@@ -1,0 +1,17 @@
+{% comment %}
+Parameters: 
+ - limit: number
+ - where: "stage", [stage] (such as "phd", "msc", etc)]
+ - where_exp:"publication","seminar.relatedarxiv contains publication.arxiv"
+{% endcomment %}
+
+{% assign pubs = site.publication | sort: "date" | reverse %}
+
+<ul>
+{% for paper in pubs limit: include.limit %}
+    <li>
+        {{ paper.citation | smartify }}
+        {% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif %}
+    </li>
+{% endfor %}
+</ul>
