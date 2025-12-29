@@ -1,53 +1,53 @@
-{% assign s = include.source %}
+{%- assign s = include.source -%}
 
-{% case s.type %}
+{%- case s.type -%}
 
-{% when "book" %}
+{%- when "book" -%}
   <em>{{ s.title }}</em>.
-  {% if s.publisher %}
-    {{ s.publisher }}
-  {% endif %}
-  {% if s.location %}
+  {%- if s.publisher -%}
+     {{ s.publisher }}
+  {%- endif -%}
+  {%- if s.location -%}
     , {{ s.location }}
-  {% endif %}
-  {% if s.year %}
+  {%- endif -%}
+  {%- if s.year -%}
     , {{ s.year }}
-  {% endif %}.
+  {%- endif -%}.
 
-{% when "article" %}
+{%- when "article" -%}
   “{{ s.title }}.”
   <em>{{ s.container }}</em>
-  {% if s.volume %}
+  {%- if s.volume -%}
     <strong>{{ s.volume }}</strong>
-  {% endif %}
-  {% if s.pages %}
+  {%- endif -%}
+  {%- if s.pages -%}
     , {{ s.pages }}
-  {% endif %}
-  {% if s.year %}
+  {%- endif -%}
+  {%- if s.year -%}
     ({{ s.year }})
-  {% endif %}.
+  {%- endif -%}.
 
-{% when "tv" %}
+{%- when "tv" -%}
   <em>{{ s.series }}</em>
-  {% if s.season and s.episode %}
+  {%- if s.season and s.episode -%}
     , S{{ s.season | prepend: "0" | slice: -2, 2 }}E{{ s.episode | prepend: "0" | slice: -2, 2 }}
-  {% endif %}
-  {% if s.title %}
+  {%- endif -%}
+  {%- if s.title -%}
     : “{{ s.title }}”
-  {% endif %}
-  {% if s.year %}
+  {%- endif -%}
+  {%- if s.year -%}
     ({{ s.year }})
-  {% endif %}.
+  {%- endif -%}.
 
-{% when "movie" %}
+{%- when "movie" -%}
   <em>{{ s.title }}</em>
-  {% if s.year %}
+  {%- if s.year -%}
     ({{ s.year }})
-  {% endif %}.
+  {%- endif -%}.
 
-{% else %}
+{%- else -%}
   {{ s.title }}
-  {% if s.year %}
+  {%- if s.year -%}
     ({{ s.year }})
-  {% endif %}.
-{% endcase %}
+  {%- endif -%}.
+{%- endcase -%}

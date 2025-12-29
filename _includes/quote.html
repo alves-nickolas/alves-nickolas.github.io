@@ -1,7 +1,6 @@
 <blockquote>
-  <p>{{ quote.content | markdownify }}</p>
-
+  {{ quote.content | markdownify | strip }}
   <footer>
-    {% include bibitem.html entry=include.quote %}
+    {%- include bibitem.html entry=include.quote -%}
   </footer>
 </blockquote>
