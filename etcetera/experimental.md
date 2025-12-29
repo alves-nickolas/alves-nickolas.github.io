@@ -6,5 +6,5 @@ This is under construction!
 
 {% assign listofquotes = site.quotes | sort: 'sortkey' %}
 {% for quote in listofquotes %}
-    {% include quote.html quote=quote %}
+{% include quote.html quote=quote %}
 {% endfor %}
