@@ -9,9 +9,9 @@
   “{{ s.title }}”.
   {% if s.journal -%} 
     {%- if s.doi -%}
-      <a href="https://doi.org/{{ s.doi }}" target="_blank">{% include journaldata.html s=s %}</a>.
+      <a href="https://doi.org/{{ s.doi }}" target="_blank">{% include journaldata.html source=s %}</a>.
     {%- else -%}
-      {% include journaldata.html s=s %}.
+      {% include journaldata.html source=s %}.
     {%- endif -%}
   {%- endif -%}
   {% if s.arxiv -%}
