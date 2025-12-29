@@ -7,6 +7,10 @@ Parameters:
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
+{% if include.stage %}
+  {% assign pubs = pubs | where: "stage", include.stage %}
+{% endif %}
+
 <ul>
 {% for paper in pubs limit: include.limit %}
     <li>

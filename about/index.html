@@ -35,15 +35,8 @@ msctopics: GR QFTCS AQFT FRG
     <li> showed that barotropic, spherically-symmetric stars with negative mass are unstable in general relativity (<a href="https://alves-nickolas.github.io/abs/2408.00154/">2408.00154</a>) 
 </ul>
 
-{% assign listofphdpubs = site.publications | where:"stage","phd" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
-  <ul>
-    {% for pub in listofphdpubs %}
-        <li>
-          {{ pub.citation | smartify }}{% if site.summarize_publications and pub.summarized %} Summarized <a href="{{ pub.url }}">here</a>!{% endif %}
-        </li>
-    {% endfor %}
-  </ul>
+{% include publications.html stage="phd" %}
 
 <h2>Master in Physics</h2>
 <h3>February 2021 – April 2023</h3>
@@ -71,15 +64,8 @@ msctopics: GR QFTCS AQFT FRG
     <li> computed the functional renormalization group flow for an Unruh–DeWitt detector in Minkowski spacetime (<a href="https://alves-nickolas.github.io/abs/2305.17453/">2305.17453</a> and work to appear) 
 </ul>
 
-{% assign listofmscpubs = site.publications | where:"stage","msc" | sort:'date' | reverse %}
 <p><strong>Related publications:</strong></p>
-  <ul>
-    {% for pub in listofmscpubs %}
-        <li>
-          {{ pub.citation | smartify }}{% if site.summarize_publications and pub.summarized %} Summarized <a href="{{ pub.url }}">here</a>!{% endif %}
-        </li>
-    {% endfor %}
-  </ul>
+{% include publications.html stage="msc" %}
 
 <h2>Bachelor in Physics</h2>
 <h3>February 2017 – December 2020</h3>
