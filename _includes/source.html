@@ -14,8 +14,8 @@
       {% include journaldata.html source=s %}.
     {%- endif -%}
   {%- endif -%}
-  {% if s.arxiv -%}
-    arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
+  {% if s.arxiv %}
+     arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
   {% endif %}
 
 {%- when "tv" -%}
