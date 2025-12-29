@@ -23,13 +23,27 @@ layout: default
         <p><strong>Lecture notes:</strong> {{ seminar.lecturenotes }}</p>
     {% endif %}
     {% if seminar.slideshow %}
-        <p><strong>Slideshow:</strong> {{ seminar.slideshow }}</p>
+        <p><strong>Slideshow:</strong> 
+            <a href="{{ seminar.slideshow.url }}" target="_blank">
+                available here
+            </a>
+            {% if seminar.slideshow.note %}
+            ({{ seminar.slideshow.note }})
+            {% endif %}
+        </p>
     {% endif %}
     {% if seminar.poster %}
-        <p><strong>Poster:</strong> {{ seminar.poster }}</p>
+        <p><strong>Poster:</strong> 
+            <a href="{{ seminar.poster.url }}" target="_blank">
+                available here
+            </a>
+            {% if seminar.poster.note %}
+            ({{ seminar.poster.note }})
+            {% endif %}
+        </p>
     {% endif %}
-    {% if seminar.videorecordings %}
-        {{ seminar.videorecordings }}
+    {% if seminar.videorecordings.src %}
+        <iframe src="{{ seminar.videorecordings.src }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     {% endif %}
     {% if seminar.relatedarxiv %}
         {% include publications.html arxivlist=seminar.relatedarxiv %}
