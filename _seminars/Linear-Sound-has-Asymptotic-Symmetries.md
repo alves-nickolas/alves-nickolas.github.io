@@ -6,6 +6,6 @@ abstract: "General relativity, electrodynamics, and many other relativistic theo
 stage: phd
 tags: IRStructure
 remark: "This poster was originally presented at the XI <a href='https://www.ictp-saifr.org/qcdmg2025conference/' target='_blank'>QCD Meets Gravity Conferece</a> (and <a href='https://www.ictp-saifr.org/qcdmg2025school/' target='_blank'>School</a>)."
-poster: '<p><strong>Poster:</strong> <a href="https://alves-nickolas.github.io/abs/2512.15796/poster.pdf" target="_blank">available here</a> (in English)</p>'
+poster: '<a href="https://alves-nickolas.github.io/abs/2512.15796/poster.pdf" target="_blank">available here</a> (in English)</p>'
 relatedarxiv: "2512.15796"
 ---

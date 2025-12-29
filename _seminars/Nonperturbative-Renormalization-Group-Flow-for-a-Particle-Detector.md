@@ -5,7 +5,7 @@ abstract: "The functional renormalization group is a powerful tool to study nonp
 stage: msc
 tags: QFTCS FRG
 remark: "This is a twenty-minute long seminar originally presented at the <a href='https://bht50.github.io/' target='_blank'>Golden Wedding of Black Holes and Thermodynamics</a>. It is also a poster presented on many different occasions."
-slideshow: '<p><strong>Slideshow:</strong> <a href="https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf" target="_blank">available here</a></p>'
-poster: '<p><strong>Poster:</strong> <a href="https://alves-nickolas.github.io/abs/2305.17453/poster.pdf" target="_blank">available here</a> (<a href="https://doi.org/10.6084/m9.figshare.26932873" target="_blank">also on Figshare</a>)</p>'
+slideshow: '<a href="https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf" target="_blank">available here</a></p>'
+poster: '<a href="https://alves-nickolas.github.io/abs/2305.17453/poster.pdf" target="_blank">available here</a> (<a href="https://doi.org/10.6084/m9.figshare.26932873" target="_blank">also on Figshare</a>)</p>'
 relatedarxiv: "2305.17453"
 ---
