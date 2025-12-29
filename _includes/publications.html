@@ -1,10 +1,3 @@
-{% comment %}
-Parameters: 
- - limit: number
- - where: "stage", [stage] (such as "phd", "msc", etc)]
- - where_exp:"publication","seminar.relatedarxiv contains publication.arxiv"
-{% endcomment %}
-
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
 {% if include.stage %}
