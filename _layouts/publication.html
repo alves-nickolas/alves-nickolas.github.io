@@ -4,34 +4,15 @@ layout: default
 <h1>{{ page.title }}</h1>
 <h3>{{ page.authors | array_to_sentence_string }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
-{% assign listofints = site.interests | where_exp:"item","page.tags contains item.tag" | sort: 'priority' %}
-    {% assign numberofints = listofints | size %}
-    {% if numberofints > 0 %}
-        {% assign printedints = '' | split: '' %}
-        {% assign startoflink = '<a href="' %}
-        {% assign middleoflink = '">' %}
-        {% assign endoflink = '</a>' %}
-        {% for interest in listofints %}
-            {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-            {% assign formattedinterest = fulllink | split:'&emsp;' %}
-            {% assign printedints = printedints | concat: formattedinterest %}
-        {% endfor %}
-    {% endif %}
 <p><strong>Abstract: </strong>{{ page.abstract }}</p>
-{% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
+{% if page.tags.size > 0 %}
+  <p><strong>Tags:</strong> {{ include interests.html taglist=page.tags }}</p>
+{% endif %}
 <p><strong>Remark: </strong>{{ page.remark }}</p>
 
 {{ content }}
 
-{% assign numberofarxivs = page.relatedarxiv | size %}
-{% if numberofarxivs > 0 %}
-    {% assign listofarxivs = site.publications | where:"arxiv",page.relatedarxiv | sort:'date' | reverse %}
-    <h2>Related publications:</h2>
-      <ul>
-        {% for pub in listofarxivs %}
-            <li>
-              {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
-            </li>
-        {% endfor %}
-      </ul>
+{% if page.relatedarxiv.size > 0 %}
+  <h2>Related publications:</h2>
+  {% include publications.html arxivlist=page.relatedarxiv %}
 {% endif %}
