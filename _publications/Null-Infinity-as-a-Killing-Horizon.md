@@ -2,7 +2,7 @@
 title: Null infinity as a Killing horizon
 type: article
 date: 2025-09-22
-authors: 
+author: 
  - family: Aguiar Alves
    given: Níckolas de
  - family: Landulfo
