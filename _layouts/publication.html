@@ -5,14 +5,14 @@ layout: default
 <h3>{{ page.authors | array_to_sentence_string }}</h3>
 <p style="text-align: center;">{{ page.citation }}</p>
 <p><strong>Abstract: </strong>{{ page.abstract }}</p>
-{% if page.tags.size > 0 %}
+{% if page.tags %}
   <p><strong>Tags:</strong> {% include interests.html taglist=page.tags %}</p>
 {% endif %}
 <p><strong>Remark: </strong>{{ page.remark }}</p>
 
 {{ content }}
 
-{% if page.relatedarxiv.size > 0 %}
+{% if page.relatedarxiv %}
   <h2>Related publications:</h2>
   {% include publications.html arxivlist=page.relatedarxiv %}
 {% endif %}
