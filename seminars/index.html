@@ -32,15 +32,7 @@ layout: default
     {{ seminar.poster }}
     {{ seminar.videorecordings }}
     {% if numberofarxivs > 0 %}
-        {% assign listofarxivs = site.publications | where_exp:"publication","seminar.relatedarxiv contains publication.arxiv" | sort:'date' | reverse %}
-        <p><strong>Related publications:</strong></p>
-          <ul>
-            {% for pub in listofarxivs %}
-                <li>
-                  {{ pub.citation | smartify }}{% if site.summarize_publications and pub.summarized %} Summarized <a href="{{ pub.url }}">here</a>!{% endif %}
-                </li>
-            {% endfor %}
-          </ul>
+        {% include publications.html arxivlist=seminar.relatedarxiv %}
     {% endif %}
     <br>
 {% endfor %}
