@@ -10,7 +10,7 @@
   {% if s.journal -%} 
     {%- if s.doi -%}
       <a href="https://doi.org/{{ s.doi }}" target="_blank">{% include journaldata.html s=s %}</a>.
-    {%- elseif -%}
+    {%- elsif -%}
       {% include journaldata.html s=s %}.
     {%- endif -%}
   {%- endif -%}
