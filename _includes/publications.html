@@ -15,7 +15,11 @@
 <ul>
 {% for paper in pubs limit: include.limit %}
     <li>
-        {{ paper.citation | smartify }}
+        {% if paper.citation %}
+          {{ paper.citation | smartify }}
+        {% elseif %}
+          {% include bibitem.html entry=paper %}
+        {% endif %}
         {% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif %}
     </li>
 {% endfor %}

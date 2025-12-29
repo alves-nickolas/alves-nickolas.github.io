@@ -1,0 +1,3 @@
+{% assign s = include.source %}
+
+<em>{{ s.journal }}</em> <strong>{{ s.volume }}</strong>{% if s.number %} ({{ s.number}}){% endif %}, {{ s.pages }} ({{ s.date | date: "%Y" }})

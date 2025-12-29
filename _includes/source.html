@@ -3,29 +3,20 @@
 {%- case s.type -%}
 
 {%- when "book" -%}
-  <em>{{ s.title }}</em>.
-  {%- if s.publisher %}
-     {{ s.publisher }}
-  {%- endif -%}
-  {%- if s.location -%}
-    , {{ s.location }}
-  {%- endif -%}
-  {%- if s.year -%}
-    , {{ s.year }}
-  {%- endif -%}.
+  <em>{{ s.title }}</em>. ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
 
 {%- when "article" -%}
-  “{{ s.title }}.”
-  <em>{{ s.container }}</em>
-  {%- if s.volume -%}
-    <strong>{{ s.volume }}</strong>
+  “{{ s.title }}”.
+  {% if s.journal -%} 
+    {%- if s.doi -%}
+      <a href="https://doi.org/{{ s.doi }}" target="_blank">{% include journaldata.html s=s %}</a>.
+    {%- elseif -%}
+      {% include journaldata.html s=s %}.
+    {%- endif -%}
   {%- endif -%}
-  {%- if s.pages -%}
-    , {{ s.pages }}
-  {%- endif -%}
-  {%- if s.year -%}
-    ({{ s.year }})
-  {%- endif -%}.
+  {% if s.arxiv -%}
+    arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
+  {% endif %}
 
 {%- when "tv" -%}
   <em>{{ s.series }}</em>
