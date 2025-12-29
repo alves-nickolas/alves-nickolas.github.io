@@ -1,6 +1,6 @@
 ---
 title: Null infinity as a Killing horizon
-pubtype: article
+type: article
 date: 2025-09-22
 authors: 
  - <strong>Níckolas de Aguiar Alves</strong>
