@@ -2,7 +2,12 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
+{% if page.authors %}
 <h3>{{ page.authors | array_to_sentence_string }}</h3>
+{% endif %}
+{% if page.author %}
+  <h3>{% include authorlist.html entry=page %}</h3>
+{% endif %}
 {% if page.citation %}
   <p style="text-align: center;">{{ page.citation }}</p>
 {% endif %}

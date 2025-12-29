@@ -1,0 +1,15 @@
+{%- assign a = site.data.authors[include.key] -%}
+
+{%- if include.key==nick -%}
+    <strong>{{ a.name }}</strong>
+{%- else -%}
+    {%- if a.website -%}
+        <a href="{{ a.website }}" target="_blank">{{ a.name }}</a>
+    {%- elsif a.inspire -%}
+        <a href="https://inspirehep.net/authors/{{ a.inspire }}" target="_blank">{{ a.name }}</a>
+    {%- elsif a.orcid -%}
+        <a href="https://orcid.org/{{ a.orcid }}" target="_blank">{{ a.name }}</a>
+    {%- else -%}
+        {{ a.name }}
+    {%- endif -%}
+{%- endif -%}
