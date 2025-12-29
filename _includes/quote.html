@@ -1,0 +1,7 @@
+<blockquote class="quote">
+  {{ quote.content | markdownify }}
+
+  <footer>
+    {% include bibitem.html entry=include.quote %}
+  </footer>
+</blockquote>

@@ -1,0 +1,27 @@
+{% assign entry = include.entry %}
+
+{% if entry.author %}
+    {% assign authors = entry.author %}
+    {% assign n = authors | size %}
+
+    {% if n == 1 %}
+    {{ authors[0].given }} {{ authors[0].family }}
+
+    {% elsif n == 2 %}
+    {{ authors[0].given }} {{ authors[0].family }}
+    and
+    {{ authors[1].given }} {{ authors[1].family }}
+
+    {% elsif n > 2 %}
+    {% for a in authors %}
+        {% if forloop.last %}
+        and {{ a.given }} {{ a.family }}
+        {% else %}
+        {{ a.given }} {{ a.family }},
+        {% endif %}
+    {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% include source.html source=entry.source %}
+

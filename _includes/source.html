@@ -1,0 +1,53 @@
+{% assign s = include.source %}
+
+{% case s.type %}
+
+{% when "book" %}
+  <em>{{ s.title }}</em>.
+  {% if s.publisher %}
+    {{ s.publisher }}
+  {% endif %}
+  {% if s.address %}
+    , {{ s.address }}
+  {% endif %}
+  {% if s.year %}
+    , {{ s.year }}
+  {% endif %}.
+
+{% when "article" %}
+  “{{ s.title }}.”
+  <em>{{ s.container }}</em>
+  {% if s.volume %}
+    <strong>{{ s.volume }}</strong>
+  {% endif %}
+  {% if s.pages %}
+    , {{ s.pages }}
+  {% endif %}
+  {% if s.year %}
+    ({{ s.year }})
+  {% endif %}.
+
+{% when "tv" %}
+  <em>{{ s.series }}</em>
+  {% if s.season and s.episode %}
+    , S{{ s.season | prepend: "0" | slice: -2, 2 }}E{{ s.episode | prepend: "0" | slice: -2, 2 }}
+  {% endif %}
+  {% if s.title %}
+    : “{{ s.title }}”
+  {% endif %}
+  {% if s.year %}
+    ({{ s.year }})
+  {% endif %}.
+
+{% when "movie" %}
+  <em>{{ s.title }}</em>
+  {% if s.year %}
+    ({{ s.year }})
+  {% endif %}.
+
+{% else %}
+  {{ s.title }}
+  {% if s.year %}
+    ({{ s.year }})
+  {% endif %}.
+{% endcase %}

@@ -1,4 +1,5 @@
 ---
+sortkey: bjorken1965thereforeconclusionsbased
 author:
   - family: Bjorken
     given: James D.
@@ -8,7 +9,7 @@ source:
   type: book
   title: Relativistic Quantum Fields
   publisher: McGraw-Hill
-  address: New York
+  location: New York, NY
   year: 1965
 category: physics
 ---
