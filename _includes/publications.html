@@ -5,7 +5,7 @@ Parameters:
  - where_exp:"publication","seminar.relatedarxiv contains publication.arxiv"
 {% endcomment %}
 
-{% assign pubs = site.publication | sort: "date" | reverse %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
 
 <ul>
 {% for paper in pubs limit: include.limit %}
