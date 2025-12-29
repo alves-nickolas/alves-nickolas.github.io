@@ -6,10 +6,10 @@ stage: phd
 tags: IRStructure GR QFTCS
 remark: "This seminar was presented at the Siembra-HoLAGrav <a href='https://sites.google.com/view/future-of-physics/home?fbclid=PAZXh0bgNhZW0CMTEAAafL7f8XdURcriv-nHNJZeG6mQo4mvEfFOHfm2HlHidDjY-lBITSXC0FbiHZdg_aem_QaAWa-xaVGfj8PfQcqSDmA' target='_blank'>Future of Physics</a> series, and the poster was presented on multiple occasions."
 poster: 
-    - url: https://alves-nickolas.github.io/abs/2504.12514/poster.pdf
-    - lang: en
+  url: https://alves-nickolas.github.io/abs/2504.12514/poster.pdf
+  lang: en
 videorecordings: 
-    - src: https://www.youtube.com/embed/MRBRu7DyuIs?si=0C53q5a1Rp6eUuPN
+  src: https://www.youtube.com/embed/MRBRu7DyuIs?si=0C53q5a1Rp6eUuPN
 relatedarxiv: 
  - "2504.12514"
  - "2504.12521"
