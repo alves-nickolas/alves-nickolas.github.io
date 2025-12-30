@@ -1,16 +1,13 @@
 ---
 sortkey: bjorken1965thereforeconclusionsbased
 author:
-  - family: Bjorken
-    given: James D.
-  - family: Drell
-    given: Sidney D.
-source:
-  type: book
-  title: Relativistic Quantum Fields
-  publisher: McGraw-Hill
-  location: New York, NY
-  year: 1965
+  - name: James D. Bjorken
+  - name: Sidney D. Drell
+type: book
+title: Relativistic Quantum Fields
+publisher: McGraw-Hill
+location: New York, NY
+year: 1965
 category: physics
 ---
 Therefore, conclusions based on the renormalization group arguments concerning the behavior of the theory summed to all orders are dangerous and must be viewed with due caution.  
