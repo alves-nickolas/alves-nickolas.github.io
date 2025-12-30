@@ -249,6 +249,13 @@ qsrg2023:
   start_date: 2023-10-02
   end_date: 2023-10-06
 
+dps2022:
+  name: Dead Physicists Society's Special Classes
+  website: https://lambdadps.github.io
+  format: online
+  start_date: 2022-04-16
+  end_date: 2022-04-16
+
 jayme2021:
   name: III Jayme Tiomno Physics School
   website: https://lambdadps.github.io/jayme/2021/
