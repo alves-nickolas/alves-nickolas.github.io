@@ -20,8 +20,8 @@
             {%- if forloop.last -%}
                 and {% include authorname.html key=authorkey %}
             {%- else -%}
-                {% include authorname.html key=authorkey %},
-            {%- endif -%}
+                {% include authorname.html key=authorkey %}, 
+            {% endif -%}
         {%- endfor -%}
     {%- endif -%}
 {%- endif -%}
