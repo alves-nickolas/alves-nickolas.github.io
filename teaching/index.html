@@ -6,38 +6,8 @@ layout: default
 
 <p>This page lists the minicourses I have taught. Lecture notes and video recordings are given if they are publicly available. As usual, occurrences in Portuguese have documents in Portuguese.</p>
 
-{% assign courses = site.teaching | sort: 'date' | reverse %}
-{% for course in courses %}
-    {% assign numberofarxivs = course.relatedarxiv | size %}
-    {% assign listofints = site.interests | where_exp:"item","course.tags contains item.tag" | sort: 'priority' %}
-    {% assign numberofints = listofints | size %}
-    {% if numberofints > 0 %}
-        {% assign printedints = '' | split: '' %}
-        {% assign startoflink = '<a href="' %}
-        {% assign middleoflink = '">' %}
-        {% assign endoflink = '</a>' %}
-        {% for interest in listofints %}
-            {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-            {% assign formattedinterest = fulllink | split:'&emsp;' %}
-            {% assign printedints = printedints | concat: formattedinterest %}
-        {% endfor %}
-    {% endif %}
-    <h2>{{ course.title }}</h2>
-    <p style="text-align: center;">{{ course.event }}</p>
-    <p>{{ course.abstract }}</p>
-    {% if numberofints > 0 %}<p><strong>Tags:</strong> {{ printedints | array_to_sentence_string }}</p>{% endif %}
-    <p>{{ course.lecturenotes }}</p>
-    {{ course.videorecordings }}
-    {% if numberofarxivs > 0 %}
-        {% assign listofarxivs = site.publications | where:"arxiv",seminar.relatedarxiv | sort:'date' | reverse %}
-        <p><strong>Related publications:</strong></p>
-          <ul>
-            {% for pub in listofarxivs %}
-                <li>
-                  {{ pub.citation | smartify }} Summarized <a href="{{ pub.url }}">here</a>.
-                </li>
-            {% endfor %}
-          </ul>
-    {% endif %}
-    <br>
+{% assign listofcourses = site.teaching | sort: 'date' | reverse %}
+{% for course in listofcourses %}
+    {%- include course.html seminar=seminar %}
+<br>
 {% endfor %}
