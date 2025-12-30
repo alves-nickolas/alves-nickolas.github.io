@@ -1,4 +1,4 @@
-{% assign s = include.source %}
+{%- assign s = include.source -%}
 
 {%- if s.arxiv %}
     arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}" target="_blank">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
@@ -8,4 +8,4 @@
 {% endif %}
 {% if s.pubstate %}
 {{ s.pubstate }}.
-{% endif %}
+{%- endif -%}

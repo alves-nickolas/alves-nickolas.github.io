@@ -1,26 +1,21 @@
-{% assign pubs = site.publications | sort: "date" | reverse %}
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
 
-{% if include.stage %}
-  {% assign pubs = pubs | where: "stage", include.stage %}
-{% endif %}
+{%- if include.stage -%}
+  {%- assign pubs = pubs | where: "stage", include.stage -%}
+{%- endif -%}
 
-{% if include.arxivlist %}
-  {% assign pubs = pubs | where_exp:"publication","include.arxivlist contains publication.arxiv" %}
-{% endif %}
+{%- if include.arxivlist -%}
+  {%- assign pubs = pubs | where_exp:"publication","include.arxivlist contains publication.arxiv" -%}
+{%- endif -%}
 
-{% if include.tag %}
-  {% assign pubs = pubs | where_exp:"publication","publication.tags contains include.tag" %}
-{% endif %}
+{%- if include.tag -%}
+  {%- assign pubs = pubs | where_exp:"publication","publication.tags contains include.tag" -%}
+{%- endif -%}
 
 <ul>
-{% for paper in pubs limit: include.limit %}
+{%- for paper in pubs limit: include.limit -%}
     <li>
-        {% if paper.citation %}
-          {{ paper.citation | smartify }}
-        {% else %}
-          {% include bibitem.html entry=paper %}
-        {% endif %}
-        {% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif %}
+        {%- include bibitem.html entry=paper %} {% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif -%}
     </li>
-{% endfor %}
+{%- endfor -%}
 </ul>

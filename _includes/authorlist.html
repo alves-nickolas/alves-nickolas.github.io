@@ -1,6 +1,6 @@
-{% assign entry = include.entry %}
+{%- assign entry = include.entry -%}
 
-{% if entry.author %}
+{%- if entry.author -%}
     {%- assign authors = entry.author -%}
     {%- assign n = authors | size -%}
 
@@ -24,4 +24,4 @@
             {%- endif -%}
         {%- endfor -%}
     {%- endif -%}
-{%- endif %}
+{%- endif -%}
