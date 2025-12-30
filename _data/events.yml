@@ -1,0 +1,283 @@
+edv2026:
+  name: VI ICTP-SAIFR Summer School for Young Physicists
+  website: https://outreach.ictp-saifr.org/escolaverao/
+  #website: https://outreach.ictp-saifr.org/edv26/
+  format: inperson
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2026-01-11
+  end_date: 2026-01-17
+
+qcdmg2025conference:
+  name: XI QCD Meets Gravity Conference
+  website: https://www.ictp-saifr.org/qcdmg2025conference/
+  format: hybrid
+  venue: 
+    institution: Principia Institute
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-12-15
+  end_date: 2025-12-19
+
+qcdmg2025school:
+  name: QCD Meets Gravity School
+  website: https://www.ictp-saifr.org/qcdmg2025school/
+  format: hybrid
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-12-08
+  end_date: 2025-12-12
+
+cplf2025:
+  name: XLVIII Paulo Leal Ferreira Congress
+  shortname: XLVIII CPLF
+  website: http://professores.ift.unesp.br/congressoPauloLealFerreira/
+  format: inperson
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-10-14
+  end_date: 2025-10-17
+
+upw2025:
+  name: UFABC Physics Week
+  shortname: UPW
+  website: http://professores.ift.unesp.br/congressoPauloLealFerreira/
+  format: inperson
+  venue: 
+    institution: Federal University of ABC
+    city: Santo André
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-10-14
+  end_date: 2025-10-17
+
+lagw2025:
+  name: First International Latin American Conference on Gravitational Waves
+  website: https://agenda.infn.it/event/45592/
+  format: hybrid
+  venue: 
+    institution: National Institute of Space Research
+    city: São José dos Campos
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-09-15
+  end_date: 2025-09-19
+
+grasp2025:
+  name: II São Paulo School on Gravitational Physics
+  shortname: II GraSP
+  website: https://graspschool.github.io/2025/
+  format: online
+  start_date: 2025-07-14
+  end_date: 2025-07-18
+
+yfm2025:
+  name: VI Siembra-HoLAGrav Young Frontiers Meeting at ICTP-SAIFR
+  shortname: VI Siembra-HoLAGrav YFM
+  website: https://www.ictp-saifr.org/yfm2025/
+  format: hybrid
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-06-30
+  end_date: 2025-07-11
+
+patqi2025:
+  name: Program on Anomalies, Topology and Quantum Information in Field Theory and Condensed Matter Physics
+  website: https://www.ictp-saifr.org/patqi2025/
+  format: hybrid
+  venue: 
+    institution: Principia Institute
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-06-16
+  end_date: 2025-06-27
+
+fop2025:
+  name: Siembra-HoLAGrav Future of Physics
+  website: https://sites.google.com/view/future-of-physics/seminars?authuser=0
+  format: online
+  start_date: 2025-05-08
+  end_date: 2025-05-08
+
+edv2025:
+  name: V ICTP-SAIFR Summer School for Young Physicists
+  website: https://outreach.ictp-saifr.org/edv25/
+  format: inperson
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2025-01-16
+  end_date: 2025-01-23
+
+cplf2024:
+  name: XLVII Paulo Leal Ferreira Congress
+  shortname: XLVII CPLF
+  website: http://professores.ift.unesp.br/congressoPauloLealFerreira/
+  format: inperson
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2024-10-29
+  end_date: 2024-11-01
+
+wqag2024:
+  name: Witnessing Quantum Aspects of Gravity in a Lab
+  website: https://www.ictp-saifr.org/wqag2024/
+  format: hybrid
+  venue: 
+    institution: Principia Institute
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2024-09-23
+  end_date: 2024-09-27
+
+grasp2024:
+  name: I São Paulo School on Gravitational Physics
+  shortname: I GraSP
+  website: https://graspschool.github.io/2024/
+  format: online
+  start_date: 2024-07-15
+  end_date: 2024-07-19
+
+sptgw2024:
+  name: School on Phase Transitions and Gravitational Waves
+  website: https://www.even3.com.br/escola-de-materia-escura-e-ondas-gravitacionais-424245/
+  format: hybrid
+  venue: 
+    division: International Institute of Physics
+    institution: Federal University of Rio Grande do Norte
+    city: Natal
+    state: Rio Grande do Norte
+    country: Brazil
+  start_date: 2024-03-04
+  end_date: 2024-03-08
+
+bht50:
+  name: "Golden Wedding of Black Holes and Thermodynamics: An Online Celebration"
+  shortname: BHT50
+  website: https://bht50.github.io/
+  format: online
+  start_date: 2023-12-04
+  end_date: 2023-12-08
+
+cplf2023:
+  name: XLVI Paulo Leal Ferreira Congress
+  shortname: XLVI CPLF
+  website: http://professores.ift.unesp.br/congressoPauloLealFerreira/
+  format: inperson
+  venue: 
+    division: Institute of Theoretical Physics
+    institution: São Paulo State University
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2023-10-24
+  end_date: 2023-10-27
+
+jayme2023:
+  name: V Jayme Tiomno Physics School
+  website: https://lambdadps.github.io/jayme/2023/
+  format: inperson
+  venue: 
+    division: Institute of Physics
+    institution: University of São Paulo
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2023-09-04
+  end_date: 2023-09-08
+
+ibqcsm2023:
+  name: Interfaces Between Quantum and Classical Statistical Mechanics
+  website: https://sites.google.com/site/matbissacot/Home/conferences/organizedconf/interfaces-between-quantum-and-classical-statistical-mechanics
+  format: inperson
+  venue: 
+    division: Institute of Mathematics and Statistics
+    institution: University of São Paulo
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2023-07-04
+  end_date: 2023-07-08
+
+qsrg2023:
+  name: Quantum Spacetime and the Renormalization Group
+  website: https://indico.imapp.ru.nl/event/127/
+  format: hybrid
+  venue: 
+    institution: "Sant'Elmo Beach Hotel"
+    city: Cagliari
+    state: Sicilia
+    country: Italy
+  start_date: 2023-10-02
+  end_date: 2023-10-06
+
+jayme2021:
+  name: III Jayme Tiomno Physics School
+  website: https://lambdadps.github.io/jayme/2021/
+  format: online
+  venue: 
+    division: Institute of Physics
+    institution: University of São Paulo
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2021-08-02
+  end_date: 2021-08-06
+
+sto2020:
+  name: XV Oceanography Thematic Week
+  website: https://sites.usp.br/sto/
+  format: online
+  venue: 
+    division: Oceanographic Institute
+    institution: University of São Paulo
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2020-11-10
+  end_date: 2020-11-12
+
+minidps2020:
+  name: Dead Physicists Society's Mini Winter School
+  format: online
+  start_date: 2020-08-10
+  end_date: 2020-08-14
+
+jayme2018:
+  name: I Jayme Tiomno Physics School
+  website: https://lambdadps.github.io/jayme/
+  format: inperson
+  venue: 
+    division: Institute of Physics
+    institution: University of São Paulo
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2018-07-23
+  end_date: 2018-07-31
