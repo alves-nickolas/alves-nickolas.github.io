@@ -3,7 +3,7 @@
     {%- assign link = "https://doi.org/" | append: s.doi -%}
 {%- elsif s.hdl -%}
     {%- assign link = "https://hdl.handle.net/" | append: s.hdl -%}
-{%- elsif s.url-%}
+{%- elsif s.url -%}
     {%- assign link = append: s.url -%}
 {%- else -%}
     {%- assign link = nil -%}
