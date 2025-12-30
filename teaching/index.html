@@ -8,6 +8,6 @@ layout: default
 
 {% assign listofcourses = site.teaching | sort: 'date' | reverse %}
 {% for course in listofcourses %}
-    {%- include course.html seminar=seminar %}
+    {%- include seminar.html seminar=course %}
 <br>
 {% endfor %}
