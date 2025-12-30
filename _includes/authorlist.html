@@ -15,7 +15,7 @@
         and
         {% include authorname.html key=second_author %}
 
-    {%- elsif n > 2 -%}
+    {%- else -%}
         {%- for a in authors -%}
             {%- if forloop.last -%}
                 and {% include authorname.html key=a %}
