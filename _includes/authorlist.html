@@ -17,10 +17,11 @@
 
     {%- else -%}
         {%- for a in authors -%}
+            {% assign authorkey = a %}
             {%- if forloop.last -%}
-                and {% include authorname.html key=a %}
+                and {% include authorname.html key=authorkey %}
             {%- else -%}
-                {% include authorname.html key=a %},
+                {% include authorname.html key=authorkey %},
             {%- endif -%}
         {%- endfor -%}
     {%- endif -%}
