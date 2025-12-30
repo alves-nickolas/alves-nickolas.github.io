@@ -1,0 +1,33 @@
+{%- assign presentations = include.presentations -%}
+
+<ul>
+{%- for present in presentations limit: include.limit -%}
+    <li>
+        {%- include event.html key=present.key -%}
+        {%- if present.format -%}
+            {%- cases present.format -%}
+                {%- when 'poster' -%}
+                    Poster presentation
+                {%- when 'contributed' -%}
+                    Contributed talk
+                {%- when 'invited' -%}
+                    Invited talk
+            {%- endcases -%}
+        {%- endif -%}
+        {%- if present.langid -%}
+            {%- cases present.langid -%}
+                {%- when "en" -%}
+                    , in English.
+                {%- when "pt" -%}
+                    , in Portuguese.
+                {%- when "it" -%}
+                    , in Italian.
+                {%- else -%}
+                    .
+            {%- endcases -%}
+        {%- else -%}
+            .
+        {%- endif -%}
+    </li>
+{%- endfor -%}
+</ul>
