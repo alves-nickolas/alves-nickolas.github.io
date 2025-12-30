@@ -3,7 +3,7 @@
 {%- case s.type -%}
 
 {%- when "book" -%}
-  <em>{{ s.title }}</em>. ({{ s.publisher }}: {{ s.location }}, {{ s.year }}). {% include eprintdata.html source=s %}
+  <em>{{ s.title }}</em> ({{ s.publisher }}: {{ s.location }}, {{ s.year }}). {% include eprintdata.html source=s %}
 
 {%- when "article" -%}
   “{{ s.title }}”.

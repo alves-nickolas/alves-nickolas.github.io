@@ -2,26 +2,20 @@
 
 {%- if entry.author -%}
     {%- assign authors = entry.author -%}
-    {%- assign n = authors | size -%}
-
-    {%- if n == 1 -%}
-        {% assign first_author=authors[0] %}
-        {% include authorname.html key=first_author %}
-
-    {%- elsif n == 2 -%}
-        {% assign first_author=authors[0] %}
-        {% assign second_author=authors[1] %}
-        {% include authorname.html key=first_author %}
-        and
-        {% include authorname.html key=second_author %}
-
-    {%- else -%}
-        {%- for authorkey in authors -%}
-            {%- if forloop.last -%}
-                and {% include authorname.html key=authorkey %}
-            {%- else -%}
-                {% include authorname.html key=authorkey %}, 
-            {% endif -%}
-        {%- endfor -%}
-    {%- endif -%}
+    {%- for authorn in authors -%}
+        {%- if authorn.name -%}
+            {%- include authorname.html name=authorn.name -%}
+        {%- else -%}
+            {%- include authorname.html key=authorn -%}
+        {%- endif -%}
+        {%- if forloop.last -%}
+            . 
+        {% elsif forloop.first and forloop.length==2 -%}
+             and 
+        {% elsif forloop.index==forloop.length | minus: 1 -%}
+            , and 
+        {%- else -%}
+            , 
+        {% endif -%}
+    {%- endfor -%}
 {%- endif -%}
