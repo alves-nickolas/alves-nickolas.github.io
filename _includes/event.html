@@ -15,7 +15,7 @@
     {% endif -%}
     {{ venue.country }}.
 {%- endif -%}
-{%- cases event.format -%}
+{%- case event.format -%}
     {%- when event.format='online' %}
         Online.
     {%- when event.format='hybrid' %}
@@ -23,5 +23,5 @@
     {%- when event.format='inperson' %}
         In person.
     {%- else %}
-{%- endcases %}
+{%- endcase %}
  {% include daterange.html start=event.start_date end=event.end_date -%}.
