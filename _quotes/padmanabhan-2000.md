@@ -7,6 +7,7 @@ title: "Theoretical Astrophysics Vol. I: Astrophysical Processes"
 publisher: Cambridge University Press
 location: Cambridge
 year: 2000
+doi: 10.1017/CBO9781139171083
 category: physics
 ---
 Dedicated to the memory of L. D. Landau, who understood the importance of pedagogy.
