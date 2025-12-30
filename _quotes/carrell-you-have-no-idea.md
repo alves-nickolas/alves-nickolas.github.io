@@ -1,12 +1,14 @@
 ---
 sortkey: carrell-you-have-no-idea
 speaker:
-  - name: Michael G. Scott (Steve Carrell)
+    name: Michael G. Scott (Steve Carrell)
+    note: 
 type: tv
 series: "The Office"
 season: '5'
 episode: '20'
 title: "New Boss"
+date: 2009-03-19
 imdb: 'tt1248741'
 category: other
 ---
