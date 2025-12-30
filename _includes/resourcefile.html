@@ -1,0 +1,14 @@
+{%- assign resource=include.resource -%}
+
+<p><strong>{{ include.label }}:</strong> 
+    <a href="{{ resource.url }}" target="_blank">
+        available here
+    </a>
+    {%- if resource.langid and resource.note %}
+            (in {{ site.data.languages[resource.langid] }}, {{ resource.note }})
+    {%- elsif resource.langid %}
+            (in {{ site.data.languages[resource.langid] }})
+    {%- elsif resource.note %}
+            ({{ resource.note }})
+    {%- endif -%}
+</p>
