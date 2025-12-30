@@ -2,6 +2,7 @@
 
 {%- if entry.author -%}
     {%- assign authors = entry.author -%}
+    {%- assign second_to_last=authors.size | minus: 1 -%}
     {%- for authorn in authors -%}
         {%- if authorn.name -%}
             {%- include authorname.html name=authorn.name -%}
@@ -12,7 +13,7 @@
             . 
         {% elsif forloop.first and forloop.length==2 %}
              and 
-        {% elsif forloop.index==forloop.length | minus: 1 -%}
+        {% elsif forloop.index==second_to_last -%}
             , and 
         {%- else -%}
             , 
