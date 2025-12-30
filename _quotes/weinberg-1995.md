@@ -6,7 +6,7 @@ type: book
 title: "The Quantum Theory of Fields Vol. 1: Foundations"
 publisher: Cambridge University Press
 location: Cambridge
-date:  '1995'
+date: 1995-01-01
 doi: 10.1017/CBO9781139644167
 category: physics
 ---

@@ -6,7 +6,7 @@ type: book
 title: "Lost in Math: How Beauty Leads Physics Astray"
 publisher: Basic Books
 location: New York, NY
-date:  2018
+date: 2018-01-01
 category: other
 ---
 While I was in school I hated history, but since then I have come to recognize the usefulness of quoting dead people to support my convictions.
