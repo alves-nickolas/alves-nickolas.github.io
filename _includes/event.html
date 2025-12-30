@@ -6,21 +6,22 @@
     {{ event.name }}.
 {%- endif -%}
 {%- if event.venue -%}
-    {%- if event.venue.division -%}
-        {{ venue.division }}, 
+    {%- assign venue=event.venue -%}
+    {%- if venue.division %}
+         {{ venue.division }}, 
     {% endif -%}
     {{ venue.institution }}, {{ venue.city }},
-    {%- if event.venue.state -%}
+    {%- if venue.state -%}
         {{ venue.state }}, 
     {% endif -%}
     {{ venue.country }}.
 {%- endif -%}
 {%- case event.format -%}
-    {%- when event.format='online' %}
+    {%- when event.format=='online' %}
         Online.
-    {%- when event.format='hybrid' %}
+    {%- when event.format=='hybrid' %}
         Hybrid.
-    {%- when event.format='inperson' %}
+    {%- when event.format=='inperson' %}
         In person.
     {%- else %}
 {%- endcase %}

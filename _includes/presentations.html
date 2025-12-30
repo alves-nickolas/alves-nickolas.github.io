@@ -6,22 +6,22 @@
         {%- include event.html key=present.key -%}
         {%- if present.format -%}
             {%- case present.format -%}
-                {%- when 'poster' -%}
-                    Poster presentation
-                {%- when 'contributed' -%}
-                    Contributed talk
-                {%- when 'invited' -%}
-                    Invited talk
+                {%- when 'poster' %}
+                     Poster presentation
+                {%- when 'contributed' %}
+                     Contributed talk
+                {%- when 'invited' %}
+                     Invited talk
             {%- endcase -%}
         {%- endif -%}
         {%- if present.langid -%}
             {%- case present.langid -%}
-                {%- when "en" -%}
-                    , in English.
-                {%- when "pt" -%}
-                    , in Portuguese.
-                {%- when "it" -%}
-                    , in Italian.
+                {%- when "en" %}
+                     (in English).
+                {%- when "pt" %}
+                     (in Portuguese).
+                {%- when "it" %}
+                     (in Italian).
                 {%- else -%}
                     .
             {%- endcase -%}
