@@ -1,15 +1,16 @@
 ---
 title: The Measure of a Mass
+type: article
 date: 2025-03-19
 authors: 
- - <strong>Níckolas de Aguiar Alves</strong>
- - <a href="https://barderucio.wordpress.com/" target="_blank">Bruno Arderucio Costa</a>
-abstract: 'The concept of mass is central to any theory of gravity. Nevertheless, defining mass in general relativity is a difficult task, and even when it can be accomplished, we still need to investigate whether the typical properties of mass in Newtonian gravity are still true in Einsteinian gravity. In this essay, we discuss "the measure of a mass" in relativity by considering some of the many different definitions (Komar, ADM, and Bondi) and how they are related. Finally, we discuss when and whether the mass is positive, as is usually expected, and which physical properties of matter and gravity can ensure this result. '
-citation: '<b>N. Aguiar Alves</b> and B. A. Costa. “The Measure of a Mass”. 2025. arXiv: <a href="https://arxiv.org/abs/2503.18963" target="_blank">2503.18963 [gr-qc]</a>.'
+ - nick
+ - bac
+abstract: 'The concept of mass is central to any theory of gravity. Nevertheless, defining mass in general relativity is a difficult task, and even when it can be accomplished, we still need to investigate whether the typical properties of mass in Newtonian gravity are still true in Einsteinian gravity. In this essay, we discuss "the measure of a mass" in relativity by considering some of the many different definitions (Komar, ADM, and Bondi) and how they are related. Finally, we discuss when and whether the mass is positive, as is usually expected, and which physical properties of matter and gravity can ensure this result.'
+arxiv: "2503.18963"
+arxivclass: gr-qc
+inspire: '2904111'
 stage: phd
 tags: EnergyConditions GR
-pubtype: essay
-arxiv: "2503.18963"
 permalink: /abs/2503.18963/
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this publication is a short essay, the summary below is relatively short as well. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
 ---
