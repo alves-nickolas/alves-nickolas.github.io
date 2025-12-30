@@ -1,0 +1,15 @@
+---
+sortkey: green2005becauseyoumaybesmart
+speaker:
+    name: Dr. Hyde
+    note: in
+author:
+  - name: John Green
+type: book
+title: "Looking for Alaska"
+publisher: Penguin Books
+location: New York, NY
+year: 2005
+category: other
+---
+Because you may be smart, but I've been smart longer.
