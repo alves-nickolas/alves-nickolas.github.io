@@ -3,7 +3,12 @@
 {%- case s.type -%}
 
 {%- when "book" -%}
-  <em>{{ s.title }}</em>
+  {%- include hyperlink.html source=s -%}
+  {%- if link -%}
+    <em><a href="{{ link }}" target="_blank">{{ s.title }}</a></em>.
+  {%- else -%}
+    <em>{{ s.title }}</em>.
+  {%- endif -%}
   {%- if s.publisher %}
    ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
   {%- endif -%} {% include eprintdata.html source=s %}
@@ -24,7 +29,7 @@
 {%- when "thesis" -%}
   {%- include hyperlink.html source=s -%}
   {%- if link -%}
-    <a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
+    “<a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif -%}
@@ -36,7 +41,7 @@
 {%- when "unpublished" -%}
   {%- include hyperlink.html source=s -%}
   {%- if link -%}
-    <a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
+    “<a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif %}
