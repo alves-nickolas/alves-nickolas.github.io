@@ -5,12 +5,19 @@
 {%- when "book" -%}
   {%- include hyperlink.html source=s -%}
   {%- if link -%}
-    <em><a href="{{ link }}" target="_blank">{{ s.title }}</a></em>.
+    <em><a href="{{ link }}" target="_blank">{{ s.title }}</a></em>
   {%- else -%}
-    <em>{{ s.title }}</em>.
+    <em>{{ s.title }}</em>
+  {%- endif -%}
+  {%- if s.editor %}
+    {%- if s.editor.size==1 -%}
+      , ed. {% include authorlist.html authorlist=entry.editor -%}
+    {%- else -%}
+      , eds. {% include authorlist.html authorlist=entry.editor -%}
+    {%- endif -%} 
   {%- endif -%}
   {%- if s.publisher %}
-   ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
+     ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
   {%- endif -%} {% include eprintdata.html source=s %}
   
 

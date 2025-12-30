@@ -1,5 +1,5 @@
 ---
-sortkey: carrell-you-have-no-idea
+sortkey: carrell2009youhavenoidea
 speaker:
     name: Michael G. Scott (Steve Carrell)
     note: in
