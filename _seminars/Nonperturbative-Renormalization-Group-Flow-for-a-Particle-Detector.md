@@ -28,7 +28,7 @@ presentations:
 remark: "This is a twenty-minute long seminar originally presented at the <a href='https://bht50.github.io/' target='_blank'>Golden Wedding of Black Holes and Thermodynamics</a>. It is also a poster presented on many different occasions."
 slideshow: 
   url: https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf
-  lang: en
+  langid: en
 poster: 
   url: https://alves-nickolas.github.io/abs/2305.17453/poster.pdf
   figshare: https://doi.org/10.6084/m9.figshare.26932873
