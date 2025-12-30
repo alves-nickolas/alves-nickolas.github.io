@@ -8,11 +8,11 @@
 {%- if event.venue -%}
     {%- assign venue=event.venue -%}
     {%- if venue.division %}
-         {{ venue.division }}, 
-    {% endif -%}
-    {{ venue.institution }}, {{ venue.city }},
-    {%- if venue.state -%}
-        {{ venue.state }}, 
+         {{ venue.division }},
+    {%- endif %}
+     {{ venue.institution }}, {{ venue.city }},
+    {%- if venue.state %}
+         {{ venue.state }}, 
     {% endif -%}
     {{ venue.country }}.
 {%- endif -%}
