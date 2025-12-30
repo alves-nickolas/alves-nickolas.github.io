@@ -5,7 +5,7 @@
     <li>
         {%- include event.html key=present.key -%}
         {%- if present.format -%}
-            {%- cases present.format -%}
+            {%- case present.format -%}
                 {%- when 'poster' -%}
                     Poster presentation
                 {%- when 'contributed' -%}
@@ -24,7 +24,7 @@
                     , in Italian.
                 {%- else -%}
                     .
-            {%- endcases -%}
+            {%- endcase -%}
         {%- else -%}
             .
         {%- endif -%}
