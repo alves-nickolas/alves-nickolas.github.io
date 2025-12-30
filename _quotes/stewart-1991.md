@@ -6,7 +6,7 @@ type: book
 title: Advanced General Relativity
 publisher: Cambridge University Press
 location: Cambridge
-year: '1991'
+date:  '1991'
 doi: 10.1017/CBO9780511608179
 category: physics
 ---

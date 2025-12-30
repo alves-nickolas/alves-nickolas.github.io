@@ -6,7 +6,7 @@ type: book
 title: "Theoretical Astrophysics Vol. I: Astrophysical Processes"
 publisher: Cambridge University Press
 location: Cambridge
-year: 2000
+date:  2000
 doi: 10.1017/CBO9781139171083
 category: physics
 ---

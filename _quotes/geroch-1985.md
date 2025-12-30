@@ -6,7 +6,7 @@ type: book
 title: Mathematical Physics
 publisher: University of Chicago Press
 location: Chicago, IL
-year: 1985
+date:  1985
 src: https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html
 category: physics
 ---

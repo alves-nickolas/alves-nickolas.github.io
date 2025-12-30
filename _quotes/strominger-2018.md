@@ -6,7 +6,7 @@ type: book
 title: Lectures on the Infrared Structure of Gravity and Gauge Theory
 publisher: Princeton University Press
 location: Princeton, NJ
-year: '2018'
+date:  '2018'
 doi: '10.23943/9781400889853'
 arxiv: '1703.05448'
 arxivclass: hep-th

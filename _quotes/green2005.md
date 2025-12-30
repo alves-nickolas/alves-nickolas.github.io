@@ -9,7 +9,7 @@ type: book
 title: "Looking for Alaska"
 publisher: Penguin Books
 location: New York, NY
-year: 2005
+date:  2005
 category: other
 ---
 Because you may be smart, but I've been smart longer.
