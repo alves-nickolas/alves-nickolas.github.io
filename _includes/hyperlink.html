@@ -4,7 +4,7 @@
 {%- elsif s.hdl -%}
     {%- assign link = "https://hdl.handle.net/" | append: s.hdl -%}
 {%- elsif s.url -%}
-    {%- assign link = append: s.url -%}
+    {%- assign link = s.url -%}
 {%- else -%}
     {%- assign link = nil -%}
 {%- endif -%}
