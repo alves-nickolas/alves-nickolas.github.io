@@ -17,11 +17,11 @@
     {{ venue.country }}.
 {%- endif -%}
 {%- case event.format -%}
-    {%- when event.format=='online' %}
+    {%- when 'online' %}
         Online.
-    {%- when event.format=='hybrid' %}
+    {%- when 'hybrid' %}
         Hybrid.
-    {%- when event.format=='inperson' %}
+    {%- when 'inperson' %}
         In person.
     {%- else %}
 {%- endcase %}
