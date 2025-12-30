@@ -3,13 +3,7 @@
 {%- case s.type -%}
 
 {%- when "book" -%}
-  <em>{{ s.title }}</em>. ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
-  {%- if s.arxiv %}
-     arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
-  {% endif %}
-  {% if s.pubstate %}
-    {{ s.pubstate }}.
-  {% endif %}
+  <em>{{ s.title }}</em>. ({{ s.publisher }}: {{ s.location }}, {{ s.year }}). {% include eprintdata.html source=s %}
 
 {%- when "article" -%}
   “{{ s.title }}”.
@@ -20,12 +14,7 @@
       {% include journaldata.html source=s %}.
     {%- endif -%}
   {%- endif -%}
-  {% if s.arxiv %}
-     arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
-  {% endif %}
-  {% if s.pubstate %}
-    {{ s.pubstate }}.
-  {% endif %}
+  {% include eprintdata.html source=s %}
 
 {%- when "thesis" -%}
   {%- if s.url -%}
@@ -36,13 +25,7 @@
   {%- if s.thesistype %}
      {{ s.thesistype }}.
   {%- endif %}
-   {{ s.location }}: {{ s.institution }}, {{ s.date | date: "%Y"}}.
-  {% if s.arxiv %}
-     arXiv: <a href="https://arxiv.org/abs/{{ s.arxiv }}">{{ s.arxiv }}{% if s.arxivclass %} [{{ s.arxivclass }}]{% endif %}</a>.
-  {% endif %}
-  {% if s.pubstate %}
-    {{ s.pubstate }}.
-  {% endif %}
+   {{ s.location }}: {{ s.institution }}, {{ s.date | date: "%Y"}}. {% include eprintdata.html source=s %}
 
 {%- when "tv" -%}
   <em>{{ s.series }}</em>
