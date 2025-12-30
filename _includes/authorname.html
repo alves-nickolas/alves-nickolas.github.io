@@ -1,7 +1,7 @@
 {%- assign a = site.data.authors[include.key] -%}
 
 {%- if include.key=="nick" -%}
-    <strong>{{ a.name }}</strong>
+    <b>{{ a.name }}</b>
 {%- else -%}
     {%- if a.website -%}
         <a href="{{ a.website }}" target="_blank">{{ a.name }}</a>
