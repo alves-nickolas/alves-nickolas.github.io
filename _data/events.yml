@@ -164,6 +164,18 @@ grasp2024:
   start_date: 2024-07-15
   end_date: 2024-07-19
 
+astrocosmo2024:
+  name: São Paulo Research Group meetings in Astro & Cosmo
+  website: https://www.ictp-saifr.org/astrocosmomeeting/
+  format: hybrid
+  venue: 
+    institution: Principia Institute
+    city: São Paulo
+    state: São Paulo
+    country: Brazil
+  start_date: 2024-06-14
+  end_date: 2024-06-14
+
 sptgw2024:
   name: School on Phase Transitions and Gravitational Waves
   website: https://www.even3.com.br/escola-de-materia-escura-e-ondas-gravitacionais-424245/

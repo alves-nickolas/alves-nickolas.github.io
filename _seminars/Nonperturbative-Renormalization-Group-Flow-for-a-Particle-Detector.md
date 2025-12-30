@@ -7,20 +7,23 @@ tags:
   - QFTCS 
   - FRG
 presentations:
+  - key: sptgw2024
+    format: flash
+    langid: pt
   - key: bht50
     format: contributed
     langid: en
   - key: cplf2023
     format: poster
     langid: pt
+  - key: qsrg2023
+    format: flash
+    langid: en
   - key: jayme2023
     format: poster
     langid: en
   - key: ibqcsm2023
     format: poster
-    langid: en
-  - key: qsrg2023
-    format: flash
     langid: en
 remark: "This is a twenty-minute long seminar originally presented at the <a href='https://bht50.github.io/' target='_blank'>Golden Wedding of Black Holes and Thermodynamics</a>. It is also a poster presented on many different occasions."
 slideshow: 

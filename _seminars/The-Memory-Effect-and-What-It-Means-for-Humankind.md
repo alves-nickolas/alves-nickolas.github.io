@@ -7,6 +7,10 @@ stage: phd
 tags: 
   - IRStructure 
   - GR
+presentations:
+  - key: astrocosmo2024
+    format: contributed
+    langid: en
 remark: "This is a one-hour long seminar originally presented at my group's journal club and at the <a href='https://www.ictp-saifr.org/astrocosmomeeting/' target='_blank'>São Paulo Research Group meetings in Astro & Cosmo</a>."
 slideshow: 
   url: https://alves-nickolas.github.io/seminars/The_Memory_Effect_and_What_it_Means_for_Humankind__With_Notes.pdf
