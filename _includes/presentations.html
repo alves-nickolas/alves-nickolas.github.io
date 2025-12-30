@@ -15,20 +15,32 @@
                 {%- when 'invited' %}
                      Invited talk
             {%- endcase -%}
-        {%- endif -%}
-        {%- if present.langid -%}
-            {%- case present.langid -%}
-                {%- when "en" %}
-                     (in English).
-                {%- when "pt" %}
-                     (in Portuguese).
-                {%- when "it" %}
-                     (in Italian).
-                {%- else -%}
-                    .
-            {%- endcase -%}
+            {%- if present.langid -%}
+                {%- case present.langid -%}
+                    {%- when "en" %}
+                         (in English).
+                    {%- when "pt" %}
+                         (in Portuguese).
+                    {%- when "it" %}
+                         (in Italian).
+                    {%- else -%}
+                        .
+                {%- endcase -%}
+            {%- else -%}
+                .
+            {%- endif -%}
         {%- else -%}
-            .
+            {%- if present.langid -%}
+                {%- case present.langid -%}
+                    {%- when "en" %}
+                         Presented in English.
+                    {%- when "pt" %}
+                         Presented in Portuguese.
+                    {%- when "it" %}
+                         Presented in Italian.
+                    {%- else -%}
+                {%- endcase -%}
+            {%- endif -%}
         {%- endif -%}
     </li>
 {%- endfor -%}
