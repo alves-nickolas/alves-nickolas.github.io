@@ -27,6 +27,14 @@
   {%- endif %}
    {{ s.location }}: {{ s.institution }}, {{ s.date | date: "%Y"}}. {% include eprintdata.html source=s %}
 
+{%- when "unpublished" -%}
+  {%- if s.url -%}
+    <a href="{{ s.url }}" target="_blank">“{{ s.title }}”</a>.
+  {%- else -%}
+    “{{ s.title }}”.
+  {%- endif %}
+   {{ s.date | date: "%Y"}}. {% include eprintdata.html source=s %}
+
 {%- when "tv" -%}
   <em>{{ s.series }}</em>
   {%- if s.season and s.episode -%}
