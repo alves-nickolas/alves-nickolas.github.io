@@ -11,6 +11,7 @@ journal: Physical Review D
 volume: '111'
 number: '4'
 pages: '044027'
+doi: '10.1103/PhysRevD.111.044027'
 arxiv: "2408.00154"
 arxivclass: gr-qc
 inspire: '2813778'
