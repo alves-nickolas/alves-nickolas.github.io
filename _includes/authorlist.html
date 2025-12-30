@@ -16,8 +16,7 @@
         {% include authorname.html key=second_author %}
 
     {%- else -%}
-        {%- for a in authors -%}
-            {% assign authorkey = a %}
+        {%- for authorkey in authors -%}
             {%- if forloop.last -%}
                 and {% include authorname.html key=authorkey %}
             {%- else -%}
