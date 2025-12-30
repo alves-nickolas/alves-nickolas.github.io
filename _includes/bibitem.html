@@ -1,4 +1,82 @@
 {%- assign entry = include.entry -%}
 
-{%- include authorlist.html entry=entry %}. {% include source.html source=entry -%}
+{%- if entry.author -%}
+    {%- assign authors = entry.author -%}
+    {%- assign n = authors | size -%}
 
+    {%- if n == 1 -%}
+        {{ authors[0].name }}.
+
+    {%- elsif n == 2 -%}
+        {{ authors[0].name }} and {{ authors[1].name }}.
+
+    {%- else -%}
+        {%- for authorn in authors -%}
+            {%- if forloop.last -%}
+                and {{ authorn.name }}.
+            {%- else -%}
+                {{ authorn.name }}, 
+            {% endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- case entry.type -%}
+
+{%- when "book" -%}
+  <em>{{ entry.title }}</em>. ({{ entry.publisher }}: {{ entry.location }}, {{ entry.year }}). {% include eprintdata.html source=s %}
+
+{%- when "article" -%}
+  “{{ entry.title }}”.
+  {% if entry.journal -%} 
+    {%- if entry.doi -%}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank">{% include journaldata.html source=s %}</a>.
+    {%- else -%}
+      {% include journaldata.html source=s %}.
+    {%- endif -%}
+  {%- endif -%}
+  {% include eprintdata.html source=s %}
+
+{%- when "thesis" -%}
+  {%- if entry.url -%}
+    “<a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>”.
+  {%- else -%}
+    “{{ entry.title }}”.
+  {%- endif -%}
+  {%- if entry.thesistype %}
+     {{ entry.thesistype }}.
+  {%- endif %}
+   {{ entry.location }}: {{ entry.institution }}, {{ entry.date | date: "%Y"}}. {% include eprintdata.html source=s %}
+
+{%- when "unpublished" -%}
+  {%- if entry.url -%}
+    “<a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>”.
+  {%- else -%}
+    “{{ entry.title }}”.
+  {%- endif %}
+   {{ entry.date | date: "%Y"}}. {% include eprintdata.html source=s %}
+
+{%- when "tv" -%}
+  <em>{{ entry.series }}</em>
+  {%- if entry.season and entry.episode -%}
+    , S{{ entry.season | prepend: "0" | slice: -2, 2 }}E{{ entry.episode | prepend: "0" | slice: -2, 2 }}
+  {%- endif -%}
+  {%- if entry.title -%}
+    : “{{ entry.title }}”
+  {%- endif -%}
+  {%- if entry.year -%}
+    ({{ entry.year }})
+  {%- endif -%}.
+
+{%- when "movie" -%}
+  <em>{{ entry.title }}</em>
+  {%- if entry.year -%}
+    ({{ entry.year }})
+  {%- endif -%}.
+
+{%- else -%}
+  {{ entry.title }}
+  {%- if entry.year -%}
+    ({{ entry.year }})
+  {%- endif -%}.
+{%- endcase -%}
