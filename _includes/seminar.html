@@ -16,7 +16,14 @@
     <p>{{ seminar.remark }}</p>
 {%- endif -%}
 {%- if seminar.lecturenotes -%}
-    <p><strong>Lecture notes:</strong> {{ seminar.lecturenotes }}</p>
+    <p><strong>Lecture notes:</strong> 
+        <a href="{{ seminar.lecturenotes.url }}" target="_blank">
+            available here
+        </a>
+        {%- if seminar.lecturenotes.note -%}
+        ({{ seminar.lecturenotes.note }})
+        {%- endif -%}
+    </p>
 {%- endif -%}
 {%- if seminar.slideshow -%}
     <p><strong>Slideshow:</strong> 
