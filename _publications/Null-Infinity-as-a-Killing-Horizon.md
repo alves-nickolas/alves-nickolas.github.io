@@ -13,6 +13,7 @@ pages: '065017'
 doi: 10.1103/tf22-2r6y
 arxiv: "2504.12514"
 arxivclass: gr-qc
+inspire: '2913422'
 stage: phd
 tags: IRStructure GR QFTCS
 permalink: /abs/2504.12514/

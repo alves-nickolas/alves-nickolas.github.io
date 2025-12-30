@@ -12,8 +12,9 @@ url: "http://biblioteca.ufabc.edu.br/index.php?codigo_sophia=126398"
 thesistype: MSc thesis
 institution: Federal University of ABC
 location: Santo André, Brazil
-arxiv: 2305.17453
+arxiv: "2305.17453"
 arxivclass: gr-qc
+inspire: '2663268'
 stage: msc
 tags: QFTCS AQFT FRG
 permalink: /abs/2305.17453/

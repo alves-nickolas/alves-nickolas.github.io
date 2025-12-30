@@ -8,6 +8,7 @@ abstract: 'These are the extended lecture notes for a minicourse presented at th
 journal: "The European Physical Journal C. Particles and Fields"
 arxiv: "2504.12521"
 arxivclass: gr-qc
+inspire: '2913492'
 pubstate: Forthcoming
 stage: phd
 tags: IRStructure GR QFTCS
