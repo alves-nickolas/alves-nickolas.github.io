@@ -2,7 +2,7 @@
 title: Positive mass in general relativity without energy conditions
 type: article
 date: 2025-02-11
-authors: 
+author: 
  - nick
  - agsl
  - bac

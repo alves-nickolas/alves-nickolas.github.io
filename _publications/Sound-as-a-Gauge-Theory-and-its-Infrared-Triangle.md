@@ -2,7 +2,7 @@
 title: 'Sound as a gauge theory and its infrared triangle'
 type: article
 date: 2025-12-16
-authors: 
+author: 
  - nick
  - agsl
 abstract: >
