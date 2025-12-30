@@ -18,7 +18,7 @@
 
 {%- when "thesis" -%}
   {%- if s.url -%}
-    <a href="{{ s.url }}" target="_blank">“{{ s.title }}”</a>.
+    “<a href="{{ s.url }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif -%}
@@ -29,7 +29,7 @@
 
 {%- when "unpublished" -%}
   {%- if s.url -%}
-    <a href="{{ s.url }}" target="_blank">“{{ s.title }}”</a>.
+    “<a href="{{ s.url }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif %}
