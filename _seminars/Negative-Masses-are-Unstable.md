@@ -15,11 +15,11 @@ presentations:
     format: poster
     langid: en
 slideshow: 
-  url: https://alves-nickolas.github.io/abs/2408.00154/slideshow.pdf
+  src: https://alves-nickolas.github.io/abs/2408.00154/slideshow.pdf
   langid: en
   note: with commentary
 poster: 
-  url: https://alves-nickolas.github.io/abs/2408.00154/poster.pdf
+  src: https://alves-nickolas.github.io/abs/2408.00154/poster.pdf
   langid: en
 videorecordings: 
   src: https://www.youtube.com/embed/Jifn9nbaVoU?si=EsbWqLgcAWro4Hac&amp;start=17375

@@ -12,7 +12,7 @@ presentations:
     format: contributed
     langid: en
 slideshow: 
-  url: https://alves-nickolas.github.io/seminars/The_Memory_Effect_and_What_it_Means_for_Humankind__With_Notes.pdf
+  src: https://alves-nickolas.github.io/seminars/The_Memory_Effect_and_What_it_Means_for_Humankind__With_Notes.pdf
   langid: en
   note: with commentary
 videorecordings: 

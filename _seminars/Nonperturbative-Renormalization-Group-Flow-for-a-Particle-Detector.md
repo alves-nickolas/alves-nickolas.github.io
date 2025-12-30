@@ -26,10 +26,10 @@ presentations:
     format: poster
     langid: en
 slideshow: 
-  url: https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf
+  src: https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf
   langid: en
 poster: 
-  url: https://alves-nickolas.github.io/abs/2305.17453/poster.pdf
+  src: https://alves-nickolas.github.io/abs/2305.17453/poster.pdf
   langid: en
   figshare: https://doi.org/10.6084/m9.figshare.26932873
 relatedarxiv: "2305.17453"

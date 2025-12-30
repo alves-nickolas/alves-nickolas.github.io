@@ -7,7 +7,7 @@ title: Mathematical Physics
 publisher: University of Chicago Press
 location: Chicago, IL
 year: 1985
-url: https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html
+src: https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html
 category: physics
 ---
 It should be clear that there is no real content to these proofs: all one has to do to obtain a proof is keep from getting confused.
