@@ -2,7 +2,7 @@
 sortkey: carrell-you-have-no-idea
 speaker:
     name: Michael G. Scott (Steve Carrell)
-    note: 
+    note: in
 type: tv
 series: "The Office"
 season: '5'

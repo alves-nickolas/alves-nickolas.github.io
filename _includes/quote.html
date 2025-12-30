@@ -5,8 +5,8 @@
 
 <footer class="quote-citation">
   {%- if quote.speaker -%}
-    {{ quote.speaker.name }}, {%- if quote.speaker.note -%}{{ quote.speaker.note }}{%- endif -%}
-  {%- endif -%}
+    {{ quote.speaker.name }}, {%- if quote.speaker.note -%}{{ quote.speaker.note }}{%- endif %} 
+  {% endif -%}
   {%- include bibitem.html entry=quote -%}
 </footer>
 </blockquote>
