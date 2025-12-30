@@ -2,6 +2,9 @@
 {{ include.quote.content | markdownify | strip }}
 
 <footer class="quote-citation">
+  {%- if entry.speaker -%}
+    {{ entry.speaker.name }}, {{ entry.speaker.note }}
+  {%- endif -%}
   {%- include bibitem.html entry=include.quote -%}
 </footer>
 </blockquote>
