@@ -1,11 +1,9 @@
 ---
 sortkey: carrollhaveyouguesstheriddle
 author:
-  - family: Carroll
-    given: Lewis
-source:
-  type: book
-  title: "Alice's Adventures in Wonderland"
+  - name: Lewis Carroll
+type: book
+title: "Alice's Adventures in Wonderland"
 category: other
 ---
 
