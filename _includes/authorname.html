@@ -1,15 +1,17 @@
-{%- assign a = site.data.authors[include.key] -%}
+{%- if include.key -%}
+    {%- assign a = site.data.authors[include.key] -%}
 
-{%- if include.key=="nick" -%}
-    <b>{{ a.name }}</b>
-{%- else -%}
-    {%- if a.website -%}
-        <a href="{{ a.website }}" target="_blank">{{ a.name }}</a>
-    {%- elsif a.inspire -%}
-        <a href="https://inspirehep.net/authors/{{ a.inspire }}" target="_blank">{{ a.name }}</a>
-    {%- elsif a.orcid -%}
-        <a href="https://orcid.org/{{ a.orcid }}" target="_blank">{{ a.name }}</a>
+    {%- if include.key=="nick" -%}
+        <b>{{ a.name }}</b>
     {%- else -%}
-        {{ a.name }}
+        {%- if a.website -%}
+            <a href="{{ a.website }}" target="_blank">{{ a.name }}</a>
+        {%- elsif a.inspire -%}
+            <a href="https://inspirehep.net/authors/{{ a.inspire }}" target="_blank">{{ a.name }}</a>
+        {%- elsif a.orcid -%}
+            <a href="https://orcid.org/{{ a.orcid }}" target="_blank">{{ a.name }}</a>
+        {%- endif -%}
     {%- endif -%}
 {%- endif -%}
+
+{{ a.name }}
