@@ -7,6 +7,13 @@ stage: phd
 tags: 
   - EnergyConditions 
   - GR
+presentations:
+  - key: wqag2024
+    format: poster
+    langid: en
+  - key: cplf2024
+    format: contributed
+    langid: pt
 remark: "This seminar was originally presented in Portuguese at the XLVII <a href='http://professores.ift.unesp.br/congressoPauloLealFerreira/' target='_blank'>Congresso Paulo Leal Ferreira de Física</a>, while the poster was originally presented at the <a href='https://www.ictp-saifr.org/wqag2024/' target='_blank'>Witnessing Quantum Aspects of Gravity in a Lab</a> conference."
 slideshow: 
   url: https://alves-nickolas.github.io/abs/2408.00154/slideshow.pdf

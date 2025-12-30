@@ -6,6 +6,22 @@ stage: msc
 tags: 
   - QFTCS 
   - FRG
+presentations:
+  - key: bht50
+    format: contributed
+    langid: en
+  - key: cplf2023
+    format: poster
+    langid: pt
+  - key: jayme2023
+    format: poster
+    langid: en
+  - key: ibqcsm2023
+    format: poster
+    langid: en
+  - key: qsrg2023
+    format: flash
+    langid: en
 remark: "This is a twenty-minute long seminar originally presented at the <a href='https://bht50.github.io/' target='_blank'>Golden Wedding of Black Holes and Thermodynamics</a>. It is also a poster presented on many different occasions."
 slideshow: 
   url: https://alves-nickolas.github.io/abs/2305.17453/slideshow.pdf
