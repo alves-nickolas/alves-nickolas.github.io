@@ -3,13 +3,18 @@
 {%- case s.type -%}
 
 {%- when "book" -%}
-  <em>{{ s.title }}</em> ({{ s.publisher }}: {{ s.location }}, {{ s.year }}). {% include eprintdata.html source=s %}
+  <em>{{ s.title }}</em>
+  {%- if s.publisher %}
+   ({{ s.publisher }}: {{ s.location }}, {{ s.year }}).
+  {%- endif -%} {% include eprintdata.html source=s %}
+  
 
 {%- when "article" -%}
   “{{ s.title }}”.
-  {% if s.journal -%} 
-    {%- if s.doi -%}
-      <a href="https://doi.org/{{ s.doi }}" target="_blank">{% include journaldata.html source=s %}</a>.
+  {% if s.journal -%}
+    {%- include hyperlink.html source=s -%}
+    {%- if link -%}
+      <a href="{{ link }}" target="_blank">{% include journaldata.html source=s %}</a>.
     {%- else -%}
       {% include journaldata.html source=s %}.
     {%- endif -%}
@@ -17,8 +22,9 @@
   {% include eprintdata.html source=s %}
 
 {%- when "thesis" -%}
-  {%- if s.url -%}
-    “<a href="{{ s.url }}" target="_blank">{{ s.title }}</a>”.
+  {%- include hyperlink.html source=s -%}
+  {%- if link -%}
+    <a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif -%}
@@ -28,8 +34,9 @@
    {{ s.location }}: {{ s.institution }}, {{ s.date | date: "%Y"}}. {% include eprintdata.html source=s %}
 
 {%- when "unpublished" -%}
-  {%- if s.url -%}
-    “<a href="{{ s.url }}" target="_blank">{{ s.title }}</a>”.
+  {%- include hyperlink.html source=s -%}
+  {%- if link -%}
+    <a href="{{ link }}" target="_blank">{{ s.title }}</a>”.
   {%- else -%}
     “{{ s.title }}”.
   {%- endif %}
