@@ -20,8 +20,8 @@
         <a href="{{ seminar.lecturenotes.url }}" target="_blank">
             available here
         </a>
-        {%- if seminar.lecturenotes.note -%}
-        ({{ seminar.lecturenotes.note }})
+        {%- if seminar.lecturenotes.langid %}
+         (in {{ site.data.languages[seminar.lecturenotes.langid] }})
         {%- endif -%}
     </p>
 {%- endif -%}
@@ -30,8 +30,8 @@
         <a href="{{ seminar.slideshow.url }}" target="_blank">
             available here
         </a>
-        {%- if seminar.slideshow.note -%}
-        ({{ seminar.slideshow.note }})
+        {%- if seminar.slideshow.langid %}
+         (in {{ site.data.languages[seminar.slideshow.langid] }})
         {%- endif -%}
     </p>
 {%- endif -%}
@@ -40,8 +40,8 @@
         <a href="{{ seminar.poster.url }}" target="_blank">
             available here
         </a>
-        {%- if seminar.poster.note -%}
-        ({{ seminar.poster.note }})
+        {%- if seminar.poster.langid %}
+         (in {{ site.data.languages[seminar.poster.langid] }})
         {%- endif -%}
     </p>
 {%- endif -%}
