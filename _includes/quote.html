@@ -1,10 +1,12 @@
+{%- assign quote = include.quote -%}
+
 <blockquote>
-{{ include.quote.content | markdownify | strip }}
+{{ quote.content | markdownify | strip }}
 
 <footer class="quote-citation">
-  {%- if entry.speaker -%}
-    {{ entry.speaker.name }}, {{ entry.speaker.note }}
+  {%- if quote.speaker -%}
+    {{ quote.speaker.name }}, {%- if quote.speaker.note -%}{{ quote.speaker.note }}{%- endif -%}
   {%- endif -%}
-  {%- include bibitem.html entry=include.quote -%}
+  {%- include bibitem.html entry=quote -%}
 </footer>
 </blockquote>
