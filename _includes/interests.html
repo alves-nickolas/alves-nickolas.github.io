@@ -4,7 +4,6 @@
     {%- assign taglist = "" | split: "" -%}
     {%- assign filtered_publications = site.publications | where_exp:"item","item.stage == include.stage" -%}
     {%- for pub in filtered_publications  -%}
-        {{ pub.title }}<br>
         {%- for tag in pub.tags -%}
             {%- assign taglist = taglist | push: tag -%}
         {%- endfor -%}
