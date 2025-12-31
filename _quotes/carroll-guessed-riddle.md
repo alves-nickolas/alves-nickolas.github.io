@@ -1,5 +1,11 @@
 ---
 sortkey: carrollhaveyouguesstheriddle
+speaker:
+  list:
+    - name: Alice
+    - name: the Mad Hatter
+    - name: the March Hare
+  note: in
 author:
   - name: Lewis Carroll
 type: book
