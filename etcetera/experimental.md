@@ -8,7 +8,7 @@ I love quotations. I've collected the following ones over the last several years
 
 {%- assign listofquotes = site.quotes | sort: 'sortkey' -%}
 {%- for quote in listofquotes -%}
-{%- unless quote.category contains "sttng" %}
+{%- unless quote.category contains "sttng" or quote.category contains "apocryphal" %}
 
 {% include quote.html quote=quote %}<br>
 
@@ -20,6 +20,17 @@ I love quotations. I've collected the following ones over the last several years
 I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blank"><em>Star Trek: The Next Generation</em></a> a while ago and I've been taking notes of way too many quotes to keep them alongside the other ones. All of the following come from ST:TNG and I organize them by season and episode, instead of following the alphabetical patterns of the previous section. 
 
 {%- assign listofquotes = site.quotes | where_exp:"item","item.category contains 'sttng'" | sort: 'sortkey' -%}
+{%- for quote in listofquotes %}
+
+{% include quote.html quote=quote %}<br>
+
+{% endfor -%}
+
+## Questionable Quotations
+
+Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I might have no clue whether any of these were actually said. 
+
+{%- assign listofquotes = site.quotes | where_exp:"item","item.category contains 'apocryphal'" | sort: 'sortkey' -%}
 {%- for quote in listofquotes %}
 
 {% include quote.html quote=quote %}<br>
