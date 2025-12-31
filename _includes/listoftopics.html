@@ -1,5 +1,5 @@
 {%- assign listoftopics = "" | split: "" -%}
-{%- for pub in site.publications | where:"stage","include.stage" -%}
+{%- for pub in site.publications | where_exp:"item","item.stage == include.stage" -%}
     {%- for tag in pub.tags -%}
         {%- assign listoftopics = listoftopics | push: tag -%}
     {%- endfor -%}
