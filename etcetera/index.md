@@ -8,11 +8,22 @@ I love quotations. I've collected the following ones over the last several years
 
 {%- assign listofquotes = site.quotes | sort: 'sortkey' -%}
 {%- for quote in listofquotes -%}
-{%- unless quote.category contains "sttng" or quote.category contains "apocryphal" %}
+{%- unless quote.category contains "sttng" or quote.category contains "musical" or quote.category contains "apocryphal" %}
 
 {% include quote.html quote=quote %}<br>
 
 {% endunless %}
+{% endfor -%}
+
+## Musical Quotations
+
+I love musicals, and of course I collect quotations from musicals. Here are some of my favorites. To avoit listing composers, librettists, artists, and so on, I keep only the character and the title. The actor is usually chosen from the most famous recording.
+
+{%- assign listofquotes = site.quotes | where_exp:"item","item.category contains 'musical'" | sort: 'sortkey' -%}
+{%- for quote in listofquotes %}
+
+{% include quote.html quote=quote %}<br>
+
 {% endfor -%}
 
 ## Star Trek Quotations
