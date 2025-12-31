@@ -15,5 +15,9 @@
         {%- endif -%}
     {%- endif -%}
 {%- elsif include.name -%}
-    {{ include.name }}
+    {%- if include.src -%}
+        <a href="{{ include.src }}" target="_blank">{{ include.name }}</a>
+    {%- else -%}
+        {{ include.name }}
+    {%- endif -%}
 {%- endif -%}

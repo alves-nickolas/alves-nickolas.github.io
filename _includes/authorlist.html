@@ -2,7 +2,11 @@
 {%- assign second_to_last=authors.size | minus: 1 -%}
 {%- for authorn in authors -%}
     {%- if authorn.name -%}
-        {%- include authorname.html name=authorn.name -%}
+        {%- if authorn.src -%}
+            {%- include authorname.html name=authorn.name src=author.src -%}
+        {%- else -%}
+            {%- include authorname.html name=authorn.name -%}
+        {%- endif -%}
     {%- else -%}
         {%- include authorname.html key=authorn -%}
     {%- endif -%}
