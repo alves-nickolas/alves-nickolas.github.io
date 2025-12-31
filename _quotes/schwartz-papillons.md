@@ -1,5 +1,6 @@
 ---
 sortkey: schwartzlespapillons
+type: omit
 speaker:
     list:
         - name: Laurent Schwartz

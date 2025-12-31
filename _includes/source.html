@@ -70,6 +70,8 @@
     <em>{{ s.title }}</em>{%- if s.date %} ({{ s.date | date: "%Y" }}){%- endif -%}.
   {%- endif -%}
 
+{%- when "omit" -%}
+
 {%- else -%}
   {%- include hyperlink.html source=s -%}
   {%- if link -%}
