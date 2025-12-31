@@ -274,7 +274,7 @@ section #title .credits {
 
 blockquote {
   margin: 1.8em 0;
-  padding: 0.5em 0.6em;
+//   padding: 0.5em 0.6em;
   border-left: 4px solid #f26a49;
   background-color: #1c1c1c;
   color: #f0e7d5;
@@ -283,4 +283,18 @@ blockquote {
 
 blockquote p {
   margin: 0;
+}
+
+blockquote footer.quote-citation {
+  display: block;
+  margin-top: 0.75em;
+  font-family: 'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.85em;
+  color: #b6b6b6;
+  text-align: right;
+}
+
+blockquote footer.quote-citation::before {
+  content: "— ";
+  color: #f19e58;
 }
