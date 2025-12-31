@@ -1,7 +1,8 @@
 ---
 sortkey: green2005becauseyoumaybesmart
 speaker:
-    name: Dr. Hyde
+    list:
+        - name: Dr. Hyde
     note: in
 author:
   - name: John Green

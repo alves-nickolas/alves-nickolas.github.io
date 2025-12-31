@@ -1,7 +1,8 @@
 ---
 sortkey: green2006wouldovidstillhadbeen
 speaker:
-    name: Colin Singleton
+    list:
+        - name: Colin Singleton
     note: in
 author:
   - name: John Green

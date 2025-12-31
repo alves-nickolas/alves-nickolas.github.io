@@ -1,7 +1,8 @@
 ---
 sortkey: green2012sometimesitseems
 speaker:
-    name: Mr. Lancaster quoting his college math teacher
+    list:
+        - name: Mr. Lancaster quoting his college math teacher
     note: in
 author:
   - name: John Green

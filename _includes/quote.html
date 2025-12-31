@@ -5,7 +5,7 @@
 
 <footer class="quote-citation">
   {%- if quote.speaker -%}
-    {{ quote.speaker.name }}, {% if quote.speaker.note -%}{{ quote.speaker.note }}{%- endif %} 
+    {%- include authorlist.html authorlist=quote.speaker.list -%}, {% if quote.speaker.note -%}{{ quote.speaker.note }}{%- endif %} 
   {% endif -%}
   {%- include bibitem.html entry=quote -%}
 </footer>

@@ -1,7 +1,8 @@
 ---
 sortkey: carrell2009youhavenoidea
 speaker:
-    name: Michael G. Scott (Steve Carrell)
+    list:
+        - name: Michael G. Scott (Steve Carrell)
     note: in
 type: tv
 series: "The Office"

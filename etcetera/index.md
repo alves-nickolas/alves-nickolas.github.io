@@ -211,7 +211,7 @@ Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I
 
 * Les papillons sont le seule chose importante…
   
-  Attributed to Laurent Schwartz. I came across it while reading [these notes on Green's functions](http://www.hfleming.com/green.pdf) written by [Prof. Henrique Fleming](http://www.hfleming.com/). Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz's answer? ''The butterflies are the only important thing...''
+  Attributed to Laurent Schwartz. I came across it while reading [these notes on Green's functions](http://www.hfleming.com/green.pdf) written by [Prof. Henrique Fleming](http://www.hfleming.com/). Legend tells Schwartz enjoyed catching butterflies and, when he was in Rio de Janeiro, a reporter surprised with how much time he spent on this would have asked him whether the butterflies were as important as Mathematics. Schwartz's answer? ''The butterflies are the only important thing…''
 * I can't stay up that late.
   
   Attributed to Sidney Coleman, refusing to teach a 9 a.m. class. As quoted in [his obituary at The Harvard Gazette](https://news.harvard.edu/gazette/story/2007/11/sidney-coleman-dies-at-70/).

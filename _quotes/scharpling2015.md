@@ -1,7 +1,8 @@
 ---
 sortkey: scharpling2015thislifeinthestars
 speaker:
-    name: Greg Universe (Tom Scharpling)
+    list:
+        - name: Greg Universe (Tom Scharpling)
     note: in
 type: tv
 series: "Steven Universe"
