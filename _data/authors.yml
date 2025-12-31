@@ -1,16 +1,21 @@
 nick:
   name: Níckolas de Aguiar Alves
   website: https://alves-nickolas.github.io
-  inspire: 2663271
+  inspire: '2663271'
   orcid: 0000-0002-0309-735X
 
 agsl: 
   name: André G. S. Landulfo
-  inspire: 1071404
+  inspire: '1071404'
   orcid: 0000-0002-3717-4966
 
 bac:
   name: Bruno Arderucio Costa
   website: https://barderucio.wordpress.com/
-  inspire: 2127657
+  inspire: '2127657'
   orcid: 0000-0001-5182-2010
+
+jcab: 
+  name: João C. A. Barata
+  website: https://denebola.if.usp.br/
+  orcid: 0000-0001-8576-4939
