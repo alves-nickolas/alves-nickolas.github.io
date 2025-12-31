@@ -1,10 +1,10 @@
 {%- assign arxivlist = include.arxivlist | uniq -%}
 {%- assign second_to_last=arxiv.size | minus: 1 -%}
 {%- for entry in arxivlist -%}
-    {%- unless entry=='toappear' -%}
-        <a href="https://arxiv.org/abs/{{ entry }}" target="_blank">{{ entry }}</a>
-    {%- else -%}
+    {%- if entry=='toappear' -%}
         work to appear
+    {%- else -%}
+        <a href="https://arxiv.org/abs/{{ entry }}" target="_blank">{{ entry }}</a>
     {%- endunless -%}
     {%- if forloop.last -%}
         
