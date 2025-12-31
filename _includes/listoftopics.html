@@ -5,11 +5,10 @@
     {%- endfor -%}
 {%- endfor -%}
 {%- assign listoftopics = listoftopics | uniq -%}
-{%- case include.stage -%}
-    {%- when 'phd' -%}
-        {%- assign phdtopics = listoftopics -%}
-    {%- when 'msc' -%}
-        {%- assign msctopics = listoftopics -%}
+{%- if include.stage=='phd' -%}
+    {%- assign phdtopics = listoftopics -%}
+{%- elsif include.stage=='msc' -%}
+    {%- assign msctopics = listoftopics -%}
         MSc topics: {{ msctopics }}
-{%- endcase -%}
+{%- endif -%}
 {%- assign listoftopics = nil -%}
