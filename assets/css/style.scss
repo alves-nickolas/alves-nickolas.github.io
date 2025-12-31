@@ -271,3 +271,16 @@ section #title .credits {
  color:#696969;
  margin-top:-10px
 }
+
+blockquote {
+  margin: 1.8em 0;
+  padding: 1em 1.25em;
+  border-left: 4px solid #f26a49;
+  background-color: #1c1c1c;
+  color: #f0e7d5;
+  font-family: 'MontserratLightItalic', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+blockquote p {
+  margin: 0;
+}
