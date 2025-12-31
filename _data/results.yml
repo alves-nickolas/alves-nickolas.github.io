@@ -1,0 +1,21 @@
+- text: 'showed how linear acoustics admits asymptotic symmetries and an infrared triangle'
+  stage: phd
+  related_arxiv:
+    - '2512.15796'
+
+- text: 'introduced the notion of asymptotic (conformal) Killing horizons to give a generalized definition of asymptotic symmetry groups that can reproduce both the BMS and DMP groups'
+  stage: phd
+  related_arxiv:
+    - '2504.12514'
+    - '2504.12521'
+
+- text: 'showed that barotropic, spherically-symmetric stars with negative mass are unstable in general relativity'
+  stage: phd
+  related_arxiv:
+    - '2408.00154'
+    
+- text: 'computed the functional renormalization group flow for an Unruh–DeWitt detector in Minkowski spacetime'
+  stage: msc
+  related_arxiv:
+    - '2305.17453'
+    - toappear
