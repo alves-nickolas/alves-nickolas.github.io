@@ -17,5 +17,5 @@ slideshow:
   note: with commentary
 videorecordings: 
   src: https://www.youtube.com/embed/JuVKy9LvGYA?si=m55vKF98Pnv1eLqM&amp;start=88
-relatedarxiv: "2504.12521"
+related_arxiv: "2504.12521"
 ---

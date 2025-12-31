@@ -23,5 +23,5 @@ poster:
   langid: en
 videorecordings: 
   src: https://www.youtube.com/embed/Jifn9nbaVoU?si=EsbWqLgcAWro4Hac&amp;start=17375
-relatedarxiv: "2408.00154"
+related_arxiv: "2408.00154"
 ---

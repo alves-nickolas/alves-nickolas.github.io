@@ -25,7 +25,7 @@ poster:
   langid: en
 videorecordings: 
   src: https://www.youtube.com/embed/MRBRu7DyuIs?si=0C53q5a1Rp6eUuPN
-relatedarxiv: 
+related_arxiv: 
  - "2504.12514"
  - "2504.12521"
 ---

@@ -23,7 +23,7 @@ layout: default
 
 {{ content }}
 
-{% if page.relatedarxiv %}
+{% if page.related_arxiv %}
   <h2>See also:</h2>
-  {% include publications.html arxivlist=page.relatedarxiv %}
+  {% include publications.html arxivlist=page.related_arxiv %}
 {% endif %}

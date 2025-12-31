@@ -16,5 +16,5 @@ presentations:
 poster: 
   src: https://alves-nickolas.github.io/abs/2512.15796/poster.pdf
   langid: en
-relatedarxiv: "2512.15796"
+related_arxiv: "2512.15796"
 ---
