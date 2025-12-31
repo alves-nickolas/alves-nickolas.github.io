@@ -7,5 +7,5 @@
     [<a href="https://inspirehep.net/literature/{{ s.inspire }}" target="_blank">INSPIRE</a>].
 {%- endif -%}
 {%- if s.pubstate %}
- {{ s.pubstate }}.
+ {% include pubstate.html pubstate=s.pubstate -%}.
 {%- endif -%}

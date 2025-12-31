@@ -9,7 +9,7 @@ journal: "The European Physical Journal C. Particles and Fields"
 arxiv: "2504.12521"
 arxivclass: gr-qc
 inspire: '2913492'
-pubstate: Forthcoming
+pubstate: forthcoming
 stage: phd
 tags: IRStructure GR QFTCS
 permalink: /abs/2504.12521/

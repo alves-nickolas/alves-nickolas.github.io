@@ -1,0 +1,16 @@
+{%- assign pubstate = include.pubstate -%}
+
+{%- case pubstate -%}
+    {%- when 'inpreparation' -%}
+        In preparation
+    {%- when 'submitted' -%}
+        Submitted
+    {%- when 'forthcoming' -%}
+        Forthcoming
+    {%- when 'inpress' -%}
+        In press
+    {%- when 'unpublished' -%}
+        Unpublished
+    {%- when 'prepublished' -%}
+        Pre-published
+{%- endcase -%}
