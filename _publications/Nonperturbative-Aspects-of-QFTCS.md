@@ -16,7 +16,10 @@ arxiv: "2305.17453"
 arxivclass: gr-qc
 inspire: '2663268'
 stage: msc
-tags: QFTCS AQFT FRG
+tags: 
+    - QFTCS 
+    - AQFT 
+    - FRG
 permalink: /abs/2305.17453/
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this is a MSc thesis, this summary is written in a chapter-by-chapter fashion."
 pubtype: mscthesis

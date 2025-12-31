@@ -15,7 +15,10 @@ arxiv: "2504.12514"
 arxivclass: gr-qc
 inspire: '2913422'
 stage: phd
-tags: IRStructure GR QFTCS
+tags: 
+    - IRStructure 
+    - GR 
+    - QFTCS
 permalink: /abs/2504.12514/
 ---
 

@@ -16,7 +16,9 @@ arxiv: "2408.00154"
 arxivclass: gr-qc
 inspire: '2813778'
 stage: phd
-tags: EnergyConditions GR
+tags: 
+    - EnergyConditions 
+    - GR
 permalink: /abs/2408.00154/
 ---
 

@@ -9,7 +9,9 @@ src: "https://bht50.github.io/minicourses/QFTCS__An_Introduction.pdf"
 inspire: '2951307'
 pubstate: unpublished
 stage: phd
-tags: AQFT QFTCS
+tags: 
+    - AQFT 
+    - QFTCS
 permalink: /literature/2951307
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false

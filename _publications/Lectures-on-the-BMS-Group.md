@@ -11,7 +11,10 @@ arxivclass: gr-qc
 inspire: '2913492'
 pubstate: forthcoming
 stage: phd
-tags: IRStructure GR QFTCS
+tags: 
+    - IRStructure 
+    - GR 
+    - QFTCS
 permalink: /abs/2504.12521/
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false

@@ -11,7 +11,9 @@ arxivclass: gr-qc
 inspire: '2904111'
 inspire: Pre-published
 stage: phd
-tags: EnergyConditions GR
+tags: 
+    - EnergyConditions 
+    - GR
 permalink: /abs/2503.18963/
 remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. Since this publication is a short essay, the summary below is relatively short as well. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
 ---

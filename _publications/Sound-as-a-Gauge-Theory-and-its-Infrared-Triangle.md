@@ -12,7 +12,8 @@ arxivclass: hep-th
 inspire: '3093917'
 pubstate: prepublished
 stage: phd
-tags: IRStructure
+tags: 
+    - IRStructure
 permalink: /abs/2512.15796/
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false
