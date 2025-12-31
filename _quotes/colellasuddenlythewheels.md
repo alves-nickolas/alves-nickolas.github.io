@@ -8,6 +8,6 @@ type: musical
 title: "Come From Away"
 category: musical
 ---
-And suddenly the wheels lift off
-The ground is falling backwards
+And suddenly the wheels lift off  
+The ground is falling backwards  
 I am suddenly alive

@@ -8,7 +8,7 @@ type: musical
 title: "Hamilton: An American Musical"
 category: musical
 ---
-Look at where you are
-Look at where you started
-The fact that you're alive is a miracle
+Look at where you are  
+Look at where you started  
+The fact that you're alive is a miracle  
 Just stay alive, that would be enough
