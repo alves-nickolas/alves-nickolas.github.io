@@ -10,7 +10,7 @@ I love quotations. I've collected the following ones over the last several years
 {%- for quote in listofquotes -%}
 {%- unless quote.category contains "sttng" %}
 
-{% include quote.html quote=quote %}
+{% include quote.html quote=quote %}<br>
 
 {% endunless %}
 {% endfor -%}
@@ -21,6 +21,7 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
 
 {%- assign listofquotes = site.quotes | where_exp:"item","item.category contains 'sttng'" | sort: 'sortkey' -%}
 {%- for quote in listofquotes -%}
-{%- include quote.html quote=quote %}
-<br>
+
+{% include quote.html quote=quote %}<br>
+
 {% endfor -%}
