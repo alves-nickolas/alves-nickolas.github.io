@@ -1,4 +1,4 @@
-{%- assign listofinterests = site.interests | sort: "priority" -%}
+{%- assign all_interests = site.interests | sort: "priority" -%}
 
 {%- if include.stage -%}
     {%- assign taglist = "" | split: "" -%}
@@ -12,9 +12,9 @@
     {%- assign taglist = include.taglist | uniq -%}
 {%- endif -%}
 
-{%- assign listofinterests = listofinterests | where_exp:"item","taglist contains item.tag" -%}
-{%- assign second_to_last=listofinterests.size | minus: 1 -%}
-{%- for interest in listofinterests -%}
+{%- assign filtered_interests = all_interests | where_exp:"item","taglist contains item.tag" -%}
+{%- assign second_to_last=filtered_interests.size | minus: 1 -%}
+{%- for interest in filtered_interests -%}
     <a href="{{ interest.url }}">{{ interest.title }}</a>
     {%- if forloop.last -%}
         
