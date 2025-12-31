@@ -1,9 +1,18 @@
 {%- assign listofinterests = site.interests | sort: "priority" -%}
 
-{%- if include.taglist -%}
-  {%- assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" -%}
+{%- if include.stage -%}
+    {%- assign taglist = "" | split: "" -%}
+    {%- for pub in site.publications | where_exp:"item","item.stage == include.stage" -%}
+        {%- for tag in pub.tags -%}
+            {%- assign tagslist = taglist | push: tag -%}
+        {%- endfor -%}
+    {%- endfor -%}
+    {%- assign taglist = taglist | uniq -%}
+{%- elsif include.taglist -%}
+    {%- assign taglist = include.taglist | uniq -%}
 {%- endif -%}
 
+{%- assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" -%}
 {%- assign second_to_last=listofinterests.size | minus: 1 -%}
 {%- for interest in listofinterests -%}
     <a href="{{ interest.url }}">{{ interest.title }}</a>
