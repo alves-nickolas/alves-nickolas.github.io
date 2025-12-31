@@ -1,17 +1,19 @@
-{% assign listofinterests = site.interests | sort: "priority" %}
+{%- assign listofinterests = site.interests | sort: "priority" -%}
 
-{% if include.taglist %}
-  {% assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" %}
-{% endif %}
+{%- if include.taglist -%}
+  {%- assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" -%}
+{%- endif -%}
 
-{% assign printedints = '' | split: '' %}
-{% assign startoflink = '<a href="' %}
-{% assign middleoflink = '">' %}
-{% assign endoflink = '</a>' %}
-{% for interest in listofinterests %}
-    {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-    {% assign formattedinterest = fulllink | split:'&emsp;' %}
-    {% assign printedints = printedints | concat: formattedinterest %}
-{% endfor %}
-
-{{ printedints | array_to_sentence_string }}
+{%- assign second_to_last=listofinterests.size | minus: 1 -%}
+{%- for interest in listofinterests -%}
+    <a href="{{ interest.url }}">{{ interest.title }}</a>
+    {%- if forloop.last -%}
+        
+    {%- elsif forloop.first and forloop.length==2 %}
+            and 
+    {% elsif forloop.index==second_to_last -%}
+        , and 
+    {% else -%}
+        , 
+    {% endif -%}
+{%- endfor -%}
