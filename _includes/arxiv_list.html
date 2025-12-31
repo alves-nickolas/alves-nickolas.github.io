@@ -5,7 +5,7 @@
         work to appear
     {%- else -%}
         <a href="https://arxiv.org/abs/{{ entry }}" target="_blank">{{ entry }}</a>
-    {%- endunless -%}
+    {%- endif -%}
     {%- if forloop.last -%}
         
     {%- elsif forloop.first and forloop.length==2 %}
