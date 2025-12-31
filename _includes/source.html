@@ -17,8 +17,8 @@
     {%- endif -%} 
   {%- endif -%}
   {%- if s.publisher %}
-     ({{ s.publisher }}: {{ s.location }}, {{ s.date | date: "%Y" }}).
-  {%- endif -%} {% include eprintdata.html source=s %}
+     ({{ s.publisher }}: {{ s.location }}, {{ s.date | date: "%Y" }})
+  {%- endif -%}. {% include eprintdata.html source=s %}
   
 
 {%- when "article" -%}
