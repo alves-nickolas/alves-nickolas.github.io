@@ -1,7 +1,17 @@
 ---
 title: Short CV
-phdtopics: GR QFTCS AQFT EntropyBounds EnergyConditions IRStructure  
-msctopics: GR QFTCS AQFT FRG 
+phdtopics: 
+    - GR 
+    - QFTCS 
+    - AQFT 
+    - EntropyBounds 
+    - EnergyConditions 
+    - IRStructure  
+msctopics: 
+    - GR 
+    - QFTCS 
+    - AQFT 
+    - FRG 
 ---
 <h1>{{ page.title }}</h1>
 
@@ -16,17 +26,7 @@ msctopics: GR QFTCS AQFT FRG
 
 <p><strong>Funding:</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001, and São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/229389/the-sky-as-a-killing-horizon-and-other-topics-on-the-infrared-structure-of-gravity/" target="_blank">25/05161-0</a></p>
 
-{% assign printedints = '' | split: '' %}
-{% assign startoflink = '<a href="' %}
-{% assign middleoflink = '">' %}
-{% assign endoflink = '</a>' %}
-{% assign listofints = site.interests | where_exp:"item","page.phdtopics contains item.tag" | sort: 'priority' %}
-{% for interest in listofints %}
-    {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-    {% assign formattedinterest = fulllink | split:'&emsp;' %}
-    {% assign printedints = printedints | concat: formattedinterest %}
-{% endfor %}
-<p><strong>Topics:</strong> {{ printedints | array_to_sentence_string }}</p>
+<p><strong>Topics:</strong> {% include interests.html taglist=phdtopics -%}</p>
 
 <p><strong>Main results:</strong></p>
 <ul>
@@ -47,17 +47,7 @@ msctopics: GR QFTCS AQFT FRG
 
 <p><strong>Funding:</strong> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil (CAPES)—Finance Code 001, and São Paulo Research Foundation (FAPESP)—Grant <a href="https://bv.fapesp.br/en/bolsas/199394/the-functional-renormalization-group-in-quantum-field-theory-in-curved-spacetimes/" target="_blank">21/07372-7</a></p>
 
-{% assign printedints = '' | split: '' %}
-{% assign startoflink = '<a href="' %}
-{% assign middleoflink = '">' %}
-{% assign endoflink = '</a>' %}
-{% assign listofints = site.interests | where_exp:"item","page.msctopics contains item.tag" | sort: 'priority' %}
-{% for interest in listofints %}
-    {% assign fulllink = '' | append: startoflink | append: site.url | append: interest.url | append: middleoflink | append: interest.title | append: endoflink %}
-    {% assign formattedinterest = fulllink | split:'&emsp;' %}
-    {% assign printedints = printedints | concat: formattedinterest %}
-{% endfor %}
-<p><strong>Topics:</strong> {{ printedints | array_to_sentence_string }}</p>
+<p><strong>Topics:</strong> {% include interests.html taglist=msctopics -%}</p>
 
 <p><strong>Main results:</strong></p>
 <ul>
