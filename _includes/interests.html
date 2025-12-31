@@ -12,7 +12,7 @@
     {%- assign taglist = include.taglist | uniq -%}
 {%- endif -%}
 
-{%- assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" -%}
+{%- assign listofinterests = listofinterests | where_exp:"item","taglist contains item.tag" -%}
 {%- assign second_to_last=listofinterests.size | minus: 1 -%}
 {%- for interest in listofinterests -%}
     <a href="{{ interest.url }}">{{ interest.title }}</a>
