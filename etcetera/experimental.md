@@ -8,10 +8,10 @@ I love quotations. I've collected the following ones over the last several years
 
 {%- assign listofquotes = site.quotes | sort: 'sortkey' -%}
 {%- for quote in listofquotes -%}
-    {%- unless quote.category contains "sttng" -%}
-        {%- include quote.html quote=quote %}
-        <br>
-    {% endunless %}
+{%- unless quote.category contains "sttng" -%}
+{%- include quote.html quote=quote %}
+<br>
+{% endunless %}
 {% endfor -%}
 
 ## Star Trek Quotations
@@ -20,6 +20,6 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
 
 {%- assign listofquotes = site.quotes | sort: 'sortkey' -%}
 {%- for quote in listofquotes | where_exp:"item","item.category contains 'sttng'" -%}
-    {%- include quote.html quote=quote %}
-    <br>
+{%- include quote.html quote=quote %}
+<br>
 {% endfor -%}
