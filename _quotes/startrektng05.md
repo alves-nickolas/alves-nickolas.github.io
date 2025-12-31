@@ -3,7 +3,7 @@ sortkey: startrektngs02e17
 speaker:
     list:
         - name: Captain Jean-Luc Picard (Sir Patrick Stewart)
-        - name: Ensign Wesley Crusher 
+        - name: Ensign Wesley Crusher (Wil Wheaton) 
     note: in
 type: tv
 series: "Star Trek: The Next Generation"
