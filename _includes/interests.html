@@ -16,7 +16,7 @@
 {%- assign filtered_interests = all_interests | where_exp:"item","taglist contains item.tag" -%}
 {%- assign second_to_last=filtered_interests.size | minus: 1 -%}
 {%- for interest in filtered_interests -%}
-    <a href="{{ interest.url }}">{{ interest.title }}</a>
+    <a href="{{ interest.url }}">{{ interest.title | downcase }}</a>
     {%- if forloop.last -%}
         
     {%- elsif forloop.first and forloop.length==2 %}
