@@ -1,0 +1,13 @@
+{%- assign results = site.data.results -%}
+
+{%- if include.stage -%}
+  {%- assign results = results | where: "stage", include.stage -%}
+{%- endif -%}
+
+<ul>
+{%- for result in results limit: include.limit -%}
+    <li>
+        {{ result.text }} ({%- include arxiv_list.html arxivlist=result.related_arxiv -%})
+    </li>
+{%- endfor -%}
+</ul>
