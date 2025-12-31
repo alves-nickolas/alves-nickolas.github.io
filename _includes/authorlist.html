@@ -3,7 +3,7 @@
 {%- for authorn in authors -%}
     {%- if authorn.name -%}
         {%- if authorn.src -%}
-            {%- include authorname.html name=authorn.name src=author.src -%}
+            {%- include authorname.html name=authorn.name src=authorn.src -%}
         {%- else -%}
             {%- include authorname.html name=authorn.name -%}
         {%- endif -%}
