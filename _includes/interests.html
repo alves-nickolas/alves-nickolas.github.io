@@ -1,7 +1,6 @@
 {%- assign listofinterests = site.interests | sort: "priority" -%}
 
 {%- if include.taglist -%}
-    [---{{ include.taglist }}---]
   {%- assign listofinterests = listofinterests | where_exp:"item","include.taglist contains item.tag" -%}
 {%- endif -%}
 
