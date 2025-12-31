@@ -1,0 +1,14 @@
+{%- assign listoftopics = "" | split: "" -%}
+{%- for pub in site.publications | where:"stage","include.stage" -%}
+    {%- for tag in pub.tags -%}
+        {%- assign listoftopics = listoftopics | push: tag -%}
+    {%- endfor -%}
+{%- endfor -%}
+{%- assign listoftopics = listoftopics | uniq -%}
+{%- case include.stage -%}
+    {%- when 'phd' -%}
+        {%- assign phdtopics = listoftopics -%}
+    {%- when 'msc' -%}
+        {%- assign msctopics = listoftopics -%}
+{%- endcase -%}
+{%- assign listoftopics = nil -%}
