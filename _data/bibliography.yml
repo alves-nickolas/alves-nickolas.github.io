@@ -1,0 +1,63 @@
+borde1987GeodesicFocusingEnergy:
+  type: article
+  author:
+    - name: A. Borde 
+  title: Geodesic focusing, energy conditions and singularities
+  journal: Classical and Quantum Gravity
+  volume: '4'
+  number: '2'
+  pages: '343–356'
+  date: 1987-03-01
+  doi: '10.1088/0264-9381/4/2/015'
+
+penrose1993PositiveMassTheorem: 
+  type: article
+  author:
+    - name: R. Penrose 
+    - name: R. D. Sorkin
+    - name: E. Woolgar
+  title: A Positive Mass Theorem Based on the Focusing and Retardation of Null Geodesics 
+  date: 1993-01-15
+  arxiv: gr-qc/9301015
+  pubstate: unpublished
+
+kontou2020EnergyConditionsGeneral:
+  type: article 
+  author:
+    - name: E.-A. Kontou 
+    - name: K. Sanders
+  journal: Classical and Quantum Gravity 
+  volume: '37'
+  issue: '19'
+  pages: '193001'
+  date: 2020-09-01
+  doi: 10.1088/1361-6382/ab8fcf
+  arxiv: '2003.01815'
+  arxivclass: gr-qc
+
+wall2010ProvingAchronalAveraged:
+  type: article 
+  author:
+    - name: A. C. Wall 
+  journal: Physical Review D 
+  volume: '81'
+  number: '2'
+  pages: '024038'
+  date: 2010-01-27
+  doi: 10.1103/PhysRevD.81.024038
+  arxiv: '0910.5751'
+  arxivclass: gr-qc
+
+costa2022CanQuantumMechanics:
+  type: article 
+  author:
+    - bac
+    - name: G. E. A. Matsas
+  journal: Physical Review D 
+  volume: '105'
+  number: '8'
+  pages: '085016'
+  date: 2022-04-25
+  doi: 10.1103/PhysRevD.105.085016
+  arxiv: '2112.08881'
+  arxivclass: gr-qc
