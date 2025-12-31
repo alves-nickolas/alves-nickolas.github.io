@@ -77,3 +77,5 @@
   {%- else -%}
     {{ s.title }}{%- if s.date %} ({{ s.date | date: "%Y" }}){%- endif -%}.
   {%- endif -%}
+
+{%- endcase -%}
