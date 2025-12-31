@@ -28,7 +28,7 @@ I started watching <a href="https://www.imdb.com/title/tt0092455/" target="_blan
 
 ## Questionable Quotations
 
-Who am I fooling? Apocryphal quotations can be fun as well. Just be aware that I might have no clue whether any of these were actually said. 
+Who am I fooling? Apocryphal quotations can be fun as well! Here are some I like.
 
 {%- assign listofquotes = site.quotes | where_exp:"item","item.category contains 'apocryphal'" | sort: 'sortkey' -%}
 {%- for quote in listofquotes %}
