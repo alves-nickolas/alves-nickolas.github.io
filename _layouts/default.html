@@ -4,55 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" type="image/x-icon" href="https://alves-nickolas.github.io/favicon.ico">
-{% seo %}
+    {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> <!--academicons-->
     <script src="https://kit.fontawesome.com/9b896b7a03.js" crossorigin="anonymous"></script> <!--fontawesome-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<script>
-	MathJax = {
-	  tex: {
-	    inlineMath: [['$', '$'], ['\\(', '\\)']],
-	    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-	    tags: 'ams'
-	  }
-	};
-	</script>
-	<script id="MathJax-script" async
-	  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-	</script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          tags: 'ams'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
   </head>
-  <body><center>
-      <!--<div id="header">-->
-      <div>
-        <nav id="Menu">
-          <a href="{{ site.url }}" class="button">Home</a>
-	  <div class="dropdown"><button class="dropbtn">About Me</button>
-            <div class="dropdown-content">
-              <a href="{{ site.url }}/about" class="button">Short CV</a>
-	      <a href="{{ site.url }}/about/interests" class="button">Research Interests</a>
-            </div>
-          </div>
-	  <!--<div class="dropdown"><button class="dropbtn">Publications</button>
-            <div class="dropdown-content">-->
-	      <a href="{{ site.url }}/publications/" class="button">Publications</a>
-	      <!--<a href="{{ site.url }}/publications/papers" class="button">Papers</a>
-	      <a href="{{ site.url }}/abs/2305.17453/" class="button">MSc Thesis</a>
-            </div>
-          </div>-->
-	  <a href="{{ site.url }}/seminars" class="button">Seminars</a>
-          <a href="{{ site.url }}/teaching" class="button">Teaching</a>
-	  <!--<div class="dropdown"><button class="dropbtn">Miscellaneous</button>
-            <div class="dropdown-content">
-              <a href="{{ site.url }}/misc/notes" class="button">Notebooks</a>
-              <a href="{{ site.url }}/misc/latex" class="button">LaTeX Templates</a>
-	      <a href="{{ site.url }}/misc/events" class="button">Events</a>-->
-	      <a href="{{ site.url }}/etcetera" class="button">Et cetera</a>
-            <!--</div>
-          </div>-->
-        </nav>
+  <body>
+    <nav id="Menu">
+      <ul class="nav-list">
+        <li><a href="{{ site.url }}">Home</a></li>
+
+        <li class="dropdown">
+          <a href="{{ site.url }}/about">About Me</a>
+          <ul class="dropdown-content">
+            <li><a href="{{ site.url }}/about">Short CV</a></li>
+            <li><a href="{{ site.url }}/about/interests">Research Interests</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{ site.url }}/publications/">Publications</a></li>
+
+        <li><a href="{{ site.url }}/seminars">Seminars</a></li>
+
+        <li><a href="{{ site.url }}/teaching">Teaching</a></li>
+
+        <li><a href="{{ site.url }}/etcetera">Et cetera</a></li>
+      </ul>
+    </nav>
 
     <div class="wrapper">
 
@@ -68,19 +61,27 @@
         {{ content }}
 
       </section>
-
     </div>
-	      
-  </center>
-  <footer>
-		<center>
-			<address>Níckolas de Aguiar Alves 
-			<br/>PhD Candidate in Physics
-			<br/><a href="mailto:alves.nickolas@ufabc.edu.br">alves.nickolas@ufabc.edu.br</a>
-			<br/><a href="http://fisica.ufabc.edu.br/" target="_blank">Physics @ Federal University of ABC</a>
-			<br/><a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" title="NASA ADS"><span class="ai ai-ads" style="font-size: 18px"></span></a>  <a href="http://arxiv.org/a/deaguiaralves_n_1" target="_blank" title="arXiv"><span class="ai ai-arxiv" style="font-size: 18px"></span></a>  <a href="https://alves-nickolas.github.io/pdf/CV.pdf" target="_blank" title="CV"><span class="ai ai-cv" style="font-size: 18px"></span></a>  <a href="https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192" target="_blank" title="Figshare"><span class="ai ai-figshare" style="font-size: 18px"></span></a>  <a href="https://github.com/alves-nickolas" target="_blank" title="Github"><span class="fa-brands fa-github" style="font-size: 18px"></span></a>  <a href="https://inspirehep.net/authors/2663271" target="_blank" title="INSPIRE HEP"><span class="ai ai-inspire" style="font-size: 18px"></span></a>  <a href="http://lattes.cnpq.br/4933609438452718" target="_blank" title="Lattes CV"><span class="ai ai-lattes" style="font-size: 18px"></span></a>  <a href="https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en" target="_blank" title="Google Scholar"><span class="fa-brands fa-google-scholar" style="font-size: 18px"></span></a>  <a href="https://www.scopus.com/authid/detail.uri?authorId=58342440400" target="_blank" title="Scopus"><span class="ai ai-scopus" style="font-size: 18px"></span></a>  <a href="https://stackexchange.com/users/11735692/" target="_blank" title="Stack Exchange"><span class="fa-brands fa-stack-exchange" style="font-size: 18px"></span></a>  <a href="https://orcid.org/0000-0002-0309-735X" target="_blank" title="ORCiD ID"><span class="fa-brands fa-orcid" style="font-size: 18px"></span></a>  <a href="https://www.webofscience.com/wos/author/record/LBI-0329-2024" target="_blank" title="Web of Science"><span class="ai ai-clarivate" style="font-size: 18px"></span></a>
-			</address>
-		</center>
-	</footer>
+
+    <footer>
+      <address>Níckolas de Aguiar Alves 
+        <br/>PhD Candidate in Physics
+        <br/><a href="mailto:alves.nickolas@ufabc.edu.br">alves.nickolas@ufabc.edu.br</a>
+        <br/><a href="http://fisica.ufabc.edu.br/" target="_blank">Physics @ Federal University of ABC</a>
+        <br/>
+          <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" title="NASA ADS"><span class="ai ai-ads" style="font-size: 18px"></span></a>  
+          <a href="http://arxiv.org/a/deaguiaralves_n_1" target="_blank" title="arXiv"><span class="ai ai-arxiv" style="font-size: 18px"></span></a>  
+          <a href="https://alves-nickolas.github.io/pdf/CV.pdf" target="_blank" title="CV"><span class="ai ai-cv" style="font-size: 18px"></span></a>  
+          <a href="https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192" target="_blank" title="Figshare"><span class="ai ai-figshare" style="font-size: 18px"></span></a>  
+          <a href="https://github.com/alves-nickolas" target="_blank" title="Github"><span class="fa-brands fa-github" style="font-size: 18px"></span></a>  
+          <a href="https://inspirehep.net/authors/2663271" target="_blank" title="INSPIRE HEP"><span class="ai ai-inspire" style="font-size: 18px"></span></a>  
+          <a href="http://lattes.cnpq.br/4933609438452718" target="_blank" title="Lattes CV"><span class="ai ai-lattes" style="font-size: 18px"></span></a>  
+          <a href="https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en" target="_blank" title="Google Scholar"><span class="fa-brands fa-google-scholar" style="font-size: 18px"></span></a>  
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=58342440400" target="_blank" title="Scopus"><span class="ai ai-scopus" style="font-size: 18px"></span></a>  
+          <a href="https://stackexchange.com/users/11735692/" target="_blank" title="Stack Exchange"><span class="fa-brands fa-stack-exchange" style="font-size: 18px"></span></a>  
+          <a href="https://orcid.org/0000-0002-0309-735X" target="_blank" title="ORCiD ID"><span class="fa-brands fa-orcid" style="font-size: 18px"></span></a>  
+          <a href="https://www.webofscience.com/wos/author/record/LBI-0329-2024" target="_blank" title="Web of Science"><span class="ai ai-clarivate" style="font-size: 18px"></span></a>
+      </address>
+    </footer>
   </body>
 </html>
