@@ -9,6 +9,9 @@
 @import "base/typography";
 @import "base/media";
 
+/* Layout */
+@import "layout/navigation";
+
 a:link {
 	color: #f26a49
 }
@@ -29,91 +32,6 @@ a:hover {
   text-align: justify;
 }
 
-nav a {
-	background-color: #202020;
-	color: #f26a49;
-}
-
-nav {
-	background-color: #202020;
-	box-shadow: 0px 3px 3px #151515;
-}
-
-a.button {
-	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: #202020;
-	border: none;
-	color: #f26a49;
-	padding: 8px 15px;
-	text-align: center;
-	font-size: 16px;
-	cursor: pointer;
-}
-
-a.button:hover {
-	background-color: #f19e58;
-	color: #202020
-}
-
-
-.dropbtn {
-	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color: #202020;
-	border: none;
-	color: #f26a49;
-	padding: 8px 15px;
-	text-align: center;
-	font-size: 16px;
-	cursor: pointer;
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown:hover .dropbtn {
-	background-color: #f19e58;
-	color: #202020
-}
-
-.dropdown-content {
-	font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-	display: none;
-	position: absolute;
-	background-color: #202020;
-	min-width: 100%;
-	margin-left: auto; 
-	margin-right: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown-content a {
-	color: #f26a49;
-	padding: 8px 15px;
-	text-decoration: none;
-	display: block;
-}
-
-.dropdown-content a:hover {
-	background-color: #f19e58;
-	color: #202020
-}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
-#Menu {
-	text-align: center;
-	position: -webkit-sticky; 
-	position: sticky; 
-	top: 0;
-	padding:2px 0 2px 0; 
-	background-color: #202020;
-	z-index: 99;
-}
-
 @media print, screen and (max-width: 480px) {
 	#header {
 		margin-top:-20px
@@ -121,20 +39,6 @@ a.button:hover {
 	section {
 		margin-top:40px
 	}
-	nav {
-		display:block
-	}
-}
-
-#header nav li {
- font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal;
- list-style:none;
- display:inline;
- color:white;
- line-height:50px;
- text-shadow:0px 1px 0px rgba(0,0,0,0.2);
- font-size:14px
 }
 
 section #title h1 {
