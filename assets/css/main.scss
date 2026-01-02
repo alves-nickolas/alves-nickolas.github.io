@@ -7,6 +7,7 @@
 @import "base/variables";
 @import "base/fonts";
 @import "base/typography";
+@import "base/media";
 
 a:link {
 	color: #f26a49
@@ -26,20 +27,6 @@ a:hover {
 
 .page__content {
   text-align: justify;
-}
-
-img {
-	max-width: 100%; 
-	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-iframe {
-	width: 100%;
-	height: auto;
-	aspect-ratio: 16 / 9;
-	padding-bottom: 20px;
 }
 
 nav a {
