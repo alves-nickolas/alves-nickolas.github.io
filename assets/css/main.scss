@@ -6,6 +6,7 @@
 /* Base */
 @import "base/variables";
 @import "base/fonts";
+@import "base/typography";
 
 a:link {
 	color: #f26a49
@@ -39,18 +40,6 @@ iframe {
 	height: auto;
 	aspect-ratio: 16 / 9;
 	padding-bottom: 20px;
-}
-
-p {
-	text-align:justify;
-}
-
-ul {
-	text-align:justify;
-}
-
-ol {
-	text-align:justify;
 }
 
 nav a {
@@ -150,49 +139,6 @@ a.button:hover {
 	}
 }
 
-body {
- padding:0px 0 20px 0px;
- margin:0px;
- font: #{$base-font-size}/#{$base-line-height} $font-regular;
- color: $text-main;
- font-weight:normal;
- background-color: $bg-main;
- background-attachment:fixed !important;
- background:linear_gradient(#2a2a29, #1c1c1c)
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- color:#e8e8e8;
- margin:0 0 10px;
- font-family:'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
- font-weight:normal
-}
-
-strong {
- font-family:'MontserratBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
-}
-
-th {
- text-align:left;
- padding:5px 10px;
- border-bottom:1px solid #434343;
- color:#b6b6b6;
- font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
-}
-
-dt {
- color:#F0E7D5;
- font-family:'MontserratSemiBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
- font-weight:normal
-}
-
 #header nav li {
  font-family:'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
  font-weight:normal;
@@ -226,31 +172,4 @@ section #title .credits {
  font-weight:normal;
  color:#696969;
  margin-top:-10px
-}
-
-blockquote {
-  margin: 0.35em 0;
-  padding: 1em 1.25em;
-  border-left: 4px solid #f26a49;
-  background-color: #1c1c1c;
-  color: #f0e7d5;
-  font-family: 'MontserratLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-blockquote p {
-  margin: 0;
-}
-
-blockquote footer.quote-citation {
-  display: block;
-  margin-top: 0.75em;
-  font-family: 'MontserratRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.85em;
-  color: #b6b6b6;
-  text-align: right;
-}
-
-blockquote footer.quote-citation::before {
-  content: "— ";
-  color: #f19e58;
 }
