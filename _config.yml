@@ -3,6 +3,77 @@ title: Níck
 description: theoretical physicist
 github:
   is_project_page: false
+plugins:
+  - jekyll-seo-tag
+
+address:
+  name: Níckolas de Aguiar Alves
+  position: PhD Candidate in Physics
+  email: alves.nickolas@ufabc.edu.br
+  institution: 
+    name: Physics @ Federal University of ABC
+    src: http://fisica.ufabc.edu.br/
+  identifiers:
+    - src: https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+      label: 'NASA ADS'
+      icon: 'ai ai-ads'
+      sort: 'ads'
+      show: false
+    - src: http://arxiv.org/a/deaguiaralves_n_1
+      label: 'arXiv'
+      icon: 'ai ai-arxiv'
+      sort: 'arxiv'
+      show: true
+    - src: https://alves-nickolas.github.io/pdf/CV.pdf
+      label: 'CV'
+      icon: 'ai ai-cv'
+      sort: 'cv'
+      show: true
+    - src: https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192
+      label: 'Figshare'
+      icon: 'ai ai-figshare'
+      sort: 'figshare'
+      show: false
+    - src: https://github.com/alves-nickolas
+      label: 'GitHub'
+      icon: 'fa-brands fa-github'
+      sort: 'github'
+      show: true
+    - src: https://inspirehep.net/authors/2663271
+      label: 'INSPIRE HEP'
+      icon: 'ai ai-inspire'
+      sort: 'inspire'
+      show: true
+    - src: http://lattes.cnpq.br/4933609438452718
+      label: 'Lattes CV'
+      icon: 'ai ai-lattes'
+      sort: 'lattes'
+      show: true
+    - src: https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en
+      label: Google Scholar
+      icon: 'fa-brands fa-google-scholar'
+      sort: 'scholar'
+      show: true
+    - src: https://www.scopus.com/authid/detail.uri?authorId=58342440400
+      label: 'Scopus'
+      icon: 'ai ai-scopus'
+      sort: 'scopus'
+      show: false
+    - src: https://stackexchange.com/users/11735692/
+      label: Stack Exchange
+      icon: 'fa-brands fa-stack-exchange'
+      sort: 'stack exchange'
+      show: true
+    - src: https://orcid.org/0000-0002-0309-735X
+      label: ORCID iD
+      icon: 'fa-brands fa-orcid'
+      sort: 'orcid'
+      show: true
+    - src: https://www.webofscience.com/wos/author/record/LBI-0329-2024
+      label: 'Web of Science'
+      icon: 'ai ai-clarivate'
+      sort: 'web of science'
+      show: false
 
 summarize_publications: true # link to publication summaries
 
