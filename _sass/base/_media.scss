@@ -1,13 +1,19 @@
 img {
-	max-width: 100%; 
-	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    max-width: 100%; 
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 iframe {
-	width: 100%;
-	height: auto;
-	aspect-ratio: 16 / 9;
-	padding-bottom: 20px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding-bottom: 20px;
+}
+
+@media print, screen and (max-width: 480px) {
+    section {
+        margin-top:40px
+    }
 }
