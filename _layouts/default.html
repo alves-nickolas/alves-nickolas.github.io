@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="https://alves-nickolas.github.io/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}"><!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> <!--academicons-->
     <script src="https://kit.fontawesome.com/9b896b7a03.js" crossorigin="anonymous"></script> <!--fontawesome-->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+
+    <!-- Scripts -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <!-- MathJax -->
     <script>
       MathJax = {
         tex: {
@@ -23,14 +27,36 @@
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
+
+    <!-- Mobile Hamburger Toggle -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const navToggle = document.getElementById('nav-toggle');
+        const navList = document.querySelector('.nav-list');
+
+        navToggle.addEventListener('click', () => {
+          navList.classList.toggle('show');
+        });
+
+        document.querySelectorAll('.parent-toggle').forEach(toggle => {
+          toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggle.parentElement.classList.toggle('show');
+          });
+        });
+      });
+    </script>
   </head>
+
   <body>
+    <!-- Navigation -->
     <nav id="Menu">
+      <button id="nav-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-list">
         <li><a href="{{ site.url }}">Home</a></li>
 
         <li class="dropdown">
-          <a href="{{ site.url }}/about">About Me</a>
+          <a href="#" class="parent-toggle">About Me</a>
           <ul class="dropdown-content">
             <li><a href="{{ site.url }}/about">Short CV</a></li>
             <li><a href="{{ site.url }}/about/interests">Research Interests</a></li>
@@ -47,8 +73,8 @@
       </ul>
     </nav>
 
+    <!-- Main Content -->
     <div class="wrapper">
-
       <section>
         <div  id="title">
           <h1 style="font-weight: 500">{{ site.title | default: site.github.repository_name }}</h1>
@@ -63,6 +89,7 @@
       </section>
     </div>
 
+    <!-- Footer -->
     <footer>
       <address>Níckolas de Aguiar Alves 
         <br/>PhD Candidate in Physics

@@ -25,6 +25,11 @@ nav {
         color: $bg-main;
     }
 
+    &:hover > .parent-toggle {
+        background-color: $accent-secondary;
+        color: $bg-main;
+    }
+
     &:hover .dropdown-content a {
         color: $accent-primary;
     }
@@ -35,7 +40,7 @@ nav {
     }
 }
 
-nav a, nav a:link, nav a:visited {
+nav a, nav a:link, nav a:visited, .parent-toggle {
     font-family: $font-regular;
     background-color: $bg-main;
     border: none;
@@ -90,4 +95,54 @@ nav a, nav a:link, nav a:visited {
         position: static;
         box-shadow: none;
     }
+}
+
+/* Hamburger (hidden on desktop) */
+#nav-toggle {
+  display: none;
+  background: $bg-main;
+  border: none;
+  color: $accent-primary;
+  font-size: 24px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #nav-toggle {
+    display: inline-block;
+  }
+
+  .nav-list {
+    display: none; /* hidden by default */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-list.show {
+    display: flex;
+  }
+
+  .nav-list > li {
+    display: block;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    display: none;
+  }
+
+  .dropdown.show .dropdown-content {
+    display: block;
+  }
+
+  nav a, nav a:link, nav a:visited, .parent-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-family: $font-regular;
+    color: $accent-primary;
+    background-color: $bg-main;
+  }
 }
