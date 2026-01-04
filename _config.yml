@@ -24,7 +24,7 @@ address:
       icon: 'ai ai-arxiv'
       sort: 'arxiv'
       show: true
-    - src: https://alves-nickolas.github.io/assets/pdf/CV.pdf
+    - src: "/assets/pdf/CV.pdf"
       label: 'CV'
       icon: 'ai ai-cv'
       sort: 'cv'

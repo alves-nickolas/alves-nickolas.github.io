@@ -1,0 +1,7 @@
+{%- assign src=include.src -%}
+
+{%- if src | slice: 0, 7 == "http://" or src | slice: 0, 8 == "https://" -%}
+    {{ src }}
+{%- else -%}
+    {{ resource.src | relative_url }}
+{%- endif -%}

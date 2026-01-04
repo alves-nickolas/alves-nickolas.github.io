@@ -99,7 +99,7 @@
           {% assign visible_identifiers = site.address.identifiers | where: "show", true %}
           {% assign sorted_identifiers = visible_identifiers | sort: "sort" %}
           {% for identifier in sorted_identifiers %}
-            <a href="{{ identifier.src }}" target="_blank" title="{{ identifier.label }}"><span class="{{ identifier.icon }}" style="font-size: 18px"></span></a>  
+            <a href="{%- include relative_or_absolute_url.html src=identifier.src -%}" target="_blank" title="{{ identifier.label }}"><span class="{{ identifier.icon }}" style="font-size: 18px"></span></a>  
           {% endfor -%}
       </address>
     </footer>
