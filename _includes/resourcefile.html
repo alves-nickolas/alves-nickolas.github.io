@@ -1,9 +1,15 @@
 {%- assign resource=include.resource -%}
 
-<p><strong>{{ include.label }}:</strong> 
-    <a href="{{ resource.src }}" target="_blank">
-        available here
-    </a>
+<p><strong>{{ include.label }}:</strong>
+    {% if resource.src | slice: 0, 7 == "http://" or resource.src | slice: 0, 8 == "https://" %}
+        <a href="{{ resource.src }}" target="_blank">
+            available here
+        </a>
+    {% else %}
+        <a href="{{ resource.src | relative_url }}" target="_blank">
+            available here
+        </a>
+    {% endif %}
     {%- if resource.langid and resource.note %}
             (in {{ site.data.languages[resource.langid] }}, {{ resource.note }})
     {%- elsif resource.langid %}
