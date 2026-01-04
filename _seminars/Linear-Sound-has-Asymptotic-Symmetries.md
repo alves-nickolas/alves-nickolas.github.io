@@ -14,7 +14,7 @@ presentations:
     format: poster
     langid: en
 poster: 
-  src: https://alves-nickolas.github.io/abs/2512.15796/poster.pdf
+  src: '/assets/2512.15796/poster.pdf'
   langid: en
 related_arxiv: "2512.15796"
 ---

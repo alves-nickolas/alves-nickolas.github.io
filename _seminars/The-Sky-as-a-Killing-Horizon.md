@@ -21,7 +21,7 @@ presentations:
     format: invited
     langid: en
 poster: 
-  src: https://alves-nickolas.github.io/abs/2504.12514/poster.pdf
+  src: '/assets/2504.12514/poster.pdf'
   langid: en
 videorecordings: 
   src: https://www.youtube.com/embed/MRBRu7DyuIs?si=0C53q5a1Rp6eUuPN
