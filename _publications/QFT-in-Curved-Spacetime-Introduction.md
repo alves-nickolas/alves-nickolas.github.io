@@ -12,7 +12,7 @@ stage: phd
 tags: 
     - AQFT 
     - QFTCS
-permalink: /literature/2951307
+permalink: /abs/qftcs-intro/
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false
 ---
