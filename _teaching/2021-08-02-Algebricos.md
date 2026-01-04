@@ -10,7 +10,7 @@ presentation:
     - key: jayme2021
       langid: pt
 lecturenotes: 
-    src: https://alves-nickolas.github.io/teaching/Métodos_Algébricos_da_Física_Teórica.pdf
+    src: '/assets/pdf/Métodos_Algébricos_da_Física_Teórica.pdf'
     langid: pt
 videorecordings:
     src: https://www.youtube.com/embed/videoseries?si=M-uwk8D7Ps4NXqDK&amp;list=PLUtepDnpw2tO9T-FDbVIYcmL6oIiF3eGA
