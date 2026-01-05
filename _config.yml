@@ -92,8 +92,6 @@ address:
       sort: 'web of science'
       show: false
 
-summarize_publications: true # link to publication summaries
-
 collections:
   publications:
     output: true

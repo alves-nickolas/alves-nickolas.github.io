@@ -15,7 +15,7 @@
 <ul>
 {%- for paper in pubs limit: include.limit -%}
     <li>
-        {%- include bibitem.html entry=paper %} {% if site.summarize_publications and paper.summarized %} Summarized <a href="{{ paper.url }}">here</a>!{% endif -%}
+        {%- include bibitem.html entry=paper %} {% if paper.url and paper.summarized %} Summarized <a href="{{ paper.url | relative_url }}">here</a>!{% endif -%}
     </li>
 {%- endfor -%}
 </ul>
