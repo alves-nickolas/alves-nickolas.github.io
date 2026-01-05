@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+
     {% seo %}
+
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" sizes="any">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}"><!-- CSS -->
@@ -91,9 +93,9 @@
 
     <!-- Footer -->
     <footer>
-      <address>{{ site.address.name }} 
+      <address>{{ site.author.name }} 
         <br/>{{ site.address.position }}
-        <br/><a href="mailto:{{ site.address.email }}">{{ site.address.email }}</a>
+        <br/><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
         <br/><a href="{{ site.address.institution.src }}" target="_blank">{{ site.address.institution.name }}</a>
         <br/>
           {% assign visible_identifiers = site.address.identifiers | where: "show", true %}

@@ -1,15 +1,32 @@
-theme: jekyll-theme-midnight
 title: Níck
+tagline: "general relativity · quantum field theory · quantum gravity"
 description: theoretical physicist
+
+url: "https://aguiaralves.com"
+baseurl: ""
+
+author:
+  name: Níckolas de Aguiar Alves
+  email: alves.nickolas@ufabc.edu.br
+
+logo: /assets/images/favicon.png
+# image: /assets/images/social-preview.png
+lang: en-US
+
+theme: jekyll-theme-midnight
 github:
   is_project_page: false
 plugins:
   - jekyll-seo-tag
 
+social:
+  name: >-
+    {{ site.author.name }}
+  links: >-
+    {{ site.address.identifiers | map:"src" }}
+
 address:
-  name: Níckolas de Aguiar Alves
   position: PhD Candidate in Physics
-  email: alves.nickolas@ufabc.edu.br
   institution: 
     name: Physics @ Federal University of ABC
     src: http://fisica.ufabc.edu.br/
