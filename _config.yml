@@ -10,7 +10,7 @@ author:
   email: alves.nickolas@ufabc.edu.br
 
 logo: /assets/images/favicon.png
-# image: /assets/images/social-preview.png
+image: /assets/images/social-preview.png
 lang: en-US
 
 theme: jekyll-theme-midnight
