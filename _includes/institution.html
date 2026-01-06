@@ -1,0 +1,18 @@
+{%- assign inst = site.data.institutions[include.key] -%}
+
+{%- if inst.subdivision -%}
+    {%- include institution_link.html institution=inst.subdivision %}, 
+{% endif -%}
+{%- if inst.division -%}
+    {%- include institution_link.html institution=inst.division %}, 
+{% endif -%}
+{%- include institution_link.html institution=inst.institution -%}
+{%- if inst.country -%}
+    {%- if inst.city -%}
+        , {{ inst.city }}
+    {%- endif -%}
+    {%- if inst.state -%}
+        , {{ inst.state }}
+    {%- endif -%}
+    , {{ inst.country }}
+{%- endif -%}

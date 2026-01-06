@@ -1,0 +1,9 @@
+{%- assign institution = include.institution -%}
+
+{%- if institution.website -%}
+    <a href="{{ institution.website }}" target="_blank">{{ institution.name }}</a>
+{%- elsif institution.ror -%}
+    <a href="https://ror.org/{{ institution.ror }}" target="_blank">{{ institution.name }}</a>
+{%- else -%}
+    {{ institution.name }}
+{%- endif -%}

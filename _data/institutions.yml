@@ -1,0 +1,25 @@
+physics@ufabc:
+  division:
+    name: Graduate Program in Physics
+    website: https://fisica.ufabc.edu.br/
+  institution:
+    name: Federal University of ABC 
+    website: https://www.ufabc.edu.br/
+    ror: '028kg9j04'
+  abbreviation: UFABC
+  city: Santo André
+  state: São Paulo
+  country: Brazil
+
+ifusp: 
+  division: 
+    name: Institute of Physics
+    website: https://portal.if.usp.br/
+  institution: 
+    name: University of São Paulo
+    website: https://www5.usp.br/
+    ror: '036rp1748'
+  abbreviation: IFUSP
+  city: São Paulo
+  state: São Paulo
+  country: Brazil

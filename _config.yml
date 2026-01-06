@@ -20,10 +20,19 @@ plugins:
   - jekyll-seo-tag
 
 social:
-  name: >-
-    {{ site.author.name }}
-  links: >-
-    {{ site.address.identifiers | map:"src" }}
+  name: Níckolas de Aguiar Alves
+  links: 
+    - https://ui.adsabs.harvard.edu/search/q=author%3A%22de%20Aguiar%20Alves%2C%20N%C3%ADckolas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    - http://arxiv.org/a/deaguiaralves_n_1
+    - https://figshare.com/authors/N_ckolas_de_Aguiar_Alves/19534192
+    - https://github.com/alves-nickolas
+    - https://inspirehep.net/authors/2663271
+    - http://lattes.cnpq.br/4933609438452718
+    - https://scholar.google.com/citations?user=j1hgjXUAAAAJ&hl=en
+    - https://www.scopus.com/authid/detail.uri?authorId=58342440400
+    - https://stackexchange.com/users/11735692/
+    - https://orcid.org/0000-0002-0309-735X
+    - https://www.webofscience.com/wos/author/record/LBI-0329-2024
 
 address:
   position: PhD Candidate in Physics
