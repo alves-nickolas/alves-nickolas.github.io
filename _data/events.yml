@@ -1,3 +1,9 @@
+scch2026:
+  name: Simons Collaboration on Celestial Holography Seminars
+  website: https://simonscelestialholographycollaboration.org/seminars/
+  format: online
+  start_date: 2026-03-10
+
 edv2026:
   name: VI ICTP-SAIFR Summer School for Young Physicists
   website: https://outreach.ictp-saifr.org/escolaverao/
@@ -9,7 +15,7 @@ edv2026:
     city: São Paulo
     state: São Paulo
     country: Brazil
-  start_date: 2026-01-11
+  start_date: 2026-01-12
   end_date: 2026-01-17
 
 qcdmg2025conference:
