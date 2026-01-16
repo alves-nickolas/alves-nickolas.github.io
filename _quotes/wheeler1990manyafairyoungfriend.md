@@ -4,7 +4,7 @@ author:
   - name: John Archibald Wheeler
 type: book
 title: "A Journey Into Gravity and Spacetime"
-publisher: W. h. Freeman and Company
+publisher: W. H. Freeman and Company
 location: New York, NY
 date: 1990-01-01
 category: physics
