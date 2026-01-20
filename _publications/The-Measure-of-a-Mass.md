@@ -9,7 +9,7 @@ abstract: 'The concept of mass is central to any theory of gravity. Nevertheless
 arxiv: "2503.18963"
 arxivclass: gr-qc
 inspire: '2904111'
-inspire: Pre-published
+pubstate: prepublished
 stage: phd
 tags: 
     - EnergyConditions 
