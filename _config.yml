@@ -4,6 +4,7 @@ description: theoretical physicist
 
 url: "https://aguiaralves.com"
 baseurl: ""
+timezone: America/Sao_Paulo
 
 author:
   name: Níckolas de Aguiar Alves
