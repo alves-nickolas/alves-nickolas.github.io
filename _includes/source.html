@@ -35,6 +35,32 @@
   {%- endif -%}
   {% include eprintdata.html source=s %}
 
+{%- when "incollection" or "inbook" -%}
+  {%- unless s.notitle -%}
+    “{{ s.title }}”. 
+  {% endunless -%}
+  In 
+  {% include hyperlink.html source=s -%}
+  {%- if link -%}
+    <em><a href="{{ link }}" target="_blank">{{ s.booktitle }}</a></em>
+  {%- else -%}
+    <em>{{ s.booktitle }}</em>
+  {%- endif -%}
+  {%- if s.editor -%}
+    {%- if s.editor.size == 1 -%}
+      , ed. {% include authorlist.html authorlist=s.editor -%}
+    {%- else -%}
+      , eds. {% include authorlist.html authorlist=s.editor -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if s.pages -%}
+    , {{ s.pages }}
+  {%- endif -%}
+  {%- if s.publisher %}
+     ({{ s.publisher }}: {{ s.location }}, {{ s.date | date: "%Y" }})
+  {%- endif -%}.
+  {% include eprintdata.html source=s %}
+
 {%- when "thesis" -%}
   {%- include hyperlink.html source=s -%}
   {%- if link -%}
