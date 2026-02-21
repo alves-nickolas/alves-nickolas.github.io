@@ -104,7 +104,7 @@ address:
 
 collections:
   publications:
-    output: true
+    output: false
   teaching:
     output: false
   interests:
@@ -125,7 +125,7 @@ defaults:
     values:
       layout: "publication"
       remark: "This is a simplified version of the work linked above, written to be an extended abstract or less formal account of the results. For further details, please check the official publication. This account is written independently by Níck Aguiar Alves only and may not fully reflect the points of view of other coauthors."
-      summarized: true
+      summarized: false
   - scope:
       path: ""
       type: "interests"
