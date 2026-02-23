@@ -1,7 +1,7 @@
 ---
 title: Using thermodynamics to learn gravitational wave physics
 type: article
-date: 2026-02-20
+date: 2026-02-23
 author: 
  - nick
  - ccre
@@ -17,5 +17,4 @@ tags:
 # permalink: /abs/2504.12521/
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false
-published: false
 ---
