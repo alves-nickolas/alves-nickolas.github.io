@@ -11,14 +11,14 @@ journal: "European Journal of Physics"
 # number: '2'
 # pages: '0256XX'
 doi: 10.1088/1361-6404/ae4951
-# arxiv: ""
-# arxivclass: gr-qc
+arxiv: "2602.21261"
+arxivclass: gr-qc
 # inspire: ''
 pubstate: forthcoming
 stage: phd
 tags: 
     - GR
-# permalink: /abs/2504.12521/
+permalink: /abs/2602.21261/
 remark: "I haven't written a summary of this work yet. Oops!"
 summarized: false
 ---
