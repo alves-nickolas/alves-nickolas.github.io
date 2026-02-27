@@ -13,7 +13,7 @@ journal: "European Journal of Physics"
 doi: 10.1088/1361-6404/ae4951
 arxiv: "2602.21261"
 arxivclass: gr-qc
-# inspire: ''
+inspire: '3123609'
 pubstate: forthcoming
 stage: phd
 tags: 
