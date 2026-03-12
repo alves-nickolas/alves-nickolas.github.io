@@ -14,7 +14,7 @@ doi: 10.1088/1361-6404/ae4951
 arxiv: "2602.21261"
 arxivclass: gr-qc
 inspire: '3123609'
-pubstate: forthcoming
+pubstate: inpress
 stage: phd
 tags: 
     - GR
