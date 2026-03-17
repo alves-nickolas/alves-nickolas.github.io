@@ -1,7 +1,7 @@
 ---
 title: Using thermodynamics to learn gravitational wave physics
 type: article
-date: 2026-02-23
+date: 2026-03-17
 author: 
  - ccre
  - nick
@@ -9,7 +9,7 @@ abstract: 'Black holes are some of the most interesting objects in the universe.
 journal: "European Journal of Physics"
 # volume: '47'
 # number: '2'
-# pages: '0256XX'
+# pages: '025604'
 doi: 10.1088/1361-6404/ae4951
 arxiv: "2602.21261"
 arxivclass: gr-qc
