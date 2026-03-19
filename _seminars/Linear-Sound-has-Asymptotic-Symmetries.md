@@ -21,5 +21,7 @@ presentations:
 poster: 
   src: '/assets/2512.15796/poster.pdf'
   langid: en
+videorecordings:
+  src: https://videopress.com/embed/cnzHMh0E?hd=1&cover=1&loop=0&autoPlay=0&permalink=1&muted=0&controls=1&playsinline=0&useAverageColor=0&preloadContent=metadata
 related_arxiv: "2512.15796"
 ---

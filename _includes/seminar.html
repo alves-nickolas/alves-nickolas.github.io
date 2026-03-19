@@ -25,7 +25,7 @@
     {%- include resourcefile.html label="Poster" resource=seminar.poster -%}
 {%- endif -%}
 {%- if seminar.videorecordings.src -%}
-    <iframe src="{{ seminar.videorecordings.src }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="{{ seminar.videorecordings.src }}" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 {%- endif -%}
 {%- if seminar.related_arxiv -%}
     <p><strong>Related publications:</strong></p> {%- include publications.html arxivlist=seminar.related_arxiv -%}
