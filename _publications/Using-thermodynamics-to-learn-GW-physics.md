@@ -1,20 +1,19 @@
 ---
 title: Using thermodynamics to learn gravitational wave physics
 type: article
-date: 2026-03-17
+date: 2026-03-19
 author: 
  - ccre
  - nick
-abstract: 'Black holes are some of the most interesting objects in the universe. While they first arise in the complicated behavior of general relativity, the physical laws ruling their behavior are surprisingly simple. For example, one of the core facts about black holes is that their area never decreases, much alike the entropy in thermodynamics. In this note directed at introductory physics students and their instructors, we use this similarly to understand properties of black hole physics using standard techniques from an undergraduate course in thermal physics. We explore the never-decreasing nature of black hole area to obtain bounds on the energy emitted in a black hole merger (a calculation originally done by Hawking). We show how this allows us to think of black holes in manners very similar to heat engines, and how these ideas have been used in modern gravitational wave observatories to test general relativity. This allows a research-level topic to be discussed in introductory physics lectures.'
+abstract: 'Black holes are some of the most interesting objects in the Universe. While they first arise in the complicated behavior of general relativity, the physical laws ruling their behavior are surprisingly simple. For example, one of the core facts about black holes is that their area never decreases, much like the entropy in thermodynamics. In this note directed at introductory physics students and their instructors, we use this similarity to understand properties of black hole physics using standard techniques from an undergraduate course in thermal physics. We explore the never-decreasing nature of black hole area to obtain bounds on the energy emitted in a black hole merger (a calculation originally done by Hawking). We show how this allows us to think of black holes in manners very similar to heat engines, and how these ideas have been used in modern gravitational wave observatories to test general relativity. This allows a research-level topic to be discussed in introductory physics lectures.'
 journal: "European Journal of Physics"
-# volume: '47'
-# number: '2'
-# pages: '025604'
+volume: '47'
+number: '2'
+pages: '025604'
 doi: 10.1088/1361-6404/ae4951
 arxiv: "2602.21261"
 arxivclass: gr-qc
 inspire: '3123609'
-pubstate: inpress
 stage: phd
 tags: 
     - GR
