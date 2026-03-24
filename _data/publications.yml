@@ -1,0 +1,156 @@
+- title: Using thermodynamics to learn gravitational wave physics
+  type: article
+  date: 2026-03-19
+  author: 
+  - ccre
+  - nick
+  abstract: >
+    Black holes are some of the most interesting objects in the Universe. While they first arise in the complicated behavior of general relativity, the physical laws ruling their behavior are surprisingly simple. For example, one of the core facts about black holes is that their area never decreases, much like the entropy in thermodynamics. In this note directed at introductory physics students and their instructors, we use this similarity to understand properties of black hole physics using standard techniques from an undergraduate course in thermal physics. We explore the never-decreasing nature of black hole area to obtain bounds on the energy emitted in a black hole merger (a calculation originally done by Hawking). We show how this allows us to think of black holes in manners very similar to heat engines, and how these ideas have been used in modern gravitational wave observatories to test general relativity. This allows a research-level topic to be discussed in introductory physics lectures.
+  journal: "European Journal of Physics"
+  shortjournal: Eur. J. Phys.
+  volume: '47'
+  number: '2'
+  pages: '025604'
+  doi: 10.1088/1361-6404/ae4951
+  arxiv: "2602.21261"
+  arxivclass: gr-qc
+  inspire: '3123609'
+  stage: phd
+  tags: 
+      - GR
+  collection: pedagogical
+- title: Lectures on the Bondi–Metzner–Sachs group and related topics in infrared physics
+  type: article
+  date: 2026-02-01
+  author: 
+  - nick
+  abstract: >
+    These are the extended lecture notes for a minicourse presented at the <a href="https://graspschool.github.io/2024/" target="_blank">I São Paulo School on Gravitational Physics</a> discussing the Bondi–Metzner–Sachs (BMS) group, the group of symmetries at null infinity on asymptotically flat spacetimes. The BMS group has found many applications in classical gravity, quantum field theory in flat and curved spacetimes, and quantum gravity. These notes build the BMS group from its most basic prerequisites (such as group theory, symmetries in differential geometry, and asymptotic flatness) up to modern developments. These include its connections to the Weinberg soft graviton theorem, the memory effect, its use to construct Hadamard states in quantum field theory in curved spacetimes, and other ideas. Advanced sections briefly discuss the main concepts behind the infrared triangle in electrodynamics, superrotations, and the Dappiaggi–Moretti–Pinamonti group in expanding universes with cosmological horizons. New contributions by the author concerning asymptotic (conformal) Killing horizons are discussed at the end.
+  journal: "The European Physical Journal C. Particles and Fields"
+  shortjournal: Eur. Phys. J. C
+  arxiv: "2504.12521"
+  arxivclass: gr-qc
+  inspire: '2913492'
+  pubstate: inpress
+  stage: phd
+  tags: 
+      - IRStructure 
+      - GR 
+      - QFTCS
+  collection: review
+- title: 'Sound as a gauge theory and its infrared triangle'
+  type: article
+  date: 2025-12-16
+  author: 
+  - nick
+  - agsl
+  abstract: >
+    Over the last few decades, there has been a considerable interest on the infrared behavior of various field theories. In particular, the connections between memory effects, asymptotic symmetries, and soft theorems (the "infrared triangle") have been explored in much depth within the context of high-energy physics. In this paper, we show how sound also admits an infrared triangle. We consider the linear perturbations of the Euler equations for a barotropic and irrotational fluid and show how low-frequency changes in an acoustic source can lead to lasting displacements of fluid particles. We proceed to write these linear perturbations in terms of a two-form potential—a Kalb–Ramond field, in the high-energy physics terminology. This phrases linear sound as a gauge theory and thus allows the use of standard techniques to probe the infrared structure of acoustics. We show how the memory effect relates to asymptotic symmetries in this dual formulation, and comment on how these notions can be connected to soft theorems. This exhibits the first example of an infrared triangle in a condensed matter system and provides new pathways to the experimental detection of memory effects.
+  arxiv: "2512.15796"
+  arxivclass: hep-th
+  inspire: '3093917'
+  pubstate: prepublished
+  stage: phd
+  tags: 
+      - IRStructure
+  collection: research
+- title: Null infinity as a Killing horizon
+  type: article
+  date: 2025-09-22
+  author: 
+  - nick
+  - agsl
+  abstract: >
+    Symmetries are ubiquitous in modern physics. They not only allow for a more simplified description of physical systems but also, from a more fundamental perspective, can be seen as determining a theory itself. In the present paper, we propose a new definition of asymptotic symmetries that unifies and generalizes the usual notions of symmetry considered in asymptotically flat spacetimes and expanding universes with cosmological horizons. This is done by considering Bondi–Metzner–Sachs-like symmetries for “asymptotic (conformal) Killing horizons,” here defined as null hypersurfaces that are tangent to a vector field satisfying the (conformal) Killing equation in a limiting sense. The construction is theory agnostic and extremely general, for it makes no use of the Einstein equations and can be applied to a wide range of scenarios with different dimensions or hypersurface cross sections. While we reproduce the results by Dappiaggi, Moretti, and Pinamonti in the case of asymptotic Killing horizons, the conformal generalization does not yield only the Bondi–Metzner–Sachs group, but a larger group. The enlargement is due to the presence of “superdilations.” We speculate on many implications and possible continuations of this work, including the exploration of gravitational memory effects beyond general relativity, understanding antipodal matching conditions at spatial infinity in terms of bifurcate horizons, and the absence of superrotations in de Sitter spacetime and Killing horizons.
+  journal: Physical Review D
+  shortjournal: Phys. Rev. D
+  volume: '112'
+  number: '6'
+  pages: '065017'
+  doi: '10.1103/tf22-2r6y'
+  arxiv: "2504.12514"
+  arxivclass: gr-qc
+  inspire: '2913422'
+  stage: phd
+  tags: 
+      - IRStructure 
+      - GR 
+      - QFTCS
+  collection: research
+- title: The Measure of a Mass
+  type: article
+  date: 2025-03-19
+  author:
+  - nick
+  - bac
+  abstract: >
+    The concept of mass is central to any theory of gravity. Nevertheless, defining mass in general relativity is a difficult task, and even when it can be accomplished, we still need to investigate whether the typical properties of mass in Newtonian gravity are still true in Einsteinian gravity. In this essay, we discuss "the measure of a mass" in relativity by considering some of the many different definitions (Komar, ADM, and Bondi) and how they are related. Finally, we discuss when and whether the mass is positive, as is usually expected, and which physical properties of matter and gravity can ensure this result.
+  arxiv: "2503.18963"
+  arxivclass: gr-qc
+  inspire: '2904111'
+  pubstate: prepublished
+  stage: phd
+  tags: 
+      - EnergyConditions 
+      - GR
+  collection: essay
+- title: Positive mass in general relativity without energy conditions
+  type: article
+  date: 2025-02-11
+  author: 
+  - nick
+  - agsl
+  - bac
+  abstract: >
+    A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. <i>A fortiori</i>, we show that any barotropic negative-mass star must be dynamically unstable.
+  journal: Physical Review D
+  shortjournal: Phys. Rev. D
+  volume: '111'
+  number: '4'
+  pages: '044027'
+  doi: '10.1103/PhysRevD.111.044027'
+  arxiv: "2408.00154"
+  arxivclass: gr-qc
+  inspire: '2813778'
+  stage: phd
+  tags: 
+      - EnergyConditions 
+      - GR
+  collection: research
+- title: "Quantum Field Theory in Curved Spacetime: An Introduction"
+  type: unpublished
+  date: 2023-10-03
+  author: 
+  - nick
+  abstract: >
+    This is an introduction to quantum field theory in curved spacetimes written for the minicourse presented at the <a href="https://bht50.github.io/" target="_blank">Golden Wedding of Black Holes and Thermodynamics: An Online Celebration</a>. It includes discussions about the algebraic approach, the Fock space approach, the path integral approach, and particle detectors suitable for someone with previous exposure to non-relativistic quantum mechanics and special relativity. Knowledge of general relativity and quantum field theory in flat spacetime is recommended, but not mandatory. The content follows closely, and sometimes overlaps with, the author’s master’s thesis, <a href="https://arxiv.org/abs/2305.17453/" target="_blank">2305.17453</a>
+  src: "https://bht50.github.io/minicourses/QFTCS__An_Introduction.pdf"
+  inspire: '2951307'
+  pubstate: unpublished
+  stage: phd
+  tags: 
+      - AQFT 
+      - QFTCS
+  collection: pedagogical
+- title: Nonperturbative Aspects of Quantum Field Theory in Curved Spacetime
+  type: thesis
+  date: 2023-04-28
+  author: 
+    - nick
+  abstract: >
+    Quantum field theory in curved spacetime is perhaps the most reliable framework in which one can investigate quantum effects in the presence of strong gravitational fields. Nevertheless, it is often studied by means of perturbative treatments. In this thesis, we aim at using the functional renormalization group—a nonperturbative realization of the renormalization group—as a technique to describe nonperturbative quantum phenomena in curved spacetimes. The chosen system is an Unruh–DeWitt particle detector coupled to a scalar quantum field. We discuss how to formulate such a system in terms of an action and how one can compute its renormalization group flow in the case of an inertial detector in flat spacetime, for simplicity. We learn, however, that the results are divergent in the limit in which the detector's energy gap vanishes. Possible workarounds are discussed at the end. 
+    
+    This thesis also presents a review of quantum field theory in curved spacetimes by means of the algebraic approach, although it assumes no previous experience with functional analysis. Hence, it fills a pedagogical gap in the literature. Furthermore, we also review the functional renormalization group and derive the Wetterich equation assuming a general field content that might include both bosonic and fermionic fields. Such a derivation is also hardly found in pedagogical introductions available in the high energy physics literature.
+  src: "http://biblioteca.ufabc.edu.br/index.php?codigo_sophia=126398"
+  thesistype: MSc thesis
+  institution: Federal University of ABC
+  location: Santo André, Brazil
+  arxiv: "2305.17453"
+  arxivclass: gr-qc
+  inspire: '2663268'
+  stage: msc
+  tags: 
+    - QFTCS 
+    - AQFT 
+    - FRG
+  collection: research

@@ -1,4 +1,4 @@
-{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- assign pubs = site.data.publications | sort: "date" | reverse -%}
 
 {%- if include.stage -%}
   {%- assign pubs = pubs | where: "stage", include.stage -%}

@@ -6,7 +6,7 @@ layout: default
 
 {{ content | smartify }}
 
-{% assign pubs = site.publications | where_exp:"pub","pub.tags contains page.tag " %}
+{% assign pubs = site.data.publications | where_exp:"pub","pub.tags contains page.tag " %}
 {% if pubs.size > 0 %}
   <h2>My Work on This Topic</h2>
   {% include publications.html tag=page.tag %}
