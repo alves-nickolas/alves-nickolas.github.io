@@ -1,3 +1,16 @@
+heptheory@sns:
+  division:
+    name: Theoretical Physics Group
+    website: https://www.heptheory.sns.it/
+  institution:
+    name: Scuola Normale Superiore 
+    website: https://www.sns.it/
+    ror: '03aydme10'
+  abbreviation: SNS
+  city: Pisa
+  state: Tuscany
+  country: Italy
+
 physics@ufabc:
   division:
     name: Graduate Program in Physics
