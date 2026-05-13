@@ -21,3 +21,14 @@ $font-bold: 'MontserratBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 /* Sizes */
 $base-font-size: 14px;
 $base-line-height: 1.5;
+
+/* Making it JS readable */
+:root {
+  --accent-primary: #{$accent-primary};
+  --accent-secondary: #{$accent-secondary};
+  --accent-visited: #{$accent-visited};
+  --text-main: #{$text-main};
+  --bg-main: #{$bg-main};
+  --font-regular: #{$font-regular};
+  --base-font-size: #{$base-font-size};
+}
