@@ -59,6 +59,16 @@ p, ul, ol {
     hyphens: auto;
 }
 
+section ul {
+  list-style-type: none;
+}
+
+section ul li::marker {
+  content: "» ";
+  color: $text-main;
+  font-weight: 600;
+}
+
 strong {
     font-family:$font-bold !important;
     font-weight:normal
