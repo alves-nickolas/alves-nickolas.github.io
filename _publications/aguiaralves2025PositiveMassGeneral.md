@@ -6,8 +6,6 @@ author:
     - nick
     - agsl
     - bac
-abstract: >
-    A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. <i>A fortiori</i>, we show that any barotropic negative-mass star must be dynamically unstable.
 journal: Physical Review D
 shortjournal: Phys. Rev. D
 volume: '111'
@@ -23,3 +21,4 @@ tags:
     - GR
 collection: research
 ---
+A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. *A fortiori*, we show that any barotropic negative-mass star must be dynamically unstable.
