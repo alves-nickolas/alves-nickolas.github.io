@@ -1,0 +1,85 @@
+---
+title: Research Interests
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>Below is a map of the topics that appear across my work. The size of each term reflects how many of my papers are tagged with it. Click any term to see the relevant publications.</p>
+
+<canvas id="tag-cloud" width="800" height="400"></canvas>
+
+<script src='{{ "/assets/js/wordcloud2.js" | relative_url }}'></script>
+<script>
+fetch('{{ "/assets/js/publications.json" | relative_url }}')
+  .then(r => r.json())
+  .then(pubs => {
+    // Count tag frequencies
+    const counts = {};
+    pubs.forEach(pub => {
+      (pub.tags || []).forEach(tag => {
+        counts[tag] = (counts[tag] || 0) + 1;
+      });
+    });
+
+    // Build [word, weight] list; scale weight for visual size
+    const list = Object.entries(counts)
+      .map(([tag, count]) => [tag, count]);
+
+    const style = getComputedStyle(document.documentElement); // CSS data
+
+    WordCloud(document.getElementById('tag-cloud'), {
+      list: list,
+      gridSize: 10,
+      weightFactor: 15,
+      fontFamily: style.getPropertyValue('--font-regular').trim(),
+      color: function() {
+        const palette = [
+          style.getPropertyValue('--accent-primary').trim(),
+          style.getPropertyValue('--accent-secondary').trim(),
+          style.getPropertyValue('--accent-visited').trim(),
+        ];
+        return palette[Math.floor(Math.random() * palette.length)];
+      },
+      backgroundColor: 'transparent',
+      rotateRatio: 0,          // all horizontal — easier to read
+      shrinkToFit: true,
+      click: function(item) {
+        window.location.href = '{{ "/experimental.html" | relative_url }}?tag=' + encodeURIComponent(item[0]);
+      },
+      hover: function(item) {
+        document.getElementById('tag-cloud').style.cursor = item ? 'pointer' : 'default';
+      }
+    });
+  });
+</script>
+
+<!-- Tag drill-down: shows publications for the selected tag -->
+<div id="tag-results" style="display:none;">
+  <h2 id="tag-heading"></h2>
+  <ul id="tag-publist"></ul>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const selectedTag = params.get('tag');
+
+  if (selectedTag) {
+    fetch('{{ "/assets/js/publications.json" | relative_url }}')
+      .then(r => r.json())
+      .then(pubs => {
+        const filtered = pubs.filter(p => p.tags && p.tags.includes(selectedTag));
+        document.getElementById('tag-heading').textContent = selectedTag;
+        document.getElementById('tag-results').style.display = 'block';
+
+        const ul = document.getElementById('tag-publist');
+        filtered.forEach(pub => {
+          const li = document.createElement('li');
+          let text = pub.title;
+          if (pub.arxiv) text += ` — <a href="https://arxiv.org/abs/${pub.arxiv}" target="_blank">arXiv:${pub.arxiv}</a>`;
+          li.innerHTML = text;
+          ul.appendChild(li);
+        });
+      });
+  }
+</script>
