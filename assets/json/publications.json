@@ -1,0 +1,17 @@
+---
+layout: null
+---
+[
+  {%- for pub in site.publications -%}
+  {
+    "id": {{ pub.slug | jsonify }},
+    "title": {{ pub.title | jsonify }},
+    "year": "{{ pub.date | date: '%Y' }}",
+    "tags": {{ pub.tags | jsonify }},
+    "arxiv": {{ pub.arxiv | jsonify }},
+    "stage": {{ pub.stage | jsonify }},
+    "collection": {{ pub.collection | jsonify }},
+    "cites": {{ pub.cites | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}
+]
