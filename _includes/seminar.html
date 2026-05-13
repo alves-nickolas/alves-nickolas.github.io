@@ -7,9 +7,6 @@
 {%- if seminar.abstract -%}
     <p><strong>Abstract:</strong> {{ seminar.abstract | smartify }}</p>
 {%- endif -%}
-{%- if seminar.tags and seminar.tags.size > 0 -%}
-    <p><strong>Tags:</strong> {% include interests.html taglist=seminar.tags -%}</p>
-{%- endif -%}
 {%- if seminar.presentations -%}
     <p><strong>Presented at:</strong></p> {%- include presentations.html presentations=seminar.presentations -%}
 {%- elsif seminar.remark -%}
