@@ -4,8 +4,8 @@
 {%- if seminar.subtitle -%}
     <h3>{{ seminar.subtitle }}</h3>
 {%- endif -%}
-{%- if seminar.abstract -%}
-    <p><strong>Abstract:</strong> {{ seminar.abstract | smartify }}</p>
+{%- if seminar.content | strip != "" -%}
+    {{ seminar.content | smartify }}
 {%- endif -%}
 {%- if seminar.presentations -%}
     <p><strong>Presented at:</strong></p> {%- include presentations.html presentations=seminar.presentations -%}
