@@ -1,0 +1,85 @@
+---
+title: Publications by Topic
+layout: default
+---
+<script src='{{ "/assets/js/wordcloud2.js" | relative_url }}'></script>
+<script>
+fetch('{{ "/assets/js/publications.json" | relative_url }}')
+  .then(r => r.json())
+  .then(pubs => {
+    // Count tag frequencies
+    const counts = {};
+    pubs.forEach(pub => {
+      (pub.tags || []).forEach(tag => {
+        counts[tag] = (counts[tag] || 0) + 1;
+      });
+    });
+
+    // Build [word, weight] list with normalized sizing
+    const maxCount = Math.max(...Object.values(counts));
+    const list = Object.entries(counts)
+      .sort(([, a], [, b]) => b - a);
+
+    const style = getComputedStyle(document.documentElement); // CSS data
+
+    WordCloud(document.getElementById('tag-cloud'), {
+      list: list,
+      gridSize: 10,
+      weightFactor: 12,
+      fontFamily: style.getPropertyValue('--font-regular').trim(),
+      color: function() {
+        const palette = [
+          style.getPropertyValue('--accent-primary').trim(),
+          style.getPropertyValue('--accent-secondary').trim(),
+          style.getPropertyValue('--accent-visited').trim(),
+        ];
+        return palette[Math.floor(Math.random() * palette.length)];
+      },
+      backgroundColor: 'transparent',
+      rotateRatio: 0,          // all horizontal — easier to read
+      drawOutOfBound: false,
+      shrinkToFit: true,
+      ellipticity: 0.25,
+      shuffle: false,
+      wait: 10,
+      click: function(item) {
+        // Hide all tag result divs
+        document.querySelectorAll('.tag-results').forEach(el => {
+          el.style.display = 'none';
+        });
+        // Show the one for the clicked tag
+        const id = 'tag-results-' + slugify(item[0]);
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'block';
+      },
+      hover: function(item) {
+        document.getElementById('tag-cloud').style.cursor = item ? 'pointer' : 'default';
+      }
+    });
+  });
+
+function slugify(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+</script>
+
+{%- assign all_tags = "" | split: "" -%}
+{%- for pub in site.publications -%}
+    {%- for tag in pub.tags -%}
+        {%- assign all_tags = all_tags | push: tag -%}
+    {%- endfor -%}
+{%- endfor -%}
+{%- assign all_tags = all_tags | uniq | sort -%}
+
+<h1>{{ page.title }}</h1>
+
+<p>These are the topics that appear on my research, with size reflecting how often that appears on my publications. Click on each term to see the associated works.</p>
+
+<canvas id="tag-cloud" width="800" height="200"></canvas>
+
+{%- for tag in all_tags -%}
+<div id="tag-results-{{ tag | slugify }}" class="tag-results" style="display:none;">
+  <h2 id="tag-heading">{{ tag }}</h2>
+  {% include publications.html tag=tag %}
+</div>
+{%- endfor -%}

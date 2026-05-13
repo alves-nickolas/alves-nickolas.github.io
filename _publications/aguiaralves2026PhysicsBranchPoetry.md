@@ -13,6 +13,8 @@ shortjournal: "Am. J. Phys."
 pubstate: inpress
 stage: phd
 tags: 
+    - philosophy of physics
+    - foundations of physics
 collection: essay
 assetpdf: '/assets/10.1119/5.0335472/preprint.pdf'
 ---

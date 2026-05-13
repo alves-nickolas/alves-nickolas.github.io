@@ -17,8 +17,10 @@ arxivclass: gr-qc
 inspire: '2813778'
 stage: phd
 tags: 
-    - EnergyConditions 
-    - GR
+    - energy conditions
+    - general relativity
+    - compact objects
+    - positivity of mass
 collection: research
 ---
 A long-standing problem in physics is why observed masses are always positive. While energy conditions in quantum field theory can partly answer this problem, in this paper we find evidence that classical general relativity abhors negative masses, without the need for quantum theory or energy conditions. This is done by considering many different models of negative-mass "stars" and showing they are dynamically unstable. *A fortiori*, we show that any barotropic negative-mass star must be dynamically unstable.
