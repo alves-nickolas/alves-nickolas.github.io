@@ -111,6 +111,9 @@ collections:
     output: false
   quotes: 
     output: false
+  publications:
+    output: false
+    sort_by: date
     
 defaults:
   - scope:
