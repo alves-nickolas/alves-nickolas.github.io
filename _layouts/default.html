@@ -48,6 +48,14 @@
         });
       });
     </script>
+
+    {% if page.redirect_to %}
+      <script>
+        window.location.replace("{{ page.redirect_to }}");
+      </script>
+      <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+    {% endif %}
+
   </head>
 
   <body>
