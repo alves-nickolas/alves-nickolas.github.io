@@ -5,7 +5,7 @@ redirect_to: 'https://drive.google.com/file/d/16JsaNVikZMuWl8PAvQ1lVSGCqpEusGob/
 ---
 <h1>{{ page.title }}</h1>
 
-<p>You probably got this link from one of my posters! The work you saw was still in preparation when I added this link to my seminar or poster, so I sent you to this page. Below is a list of my recent publications and preprints. Maybe the one you were looking for is already available, or will be shortly. I tried to redirect you automatically to a supplemental material for the poster you saw, but it seems to have failed. <a href="{{ page.redirect_to }}">Click here</a> to check it out.</p>
+<p>You probably got this link from one of my posters! The work you saw was still in preparation when I added this link to my seminar or poster, so I sent you to this page. Below is a list of my recent publications and preprints. Maybe the one you were looking for is already available, or will be shortly. {% if page.redirect_to %}I tried to redirect you automatically to a supplemental material for the poster you saw, but it seems to have failed. <a href="{{ page.redirect_to }}">Click here</a> to check it out.{% endif %}</p>
 
 <p><strong>Some recent works:</strong></p> 
 {% include publications.html limit=5 %}
