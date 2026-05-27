@@ -1,4 +1,4 @@
-- text: 'showed how linear acoustics admits asymptotic symmetries and an infrared triangle'
+- text: 'showed how linear acoustics admits a memory effect, asymptotic symmetries, and an infrared triangle'
   stage: phd
   related_arxiv:
     - '2512.15796'
@@ -14,7 +14,7 @@
   related_arxiv:
     - '2408.00154'
 
-- text: 'computed the functional renormalization group flow for an Unruh–DeWitt detector in Minkowski spacetime'
+- text: 'computed the functional renormalization group flow for an inertial Unruh–DeWitt detector in Minkowski spacetime'
   stage: msc
   related_arxiv:
     - '2305.17453'
