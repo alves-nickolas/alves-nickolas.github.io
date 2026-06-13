@@ -11,6 +11,14 @@ canvas {
     padding-bottom: 10px;
 }
 
+svg {
+    max-width: 100%; 
+    height: auto;
+    aspect-ratio: 16/9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 iframe {
     width: 100%;
     height: auto;

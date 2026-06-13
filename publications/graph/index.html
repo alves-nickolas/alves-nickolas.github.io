@@ -1,0 +1,172 @@
+---
+title: Publications by Topic
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>Here's a graph of my publications and their citations to each other, so you can check a bit of what my research lines look like. Hover over a node to see the paper's title, and click on it to see more details!</p>
+
+<svg id="citation-graph"></svg>
+
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- for pub in pubs -%}
+    {%- assign cited_by_list="" | split:"" -%}
+    {%- for other in site.publications -%}
+        {%- if other.cites contains pub.slug -%}
+            {%- assign cited_by_list = cited_by_list | push: other.slug -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    <div id="graph-results-{{ pub.slug }}" class="graph-results" style="display:none;">
+        <h2>{{ pub.title }}</h2>
+            <p>{%- include bibitem.html entry=pub %}</p>
+            {{ pub.content }}
+
+            {%- if pub.cites -%}
+            <p><strong>Preceded by:</strong></p>
+                {% include publications.html sluglist=pub.cites %}
+            {%- endif -%}
+            {%- if cited_by_list.size > 0 -%}
+            <p><strong>Followed by:</strong></p>
+                {% include publications.html sluglist=cited_by_list %}
+            {%- endif -%}
+    </div>
+{%- endfor -%}
+
+<div id="graph-tooltip" style="position:fixed; display:none; pointer-events:none;"></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+fetch('{{ "/assets/js/publications.json" | relative_url }}')
+  .then(r => r.json())
+  .then(data => {
+    const style = getComputedStyle(document.documentElement);
+    const accentPrimary  = style.getPropertyValue('--accent-primary').trim();
+    const accentSecondary = style.getPropertyValue('--accent-secondary').trim();
+    const textMain       = style.getPropertyValue('--text-main').trim();
+    const bgLight        = style.getPropertyValue('--bg-light').trim();
+
+    const svgElement = document.getElementById('citation-graph');
+    const width  = svgElement.clientWidth || 800;
+    const height = svgElement.clientHeight || width * (9/16);
+
+    const svg = d3.select('#citation-graph')
+        .attr('viewBox', `0 0 ${width} ${height}`);
+
+    // Arrow marker for directed edges (available for later)
+    svg.append('defs').append('marker')
+      .attr('id', 'arrowhead')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', 20)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .attr('markerWidth', 6)
+      .attr('markerHeight', 6)
+      .append('path')
+      .attr('d', 'M 0,-5 L 10,0 L 0,5')
+      .attr('fill', accentSecondary);
+
+    const nodes = data.nodes.map(d => ({ ...d }));
+    const edges = data.edges.map(d => ({ ...d }));
+
+    let currentNode = null;
+
+    const simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(edges)
+        .id(d => d.id)
+        .distance(120))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(width / 2, height / 2).strength(0.5))
+      .force('radial', d3.forceRadial(150, width / 2, height / 2).strength(0.25))
+      .force('collision', d3.forceCollide().radius(25));
+
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(edges)
+      .join('line')
+      .attr('stroke', accentSecondary)
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', 1.5);
+
+    const node = svg.append('g')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', 10)
+      .attr('fill', accentPrimary)
+      .attr('stroke', textMain)
+      .attr('stroke-width', 1)
+      .style('cursor', 'pointer');
+
+    // Tooltip
+    const tooltip = d3.select('#graph-tooltip')
+      .style('background', bgLight)
+      .style('color', textMain)
+      .style('padding', '6px 10px')
+      .style('border-radius', '4px')
+      .style('font-size', '13px')
+      .style('max-width', '250px');
+
+    node.on('mouseover', function(event, d) {
+        tooltip
+          .style('display', 'block')
+          .text(d.title);
+        
+        const tipWidth = tooltip.node().offsetWidth;
+        
+        tooltip
+          .style('left', (event.clientX - tipWidth / 2) + 'px')
+          .style('top', (event.clientY - 60) + 'px');
+
+        d3.select(this).attr('fill', accentSecondary);
+      })
+      .on('mouseout', function(event, d) {
+        tooltip.style('display', 'none');
+        d3.select(this).attr('fill', 
+          d.id === currentNode ? accentSecondary : accentPrimary);
+      })
+      .on('click', function(event, d) {
+        // Deselect previous
+        if (currentNode) {
+          d3.select('#node-' + currentNode).attr('fill', accentPrimary);
+          document.getElementById('graph-results-' + currentNode)
+            .style.display = 'none';
+        }
+        // Select new
+        currentNode = d.id;
+        d3.select(this).attr('fill', accentSecondary);
+        document.getElementById('graph-results-' + d.id)
+          .style.display = 'block';
+      });
+
+    // Give each node a stable DOM id for selection
+    node.attr('id', d => 'node-' + d.id);
+
+    // Drag behaviour
+    node.call(d3.drag()
+      .on('start', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      })
+      .on('drag', (event, d) => {
+        d.fx = event.x;
+        d.fy = event.y;
+      })
+      .on('end', (event, d) => {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }));
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => d.x = Math.max(15, Math.min(width - 15, d.x)))
+        .attr('cy', d => d.y = Math.max(15, Math.min(height - 15, d.y)));
+    });
+  });
+</script>

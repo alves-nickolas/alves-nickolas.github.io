@@ -1,17 +1,39 @@
 ---
 layout: null
 ---
-[
-  {%- for pub in site.publications -%}
-  {
-    "id": {{ pub.slug | jsonify }},
-    "title": {{ pub.title | jsonify }},
-    "year": "{{ pub.date | date: '%Y' }}",
-    "tags": {{ pub.tags | jsonify }},
-    "arxiv": {{ pub.arxiv | jsonify }},
-    "stage": {{ pub.stage | jsonify }},
-    "collection": {{ pub.collection | jsonify }},
-    "cites": {{ pub.cites | jsonify }}
-  }{% unless forloop.last %},{% endunless %}
-  {%- endfor -%}
-]
+{
+  "nodes":  [
+    {%- for pub in site.publications -%}
+    {
+      "id": {{ pub.slug | jsonify }},
+      "title": {{ pub.title | jsonify }},
+      "year": "{{ pub.date | date: '%Y' }}",
+      "tags": {{ pub.tags | jsonify }},
+      "arxiv": {{ pub.arxiv | jsonify }},
+      "stage": {{ pub.stage | jsonify }},
+      "collection": {{ pub.collection | jsonify }},
+      "cites": {{ pub.cites | jsonify }},
+      "cited_by": [
+        {%- assign cited_by = "" | split:"" -%}
+        {%- for other in site.publications -%}
+          {%- if other.cites contains pub.slug -%}
+            {%- assign cited_by = cited_by | push: other.slug -%}
+          {%- endif -%}
+        {%- endfor -%}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "edges": [
+    {%- assign first_edge = true -%}
+    {%- for pub in site.publications -%}
+      {%- if pub.cites -%}
+        {%- for target in pub.cites -%}
+          {% unless first_edge %},{% endunless%}
+          { "source": {{ pub.slug | jsonify }}, "target": {{ target | jsonify }} }
+          {%- assign first_edge = false -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}

@@ -8,6 +8,10 @@
   {%- assign pubs = pubs | where_exp:"publication","include.arxivlist contains publication.arxiv" -%}
 {%- endif -%}
 
+{%- if include.sluglist -%}
+  {%- assign pubs = pubs | where_exp:"publication","include.sluglist contains publication.slug" -%}
+{%- endif -%}
+
 {%- if include.tag -%}
   {%- assign pubs = pubs | where_exp:"publication","publication.tags contains include.tag" -%}
 {%- endif -%}
