@@ -49,10 +49,17 @@ fetch('{{ "/assets/js/publications.json" | relative_url }}')
       }));
 
     let width, height;
+    let lastWidth = 0;
+    let resizeTimer;
 
     function buildCloud() {
       const svgEl = document.getElementById('tag-cloud');
-      width = svgEl.getBoundingClientRect().width || 800;
+      const newWidth = svgEl.getBoundingClientRect().width || 800;
+
+      if (newWidth === lastWidth) return;
+      lastWidth = newWidth;
+
+      width = newWidth;
       height = width * 0.4;
 
       d3.select('#tag-cloud').selectAll('*').remove();
@@ -67,7 +74,6 @@ fetch('{{ "/assets/js/publications.json" | relative_url }}')
   function runLayout(scaleFactor, attempt) {
     if (attempt > 12) {
       console.warn('Could not fit all words after 12 attempts');
-      draw(placed);
       return;
     }
 
@@ -125,7 +131,10 @@ fetch('{{ "/assets/js/publications.json" | relative_url }}')
     requestAnimationFrame(buildCloud);
 
     window.addEventListener('resize', () => {
-      requestAnimationFrame(buildCloud);
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        requestAnimationFrame(buildCloud);
+      }, 200);
     });
   });
 
