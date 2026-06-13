@@ -44,7 +44,7 @@ fetch('{{ "/assets/js/publications.json" | relative_url }}')
       .sort(([, a], [, b]) => b - a)
       .map(([text, count], i) => ({
         text,
-        size: count * 10 + 12,
+        size: count * 8 + 8,
         color: palette[i % palette.length]
       }));
 
