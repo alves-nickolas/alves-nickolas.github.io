@@ -2,67 +2,6 @@
 title: Publications by Topic
 layout: default
 ---
-<script src='{{ "/assets/js/wordcloud2.js" | relative_url }}'></script>
-<script>
-fetch('{{ "/assets/js/publications.json" | relative_url }}')
-  .then(r => r.json())
-  .then(pubs => {
-    // Count tag frequencies
-    const counts = {};
-    pubs.forEach(pub => {
-      (pub.tags || []).forEach(tag => {
-        counts[tag] = (counts[tag] || 0) + 1;
-      });
-    });
-
-    // Build [word, weight] list with normalized sizing
-    const maxCount = Math.max(...Object.values(counts));
-    const list = Object.entries(counts)
-      .sort(([, a], [, b]) => b - a);
-
-    const style = getComputedStyle(document.documentElement); // CSS data
-
-    WordCloud(document.getElementById('tag-cloud'), {
-      list: list,
-      gridSize: 10,
-      weightFactor: 12,
-      fontFamily: style.getPropertyValue('--font-regular').trim(),
-      color: function() {
-        const palette = [
-          style.getPropertyValue('--accent-primary').trim(),
-          style.getPropertyValue('--accent-secondary').trim(),
-          style.getPropertyValue('--accent-visited').trim(),
-        ];
-        return palette[Math.floor(Math.random() * palette.length)];
-      },
-      backgroundColor: 'transparent',
-      rotateRatio: 0,          // all horizontal — easier to read
-      drawOutOfBound: false,
-      shrinkToFit: true,
-      ellipticity: 0.25,
-      shuffle: false,
-      wait: 10,
-      click: function(item) {
-        // Hide all tag result divs
-        document.querySelectorAll('.tag-results').forEach(el => {
-          el.style.display = 'none';
-        });
-        // Show the one for the clicked tag
-        const id = 'tag-results-' + slugify(item[0]);
-        const el = document.getElementById(id);
-        if (el) el.style.display = 'block';
-      },
-      hover: function(item) {
-        document.getElementById('tag-cloud').style.cursor = item ? 'pointer' : 'default';
-      }
-    });
-  });
-
-function slugify(str) {
-  return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
-</script>
-
 {%- assign all_tags = "" | split: "" -%}
 {%- for pub in site.publications -%}
     {%- for tag in pub.tags -%}
@@ -75,7 +14,113 @@ function slugify(str) {
 
 <p>These are the topics that appear on my research, with size reflecting how often that appears on my publications. Click on each term to see the associated works.</p>
 
-<canvas id="tag-cloud" width="800" height="200"></canvas>
+<svg id="tag-cloud"></svg>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
+<script>
+fetch('{{ "/assets/js/publications.json" | relative_url }}')
+  .then(r => r.json())
+  .then(data => {
+    const pubs = data.nodes;
+    const style = getComputedStyle(document.documentElement);
+    const palette = [
+      style.getPropertyValue('--accent-primary').trim(),
+      style.getPropertyValue('--accent-secondary').trim(),
+      style.getPropertyValue('--accent-visited').trim(),
+    ];
+    const fontFamily = style.getPropertyValue('--font-regular').trim();
+
+    // Count tag frequencies
+    const counts = {};
+    pubs.forEach(pub => {
+      (pub.tags || []).forEach(tag => {
+        counts[tag] = (counts[tag] || 0) + 1;
+      });
+    });
+
+    // Build word list sorted by frequency descending
+    const words = Object.entries(counts)
+      .sort(([, a], [, b]) => b - a)
+      .map(([text, count], i) => ({
+        text,
+        size: count * 10 + 12,
+        color: palette[i % palette.length]
+      }));
+
+    const svgEl = document.getElementById('tag-cloud');
+    const width = svgEl.clientWidth || 800;
+    const height = width * 0.4;
+
+    d3.select('#tag-cloud')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('viewBox', `0 0 ${width} ${height}`);
+
+  function runLayout(scaleFactor, attempt) {
+    if (attempt > 10) {
+      console.warn('Could not fit all words after 10 attempts');
+      return;
+    }
+
+    const scaled = words.map(w => ({ ...w, size: w.size * scaleFactor }));
+
+    d3.layout.cloud()
+      .size([width, height])
+      .words(scaled)
+      .padding(2)
+      .rotate(0)
+      .font(fontFamily)
+      .fontSize(d => d.size)
+      .random(() => 0.5)
+      .on('end', placed => {
+        if (placed.length < words.length) {
+          runLayout(scaleFactor * 0.9, attempt + 1);
+        } else {
+          console.log(`Cloud fitted in ${attempt + 1} attempt${attempt === 0 ? '' : 's'} at scale factor ${scaleFactor.toFixed(3)}`);
+          draw(placed);
+        }
+      })
+      .start();
+    }
+
+    runLayout(1, 0);
+
+    function draw(placed) {
+      d3.select('#tag-cloud')
+        .append('g')
+        .attr('transform', `translate(${width / 2}, ${height / 2})`)
+        .selectAll('text')
+        .data(placed)
+        .join('text')
+        .style('font-size', d => d.size + 'px')
+        .style('font-family', fontFamily)
+        .style('fill', d => d.color)
+        .style('cursor', 'pointer')
+        .attr('text-anchor', 'middle')
+        .attr('transform', d => `translate(${d.x}, ${d.y})`)
+        .text(d => d.text)
+        .on('mouseover', function() {
+          d3.select(this).style('opacity', 0.7);
+        })
+        .on('mouseout', function() {
+          d3.select(this).style('opacity', 1);
+        })
+        .on('click', function(event, d) {
+          document.querySelectorAll('.tag-results').forEach(el => {
+            el.style.display = 'none';
+          });
+          const id = 'tag-results-' + slugify(d.text);
+          const el = document.getElementById(id);
+          if (el) el.style.display = 'block';
+        });
+    }
+  });
+
+function slugify(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+</script>
 
 {%- for tag in all_tags -%}
 <div id="tag-results-{{ tag | slugify }}" class="tag-results" style="display:none;">

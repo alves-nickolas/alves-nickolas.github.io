@@ -20,6 +20,9 @@ layout: null
             {%- assign cited_by = cited_by | push: other.slug -%}
           {%- endif -%}
         {%- endfor -%}
+        {%- for slug in cited_by -%}
+          {{ slug | jsonify }}{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
       ]
     }{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
