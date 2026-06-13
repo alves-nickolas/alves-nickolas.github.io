@@ -65,8 +65,9 @@ fetch('{{ "/assets/js/publications.json" | relative_url }}')
     }
 
   function runLayout(scaleFactor, attempt) {
-    if (attempt > 10) {
-      console.warn('Could not fit all words after 10 attempts');
+    if (attempt > 12) {
+      console.warn('Could not fit all words after 12 attempts');
+      draw(placed);
       return;
     }
 
