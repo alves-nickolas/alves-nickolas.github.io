@@ -23,7 +23,7 @@ He cuidar que se ganha em se perder;
 
 He hum estar-se preso por vontade;  
 He servir a quem vence o vencedor;  
-He hum ter com quem nos mata lealdade. 
+He hum ter com quem nos mata lealdade.
 
 Mas como causar póde o seu favor  
 Nos mortaes corações conformidade,  
