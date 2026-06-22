@@ -1,15 +1,15 @@
 ---
 title: Physics as a branch of poetry
 type: article 
-date: 2026-04-15
+date: 2026-06-22
 author:
     - nick
 journal: "American Journal of Physics"
 shortjournal: "Am. J. Phys."
-# volume: "94"
-# issue: "6" # estimated
-# pages: ""
-# doi: "10.1119/5.0335472"
+volume: "94"
+issue: "7"
+pages: "507"
+doi: "10.1119/5.0335472"
 pubstate: inpress
 stage: phd
 tags: 
