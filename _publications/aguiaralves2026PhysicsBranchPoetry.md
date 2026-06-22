@@ -1,7 +1,7 @@
 ---
 title: Physics as a branch of poetry
 type: article 
-date: 2026-06-22
+date: 2026-07-01
 author:
     - nick
 journal: "American Journal of Physics"
