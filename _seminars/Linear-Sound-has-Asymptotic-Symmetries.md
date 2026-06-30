@@ -4,8 +4,6 @@ title: Sound as a gauge theory and its infrared triangle
 # subtitle: and a whole infrared triangle
 date: 2026-05-26
 stage: phd
-tags: 
-    - IRStructure
 presentations:
   - key: scch2026
     format: invited

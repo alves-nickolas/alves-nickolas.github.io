@@ -2,9 +2,6 @@
 title: We can use the renormalization group to study the nonperturbative behavior of particle detectors
 date: 2026-05-25
 stage: phd
-tags: 
-  - QFTCS 
-  - FRG
 presentations:
   - key: bariloche2026
     format: poster

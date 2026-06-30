@@ -2,9 +2,6 @@
 title: Nonperturbative Renormalization Group Flow for a Particle Detector
 date: 2023-12-04
 stage: msc
-tags: 
-  - QFTCS 
-  - FRG
 presentations:
   - key: sptgw2024
     format: flash

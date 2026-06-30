@@ -3,9 +3,6 @@ title: The Memory Effect and What It Means for Humankind
 subtitle: (or Don't Forget About Memory)
 date: 2024-06-14
 stage: phd
-tags: 
-  - IRStructure 
-  - GR
 presentations:
   - key: astrocosmo2024
     format: contributed

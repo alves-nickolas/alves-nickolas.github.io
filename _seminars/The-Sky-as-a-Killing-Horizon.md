@@ -2,10 +2,6 @@
 title: The Sky as a Killing Horizon
 date: 2025-05-08
 stage: phd
-tags: 
-  - IRStructure 
-  - GR 
-  - QFTCS
 presentations:
   - key: lagw2025
     format: poster

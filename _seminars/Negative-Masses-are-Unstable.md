@@ -3,9 +3,6 @@ title: Negative Masses are Unstable
 subtitle: and we don't need energy conditions to prove it
 date: 2024-09-23
 stage: phd
-tags: 
-  - EnergyConditions 
-  - GR
 presentations:
   - key: cplf2024
     format: contributed
