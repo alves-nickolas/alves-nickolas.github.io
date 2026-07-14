@@ -1,0 +1,17 @@
+{%- assign work = include.source -%}
+
+{%- if work=='toappear' -%}
+    work to appear
+{%- else -%}
+    {%- assign s = site.publications | where:'slug',work | first -%}
+    {%- if s.journal -%}
+        {%- include hyperlink.html source=s -%}
+        {%- if link -%}
+            <a href="{{ link }}" target="_blank">{%- include journaldata.html source=s -%}</a>
+        {%- else -%}
+            {%- include journaldata.html source=s -%}
+        {%- endif -%}
+    {%- else -%}
+        <a href="https://arxiv.org/abs/{{ s.arxiv }}" target="_blank">{{ s.arxiv }}</a>
+    {%- endif -%}
+{%- endif -%}

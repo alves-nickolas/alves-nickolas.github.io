@@ -114,6 +114,8 @@ collections:
   publications:
     output: false
     sort_by: date
+  positions:
+    output: false
     
 defaults:
   - scope:

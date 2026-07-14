@@ -1,0 +1,11 @@
+capes:
+  name: Coordenação de Aperfeiçoamento do Pessoal de Ensino Superior
+  abbreviation: CAPES
+  ror: '00x0ma614'
+  country: Brazil
+
+fapesp:
+  name: São Paulo Research Foundation
+  abbreviation: FAPESP
+  ror: '02ddkpn78'
+  country: Brazil

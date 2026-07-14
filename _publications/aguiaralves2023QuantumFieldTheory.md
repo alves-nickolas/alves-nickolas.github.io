@@ -9,7 +9,8 @@ abstract: >
 src: "https://bht50.github.io/minicourses/QFTCS__An_Introduction.pdf"
 inspire: '2951307'
 pubstate: unpublished
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - algebraic quantum field theory
     - quantum field theory in curved spacetime

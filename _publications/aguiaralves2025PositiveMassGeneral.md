@@ -15,7 +15,8 @@ doi: '10.1103/PhysRevD.111.044027'
 arxiv: "2408.00154"
 arxivclass: gr-qc
 inspire: '2813778'
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - energy conditions
     - general relativity

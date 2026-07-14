@@ -13,7 +13,8 @@ doi: 10.1140/epjc/s10052-025-15091-z
 arxiv: "2504.12521"
 arxivclass: gr-qc
 inspire: '2913492'
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - asymptotic symmetries
     - memory effects

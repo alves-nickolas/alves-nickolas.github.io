@@ -1,0 +1,14 @@
+{%- assign refs = include.references -%}
+{%- assign second_to_last=refs.size | minus: 1 -%}
+{%- for refn in refs -%}
+        {% include arxivsource.html source=refn %}
+    {%- if forloop.last -%}
+        
+    {%- elsif forloop.first and forloop.length==2 %}
+            and 
+    {% elsif forloop.index==second_to_last -%}
+        , and 
+    {% else -%}
+        , 
+    {% endif -%}
+{%- endfor -%}

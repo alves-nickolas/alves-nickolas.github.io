@@ -9,7 +9,8 @@ arxiv: "2503.18963"
 arxivclass: gr-qc
 inspire: '2904111'
 pubstate: prepublished
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - energy conditions
     - general relativity

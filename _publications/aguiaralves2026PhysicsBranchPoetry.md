@@ -10,7 +10,8 @@ volume: "94"
 issue: "7"
 pages: "507"
 doi: "10.1119/5.0335472"
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - philosophy of physics
     - foundations of physics

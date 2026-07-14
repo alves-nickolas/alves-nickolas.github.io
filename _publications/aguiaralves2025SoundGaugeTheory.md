@@ -9,7 +9,8 @@ arxiv: "2512.15796"
 arxivclass: hep-th
 inspire: '3093917'
 pubstate: prepublished
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - asymptotic symmetries
     - memory effects

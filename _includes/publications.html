@@ -1,7 +1,7 @@
 {%- assign pubs = site.publications | sort: "date" | reverse -%}
 
-{%- if include.stage -%}
-  {%- assign pubs = pubs | where: "stage", include.stage -%}
+{%- if include.position -%}
+  {%- assign pubs = pubs | where_exp:"publication","publication.position contains include.position" -%}
 {%- endif -%}
 
 {%- if include.arxivlist -%}

@@ -11,7 +11,8 @@ location: Santo André, Brazil
 arxiv: "2305.17453"
 arxivclass: gr-qc
 inspire: '2663268'
-stage: msc
+position:
+    - 2021-ufabc
 tags: 
     - quantum field theory in curved spacetime
     - algebraic quantum field theory

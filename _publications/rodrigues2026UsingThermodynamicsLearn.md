@@ -14,7 +14,8 @@ doi: 10.1088/1361-6404/ae4951
 arxiv: "2602.21261"
 arxivclass: gr-qc
 inspire: '3123609'
-stage: phd
+position:
+    - 2023-ufabc
 tags: 
     - general relativity
     - gravitational waves

@@ -1,0 +1,5 @@
+{%- assign source = include.source -%}
+{%- assign key = source.agency -%}
+{%- assign agency = site.data.funding_agencies[key] -%}
+
+{%- include institution_link.html institution=agency %}{% if agency.abbreviation %} ({{ agency.abbreviation }}){% endif %}{% if agency.country %}, {{ agency.country }}{% endif %}. {% if source.grant %}Grant {%if source.grant.url %}<a href="{{ source.grant.url }}" target="_blank">{{ source.grant.number }}</a>{% else %}{{ source.grant.number }}{% endif %}. {% endif %}{% if source.note %}{{ source.note }}. {% endif -%}
