@@ -17,4 +17,4 @@ We're one of a kind, no category
 Too many years lost in his history  
 We're free to take our crown and glory  
 For five more minutes  
-We're SIX  
+We're SIX

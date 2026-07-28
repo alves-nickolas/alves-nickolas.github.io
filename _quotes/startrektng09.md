@@ -13,4 +13,4 @@ date: 1990-01-08
 imdb: 'tt0708801'
 category: sttng
 ---
-To survive is not enough. To simply exist is not enough. 
+To survive is not enough. To simply exist is not enough.

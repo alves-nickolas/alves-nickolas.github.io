@@ -13,4 +13,4 @@ date: 1989-05-06
 imdb: 'tt0708758'
 category: sttng
 ---
-Well, perhaps what we most needed was a kick in our complacency, to prepare us for what lies ahead. 
+Well, perhaps what we most needed was a kick in our complacency, to prepare us for what lies ahead.

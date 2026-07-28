@@ -4,7 +4,7 @@ author:
   - name: Stephen W. Hawking
 type: article
 title: Particle Creation by Black Holes
-journal: Communications in Mathematical Physics
+journal: Comm. Math. Phys.
 volume: '43'
 pages: '199–220'
 date: 1975-01-01

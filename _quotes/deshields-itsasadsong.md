@@ -18,4 +18,4 @@ But we sing it anyway
 To know how it ends  
 And still begin to sing it again  
 As if it might turn out this time  
-I learned that from a friend of mine  
+I learned that from a friend of mine

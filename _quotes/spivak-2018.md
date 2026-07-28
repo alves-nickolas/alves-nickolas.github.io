@@ -10,6 +10,7 @@ date: 2018-01-01
 category: mathematics
 ---
 Stoke's theorem shares three important attributes with many fully evolved major theorems:
+
    1. It is trivial.
    2. It is trivial because the terms appearing in it have been properly defined.
    3. It has significant consequences.

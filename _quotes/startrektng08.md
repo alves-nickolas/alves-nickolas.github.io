@@ -13,4 +13,4 @@ date: 1989-10-21
 imdb: 'tt0708788'
 category: sttng
 ---
-It is at the heart of our nature to feel pain and joy. It is an essential part of what makes us who we are. 
+It is at the heart of our nature to feel pain and joy. It is an essential part of what makes us who we are.

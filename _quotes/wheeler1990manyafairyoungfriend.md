@@ -7,7 +7,7 @@ title: "A Journey Into Gravity and Spacetime"
 publisher: W. H. Freeman and Company
 location: New York, NY
 date: 1990-01-01
-category: physics
+category: poem
 ---
 Many a fair young friend, oh Gravity,  
 By smile and happy word  

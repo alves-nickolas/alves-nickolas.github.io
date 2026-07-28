@@ -22,4 +22,4 @@ T: And he won't give up.
 D: Then, despite whatever options he is given, he must be…  
 T: The man that he is. Exactly.  
 D: Is that a failing in humans?  
-T: You'll have to decide that for yourself. 
+T: You'll have to decide that for yourself.

@@ -17,4 +17,4 @@ category: sttng
 Q: What are you looking at?  
 Lt. Commander Data: I was considering the possibility that you are telling the truth—that you really are human.  
 Q: It's the ghastly truth, Mr. Data. I can now stub my toe with the best of them.  
-Data: An irony. It means you have achieved in disgrace what I have always aspired to be. 
+Data: An irony. It means you have achieved in disgrace what I have always aspired to be.

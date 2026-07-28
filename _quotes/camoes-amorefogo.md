@@ -9,7 +9,7 @@ type: inbook
 title: Soneto LXXXI
 booktitle: "Obras Completas de Luis de Camões, Tomo II"
 date: 1843-02-01
-category: other
+category: poem
 ---
 Amor he hum fogo que arde sem se ver;  
 He ferida que doe e não se sente;  

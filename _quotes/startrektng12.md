@@ -13,4 +13,4 @@ date: 1990-02-03
 imdb: 'tt0708699'
 category: sttng
 ---
-There are creatures in the universe who would consider you the ultimate achievement, android. No feelings, no emotions, no pain—and yet you covet those qualities of humanity. Believe me, you're missing nothing. But if it means anything to you, you're a better human than I. 
+There are creatures in the universe who would consider you the ultimate achievement, android. No feelings, no emotions, no pain—and yet you covet those qualities of humanity. Believe me, you're missing nothing. But if it means anything to you, you're a better human than I.
