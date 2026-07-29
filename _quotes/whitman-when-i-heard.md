@@ -1,8 +1,11 @@
 ---
 sortkey: whitmanwheniheard
+type: inbook
 author:
   - name: Walt Whitman
 title: "When I Heard the Learn'd Astronomer"
+booktitle: "Leaves of Grass"
+date: 1891-01-02
 category: poem
 ---
 When I heard the learn’d astronomer,  
