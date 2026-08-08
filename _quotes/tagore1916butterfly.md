@@ -9,4 +9,5 @@ publisher: Macmillan
 location: "New York, NY"
 category: poem
 ---
-The butterfly counts not months but moments, and has time enough.
+The butterfly counts not months but moments,  
+and has time enough.
