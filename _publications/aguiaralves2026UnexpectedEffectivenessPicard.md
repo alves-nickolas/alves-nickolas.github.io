@@ -19,6 +19,6 @@ tags:
     - special relativity
 
 collection: pedagogical
-pubstatus: forthcoming
+pubstate: forthcoming
 ---
 The USS Stargazer, commanded by Captain Jean-Luc Picard, battles a Ferengi vessel. In an effort to survive the battle, the Stargazer does the unthinkable: they move toward the Ferengi vessel at a faster-than-light speed, stopping just before a crash. The Ferengi vessel is said to see two images of the Stargazer, and ends up shooting the wrong one. In this note, I show with spacetime diagrams that, in fact, the Ferengi vessel sees up to three images of the Stargazer. This gives a simple example of how there can be multiple values of retarded time when an object moves faster than light, and how these multiple values are not restricted to only two when the object can accelerate.
