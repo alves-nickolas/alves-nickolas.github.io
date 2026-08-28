@@ -10,6 +10,7 @@ volume: "94"
 issue: "7"
 pages: "507"
 doi: "10.1119/5.0335472"
+inspire: '3196029'
 position:
     - 2023-ufabc
 tags: 
