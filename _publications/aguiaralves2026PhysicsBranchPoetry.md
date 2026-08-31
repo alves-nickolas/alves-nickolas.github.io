@@ -7,7 +7,7 @@ author:
 journal: "American Journal of Physics"
 shortjournal: "Am. J. Phys."
 volume: "94"
-issue: "7"
+number: "7"
 pages: "507"
 doi: "10.1119/5.0335472"
 inspire: '3196029'
