@@ -1,3 +1,8 @@
+- text: "described Star Trek's Picard maneuver in terms of spacetime diagrams"
+  stage: phd
+  related_arxiv:
+    - '2608.23624'
+
 - text: 'showed how linear acoustics admits a memory effect, asymptotic symmetries, and an infrared triangle'
   stage: phd
   related_arxiv:
