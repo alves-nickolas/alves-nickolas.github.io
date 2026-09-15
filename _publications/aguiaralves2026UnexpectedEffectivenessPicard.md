@@ -9,7 +9,7 @@ shortjournal: "Am. J. Phys."
 # volume: "95" # estimated
 # issue: "1" # estimated
 # pages: ""
-doi: "10.1119/5.0353857"
+# doi: "10.1119/5.0353857"
 arxiv: "2608.23624"
 arxivclass: 'physics.pop-ph'
 inspire: '3196018'
