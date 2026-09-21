@@ -1,7 +1,7 @@
 ---
 title: Liénard–Wiechert potentials and the electromagnetic memory effect
 type: article
-date: 2026-09-15 # acceptance date
+date: 2026-09-21 # arXiv appearance date
 author:
     - nick
     - bac
@@ -11,8 +11,8 @@ shortjournal: "Am. J. Phys."
 # issue: "11" # estimated
 # pages: 
 # doi: "10.1119/5.0319859"
-# arxiv: "2609.XXXXX"
-# arxivclass: hep-th
+arxiv: "2609.20872"
+arxivclass: physics.gen-ph
 # inspire: 
 position:
     - 2023-ufabc
