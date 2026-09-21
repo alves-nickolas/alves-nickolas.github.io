@@ -13,7 +13,7 @@ shortjournal: "Am. J. Phys."
 # doi: "10.1119/5.0319859"
 arxiv: "2609.20872"
 arxivclass: physics.gen-ph
-# inspire: 
+inspire: '3205313'
 position:
     - 2023-ufabc
 tags: 
