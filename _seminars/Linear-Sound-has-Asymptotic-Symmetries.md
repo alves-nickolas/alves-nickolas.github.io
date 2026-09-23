@@ -2,7 +2,7 @@
 title: Sound as a gauge theory and its infrared triangle
 # title: Linear sound has asymptotic symmetries
 # subtitle: and a whole infrared triangle
-date: 2026-05-26
+date: 2026-09-23
 stage: phd
 presentations:
   - key: scch2026
@@ -17,6 +17,12 @@ presentations:
   - key: bariloche2026
     format: contributed
     langid: en
+  - key: quest2026
+    format: contributed
+    langid: en
+slideshow: 
+  src: '/assets/2512.15796/slideshow.pdf'
+  langid: en
 poster: 
   src: '/assets/2512.15796/poster.pdf'
   langid: en

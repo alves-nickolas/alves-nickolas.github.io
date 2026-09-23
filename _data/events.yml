@@ -1,3 +1,15 @@
+quest2026:
+  name: 'Quantum Gravity, Early Universe, Space-Time and Theoretical Frontiers'
+  website: https://agenda.infn.it/event/52744/
+  format: inperson
+  venue:
+    institution: University of Pisa
+    city: Pisa
+    state: Tuscany
+    country: Italy
+  start_date: 2026-09-23
+  end_date: 2026-09-25
+
 3gw4la:
   name: "Third Generation Gravitational Wave Detectors: The View from Latin America"
   website: https://www.ictp-saifr.org/3gw4la/
